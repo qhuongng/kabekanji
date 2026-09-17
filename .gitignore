@@ -1,0 +1,19 @@
+.venv/
+__pycache__/
+*.pyc
+*.bak
+
+# Local env config
+.env
+
+# Anki decks
+data/*.apkg
+
+# Local SQLite database
+data/kanji.db
+
+# Fonts (download per README)
+fonts/*.ttf
+fonts/*.otf
+
+.DS_Store

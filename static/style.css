@@ -1,0 +1,738 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+:root {
+  --bg: #f5f3eb;
+  --surface: #f5f3eb;
+  --surface-2: #f5f3eb;
+  --border: #2da0ed;
+  --text: #2f3033;
+  --text-muted: #7a7c82;
+  --accent: #2da0ed;
+  --accent-dim: rgba(120, 181, 255, 0.096);
+  --radius: 10px;
+  --font: "Crimson Pro", system-ui, -apple-system, serif;
+  --font-jp: "Noto Serif JP", serif;
+}
+
+html {
+  font-size: 15px;
+}
+
+body {
+  font-family: var(--font-jp);
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.55;
+  min-height: 100dvh;
+
+  background-size: 3rem 3rem;
+  background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='96' height='96' viewBox='0 0 96 96'><g stroke='%232da0ed' fill='none'><path d='M96 0V96M0 96H96' stroke-width='1' stroke-opacity='0.3'/><path d='M48 0V96M0 48H96' stroke-width='0.5' stroke-opacity='0.3' stroke-dasharray='3 3'/></g></svg>");
+  background-size: 6rem 6rem;
+  /* full grid every 6rem, dotted lines at 3rem */
+}
+
+/* Header */
+.header {
+  padding: 2.5rem 2rem 1.5rem;
+  text-align: end;
+}
+
+.header h1 {
+  font-family: var(--font-jp);
+  color: var(--accent);
+  font-size: 1.5rem;
+  letter-spacing: 0.02em;
+  margin-top: 1rem;
+}
+
+.header p {
+  color: var(--text);
+  font-size: 0.85rem;
+}
+
+.header p span {
+  margin: 0 0.3rem;
+}
+
+.header .date-text {
+  color: var(--accent);
+  font-size: 0.6rem;
+}
+
+.header a {
+  color: var(--accent);
+  font-weight: 600;
+}
+
+.header a:hover {
+  color: color-mix(in srgb, var(--accent) 78%, black);
+}
+
+
+/* Layout */
+.layout {
+  display: flex;
+  gap: 3rem;
+  max-width: 1080px;
+  margin: 0 auto;
+  padding: 0 2rem 4rem;
+  align-items: flex-start;
+}
+
+@media (max-width: 1024px) {
+  .layout {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 2rem;
+  }
+
+  .preview-section {
+    align-self: center;
+  }
+
+  .config-section {
+    width: 100%;
+  }
+}
+
+/* Only make the phone stick alongside the form when the viewport is
+   comfortably wide enough for both columns
+   Below this, the phone flows with the page and the pull-me-up button handles scroll-back */
+@media (min-width: 1200px) {
+  .preview-section {
+    position: sticky;
+    top: 2rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .layout {
+    padding: 0 2rem 3rem;
+  }
+
+  .phone-frame {
+    transform: scale(0.85);
+    transform-origin: top center;
+    margin-bottom: -85px;
+    /* pull following content up to compensate for scale */
+  }
+}
+
+/* Pull-me-up button */
+.pull-me-up {
+  position: fixed;
+  bottom: 1.5rem;
+  right: 1.5rem;
+  width: 3rem;
+  height: 3rem;
+  border: 1px solid var(--accent);
+  background: var(--bg);
+  color: var(--accent);
+  font-family: var(--font);
+  font-size: 1.5rem;
+  line-height: 1;
+  cursor: pointer;
+  z-index: 50;
+  display: none;
+  /* hidden on desktop */
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transform: translateY(0.6rem);
+  transition: opacity 0.18s ease, transform 0.18s ease, background 0.12s, color 0.12s;
+}
+
+.pull-me-up.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.pull-me-up:hover {
+  background: var(--accent);
+  color: var(--bg);
+}
+
+@media (max-width: 1199px) {
+  .pull-me-up {
+    display: flex;
+    /* enable whenever the phone isn't sticky */
+  }
+}
+
+/* Phone preview */
+.preview-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  flex-shrink: 0;
+}
+
+.phone-frame {
+  width: 260px;
+  height: 564px;
+  background: #000;
+  border-radius: 36px;
+  padding: 10px;
+  position: relative;
+}
+
+.phone-notch {
+  width: 80px;
+  height: 22px;
+  background: #000;
+  border-radius: 0 0 14px 14px;
+  position: absolute;
+  top: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 5;
+}
+
+.phone-screen {
+  width: 100%;
+  height: 100%;
+  border-radius: 26px;
+  overflow: hidden;
+  position: relative;
+  background: #121214;
+}
+
+.preview-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: absolute;
+  inset: 0;
+}
+
+.overlay-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: absolute;
+  inset: 0;
+  z-index: 3;
+  opacity: 0.55;
+  pointer-events: none;
+}
+
+.overlay-img.hidden {
+  display: none;
+}
+
+.margin-indicator {
+  position: absolute;
+  left: 0;
+  right: 0;
+  height: 2px;
+  background: var(--accent);
+  opacity: 0.7;
+  z-index: 4;
+  pointer-events: none;
+}
+
+.margin-indicator::after {
+  content: attr(data-label);
+  position: absolute;
+  right: 6px;
+  font-size: 9px;
+  color: var(--accent);
+  white-space: nowrap;
+}
+
+.margin-indicator.top::after {
+  top: 3px;
+}
+
+.margin-indicator.bottom::after {
+  bottom: 3px;
+}
+
+.kanji-input-row {
+  position: relative;
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.kanji-input {
+  flex: 1;
+  width: 100%;
+  background: var(--surface-2);
+  border: 1px solid var(--border);
+  color: var(--text);
+  font-size: 0.85rem;
+  text-align: center;
+  padding: 0.3rem 2rem;
+  /* space on both sides so text stays centered around the × */
+  height: 2.2rem;
+  font-family: var(--font-jp);
+  outline: none;
+  transition: border-color 0.15s;
+}
+
+.kanji-input:focus {
+  border-color: var(--accent);
+}
+
+.kanji-input::placeholder {
+  color: var(--text-muted);
+  opacity: 0.5;
+  font-family: var(--font-jp);
+}
+
+/* Close button sits inside the input on the right */
+.kanji-input-row #clearChar {
+  position: absolute;
+  right: 0.4rem;
+  top: 50%;
+  transform: translateY(-50%);
+  border: none;
+  background: transparent;
+  color: var(--text-muted);
+  font-size: 1.2rem;
+  line-height: 1;
+  padding: 0.15rem 0.4rem;
+  cursor: pointer;
+  transition: color 0.12s;
+}
+
+.kanji-input-row #clearChar:hover:not(:disabled) {
+  color: var(--accent);
+  background: transparent;
+}
+
+.preview-actions {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  width: 260px;
+}
+
+/* Config panel */
+.config-section {
+  flex: 1;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+
+}
+
+/* Fieldset acts as a semantic wrapper only; the visible box is .fieldset-body */
+fieldset {
+  border: none;
+  padding: 0;
+  margin: 0;
+  min-inline-size: 0;
+  /* opt out of fieldset's default min-content behavior */
+  display: contents;
+}
+
+legend {
+  font-weight: 600;
+  font-size: 0.85rem;
+  color: var(--accent);
+  padding: 0;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+}
+
+.fieldset-body {
+  border: 1px solid var(--border);
+  background: var(--surface);
+  padding: 1.2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+.field label {
+  display: block;
+  font-size: 0.85rem;
+  color: var(--text);
+  margin-bottom: 0.3rem;
+}
+
+.field.row {
+  display: flex;
+  gap: 1rem;
+}
+
+.field.row>.field {
+  flex: 1;
+}
+
+.slider-row {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+}
+
+.slider-row input[type="range"] {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+  width: 100%;
+}
+
+
+/* Reset the input's own appearance so pseudo-elements take over */
+input[type="range"] {
+  -webkit-appearance: none;
+  appearance: none;
+  background: transparent;
+  height: 30px;
+  /* click area */
+  cursor: pointer;
+}
+
+/* Track */
+input[type="range"]::-webkit-slider-runnable-track {
+  height: 8px;
+  background: var(--accent-dim);
+  border: 1px solid var(--accent);
+  border-radius: 0;
+}
+
+input[type="range"]::-moz-range-track {
+  height: 8px;
+  background: var(--accent-dim);
+  border: 1px solid var(--accent);
+  border-radius: 0;
+}
+
+/* Thumb */
+input[type="range"]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 14px;
+  height: 14px;
+  background: var(--accent);
+  border-radius: 0;
+  margin-top: -4px;
+  /* recenter */
+}
+
+input[type="range"]::-moz-range-thumb {
+  width: 14px;
+  height: 14px;
+  background: var(--accent);
+  border: none;
+  border-radius: 0;
+}
+
+/* Focus ring */
+input[type="range"]:focus {
+  outline: none;
+}
+
+.slider-row output {
+  font-size: 0.85rem;
+  color: var(--text);
+  min-width: 3.5ch;
+  text-align: right;
+}
+
+/* Notebook-style inputs with only a bottom rule */
+select,
+input[type="number"],
+input[type="time"] {
+  width: 100%;
+  padding: 0.35rem 0.15rem;
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid var(--border);
+  border-radius: 0;
+  color: var(--accent);
+  font-family: var(--font);
+  font-size: 1rem;
+  outline: none;
+  transition: border-bottom-color 0.15s;
+}
+
+select:focus,
+input[type="number"]:focus,
+input[type="time"]:focus {
+  border-bottom-color: var(--accent);
+  border-bottom-width: 2px;
+  padding-bottom: calc(0.35rem - 1px);
+}
+
+/* Toggles */
+.color-row {
+  display: flex;
+  gap: 1rem;
+}
+
+.color-picker {
+  flex: 1;
+  display: flex !important;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.6rem;
+  padding: 0.35rem 0.15rem;
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid var(--border);
+  color: var(--text) !important;
+  font-family: var(--font);
+  font-size: 1rem;
+  cursor: pointer;
+  margin-bottom: 0 !important;
+}
+
+.color-picker input[type="color"] {
+  appearance: none;
+  -webkit-appearance: none;
+  width: 32px;
+  height: 22px;
+  padding: 0;
+  border: 1px solid var(--border);
+  background: none;
+  cursor: pointer;
+}
+
+.color-picker input[type="color"]::-webkit-color-swatch-wrapper {
+  padding: 0;
+}
+
+.color-picker input[type="color"]::-webkit-color-swatch {
+  border: none;
+}
+
+/* Checkbox styled as full-width parens with 〇 (checked) / ✕ (unchecked) inside */
+.toggle {
+  display: flex !important;
+  align-items: baseline;
+  gap: 0.5rem;
+  cursor: pointer;
+  font-size: 1rem;
+  color: var(--text) !important;
+}
+
+.toggle input[type="checkbox"] {
+  appearance: none;
+  -webkit-appearance: none;
+  margin: 0;
+  padding: 0;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  font-family: var(--font-jp);
+  font-size: 1rem;
+  line-height: 1;
+  color: var(--text-muted);
+  flex-shrink: 0;
+  vertical-align: middle;
+  /* Let the ::before content size the checkbox naturally */
+  width: auto;
+  height: auto;
+}
+
+.toggle input[type="checkbox"]::before {
+  content: "（×）";
+  display: inline-block;
+}
+
+.toggle input[type="checkbox"]:checked {
+  color: var(--accent);
+}
+
+.toggle input[type="checkbox"]:checked::before {
+  content: "（○）";
+}
+
+.hidden {
+  display: none !important;
+}
+
+/* Radio-option row */
+.radio-option {
+  display: flex !important;
+  align-items: center;
+  gap: 0.5rem;
+  cursor: pointer;
+  color: var(--text) !important;
+  font-size: 1rem;
+  margin-bottom: 0 !important;
+}
+
+.radio-option input[type="number"] {
+  width: 4ch;
+  text-align: center;
+}
+
+.radio-option input[type="time"] {
+  width: auto;
+}
+
+.radio-option input:disabled {
+  opacity: 0.4;
+  cursor: not-allowed;
+}
+
+.radio-option input[type="radio"] {
+  accent-color: var(--accent);
+  flex-shrink: 0;
+}
+
+/* Buttons */
+.btn {
+  padding: 0.5rem 1.1rem;
+  border: 1px solid var(--border);
+  background: transparent;
+  color: var(--accent);
+  font-family: var(--font);
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.12s, color 0.12s, border-color 0.12s;
+}
+
+.btn:disabled {
+  opacity: 0.4;
+  cursor: not-allowed;
+}
+
+/* Outline / secondary hover */
+.btn:hover:not(:disabled) {
+  background: var(--accent-dim);
+}
+
+/* Filled primary */
+.btn.primary {
+  background: var(--accent);
+  color: var(--bg);
+}
+
+/* Primary hover: darker fill (not brighter) */
+.btn.primary:hover:not(:disabled) {
+  background: color-mix(in srgb, var(--accent) 78%, black);
+  border-color: color-mix(in srgb, var(--accent) 78%, black);
+}
+
+.btn.secondary {
+  background: var(--bg);
+}
+
+.btn.wide {
+  width: 100%;
+}
+
+.btn.small {
+  padding: 0.3rem 0.7rem;
+  font-size: 0.85rem;
+}
+
+/* Keep Copy button width AND height stable when its label swaps to ○ */
+#copyUrl {
+  min-width: 4rem;
+  height: 1.9rem;
+  padding-top: 0;
+  padding-bottom: 0;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Copy-button confirmation flash: matches the checkbox ○ style
+   Both selectors so it beats .btn:hover specificity */
+.btn.copied,
+.btn.copied:hover:not(:disabled) {
+  color: var(--accent);
+  background: var(--bg);
+  font-family: var(--font-jp);
+  font-size: 1.1rem;
+  line-height: 1;
+}
+
+.upload-btn {
+  display: block;
+  text-align: center;
+  padding: 0.55rem 1.1rem;
+  border: 1px dashed var(--border);
+  background: var(--surface);
+  color: var(--text-muted);
+  font-size: 0.85rem;
+  cursor: pointer;
+  transition: border-color 0.15s;
+}
+
+.upload-btn:hover {
+  border-color: var(--accent);
+  color: var(--text);
+}
+
+/* URL box */
+.actions {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.url-box {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  padding: 1rem 1.2rem;
+}
+
+.url-box label {
+  font-size: 0.85rem;
+  color: var(--text);
+  margin-bottom: 0.4rem;
+  display: block;
+}
+
+.url-copy-row {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+}
+
+.url-copy-row code {
+  flex: 1;
+  font-family: var(--font);
+  font-size: 0.85rem;
+  color: var(--accent);
+  word-break: break-all;
+}
+
+/* Shortcut guide */
+.shortcut-guide {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  padding: 1rem 1.2rem;
+}
+
+.shortcut-guide summary {
+  font-weight: 500;
+  cursor: pointer;
+  color: var(--text);
+  font-size: 0.85rem;
+}
+
+.shortcut-guide summary:hover {
+  color: var(--accent);
+}
+
+.shortcut-guide ol {
+  margin-top: 0.8rem;
+  padding-left: 1.4rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.45rem;
+  font-size: 0.85rem;
+  color: var(--text);
+  line-height: 1.5;
+}
+
+.shortcut-guide ol strong {
+  color: var(--text);
+}

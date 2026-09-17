@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>kabekanji</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@400;600&family=Crimson+Pro:wght@400;600&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="/style.css">
+</head>
+
+<body>
+  <div class="app">
+    <header class="header">
+      <p>
+        <span id="dateYear">2026</span> <span class="date-text"> ねん </span>
+        <span id="dateMonth">9</span> <span class="date-text"> がつ </span>
+        <span id="dateDay">17</span> <span class="date-text"> にち </span>
+        <span id="dateWeekday">木</span> <span class="date-text"> ようび </span>
+        · <a href="#">ギットハブ</a>
+      </p>
+      <h1>かべかんじ</h1>
+      <p>Set a kanji card as your lock screen wallpaper for lazy studying ;p</p>
+    </header>
+
+    <main class="layout">
+      <!-- Phone preview -->
+      <section class="preview-section">
+        <div class="phone-frame" id="phoneFrame">
+          <div class="phone-notch"></div>
+          <div class="phone-screen" id="phoneScreen">
+            <img id="overlayImg" class="overlay-img hidden" alt="Lock screen overlay">
+            <img id="previewImg" class="preview-img" alt="Wallpaper preview">
+            <div class="margin-indicator top" id="topMarginLine"></div>
+            <div class="margin-indicator bottom" id="bottomMarginLine"></div>
+          </div>
+        </div>
+        <div class="preview-actions">
+          <div class="kanji-input-row">
+            <input type="text" id="previewChar" class="kanji-input" maxlength="1" placeholder="漢"
+              title="Type a kanji to preview it">
+            <button class="btn secondary" id="clearChar">×</button>
+          </div>
+          <label class="upload-btn" for="overlayUpload">
+            Upload lock screen screenshot
+            <input type="file" id="overlayUpload" accept="image/*" hidden>
+          </label>
+          <button class="btn secondary" id="clearOverlay" disabled>Remove overlay</button>
+          <button class="btn primary" id="refreshPreview">Refresh preview</button>
+        </div>
+      </section>
+
+      <!-- Config panel -->
+      <section class="config-section">
+        <!-- Margins -->
+        <fieldset>
+          <legend>Layout margins</legend>
+          <div class="fieldset-body">
+            <div class="field">
+              <label for="topMargin">Top margin (clock area)</label>
+              <div class="slider-row">
+                <input type="range" id="topMargin" min="0" max="800" step="10">
+                <output id="topMarginVal"></output>
+              </div>
+            </div>
+            <div class="field">
+              <label for="bottomMargin">Bottom margin (controls area)</label>
+              <div class="slider-row">
+                <input type="range" id="bottomMargin" min="0" max="800" step="10">
+                <output id="bottomMarginVal"></output>
+              </div>
+            </div>
+          </div>
+        </fieldset>
+
+        <!-- Screen -->
+        <fieldset>
+          <legend>Screen</legend>
+          <div class="fieldset-body">
+            <div class="field">
+              <label for="screenPreset">Device preset</label>
+              <select id="screenPreset">
+                <option value="1206x2622">iPhone 17 (1206 × 2622)</option>
+                <option value="1179x2556">iPhone 15 / 16 (1179 × 2556)</option>
+                <option value="1290x2796">iPhone 15/16 Pro Max (1290 × 2796)</option>
+                <option value="1170x2532">iPhone 14 (1170 × 2532)</option>
+                <option value="custom">Custom</option>
+              </select>
+            </div>
+            <div class="field row hidden" id="customSizeRow">
+              <div class="field">
+                <label for="screenWidth">Width</label>
+                <input type="number" id="screenWidth" min="320" max="3000">
+              </div>
+              <div class="field">
+                <label for="screenHeight">Height</label>
+                <input type="number" id="screenHeight" min="480" max="5000">
+              </div>
+            </div>
+          </div>
+        </fieldset>
+
+        <!-- Study settings -->
+        <fieldset>
+          <legend>Study settings</legend>
+          <div class="fieldset-body">
+            <div class="field">
+              <label for="recencyWindow">Recency window (days before repeat)</label>
+              <div class="slider-row">
+                <input type="range" id="recencyWindow" min="7" max="365" step="1">
+                <output id="recencyWindowVal"></output>
+              </div>
+            </div>
+          </div>
+        </fieldset>
+
+        <!-- Display options -->
+        <fieldset>
+          <legend>Display</legend>
+          <div class="fieldset-body">
+            <div class="field color-row">
+              <label class="color-picker">
+                <span>Background</span>
+                <input type="color" id="bgColor">
+              </label>
+              <label class="color-picker">
+                <span>Text</span>
+                <input type="color" id="textColor">
+              </label>
+            </div>
+            <div class="field">
+              <label class="toggle">
+                <input type="checkbox" id="showGothic">
+                <span>Show gothic (ゴシック) style</span>
+              </label>
+            </div>
+            <div class="field">
+              <label class="toggle">
+                <input type="checkbox" id="showMincho">
+                <span>Show mincho (明朝) style</span>
+              </label>
+            </div>
+            <div class="field">
+              <label class="toggle">
+                <input type="checkbox" id="showHandwritten">
+                <span>Show handwritten (手書き) style</span>
+              </label>
+            </div>
+            <div class="field">
+              <label class="toggle">
+                <input type="checkbox" id="showSinovi">
+                <span>Show Sino-Vietnamese reading</span>
+              </label>
+            </div>
+            <div class="field">
+              <label class="toggle">
+                <input type="checkbox" id="showVocabulary">
+                <span>Show example vocabulary</span>
+              </label>
+            </div>
+          </div>
+        </fieldset>
+
+        <!-- Save + URL -->
+        <div class="actions">
+          <button class="btn primary wide" id="saveConfig">Save configuration</button>
+          <div class="url-box" id="urlBox">
+            <label>Your wallpaper API URL:</label>
+            <div class="url-copy-row">
+              <code id="apiUrl"></code>
+              <button class="btn small" id="copyUrl">Copy</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Shortcut guide -->
+        <details class="shortcut-guide">
+          <summary>How to set up the iOS Shortcut</summary>
+          <ol>
+            <li>Copy your URL above.</li>
+            <li>Open the <strong>Shortcuts</strong> app and tap <strong>+</strong> to create a new shortcut.</li>
+            <li>Add the <strong>Get Contents of URL</strong> action and paste the URL into it.</li>
+            <li>Add the <strong>Set Wallpaper</strong> action. Expand it (tap <strong>⌵</strong>) and set <em>Show
+                Preview</em> to off, <em>Display</em> to <strong>Lock Screen</strong>, and <em>Both</em> to off.</li>
+            <li>Rename the shortcut (e.g. <em>kabekanji</em>) and tap <strong>Done</strong>.</li>
+            <li>In the Shortcuts app, switch to the <strong>Automation</strong> tab and tap <strong>+</strong> →
+              <strong>Time of Day</strong>.
+            </li>
+            <li>Pick when you want a new kanji (e.g. 6:00 AM), set <em>Repeat</em> to <strong>Daily</strong>, and turn
+              on <strong>Run Immediately</strong>.</li>
+            <li>Tap <strong>Next</strong>, add the <strong>Run Shortcut</strong> action, and choose the shortcut you
+              just made.</li>
+            <li>Tap <strong>Done</strong>. You're done! Play around with the interval to customize when your wallpaper
+              should change and good luck!</li>
+          </ol>
+        </details>
+      </section>
+    </main>
+  </div>
+
+  <button id="pullMeUp" class="pull-me-up" aria-label="Scroll to preview" title="Back to preview">↑</button>
+
+  <script src="/app.js"></script>
+</body>
+
+</html>

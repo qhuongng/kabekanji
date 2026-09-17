@@ -1,0 +1,1286 @@
+{
+  "85": {
+    "char": "水",
+    "sinovi": "THUỶ",
+    "english": "water",
+    "ja_reading": "みず・したみず・さんずい"
+  },
+  "9": {
+    "char": "人",
+    "sinovi": "NHÂN",
+    "english": "human",
+    "ja_reading": "ひと・にんべん・ひとやね"
+  },
+  "64": {
+    "char": "手",
+    "sinovi": "THỦ",
+    "english": "hand",
+    "ja_reading": "て・てへん"
+  },
+  "75": {
+    "char": "木",
+    "sinovi": "MỘC",
+    "english": "tree",
+    "ja_reading": "き・きへん"
+  },
+  "61": {
+    "char": "心",
+    "sinovi": "TÂM",
+    "english": "heart",
+    "ja_reading": "こころ・したごころ・りっしんべん"
+  },
+  "30": {
+    "char": "口",
+    "sinovi": "KHẨU",
+    "english": "mouth, opening",
+    "ja_reading": "くち・くちへん"
+  },
+  "149": {
+    "char": "言",
+    "sinovi": "NGÔN",
+    "english": "speech",
+    "ja_reading": "いう・げん・ごんべん・ことば"
+  },
+  "120": {
+    "char": "糸",
+    "sinovi": "MỊCH",
+    "english": "thread, string",
+    "ja_reading": "いと・いとへん"
+  },
+  "162": {
+    "char": "辵",
+    "sinovi": "SƯỚC",
+    "english": "walk",
+    "ja_reading": "しんにょう・しんにゅう"
+  },
+  "32": {
+    "char": "土",
+    "sinovi": "THỔ",
+    "english": "earth",
+    "ja_reading": "つち・つちへん・どへん"
+  },
+  "140": {
+    "char": "艸",
+    "sinovi": "THẢO",
+    "english": "grass, vegetation",
+    "ja_reading": "くさ・くさかんむり"
+  },
+  "130": {
+    "char": "肉",
+    "sinovi": "NHỤC",
+    "english": "meat",
+    "ja_reading": "にく・にくづき"
+  },
+  "170": {
+    "char": "阜",
+    "sinovi": "PHỤ",
+    "english": "mound, dam",
+    "ja_reading": "こざと・こざとへん・おか・ぎふのふ"
+  },
+  "72": {
+    "char": "日",
+    "sinovi": "NHẬT",
+    "english": "sun, day",
+    "ja_reading": "ひ・ひへん・にち・にちへん"
+  },
+  "38": {
+    "char": "女",
+    "sinovi": "NỮ",
+    "english": "woman, female",
+    "ja_reading": "おんな・おんなへん"
+  },
+  "40": {
+    "char": "宀",
+    "sinovi": "MIÊN",
+    "english": "roof",
+    "ja_reading": "うかんむり"
+  },
+  "154": {
+    "char": "貝",
+    "sinovi": "BỐI",
+    "english": "shell",
+    "ja_reading": "かい・かいへん・こがい"
+  },
+  "167": {
+    "char": "金",
+    "sinovi": "KIM",
+    "english": "metal, gold",
+    "ja_reading": "かね・かねへん"
+  },
+  "18": {
+    "char": "刀",
+    "sinovi": "ĐAO",
+    "english": "knife, sword",
+    "ja_reading": "かたな・りっとう"
+  },
+  "86": {
+    "char": "火",
+    "sinovi": "HOẢ",
+    "english": "fire",
+    "ja_reading": "ひ・ひへん・れっか・れんが"
+  },
+  "118": {
+    "char": "竹",
+    "sinovi": "TRÚC",
+    "english": "bamboo",
+    "ja_reading": "たけ・たけかんむり"
+  },
+  "19": {
+    "char": "力",
+    "sinovi": "LỰC",
+    "english": "power, force",
+    "ja_reading": "ちから・りきづくり"
+  },
+  "115": {
+    "char": "禾",
+    "sinovi": "HOÀ",
+    "english": "two-branch tree",
+    "ja_reading": "のぎ・のぎへん"
+  },
+  "181": {
+    "char": "頁",
+    "sinovi": "HIỆT",
+    "english": "big shell",
+    "ja_reading": "おおがい・いちのかい"
+  },
+  "145": {
+    "char": "衣",
+    "sinovi": "Y",
+    "english": "clothes",
+    "ja_reading": "ころも・ころもへん"
+  },
+  "60": {
+    "char": "彳",
+    "sinovi": "XÍCH",
+    "english": "step",
+    "ja_reading": "ぎょうにんべん"
+  },
+  "102": {
+    "char": "田",
+    "sinovi": "ĐIỀN",
+    "english": "field",
+    "ja_reading": "た・たへん"
+  },
+  "109": {
+    "char": "目",
+    "sinovi": "MỤC",
+    "english": "eye",
+    "ja_reading": "め・めへん・よこめ"
+  },
+  "37": {
+    "char": "大",
+    "sinovi": "ĐẠI",
+    "english": "big, very",
+    "ja_reading": "だい・おおきい"
+  },
+  "50": {
+    "char": "巾",
+    "sinovi": "CÂN",
+    "english": "turban, scarf",
+    "ja_reading": "はば・はばへん・きんべん"
+  },
+  "53": {
+    "char": "广",
+    "sinovi": "NGHIỄM",
+    "english": "dotted cliff",
+    "ja_reading": "まだれ"
+  },
+  "94": {
+    "char": "犬",
+    "sinovi": "KHUYỂN",
+    "english": "dog",
+    "ja_reading": "いぬ・けものへん"
+  },
+  "1": {
+    "char": "一",
+    "sinovi": "NHẤT",
+    "english": "one",
+    "ja_reading": "いち"
+  },
+  "46": {
+    "char": "山",
+    "sinovi": "SƠN",
+    "english": "mountain",
+    "ja_reading": "やま・やまへん・やまかんむり"
+  },
+  "66": {
+    "char": "攵",
+    "sinovi": "PHỐC",
+    "english": "strike, whip",
+    "ja_reading": "ぼくにょう・ぼくづくり・とまた・のぶん・しぶん"
+  },
+  "112": {
+    "char": "石",
+    "sinovi": "THẠCH",
+    "english": "stone",
+    "ja_reading": "いし・いしへん"
+  },
+  "44": {
+    "char": "尸",
+    "sinovi": "THI",
+    "english": "corpse",
+    "ja_reading": "しかばね・かばね・かばねだれ"
+  },
+  "96": {
+    "char": "玉",
+    "sinovi": "NGỌC",
+    "english": "ball, jade; king",
+    "ja_reading": "玉: たま・たまへん; 王: おう・おうへん・あうさま"
+  },
+  "104": {
+    "char": "疒",
+    "sinovi": "NẠCH",
+    "english": "sickness",
+    "ja_reading": "やまい・やまいだれ"
+  },
+  "113": {
+    "char": "示",
+    "sinovi": "THỊ",
+    "english": "altar, display",
+    "ja_reading": "しめす・しめすへん"
+  },
+  "159": {
+    "char": "車",
+    "sinovi": "XA",
+    "english": "cart, car",
+    "ja_reading": "くるま・くるまへん"
+  },
+  "164": {
+    "char": "酉",
+    "sinovi": "DẬU",
+    "english": "sake (rice-based alcoholic beverage)",
+    "ja_reading": "とり・とりへん・ひよみのとり・さけのとり"
+  },
+  "173": {
+    "char": "雨",
+    "sinovi": "VŨ",
+    "english": "rain",
+    "ja_reading": "あめ・あめかんむり・あまかんむり"
+  },
+  "31": {
+    "char": "囗",
+    "sinovi": "VI",
+    "english": "enclosure",
+    "ja_reading": "くに・くにがまえ"
+  },
+  "41": {
+    "char": "寸",
+    "sinovi": "THỐN",
+    "english": "sun (unit of measurement)",
+    "ja_reading": "すん・すんづくり"
+  },
+  "184": {
+    "char": "食",
+    "sinovi": "THỰC",
+    "english": "eat, food",
+    "ja_reading": "しょく・しょくへん"
+  },
+  "24": {
+    "char": "十",
+    "sinovi": "THẬP",
+    "english": "ten, complete",
+    "ja_reading": "じゅう・じゅうへん"
+  },
+  "57": {
+    "char": "弓",
+    "sinovi": "CUNG",
+    "english": "bow",
+    "ja_reading": "ゆみ・ゆみへん"
+  },
+  "74": {
+    "char": "月",
+    "sinovi": "NGUYỆT",
+    "english": "moon, month; body, flesh",
+    "ja_reading": "つき・つきへん"
+  },
+  "169": {
+    "char": "門",
+    "sinovi": "MÔN",
+    "english": "gate",
+    "ja_reading": "もん・もんがまえ・かどがまえ"
+  },
+  "29": {
+    "char": "又",
+    "sinovi": "HỰU",
+    "english": "again, right hand",
+    "ja_reading": "また"
+  },
+  "39": {
+    "char": "子",
+    "sinovi": "TỬ",
+    "english": "child, seed",
+    "ja_reading": "こ・こへん"
+  },
+  "76": {
+    "char": "欠",
+    "sinovi": "KHIẾM",
+    "english": "yawn, lack",
+    "ja_reading": "あくび・けんづくり・かける・けつ"
+  },
+  "93": {
+    "char": "牛",
+    "sinovi": "NGƯU",
+    "english": "cow",
+    "ja_reading": "うし・うしへん"
+  },
+  "172": {
+    "char": "隹",
+    "sinovi": "CHUY",
+    "english": "old bird",
+    "ja_reading": "ふるとり"
+  },
+  "78": {
+    "char": "歹",
+    "sinovi": "ĐÃI",
+    "english": "death, decay",
+    "ja_reading": "がつ・がってん・がつへん・かばね・かばねへん・いちたへん"
+  },
+  "10": {
+    "char": "儿",
+    "sinovi": "NHÂN",
+    "english": "legs",
+    "ja_reading": "にんにょう・ひとあし"
+  },
+  "124": {
+    "char": "羽",
+    "sinovi": "VŨ",
+    "english": "feather, wing",
+    "ja_reading": "はね"
+  },
+  "157": {
+    "char": "足",
+    "sinovi": "TÚC",
+    "english": "foot",
+    "ja_reading": "あし・あしへん"
+  },
+  "138": {
+    "char": "艮",
+    "sinovi": "CẤN",
+    "english": "stopping",
+    "ja_reading": "うしとら・こん・こんづくり・ねづくり"
+  },
+  "116": {
+    "char": "穴",
+    "sinovi": "HUYỆT",
+    "english": "cave",
+    "ja_reading": "あな・あなかんむり"
+  },
+  "156": {
+    "char": "走",
+    "sinovi": "TẨU",
+    "english": "run",
+    "ja_reading": "はしる・そうにょう"
+  },
+  "82": {
+    "char": "毛",
+    "sinovi": "MAO",
+    "english": "fur, hair",
+    "ja_reading": "け"
+  },
+  "128": {
+    "char": "耳",
+    "sinovi": "NHĨ",
+    "english": "ear",
+    "ja_reading": "みみ・みみへん"
+  },
+  "147": {
+    "char": "見",
+    "sinovi": "KIẾN",
+    "english": "see",
+    "ja_reading": "みる"
+  },
+  "7": {
+    "char": "二",
+    "sinovi": "NHỊ",
+    "english": "two",
+    "ja_reading": "に・ふた"
+  },
+  "168": {
+    "char": "長",
+    "sinovi": "TRƯỜNG",
+    "english": "long, grow; leader",
+    "ja_reading": "ながい"
+  },
+  "123": {
+    "char": "羊",
+    "sinovi": "DƯƠNG",
+    "english": "sheep",
+    "ja_reading": "ひつじ・ひつじへん・ひつじかんむり"
+  },
+  "119": {
+    "char": "米",
+    "sinovi": "MỄ",
+    "english": "rice",
+    "ja_reading": "こめ・こめへん"
+  },
+  "69": {
+    "char": "斤",
+    "sinovi": "CÂN",
+    "english": "axe",
+    "ja_reading": "おの・おのづくり・きん"
+  },
+  "42": {
+    "char": "小",
+    "sinovi": "TIỂU",
+    "english": "small, insignificant",
+    "ja_reading": "しょう・ちいさい・なおがしら・つ"
+  },
+  "77": {
+    "char": "止",
+    "sinovi": "CHỈ",
+    "english": "stop",
+    "ja_reading": "とまる・とめる・とめへん"
+  },
+  "151": {
+    "char": "豆",
+    "sinovi": "ĐẬU",
+    "english": "bean",
+    "ja_reading": "まめ・まめへん"
+  },
+  "163": {
+    "char": "邑",
+    "sinovi": "ẤP",
+    "english": "town",
+    "ja_reading": "むら・おおざと・おおざとづくり・ゆう"
+  },
+  "26": {
+    "char": "卩",
+    "sinovi": "TIẾT",
+    "english": "seal",
+    "ja_reading": "ふし・ふしづくり・わりふ"
+  },
+  "28": {
+    "char": "厶",
+    "sinovi": "KHƯ",
+    "english": "private",
+    "ja_reading": "む"
+  },
+  "160": {
+    "char": "辛",
+    "sinovi": "TÂN",
+    "english": "spicy, bitter",
+    "ja_reading": "しん・からい"
+  },
+  "34": {
+    "char": "夂",
+    "sinovi": "TRI",
+    "english": "winter",
+    "ja_reading": "ちかんむり・ふゆがしら"
+  },
+  "36": {
+    "char": "夕",
+    "sinovi": "TỊCH",
+    "english": "evening, sunset",
+    "ja_reading": "ゆう・ゆうべ・た"
+  },
+  "27": {
+    "char": "厂",
+    "sinovi": "HÁN",
+    "english": "cliff",
+    "ja_reading": "がんだれ"
+  },
+  "62": {
+    "char": "戈",
+    "sinovi": "QUA",
+    "english": "spear, halberd",
+    "ja_reading": "ほこ・ほこづくり・ほこがまえ・かのほこ"
+  },
+  "166": {
+    "char": "里",
+    "sinovi": "LÝ",
+    "english": "village, mile",
+    "ja_reading": "さと・さとへん"
+  },
+  "106": {
+    "char": "白",
+    "sinovi": "BẠCH",
+    "english": "white",
+    "ja_reading": "しろ・しろへん"
+  },
+  "12": {
+    "char": "八",
+    "sinovi": "BÁT",
+    "english": "eight",
+    "ja_reading": "はち・は・はちがしら"
+  },
+  "63": {
+    "char": "戸",
+    "sinovi": "HỘ",
+    "english": "door, house",
+    "ja_reading": "と・とだれ・とかんむり"
+  },
+  "20": {
+    "char": "勹",
+    "sinovi": "BAO",
+    "english": "wrap, embrace",
+    "ja_reading": "つつみがまえ・くがまえ"
+  },
+  "117": {
+    "char": "立",
+    "sinovi": "LẬP",
+    "english": "stand, erect",
+    "ja_reading": "たつ・たつへん"
+  },
+  "47": {
+    "char": "巛",
+    "sinovi": "XUYÊN",
+    "english": "river",
+    "ja_reading": "かわ・まがりがわ・さんぼんがわ"
+  },
+  "15": {
+    "char": "冫",
+    "sinovi": "BĂNG",
+    "english": "ice",
+    "ja_reading": "にすい"
+  },
+  "83": {
+    "char": "氏",
+    "sinovi": "THỊ",
+    "english": "clan",
+    "ja_reading": "うじ"
+  },
+  "88": {
+    "char": "父",
+    "sinovi": "PHỤ",
+    "english": "father",
+    "ja_reading": "ちち"
+  },
+  "101": {
+    "char": "用",
+    "sinovi": "DỤNG",
+    "english": "use; (throw)",
+    "ja_reading": "もちいる・よう"
+  },
+  "122": {
+    "char": "网",
+    "sinovi": "VÕNG",
+    "english": "net",
+    "ja_reading": "あみ・あみがしら・あみめ・よこめ・よんかしら"
+  },
+  "87": {
+    "char": "爪",
+    "sinovi": "TRẢO",
+    "english": "claw, nail, talon",
+    "ja_reading": "つめ・つめがしら・つめかんむり・そうにょう・のつ"
+  },
+  "79": {
+    "char": "殳",
+    "sinovi": "THÙ",
+    "english": "weapon, lance",
+    "ja_reading": "るまた・ほこづくり"
+  },
+  "180": {
+    "char": "音",
+    "sinovi": "ÂM",
+    "english": "sound",
+    "ja_reading": "おと・おとへん"
+  },
+  "5": {
+    "char": "乙",
+    "sinovi": "ẤT",
+    "english": "second, latter",
+    "ja_reading": "おつ・おつにょう・つりばり"
+  },
+  "68": {
+    "char": "斗",
+    "sinovi": "ĐẤU",
+    "english": "dipper, measuring scoop",
+    "ja_reading": "と・とます・ますづくり"
+  },
+  "133": {
+    "char": "至",
+    "sinovi": "CHÍ",
+    "english": "arrive",
+    "ja_reading": "いたる"
+  },
+  "14": {
+    "char": "冖",
+    "sinovi": "MỊCH",
+    "english": "cover",
+    "ja_reading": "わかんむり"
+  },
+  "23": {
+    "char": "匸",
+    "sinovi": "HỆ",
+    "english": "dead, gone",
+    "ja_reading": "かくしがまえ"
+  },
+  "48": {
+    "char": "工",
+    "sinovi": "CÔNG",
+    "english": "work",
+    "ja_reading": "こう・たくみ・たくみへん・え"
+  },
+  "185": {
+    "char": "首",
+    "sinovi": "THỦ",
+    "english": "neck, head",
+    "ja_reading": "くび"
+  },
+  "84": {
+    "char": "气",
+    "sinovi": "KHÍ",
+    "english": "steam, breath",
+    "ja_reading": "きがまえ"
+  },
+  "174": {
+    "char": "青",
+    "sinovi": "THANH",
+    "english": "green, blue",
+    "ja_reading": "あお・あおへん"
+  },
+  "80": {
+    "char": "毋",
+    "sinovi": "VÔ",
+    "english": "do not; mother",
+    "ja_reading": "毋: なし・なかれ 母: はは・ははのかん"
+  },
+  "56": {
+    "char": "弋",
+    "sinovi": "DẶC",
+    "english": "ceremony, shoot, arrow",
+    "ja_reading": "しきがまえ・いぐるみ"
+  },
+  "103": {
+    "char": "疋",
+    "sinovi": "SƠ",
+    "english": "bolt of cloth",
+    "ja_reading": "ひき・ひきへん"
+  },
+  "201": {
+    "char": "黄",
+    "sinovi": "HOÀNG",
+    "english": "yellow",
+    "ja_reading": "き・きいろ"
+  },
+  "132": {
+    "char": "自",
+    "sinovi": "TỰ",
+    "english": "oneself",
+    "ja_reading": "みずから"
+  },
+  "65": {
+    "char": "支",
+    "sinovi": "CHI",
+    "english": "branch",
+    "ja_reading": "し・しにょう・えだにょう・じゅうまた"
+  },
+  "70": {
+    "char": "方",
+    "sinovi": "PHƯƠNG",
+    "english": "way, square, raft",
+    "ja_reading": "ほう・ほうへん・かた・かたへん"
+  },
+  "150": {
+    "char": "谷",
+    "sinovi": "CỐC",
+    "english": "valley",
+    "ja_reading": "たに・たにへん"
+  },
+  "144": {
+    "char": "行",
+    "sinovi": "HÀNH",
+    "english": "go, do",
+    "ja_reading": "ぎょう・ぎょうがまえ・いく・ゆきがまえ"
+  },
+  "55": {
+    "char": "廾",
+    "sinovi": "CỦNG",
+    "english": "two hands, twenty",
+    "ja_reading": "にじゅう・にじゅうあし・こまぬき"
+  },
+  "155": {
+    "char": "赤",
+    "sinovi": "XÍCH",
+    "english": "red, bare",
+    "ja_reading": "あか・あかへん"
+  },
+  "3": {
+    "char": "丶",
+    "sinovi": "CHỦ",
+    "english": "dot",
+    "ja_reading": "てん・ちょぼ・ちゅ・ちゅてん"
+  },
+  "51": {
+    "char": "干",
+    "sinovi": "CAN",
+    "english": "dry",
+    "ja_reading": "かん・いちじゅう・ほす・ひる・たてかん"
+  },
+  "54": {
+    "char": "廴",
+    "sinovi": "DẪN",
+    "english": "long stride",
+    "ja_reading": "えんにょう・いんにょう"
+  },
+  "100": {
+    "char": "生",
+    "sinovi": "SINH",
+    "english": "life",
+    "ja_reading": "うむ・うまれる・いきる"
+  },
+  "125": {
+    "char": "老",
+    "sinovi": "LÃO",
+    "english": "old",
+    "ja_reading": "おい・おいかんむり・おいがしら"
+  },
+  "49": {
+    "char": "己",
+    "sinovi": "KỶ",
+    "english": "oneself",
+    "ja_reading": "おのれ・き・つちのと"
+  },
+  "2": {
+    "char": "丨",
+    "sinovi": "CỔN",
+    "english": "line",
+    "ja_reading": "ぼう・たてぼう"
+  },
+  "111": {
+    "char": "矢",
+    "sinovi": "THỈ",
+    "english": "arrow",
+    "ja_reading": "や・やへん"
+  },
+  "59": {
+    "char": "彡",
+    "sinovi": "SAM",
+    "english": "hair, bristle, stubble, beard",
+    "ja_reading": "さん・さんづくり"
+  },
+  "81": {
+    "char": "比",
+    "sinovi": "TỶ",
+    "english": "compare, compete",
+    "ja_reading": "ひ・くらべる・ならびひ"
+  },
+  "139": {
+    "char": "色",
+    "sinovi": "SẮC",
+    "english": "colour, prettiness",
+    "ja_reading": "いろ"
+  },
+  "11": {
+    "char": "入",
+    "sinovi": "NHẬP",
+    "english": "enter",
+    "ja_reading": "いる・にゅう・いりがしら・いりやね"
+  },
+  "67": {
+    "char": "文",
+    "sinovi": "VĂN",
+    "english": "script, literature",
+    "ja_reading": "ぶん・ぶんにょう"
+  },
+  "58": {
+    "char": "彐",
+    "sinovi": "KỆ",
+    "english": "pig's head",
+    "ja_reading": "けい・けいがしら・いのこがしら"
+  },
+  "146": {
+    "char": "襾",
+    "sinovi": "Á",
+    "english": "west",
+    "ja_reading": "にし・かなめのかしら・おおいかんむり"
+  },
+  "175": {
+    "char": "非",
+    "sinovi": "PHI",
+    "english": "wrong",
+    "ja_reading": "あらず"
+  },
+  "33": {
+    "char": "士",
+    "sinovi": "SĨ",
+    "english": "scholar, bachelor",
+    "ja_reading": "さむらい"
+  },
+  "16": {
+    "char": "几",
+    "sinovi": "KỶ",
+    "english": "desk, table",
+    "ja_reading": "つくえ・きにょう・かぜかんむり"
+  },
+  "105": {
+    "char": "癶",
+    "sinovi": "BÁT",
+    "english": "footsteps",
+    "ja_reading": "はつがしら"
+  },
+  "8": {
+    "char": "亠",
+    "sinovi": "ĐẦU",
+    "english": "lid",
+    "ja_reading": "けいさん・けいさんかんむり・なべぶた"
+  },
+  "4": {
+    "char": "丿",
+    "sinovi": "TRIỆT",
+    "english": "bend",
+    "ja_reading": "の・のかんむり・はらいぼう"
+  },
+  "25": {
+    "char": "卜",
+    "sinovi": "BỐC",
+    "english": "divination",
+    "ja_reading": "ぼく・ぼくづくり・ぼくのと・と・うらない"
+  },
+  "142": {
+    "char": "虫",
+    "sinovi": "TRÙNG",
+    "english": "insect",
+    "ja_reading": "むし・むしへん"
+  },
+  "13": {
+    "char": "冂",
+    "sinovi": "QUYNH",
+    "english": "upside down box",
+    "ja_reading": "けいがまえ・まきがまえ・どうがまえ・えんがまえ"
+  },
+  "6": {
+    "char": "亅",
+    "sinovi": "QUYẾT",
+    "english": "hook",
+    "ja_reading": "はねぼう"
+  },
+  "21": {
+    "char": "匕",
+    "sinovi": "CHUỶ",
+    "english": "spoon",
+    "ja_reading": "さじ・さじのひ・さじづくり・ひ"
+  },
+  "182": {
+    "char": "風",
+    "sinovi": "PHONG",
+    "english": "wind",
+    "ja_reading": "かぜ"
+  },
+  "129": {
+    "char": "聿",
+    "sinovi": "DUẬT",
+    "english": "brush",
+    "ja_reading": "ふで・ふでづくり"
+  },
+  "189": {
+    "char": "高",
+    "sinovi": "CAO",
+    "english": "tall, high",
+    "ja_reading": "たかい"
+  },
+  "99": {
+    "char": "甘",
+    "sinovi": "CAM",
+    "english": "sweet",
+    "ja_reading": "あまい・かん"
+  },
+  "135": {
+    "char": "舌",
+    "sinovi": "THIỆT",
+    "english": "tongue",
+    "ja_reading": "した・したへん"
+  },
+  "110": {
+    "char": "矛",
+    "sinovi": "MÂU",
+    "english": "spear, pike",
+    "ja_reading": "ほこ・ほこへん・むのほこ"
+  },
+  "137": {
+    "char": "舟",
+    "sinovi": "CHÂU",
+    "english": "boat",
+    "ja_reading": "ふね・ふねへん"
+  },
+  "196": {
+    "char": "鳥",
+    "sinovi": "ĐIỂU",
+    "english": "bird",
+    "ja_reading": "とり・とりへん"
+  },
+  "195": {
+    "char": "魚",
+    "sinovi": "NGƯ",
+    "english": "fish",
+    "ja_reading": "うお・うおへん・さかな"
+  },
+  "187": {
+    "char": "馬",
+    "sinovi": "MÃ",
+    "english": "horse",
+    "ja_reading": "うま・うまへん"
+  },
+  "158": {
+    "char": "身",
+    "sinovi": "THÂN",
+    "english": "body",
+    "ja_reading": "み・みへん"
+  },
+  "107": {
+    "char": "皮",
+    "sinovi": "BÌ",
+    "english": "skin",
+    "ja_reading": "かわ・けがわ・ひのかわ"
+  },
+  "176": {
+    "char": "面",
+    "sinovi": "DIỆN",
+    "english": "face",
+    "ja_reading": "めん"
+  },
+  "203": {
+    "char": "黑",
+    "sinovi": "HẮC",
+    "english": "black",
+    "ja_reading": "くろ・くろへん"
+  },
+  "143": {
+    "char": "血",
+    "sinovi": "HUYẾT",
+    "english": "blood",
+    "ja_reading": "ち・ちへん"
+  },
+  "52": {
+    "char": "幺",
+    "sinovi": "YÊU",
+    "english": "short thread",
+    "ja_reading": "いとがしら・よう"
+  },
+  "186": {
+    "char": "香",
+    "sinovi": "HƯƠNG",
+    "english": "fragrant",
+    "ja_reading": "か・こう・かおり・においこう"
+  },
+  "194": {
+    "char": "鬼",
+    "sinovi": "QUỶ",
+    "english": "ghost, demon",
+    "ja_reading": "おに・きにょう"
+  },
+  "22": {
+    "char": "匚",
+    "sinovi": "PHƯƠNG",
+    "english": "box",
+    "ja_reading": "はこ・はこがまえ"
+  },
+  "183": {
+    "char": "飛",
+    "sinovi": "PHI",
+    "english": "fly",
+    "ja_reading": "とぶ"
+  },
+  "91": {
+    "char": "片",
+    "sinovi": "PHIẾN",
+    "english": "(a) slice",
+    "ja_reading": "かた・かたへん"
+  },
+  "152": {
+    "char": "豕",
+    "sinovi": "THỈ",
+    "english": "pig",
+    "ja_reading": "いのこ・いのこへん・ぶた"
+  },
+  "131": {
+    "char": "臣",
+    "sinovi": "THẦN",
+    "english": "minister, official",
+    "ja_reading": "しん・おみ"
+  },
+  "178": {
+    "char": "韋",
+    "sinovi": "VI",
+    "english": "tanned leather",
+    "ja_reading": "なめしがわ"
+  },
+  "209": {
+    "char": "鼻",
+    "sinovi": "TỴ",
+    "english": "nose",
+    "ja_reading": "はな・はなへん"
+  },
+  "90": {
+    "char": "爿",
+    "sinovi": "TƯỜNG",
+    "english": "split wood",
+    "ja_reading": "しょうへん"
+  },
+  "211": {
+    "char": "齒",
+    "sinovi": "XỈ",
+    "english": "tooth, molar",
+    "ja_reading": "は・はへん"
+  },
+  "148": {
+    "char": "角",
+    "sinovi": "GIÁC",
+    "english": "horn",
+    "ja_reading": "つの・かく・つのへん"
+  },
+  "210": {
+    "char": "齊",
+    "sinovi": "TỀ",
+    "english": "even, uniformly",
+    "ja_reading": "さい・せい・ととのえる"
+  },
+  "199": {
+    "char": "麥",
+    "sinovi": "MẠCH",
+    "english": "wheat",
+    "ja_reading": "むぎ・むぎへん・ぼく・ばくにょう"
+  },
+  "108": {
+    "char": "皿",
+    "sinovi": "MÃNH",
+    "english": "dish",
+    "ja_reading": "さら"
+  },
+  "97": {
+    "char": "瓜",
+    "sinovi": "QUA",
+    "english": "melon",
+    "ja_reading": "うり"
+  },
+  "177": {
+    "char": "革",
+    "sinovi": "CÁCH",
+    "english": "leather, rawhide",
+    "ja_reading": "かわ・かくのかわ・かわへん・つくりがわ"
+  },
+  "198": {
+    "char": "鹿",
+    "sinovi": "LỘC",
+    "english": "deer",
+    "ja_reading": "しか・しかへん"
+  },
+  "136": {
+    "char": "舛",
+    "sinovi": "SUYỄN",
+    "english": "opposite",
+    "ja_reading": "ます・まいあし"
+  },
+  "188": {
+    "char": "骨",
+    "sinovi": "CỐT",
+    "english": "bone",
+    "ja_reading": "ほね・ほねへん"
+  },
+  "208": {
+    "char": "鼠",
+    "sinovi": "THỬ",
+    "english": "rat, mouse",
+    "ja_reading": "ねずみ・ねずみへん"
+  },
+  "161": {
+    "char": "辰",
+    "sinovi": "THẦN",
+    "english": "morning",
+    "ja_reading": "たつ・しんのたつ"
+  },
+  "171": {
+    "char": "隶",
+    "sinovi": "LỆ",
+    "english": "slave, capture",
+    "ja_reading": "たい・たいづくり・れいづくり・れいのつくり"
+  },
+  "92": {
+    "char": "牙",
+    "sinovi": "NHA",
+    "english": "fang",
+    "ja_reading": "きば・きばへん"
+  },
+  "17": {
+    "char": "凵",
+    "sinovi": "KHẢM",
+    "english": "container, open mouth",
+    "ja_reading": "かんにょう・うけばこ・かんがまえ"
+  },
+  "45": {
+    "char": "屮",
+    "sinovi": "TRIỆT",
+    "english": "sprout",
+    "ja_reading": "くさのめ・めばえ・てつ"
+  },
+  "121": {
+    "char": "缶",
+    "sinovi": "PHẪU",
+    "english": "can, earthenware jar",
+    "ja_reading": "ほとぎ・ほとぎへん"
+  },
+  "95": {
+    "char": "玄",
+    "sinovi": "HUYỀN",
+    "english": "dark, profound",
+    "ja_reading": "げん"
+  },
+  "212": {
+    "char": "龍",
+    "sinovi": "LONG",
+    "english": "dragon",
+    "ja_reading": "りゅう"
+  },
+  "213": {
+    "char": "龜",
+    "sinovi": "QUY",
+    "english": "turtle, tortoise",
+    "ja_reading": "かめ"
+  },
+  "71": {
+    "char": "无",
+    "sinovi": "VÔ",
+    "english": "have not",
+    "ja_reading": "む・むにょう・すでのつくり"
+  },
+  "191": {
+    "char": "鬥",
+    "sinovi": "ĐẤU",
+    "english": "fight",
+    "ja_reading": "たたかいがまえ・とうがまえ"
+  },
+  "134": {
+    "char": "臼",
+    "sinovi": "CỮU",
+    "english": "mortar",
+    "ja_reading": "うす"
+  },
+  "141": {
+    "char": "虍",
+    "sinovi": "HÔ",
+    "english": "tiger stripes",
+    "ja_reading": "とら・とらがしら・とらかんむり"
+  },
+  "193": {
+    "char": "鬲",
+    "sinovi": "CÁCH",
+    "english": "tripod, cauldron",
+    "ja_reading": "れき・れきのかなえ"
+  },
+  "43": {
+    "char": "尢",
+    "sinovi": "UÔNG",
+    "english": "lame",
+    "ja_reading": "まげあし・だいのまげあし・あう・おうにょう"
+  },
+  "98": {
+    "char": "瓦",
+    "sinovi": "NGOÃ",
+    "english": "tile",
+    "ja_reading": "かわら"
+  },
+  "127": {
+    "char": "耒",
+    "sinovi": "LỖI",
+    "english": "plow",
+    "ja_reading": "すき・すきへん・らいすき・らいへん"
+  },
+  "153": {
+    "char": "豸",
+    "sinovi": "TRÃI",
+    "english": "cat, badger",
+    "ja_reading": "むじな・むじなへん"
+  },
+  "202": {
+    "char": "黍",
+    "sinovi": "THỬ",
+    "english": "millet",
+    "ja_reading": "きび"
+  },
+  "207": {
+    "char": "鼓",
+    "sinovi": "CỔ",
+    "english": "drum",
+    "ja_reading": "つづみ"
+  },
+  "197": {
+    "char": "鹵",
+    "sinovi": "LỖ",
+    "english": "salt",
+    "ja_reading": "ろ・しお・しおへん"
+  },
+  "190": {
+    "char": "髟",
+    "sinovi": "TIÊU",
+    "english": "hair",
+    "ja_reading": "かみがしら・かみかんむり"
+  },
+  "205": {
+    "char": "黽",
+    "sinovi": "MÃNH",
+    "english": "frog, amphibian",
+    "ja_reading": "おおがえる・べん・ぼう・ひきがえる"
+  },
+  "73": {
+    "char": "曰",
+    "sinovi": "VIẾT",
+    "english": "say",
+    "ja_reading": "ひらび・いわく"
+  },
+  "200": {
+    "char": "麻",
+    "sinovi": "MA",
+    "english": "hemp, flax",
+    "ja_reading": "あさ・あさかんむり"
+  },
+  "126": {
+    "char": "而",
+    "sinovi": "NHI",
+    "english": "rake, beard",
+    "ja_reading": "しかし・しかして・しこうして"
+  },
+  "179": {
+    "char": "韭",
+    "sinovi": "CỬU",
+    "english": "leek",
+    "ja_reading": "にら"
+  },
+  "214": {
+    "char": "龠",
+    "sinovi": "DƯỢC",
+    "english": "flute",
+    "ja_reading": "やく・やくのふえ"
+  },
+  "89": {
+    "char": "爻",
+    "sinovi": "HÀO",
+    "english": "mix, twine, cross",
+    "ja_reading": "こう・めめ"
+  },
+  "165": {
+    "char": "釆",
+    "sinovi": "BIỆN",
+    "english": "divide, distinguish, choose",
+    "ja_reading": "のごめ・のごめへん"
+  },
+  "206": {
+    "char": "鼎",
+    "sinovi": "ĐỈNH",
+    "english": "sacrificial tripod",
+    "ja_reading": "かなえ・てい"
+  },
+  "114": {
+    "char": "禸",
+    "sinovi": "NHỰU",
+    "english": "track",
+    "ja_reading": "あしあと・ぐうのあし"
+  },
+  "192": {
+    "char": "鬯",
+    "sinovi": "SƯỞNG",
+    "english": "herbs, sacrificial wine",
+    "ja_reading": "ちょう・においざけ・かおりぐさ"
+  },
+  "204": {
+    "char": "黹",
+    "sinovi": "CHỈ",
+    "english": "embroidery, needlework",
+    "ja_reading": "ち・ぬいとり"
+  },
+  "35": {
+    "char": "夊",
+    "sinovi": "TUY",
+    "english": "winter variant",
+    "ja_reading": "なつあし・すいにょう"
+  }
+}
