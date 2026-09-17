@@ -21,7 +21,7 @@ An iOS Shortcut fetches a new wallpaper each morning from the server and sets it
   | [Bộ Thủ Chữ Hán (Tiếng Nhật)](https://ankiweb.net/shared/info/1364084349) | Anki deck with kanji radicals |
   | [Japanese Jouyou Kanji Word Readings](https://ankiweb.net/shared/info/351673913) | Anki deck with vocabulary examples for each jouyou kanji, ordered by frequency |
 
-  The decks are programmatically crossed referenced and extracted into JSON files in the `data` directory using the `scripts/extract_data.py` script. The JSON files are then passed into `scripts/seed_db.py` to initialize the database for the app.
+  The decks are programmatically cross-referenced and extracted into JSON files in the `data` directory using the `scripts/extract_data.py` script. The JSON files are then passed into `scripts/seed_db.py` to initialize the database for the app.
 
 ## Setup
 
