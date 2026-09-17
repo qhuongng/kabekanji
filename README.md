@@ -91,7 +91,7 @@ Visit `http://localhost:8000` for the configuration UI.
 3. Switch to the Automation tab and tap "+" > Time of Day.
 Pick when you want a new kanji (e.g. 6:00 AM), set Repeat to Daily, and turn on Run Immediately
     - You can also set this to change hourly or something. Play with the app, it's one of iOS' best :)
-4. Select your shortcut → Done
+4. Select your shortcut, and voilà.
 
 ## Configuration
 
