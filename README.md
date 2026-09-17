@@ -38,11 +38,11 @@ pip install -r requirements.txt
 
 Place the `.ttf` files in `fonts/`:
 
-- [Kanji Stroke Orders](https://www.nihilist.org.uk/) → `fonts/KanjiStrokeOrders.ttf` — main character with stroke-order numbers baked in
-- [Noto Sans JP](https://fonts.google.com/noto/specimen/Noto+Sans+JP) → `fonts/NotoSansJP-Regular.ttf`, `fonts/NotoSansJP-Bold.ttf` — sans-serif/gothic style sample
-- [Noto Serif JP](https://fonts.google.com/noto/specimen/Noto+Serif+JP) → `fonts/NotoSerifJP-Regular.ttf` and `fonts/NotoSerifJP-Bold.ttf` — serif/mincho/kyokasho-ish style sample and UI
-- [Hitori Gothic](https://www.freejapanesefont.com/hitori-gothic-font-download/) → `fonts/HitoriGothic-Regular.ttf` — handwritten style sample
-- [Crimson Pro](https://fonts.google.com/specimen/Crimson+Pro) → `fonts/CrimsonPro-Regular.ttf` — serif for all non-Japanese text (English meanings, Sino-Vietnamese readings, Vietnamese diacritics) and UI font
+- [Kanji Stroke Orders](https://www.nihilist.org.uk/): `fonts/KanjiStrokeOrders.ttf` — main character with stroke-order numbers baked in
+- [Noto Sans JP](https://fonts.google.com/noto/specimen/Noto+Sans+JP): `fonts/NotoSansJP-Regular.ttf`, `fonts/NotoSansJP-Bold.ttf` — sans-serif/gothic style sample
+- [Noto Serif JP](https://fonts.google.com/noto/specimen/Noto+Serif+JP): `fonts/NotoSerifJP-Regular.ttf` and `fonts/NotoSerifJP-Bold.ttf` — serif/mincho/kyokasho-ish style sample and UI
+- [Hitori Gothic](https://www.freejapanesefont.com/hitori-gothic-font-download/): `fonts/HitoriGothic-Regular.ttf` — handwritten style sample
+- [Crimson Pro](https://fonts.google.com/specimen/Crimson+Pro): `fonts/CrimsonPro-Regular.ttf` — serif for all non-Japanese text (English meanings, Sino-Vietnamese readings, Vietnamese diacritics) and UI font
 
 ### 3. Seed the database
 
@@ -148,7 +148,7 @@ This file maps the 214 Kangxi radical numbers to `{char, sinovi, english, ja_rea
 
 Provided that I'm not too lazy...
 
-- Maybe improve the token system so one can revisit theirs and make changes. Right now users can't delete their configuration entries in the app either.
+- Maybe improve the token system so one can revisit theirs and make changes. Right now users can't delete their configuration entries in the app either
 - Make the UI a bit more intuitive
 - The simplicity of this app (it only spits out an API) means that you can technically integrate it with any automation app you want on any OS, not just iOS. But I was lazy so...
 - Maybe add a mode for plain vocab, or a mode for all those English words I looked up on my Kindle...
