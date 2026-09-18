@@ -1,4 +1,6 @@
-const TOKEN = "default";
+const TOKEN_STORAGE_KEY = "kabekanji.token";
+let token = null; // set during init()
+let shortcutUrl = ""; // fetched from /api/app-info during init()
 
 // DOM refs
 const $ = (sel) => document.querySelector(sel);
@@ -56,11 +58,46 @@ let config = {};
 
 // Init
 async function init() {
-  const res = await fetch(`/api/config?token=${TOKEN}`);
-  config = await res.json();
+  const [appInfo, resolvedToken] = await Promise.all([
+    fetchAppInfo(),
+    ensureToken(),
+  ]);
+  shortcutUrl = appInfo.shortcut_url || "";
+  token = resolvedToken;
+  config = await fetchConfig(token);
   populateUI();
   updateMarginLines();
   refreshPreview();
+}
+
+async function fetchAppInfo() {
+  const res = await fetch("/api/app-info");
+  if (!res.ok) return { shortcut_url: "" };
+  return await res.json();
+}
+
+async function ensureToken() {
+  const stored = localStorage.getItem(TOKEN_STORAGE_KEY);
+  if (stored) {
+    // Verify server still knows this token; if not, generate a new one
+    const res = await fetch(`/api/config?token=${encodeURIComponent(stored)}`);
+    if (res.ok) return stored;
+  }
+  return await mintToken();
+}
+
+async function mintToken() {
+  const res = await fetch("/api/tokens", { method: "POST" });
+  if (!res.ok) throw new Error(`token mint failed (${res.status})`);
+  const { token: newToken } = await res.json();
+  localStorage.setItem(TOKEN_STORAGE_KEY, newToken);
+  return newToken;
+}
+
+async function fetchConfig(t) {
+  const res = await fetch(`/api/config?token=${encodeURIComponent(t)}`);
+  if (!res.ok) throw new Error(`config fetch failed (${res.status})`);
+  return await res.json();
 }
 
 function populateUI() {
@@ -92,7 +129,7 @@ function populateUI() {
   bgColorInput.value = config.bg_color || "#121214";
   textColorInput.value = config.text_color || "#F0F0F5";
 
-  updateApiUrl();
+  updateTokenDisplay();
 }
 
 // Margin lines
@@ -120,7 +157,8 @@ function schedulePreview() {
 }
 
 async function refreshPreview() {
-  const params = new URLSearchParams({ token: TOKEN });
+  if (!token) return;
+  const params = new URLSearchParams({ token });
   const char = $("#previewChar")?.value.trim();
   if (char) params.set("char", char);
 
@@ -167,14 +205,14 @@ function readConfigFromUI() {
 // Save
 async function saveConfig() {
   config = readConfigFromUI();
-  await fetch(`/api/config?token=${TOKEN}`, {
+  await fetch(`/api/config?token=${encodeURIComponent(token)}`, {
     method: "PUT",
     headers: { "Content-Type": "application/json" },
     body: JSON.stringify(config),
   });
   updateMarginLines();
   refreshPreview();
-  updateApiUrl();
+  updateTokenDisplay();
 
   const btn = $("#saveConfig");
   const orig = btn.textContent;
@@ -182,10 +220,44 @@ async function saveConfig() {
   setTimeout(() => (btn.textContent = orig), 1200);
 }
 
-function updateApiUrl() {
+function updateTokenDisplay() {
   const base = window.location.origin;
-  const url = `${base}/api/wallpaper?token=${TOKEN}`;
-  $("#apiUrl").textContent = url;
+  $("#apiToken").textContent = token;
+  $("#apiUrl").textContent = `${base}/api/wallpaper?token=${token}`;
+  const installBtn = $("#installShortcut");
+  const installPlaceholder = $("#installShortcutPlaceholder");
+  if (installBtn && installPlaceholder) {
+    if (shortcutUrl) {
+      installBtn.href = shortcutUrl;
+      installBtn.classList.remove("hidden");
+      installPlaceholder.classList.add("hidden");
+    } else {
+      installBtn.classList.add("hidden");
+      installPlaceholder.classList.remove("hidden");
+    }
+  }
+}
+
+async function switchToken(newToken) {
+  const t = newToken.trim();
+  if (!t) return;
+  const res = await fetch(`/api/config?token=${encodeURIComponent(t)}`);
+  if (!res.ok) {
+    flashInvalidToken();
+    return;
+  }
+  token = t;
+  localStorage.setItem(TOKEN_STORAGE_KEY, t);
+  config = await res.json();
+  populateUI();
+  updateMarginLines();
+  refreshPreview();
+}
+
+function flashInvalidToken() {
+  const input = $("#loadToken");
+  input.classList.add("invalid");
+  setTimeout(() => input.classList.remove("invalid"), 1200);
 }
 
 // Overlay upload
@@ -209,10 +281,8 @@ function clearOverlay() {
   $("#overlayUpload").value = "";
 }
 
-// Copy URL
-async function copyUrl() {
-  const url = $("#apiUrl").textContent;
-  const btn = $("#copyUrl");
+// Copy helper: writes text to clipboard and flashes the given button
+async function copyToClipboard(text, btn) {
   const flashOk = () => {
     btn.textContent = "○";
     btn.classList.add("copied");
@@ -222,12 +292,11 @@ async function copyUrl() {
     }, 1200);
   };
   try {
-    await navigator.clipboard.writeText(url);
+    await navigator.clipboard.writeText(text);
     flashOk();
   } catch {
-    // Fallback for older browsers / non-secure contexts
     const ta = document.createElement("textarea");
-    ta.value = url;
+    ta.value = text;
     document.body.appendChild(ta);
     ta.select();
     document.execCommand("copy");
@@ -238,7 +307,7 @@ async function copyUrl() {
 
 // Event listeners
 
-// Margin sliders — live update lines + debounced preview
+// Margin sliders: live update lines, debounced preview
 topSlider.addEventListener("input", () => {
   config.top_margin = parseInt(topSlider.value, 10);
   topVal.textContent = topSlider.value;
@@ -273,7 +342,7 @@ presetSelect.addEventListener("change", () => {
   }
 });
 
-// Custom width/height inputs (only visible when preset = custom)
+// Custom width/height inputs (only visible when preset is custom)
 widthInput.addEventListener("change", () => {
   config.screen_width = parseInt(widthInput.value, 10);
   updateMarginLines();
@@ -299,7 +368,16 @@ $("#saveConfig").addEventListener("click", saveConfig);
 $("#refreshPreview").addEventListener("click", refreshPreview);
 $("#overlayUpload").addEventListener("change", handleOverlayUpload);
 $("#clearOverlay").addEventListener("click", clearOverlay);
-$("#copyUrl").addEventListener("click", copyUrl);
+$("#copyUrl").addEventListener("click", (e) =>
+  copyToClipboard($("#apiUrl").textContent, e.currentTarget),
+);
+$("#copyToken").addEventListener("click", (e) =>
+  copyToClipboard($("#apiToken").textContent, e.currentTarget),
+);
+$("#loadTokenBtn").addEventListener("click", () => switchToken($("#loadToken").value));
+$("#loadToken").addEventListener("keydown", (e) => {
+  if (e.key === "Enter") switchToken(e.currentTarget.value);
+});
 
 // Kanji preview input
 const previewCharInput = $("#previewChar");

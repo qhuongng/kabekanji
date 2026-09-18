@@ -41,7 +41,7 @@ Place the `.ttf` files in `fonts/`:
 - [Kanji Stroke Orders](https://www.nihilist.org.uk/): `fonts/KanjiStrokeOrders.ttf` — main character with stroke-order numbers baked in
 - [Noto Sans JP](https://fonts.google.com/noto/specimen/Noto+Sans+JP): `fonts/NotoSansJP-Regular.ttf`, `fonts/NotoSansJP-Bold.ttf` — sans-serif/gothic style sample
 - [Noto Serif JP](https://fonts.google.com/noto/specimen/Noto+Serif+JP): `fonts/NotoSerifJP-Regular.ttf` and `fonts/NotoSerifJP-Bold.ttf` — serif/mincho/kyokasho-ish style sample and UI
-- [Hitori Gothic](https://www.freejapanesefont.com/hitori-gothic-font-download/): `fonts/HitoriGothic-Regular.ttf` — handwritten style sample
+- [Y.OzFont Mouhitsu Gyosho](http://yozvox.web.fc2.com/YOzK97.7z): `fonts/YOzK97-Regular.ttf` — handwritten/gyosho calligraphy style sample
 - [Crimson Pro](https://fonts.google.com/specimen/Crimson+Pro): `fonts/CrimsonPro-Regular.ttf` — serif for all non-Japanese text (English meanings, Sino-Vietnamese readings, Vietnamese diacritics) and UI font
 
 ### 3. Seed the database
@@ -84,19 +84,30 @@ Visit `http://localhost:8000` for the configuration UI.
 
 ### 6. Set up the iOS Shortcut
 
-1. Open the **Shortcuts** app on your iPhone
-2. Create a new shortcut:
-   - **Get Contents of URL** > paste the wallpaper API URL from the web UI
-   - **Set Wallpaper Photo** > Lock Screen, disable "Show Preview"
-3. Switch to the Automation tab and tap "+" > Time of Day.
-Pick when you want a new kanji (e.g. 6:00 AM), set Repeat to Daily, and turn on Run Immediately
-    - You can also set this to change hourly or something. Play with the app, it's one of iOS' best :)
-4. Select your shortcut, and voilà.
+The web UI has a **Give me the shortcut!** button that opens an iCloud share link. On install, iOS asks the user for their token (shown in the web UI). The shortcut then fetches `/api/wallpaper?token=<their token>` and sets the result as the lock screen wallpaper.
+
+To (re)publish the shortcut:
+
+1. On an iPhone, build a shortcut with these actions:
+   - **Text** named `Token`: placeholder content, e.g. `PASTE_TOKEN_HERE`
+   - **Text** named `Server`: your deployed server URL, e.g. `https://kabekanji.example.com`
+   - **Text** named `URL`: `[Server]/api/wallpaper?token=[Token]`
+   - **Get Contents of URL**: input `[URL]`, method `GET`
+   - **Set Wallpaper**: input `Contents of URL`, Show Preview off, Display Lock Screen, Both off
+2. In the shortcut's **Details > Import Questions**, add a single question bound to the `Token` text action so iOS asks the user to paste their token on install.
+3. **Share > Copy iCloud Link** and set the `https://www.icloud.com/shortcuts/...` URL as the `SHORTCUT_URL` env var (see [`.env.example`](./.env.example)). If it's empty, the install button is hidden.
+
+Users then follow the flow inside the web UI:
+
+1. Visit the site. The app generates a token for them and stores it in `localStorage`.
+2. Tap **Give me the shortcut!** and paste the token when iOS prompts.
+3. Optionally add an Automation (Shortcuts app > Automation > Time of Day > Daily > Run Immediately > Run Shortcut > kabekanji) to refresh the wallpaper on a schedule. You can mess around with the interval too.
+4. To change the token later, either edit the `Token` text action inside the installed shortcut or re-import from the share link.
 
 ## Configuration
 
 All configuration is managed through the web UI at the server root.
-Settings are stored server-side and tied to a personal token.
+Settings are stored server-side, keyed by an 8-character token generated the first time the user visits the UI. The token is stored in `localStorage`, and returning users on a fresh browser can paste an existing token into the **Load token** input to recover their configuration.
 
 | Setting | Description | Default |
 | --- | --- | --- |
@@ -148,7 +159,7 @@ This file maps the 214 Kangxi radical numbers to `{char, sinovi, english, ja_rea
 
 Provided that I'm not too lazy...
 
-- Maybe improve the token system so one can revisit theirs and make changes. Right now users can't delete their configuration entries in the app either
-- Make the UI a bit more intuitive
-- The simplicity of this app (it only spits out an API) means that you can technically integrate it with any automation app you want on any OS, not just iOS. But I was lazy so...
+- Give users a way to delete their configuration entries from the app (right now stale tokens accumulate on the server forever)
+- Make the UI a bit more convenient on mobile
+- If Android releases a native equivalent to Shortcuts, I might add it lol
 - Maybe add a mode for plain vocab, or a mode for all those English words I looked up on my Kindle...

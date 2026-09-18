@@ -1,23 +1,25 @@
-from fastapi import APIRouter, Body, Query
+from fastapi import APIRouter, Body, HTTPException, Query
 from fastapi.responses import Response
 
 from server.database import get_config, get_kanji_by_char
+from server.services.renderer import render_preview, render_wallpaper
 from server.services.selector import select_kanji
-from server.services.renderer import render_wallpaper, render_preview
 
 router = APIRouter(prefix="/api")
 
 
 @router.get("/wallpaper")
-async def get_wallpaper(token: str = Query(default="default")):
+async def get_wallpaper(token: str = Query(...)):
     """Generate and return a fresh kanji wallpaper as a PNG
 
     Each call picks a new kanji (respecting the recency window) and records
     it in history
     """
     config = await get_config(token)
-    kanji = await select_kanji(token, config)
+    if config is None:
+        raise HTTPException(status_code=404, detail="unknown token")
 
+    kanji = await select_kanji(token, config)
     if not kanji:
         return Response(content="No kanji available", status_code=404)
 
@@ -36,7 +38,7 @@ async def get_wallpaper(token: str = Query(default="default")):
 @router.post("/preview")
 async def post_preview(
     body: dict = Body(default_factory=dict),
-    token: str = Query(default="default"),
+    token: str = Query(...),
     char: str = Query(default=""),
 ):
     """Generate a smaller preview for the web UI config editor
@@ -46,6 +48,9 @@ async def post_preview(
     preview that specific kanji without recording history
     """
     saved = await get_config(token)
+    if saved is None:
+        raise HTTPException(status_code=404, detail="unknown token")
+
     config = {**saved, **(body or {})}
 
     if char:
@@ -63,5 +68,3 @@ async def post_preview(
         media_type="image/png",
         headers={"Cache-Control": "no-store"},
     )
-
-
