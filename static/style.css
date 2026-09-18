@@ -225,6 +225,51 @@ body {
   display: none;
 }
 
+/* Loader / error message overlay on top of the preview image */
+.preview-loader,
+.preview-error {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--bg);
+  font-family: var(--font-jp);
+  font-size: 0.9rem;
+  letter-spacing: 0.04em;
+  z-index: 4;
+  pointer-events: none;
+  padding: 0 1rem;
+  text-align: center;
+}
+
+.preview-error {
+  font-family: var(--font-jp);
+  font-style: italic;
+}
+
+.preview-loader.hidden,
+.preview-error.hidden {
+  display: none;
+}
+
+/* Animate the trailing dots as they appear one by one, then reset */
+.preview-loader::after {
+  content: "。。。";
+  animation: loader-dots 1.4s steps(1) infinite;
+  display: inline-block;
+  width: 3ch;
+  text-align: left;
+}
+
+@keyframes loader-dots {
+  0%   { content: ""; }
+  25%  { content: "。"; }
+  50%  { content: "。。"; }
+  75%  { content: "。。。"; }
+  100% { content: "。。。"; }
+}
+
 .margin-indicator {
   position: absolute;
   left: 0;
