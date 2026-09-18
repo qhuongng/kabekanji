@@ -1,0 +1,7267 @@
+{
+  "与": {
+    "sinovi": "DỮ, DỰ",
+    "vocabulary": [
+      {
+        "word": "与党",
+        "sinovi": "dữ đảng",
+        "reviewed": true
+      },
+      {
+        "word": "付与",
+        "sinovi": "phó dữ",
+        "reviewed": true
+      },
+      {
+        "word": "貸与",
+        "sinovi": "thải dữ",
+        "reviewed": true
+      },
+      {
+        "word": "贈与",
+        "sinovi": "tặng dữ",
+        "reviewed": true
+      },
+      {
+        "word": "関与",
+        "sinovi": "quan dự",
+        "reviewed": true
+      }
+    ]
+  },
+  "乾": {
+    "sinovi": "KIỀN, CAN",
+    "vocabulary": [
+      {
+        "word": "乾",
+        "sinovi": "càn",
+        "reviewed": true
+      },
+      {
+        "word": "乾杯",
+        "sinovi": "can bôi",
+        "reviewed": true
+      },
+      {
+        "word": "乾燥",
+        "sinovi": "can táo",
+        "reviewed": true
+      },
+      {
+        "word": "乾燥機",
+        "sinovi": "can táo cơ",
+        "reviewed": true
+      },
+      {
+        "word": "乾酪",
+        "sinovi": "can lạc",
+        "reviewed": true
+      },
+      {
+        "word": "無味乾燥",
+        "sinovi": "vô vị can táo",
+        "reviewed": true
+      }
+    ]
+  },
+  "予": {
+    "sinovi": "DỰ, DỮ",
+    "vocabulary": [
+      {
+        "word": "予兆",
+        "sinovi": "dự triệu",
+        "reviewed": true
+      },
+      {
+        "word": "予定",
+        "sinovi": "dự định",
+        "reviewed": true
+      },
+      {
+        "word": "予想",
+        "sinovi": "dự tưởng",
+        "reviewed": true
+      },
+      {
+        "word": "予想外",
+        "sinovi": "dự tưởng ngoại",
+        "reviewed": true
+      },
+      {
+        "word": "予感",
+        "sinovi": "dự cảm",
+        "reviewed": true
+      },
+      {
+        "word": "予測",
+        "sinovi": "dự trắc",
+        "reviewed": true
+      },
+      {
+        "word": "予算",
+        "sinovi": "dự toán",
+        "reviewed": true
+      },
+      {
+        "word": "予約",
+        "sinovi": "dự ước",
+        "reviewed": true
+      },
+      {
+        "word": "予鈴",
+        "sinovi": "dự linh",
+        "reviewed": true
+      },
+      {
+        "word": "執行猶予",
+        "sinovi": "chấp hành do dự",
+        "reviewed": true
+      },
+      {
+        "word": "猶予",
+        "sinovi": "do dự",
+        "reviewed": true
+      },
+      {
+        "word": "猶予期間",
+        "sinovi": "do dự kì gian",
+        "reviewed": true
+      }
+    ]
+  },
+  "令": {
+    "sinovi": "LỆNH, LINH",
+    "vocabulary": [
+      {
+        "word": "令嬢",
+        "sinovi": "lệnh nương",
+        "reviewed": true
+      },
+      {
+        "word": "伝令",
+        "sinovi": "truyền lệnh",
+        "reviewed": true
+      },
+      {
+        "word": "勅令",
+        "sinovi": "sắc lệnh",
+        "reviewed": true
+      },
+      {
+        "word": "号令",
+        "sinovi": "hiệu lệnh",
+        "reviewed": true
+      },
+      {
+        "word": "司令塔",
+        "sinovi": "tư lệnh tháp",
+        "reviewed": true
+      },
+      {
+        "word": "司令官",
+        "sinovi": "tư lệnh quan",
+        "reviewed": true
+      },
+      {
+        "word": "命令",
+        "sinovi": "mệnh lệnh",
+        "reviewed": true
+      },
+      {
+        "word": "指令",
+        "sinovi": "chỉ lệnh",
+        "reviewed": true
+      },
+      {
+        "word": "法令遵守",
+        "sinovi": "pháp lệnh tuân thủ",
+        "reviewed": true
+      }
+    ]
+  },
+  "任": {
+    "sinovi": "NHẬM, NHIỆM",
+    "vocabulary": [
+      {
+        "word": "任務",
+        "sinovi": "nhiệm vụ",
+        "reviewed": true
+      },
+      {
+        "word": "兼任",
+        "sinovi": "kiêm nhiệm",
+        "reviewed": true
+      },
+      {
+        "word": "単身赴任",
+        "sinovi": "đơn thân phó nhiệm",
+        "reviewed": true
+      },
+      {
+        "word": "叙任",
+        "sinovi": "tự nhiệm",
+        "reviewed": true
+      },
+      {
+        "word": "就任",
+        "sinovi": "tựu nhiệm",
+        "reviewed": true
+      },
+      {
+        "word": "海外赴任",
+        "sinovi": "hải ngoại phó nhiệm",
+        "reviewed": true
+      },
+      {
+        "word": "無責任",
+        "sinovi": "vô trách nhiệm",
+        "reviewed": true
+      },
+      {
+        "word": "責任",
+        "sinovi": "trách nhiệm",
+        "reviewed": true
+      },
+      {
+        "word": "責任転嫁",
+        "sinovi": "trách nhiệm chuyển giá",
+        "reviewed": true
+      },
+      {
+        "word": "賠償責任",
+        "sinovi": "bồi thường trách nhiệm",
+        "reviewed": true
+      },
+      {
+        "word": "赴任",
+        "sinovi": "phó nhiệm",
+        "reviewed": true
+      },
+      {
+        "word": "赴任地",
+        "sinovi": "phó nhiệm địa",
+        "reviewed": true
+      }
+    ]
+  },
+  "伺": {
+    "sinovi": "TÍ, TỨ",
+    "vocabulary": [
+      {
+        "word": "伺候",
+        "sinovi": "tứ hậu",
+        "reviewed": true
+      }
+    ]
+  },
+  "使": {
+    "sinovi": "SỬ, SỨ",
+    "vocabulary": [
+      {
+        "word": "使命",
+        "sinovi": "sứ mệnh",
+        "reviewed": true
+      },
+      {
+        "word": "使徒",
+        "sinovi": "sứ đồ",
+        "reviewed": true
+      },
+      {
+        "word": "使用",
+        "sinovi": "sử dụng",
+        "reviewed": true
+      },
+      {
+        "word": "勅使",
+        "sinovi": "sắc sứ",
+        "reviewed": true
+      },
+      {
+        "word": "堕天使",
+        "sinovi": "đoạ thiên sứ",
+        "reviewed": true
+      },
+      {
+        "word": "天使",
+        "sinovi": "thiên sứ",
+        "reviewed": true
+      },
+      {
+        "word": "駆使",
+        "sinovi": "khu sử",
+        "reviewed": true
+      }
+    ]
+  },
+  "倉": {
+    "sinovi": "THƯƠNG, THẢNG",
+    "vocabulary": [
+      {
+        "word": "倉",
+        "sinovi": "thương",
+        "reviewed": true
+      },
+      {
+        "word": "倉庫",
+        "sinovi": "thương khố",
+        "reviewed": true
+      },
+      {
+        "word": "弾倉",
+        "sinovi": "đàn thương",
+        "reviewed": true
+      },
+      {
+        "word": "穀倉地帯",
+        "sinovi": "cốc thương địa đới",
+        "reviewed": true
+      },
+      {
+        "word": "胸倉",
+        "sinovi": "hung thương",
+        "reviewed": true
+      },
+      {
+        "word": "鎌倉",
+        "sinovi": "liêm thương",
+        "reviewed": true
+      },
+      {
+        "word": "鎌倉時代",
+        "sinovi": "liêm thương thời đại",
+        "reviewed": true
+      }
+    ]
+  },
+  "傍": {
+    "sinovi": "BÀNG, BẠNG",
+    "vocabulary": [
+      {
+        "word": "傍",
+        "sinovi": "bàng",
+        "reviewed": true
+      },
+      {
+        "word": "傍目",
+        "sinovi": "bàng mục",
+        "reviewed": true
+      },
+      {
+        "word": "傍観",
+        "sinovi": "bàng quan",
+        "reviewed": true
+      }
+    ]
+  },
+  "冠": {
+    "sinovi": "QUAN, QUÁN",
+    "vocabulary": [
+      {
+        "word": "冠",
+        "sinovi": "quan",
+        "reviewed": true
+      },
+      {
+        "word": "戴冠",
+        "sinovi": "đới quan",
+        "reviewed": true
+      },
+      {
+        "word": "戴冠式",
+        "sinovi": "đới quan thức",
+        "reviewed": true
+      },
+      {
+        "word": "王冠",
+        "sinovi": "vương quan",
+        "reviewed": true
+      },
+      {
+        "word": "花冠",
+        "sinovi": "hoa quan",
+        "reviewed": true
+      }
+    ]
+  },
+  "処": {
+    "sinovi": "XỨ, XỬ",
+    "vocabulary": [
+      {
+        "word": "何処",
+        "sinovi": "hà xứ",
+        "reviewed": true
+      },
+      {
+        "word": "処分",
+        "sinovi": "xử phân",
+        "reviewed": true
+      },
+      {
+        "word": "処刑",
+        "sinovi": "xử hình",
+        "reviewed": true
+      },
+      {
+        "word": "処女膜",
+        "sinovi": "xử nữ mạc",
+        "reviewed": true
+      },
+      {
+        "word": "処方箋",
+        "sinovi": "xử phương tiên",
+        "reviewed": true
+      },
+      {
+        "word": "処理",
+        "sinovi": "xử lí",
+        "reviewed": true
+      },
+      {
+        "word": "処罰",
+        "sinovi": "xử phạt",
+        "reviewed": true
+      },
+      {
+        "word": "処遇",
+        "sinovi": "xử ngộ",
+        "reviewed": true
+      },
+      {
+        "word": "対処",
+        "sinovi": "đối xử",
+        "reviewed": true
+      }
+    ]
+  },
+  "刊": {
+    "sinovi": "KHAN, SAN",
+    "vocabulary": [
+      {
+        "word": "刊",
+        "sinovi": "san",
+        "reviewed": true
+      },
+      {
+        "word": "刊行",
+        "sinovi": "san hành",
+        "reviewed": true
+      },
+      {
+        "word": "新刊",
+        "sinovi": "tân san",
+        "reviewed": true
+      },
+      {
+        "word": "週刊",
+        "sinovi": "chu san",
+        "reviewed": true
+      },
+      {
+        "word": "週刊誌",
+        "sinovi": "chu san chí",
+        "reviewed": true
+      }
+    ]
+  },
+  "刺": {
+    "sinovi": "THỨ, THÍCH",
+    "vocabulary": [
+      {
+        "word": "刺客",
+        "sinovi": "thích khách",
+        "reviewed": true
+      },
+      {
+        "word": "刺激",
+        "sinovi": "thích kích",
+        "reviewed": true
+      }
+    ]
+  },
+  "創": {
+    "sinovi": "SANG, SÁNG",
+    "vocabulary": [
+      {
+        "word": "創作",
+        "sinovi": "sáng tác",
+        "reviewed": true
+      },
+      {
+        "word": "創造",
+        "sinovi": "sáng tạo",
+        "reviewed": true
+      },
+      {
+        "word": "満身創痍",
+        "sinovi": "mãn thân sáng di",
+        "reviewed": true
+      },
+      {
+        "word": "絆創膏",
+        "sinovi": "bán sáng cao",
+        "reviewed": true
+      }
+    ]
+  },
+  "区": {
+    "sinovi": "KHU, ÂU",
+    "vocabulary": [
+      {
+        "word": "区",
+        "sinovi": "khu",
+        "reviewed": true
+      },
+      {
+        "word": "区別",
+        "sinovi": "khu biệt",
+        "reviewed": true
+      },
+      {
+        "word": "区域",
+        "sinovi": "khu vực",
+        "reviewed": true
+      },
+      {
+        "word": "区画",
+        "sinovi": "khu họa",
+        "reviewed": true
+      },
+      {
+        "word": "地区",
+        "sinovi": "địa khu",
+        "reviewed": true
+      }
+    ]
+  },
+  "卒": {
+    "sinovi": "TỐT, THỐT",
+    "vocabulary": [
+      {
+        "word": "一兵卒",
+        "sinovi": "nhất binh tốt",
+        "reviewed": true
+      },
+      {
+        "word": "何卒",
+        "sinovi": "hà tốt",
+        "reviewed": true
+      },
+      {
+        "word": "卒倒",
+        "sinovi": "tốt đảo",
+        "reviewed": true
+      },
+      {
+        "word": "卒業",
+        "sinovi": "tốt nghiệp",
+        "reviewed": true
+      },
+      {
+        "word": "卒業式",
+        "sinovi": "tốt nghiệp thức",
+        "reviewed": true
+      }
+    ]
+  },
+  "占": {
+    "sinovi": "CHIÊM, CHIẾM",
+    "vocabulary": [
+      {
+        "word": "占拠",
+        "sinovi": "chiếm cứ",
+        "reviewed": true
+      },
+      {
+        "word": "占領",
+        "sinovi": "chiếm lĩnh",
+        "reviewed": true
+      },
+      {
+        "word": "独占",
+        "sinovi": "độc chiếm",
+        "reviewed": true
+      }
+    ]
+  },
+  "参": {
+    "sinovi": "THAM, SÂM",
+    "vocabulary": [
+      {
+        "word": "人参",
+        "sinovi": "nhân sâm",
+        "reviewed": true
+      },
+      {
+        "word": "参加",
+        "sinovi": "tham gia",
+        "reviewed": true
+      },
+      {
+        "word": "参考",
+        "sinovi": "tham khảo",
+        "reviewed": true
+      },
+      {
+        "word": "参詣",
+        "sinovi": "tham nghệ",
+        "reviewed": true
+      },
+      {
+        "word": "参謀",
+        "sinovi": "tham mưu",
+        "reviewed": true
+      },
+      {
+        "word": "降参",
+        "sinovi": "giáng tham",
+        "reviewed": true
+      }
+    ]
+  },
+  "収": {
+    "sinovi": "THU, THÂU",
+    "vocabulary": [
+      {
+        "word": "収拾",
+        "sinovi": "thu thập",
+        "reviewed": true
+      },
+      {
+        "word": "収穫",
+        "sinovi": "thu hoạch",
+        "reviewed": true
+      },
+      {
+        "word": "収穫期",
+        "sinovi": "thu hoạch kì",
+        "reviewed": true
+      },
+      {
+        "word": "収穫物",
+        "sinovi": "thu hoạch vật",
+        "reviewed": true
+      },
+      {
+        "word": "収穫祭",
+        "sinovi": "thu hoạch tế",
+        "reviewed": true
+      },
+      {
+        "word": "収納",
+        "sinovi": "thu nạp",
+        "reviewed": true
+      },
+      {
+        "word": "収縮",
+        "sinovi": "thu súc",
+        "reviewed": true
+      },
+      {
+        "word": "収賄",
+        "sinovi": "thu hối",
+        "reviewed": true
+      },
+      {
+        "word": "吸収",
+        "sinovi": "hấp thu",
+        "reviewed": true
+      },
+      {
+        "word": "回収",
+        "sinovi": "hồi thu",
+        "reviewed": true
+      },
+      {
+        "word": "徴収",
+        "sinovi": "trưng thu",
+        "reviewed": true
+      },
+      {
+        "word": "押収",
+        "sinovi": "áp thu",
+        "reviewed": true
+      },
+      {
+        "word": "捕虜収容所",
+        "sinovi": "bộ lỗ thu dung sở",
+        "reviewed": true
+      },
+      {
+        "word": "撤収",
+        "sinovi": "triệt thu",
+        "reviewed": true
+      },
+      {
+        "word": "没収",
+        "sinovi": "một thu",
+        "reviewed": true
+      },
+      {
+        "word": "税収",
+        "sinovi": "thuế thu",
+        "reviewed": true
+      },
+      {
+        "word": "買収",
+        "sinovi": "mãi thu",
+        "reviewed": true
+      }
+    ]
+  },
+  "号": {
+    "sinovi": "HIỆU, HÀO",
+    "vocabulary": [
+      {
+        "word": "信号",
+        "sinovi": "tín hiệu",
+        "reviewed": true
+      },
+      {
+        "word": "号",
+        "sinovi": "hiệu",
+        "reviewed": true
+      },
+      {
+        "word": "号令",
+        "sinovi": "hiệu lệnh",
+        "reviewed": true
+      },
+      {
+        "word": "号泣",
+        "sinovi": "hiệu khấp",
+        "reviewed": true
+      },
+      {
+        "word": "怒号",
+        "sinovi": "nộ hiệu",
+        "reviewed": true
+      },
+      {
+        "word": "番号",
+        "sinovi": "phiên hiệu",
+        "reviewed": true
+      },
+      {
+        "word": "称号",
+        "sinovi": "xưng hiệu",
+        "reviewed": true
+      }
+    ]
+  },
+  "司": {
+    "sinovi": "TƯ, TI",
+    "vocabulary": [
+      {
+        "word": "上司",
+        "sinovi": "thượng tư",
+        "reviewed": true
+      },
+      {
+        "word": "司令塔",
+        "sinovi": "tư lệnh tháp",
+        "reviewed": true
+      },
+      {
+        "word": "司令官",
+        "sinovi": "tư lệnh quan",
+        "reviewed": true
+      },
+      {
+        "word": "司会",
+        "sinovi": "tư hội",
+        "reviewed": true
+      },
+      {
+        "word": "司法解剖",
+        "sinovi": "tư pháp giải phẫu",
+        "reviewed": true
+      },
+      {
+        "word": "司祭",
+        "sinovi": "tư tế",
+        "reviewed": true
+      },
+      {
+        "word": "寿司",
+        "sinovi": "thọ tư",
+        "reviewed": true
+      },
+      {
+        "word": "寿司屋",
+        "sinovi": "thọ tư ốc",
+        "reviewed": true
+      },
+      {
+        "word": "御曹司",
+        "sinovi": "ngự tào tư",
+        "reviewed": true
+      },
+      {
+        "word": "郡司",
+        "sinovi": "quận tư",
+        "reviewed": true
+      }
+    ]
+  },
+  "否": {
+    "sinovi": "PHỦ, BĨ",
+    "vocabulary": [
+      {
+        "word": "否定",
+        "sinovi": "phủ định",
+        "reviewed": true
+      },
+      {
+        "word": "拒否",
+        "sinovi": "cự phủ",
+        "reviewed": true
+      },
+      {
+        "word": "拒否権",
+        "sinovi": "cự phủ quyền",
+        "reviewed": true
+      }
+    ]
+  },
+  "吹": {
+    "sinovi": "XUY, XÚY",
+    "vocabulary": [
+      {
+        "word": "吹奏楽部",
+        "sinovi": "xúy tấu lạc bộ",
+        "reviewed": true
+      },
+      {
+        "word": "吹雪",
+        "sinovi": "xuy tuyết",
+        "reviewed": true
+      },
+      {
+        "word": "息吹",
+        "sinovi": "tức xúy",
+        "reviewed": true
+      }
+    ]
+  },
+  "呂": {
+    "sinovi": "LỮ, LÃ",
+    "vocabulary": [
+      {
+        "word": "語呂",
+        "sinovi": "ngữ lữ",
+        "reviewed": true
+      },
+      {
+        "word": "露天風呂",
+        "sinovi": "lộ thiên phong lữ",
+        "reviewed": true
+      },
+      {
+        "word": "風呂",
+        "sinovi": "phong lữ",
+        "reviewed": true
+      },
+      {
+        "word": "風呂場",
+        "sinovi": "phong lữ trường",
+        "reviewed": true
+      }
+    ]
+  },
+  "告": {
+    "sinovi": "CÁO, CỐC",
+    "vocabulary": [
+      {
+        "word": "勧告",
+        "sinovi": "khuyến cáo",
+        "reviewed": true
+      },
+      {
+        "word": "告白",
+        "sinovi": "cáo bạch",
+        "reviewed": true
+      },
+      {
+        "word": "告訴",
+        "sinovi": "cáo tố",
+        "reviewed": true
+      },
+      {
+        "word": "報告",
+        "sinovi": "báo cáo",
+        "reviewed": true
+      },
+      {
+        "word": "失踪宣告",
+        "sinovi": "thất tung tuyên cáo",
+        "reviewed": true
+      },
+      {
+        "word": "宣告",
+        "sinovi": "tuyên cáo",
+        "reviewed": true
+      },
+      {
+        "word": "宣戦布告",
+        "sinovi": "tuyên chiến bố cáo",
+        "reviewed": true
+      },
+      {
+        "word": "忠告",
+        "sinovi": "trung cáo",
+        "reviewed": true
+      },
+      {
+        "word": "申告",
+        "sinovi": "thân cáo",
+        "reviewed": true
+      },
+      {
+        "word": "警告",
+        "sinovi": "cảnh cáo",
+        "reviewed": true
+      }
+    ]
+  },
+  "周": {
+    "sinovi": "CHU, CHÂU",
+    "vocabulary": [
+      {
+        "word": "一周",
+        "sinovi": "nhất chu",
+        "reviewed": true
+      },
+      {
+        "word": "周",
+        "sinovi": "chu",
+        "reviewed": true
+      },
+      {
+        "word": "周囲",
+        "sinovi": "chu vi",
+        "reviewed": true
+      },
+      {
+        "word": "周辺",
+        "sinovi": "chu biên",
+        "reviewed": true
+      }
+    ]
+  },
+  "咽": {
+    "sinovi": "YẾT, YÊN",
+    "vocabulary": [
+      {
+        "word": "咽",
+        "sinovi": "yết",
+        "reviewed": true
+      },
+      {
+        "word": "咽喉",
+        "sinovi": "yết hầu",
+        "reviewed": true
+      },
+      {
+        "word": "嗚咽",
+        "sinovi": "ô yết",
+        "reviewed": true
+      }
+    ]
+  },
+  "喪": {
+    "sinovi": "TANG, TÁNG",
+    "vocabulary": [
+      {
+        "word": "喪失",
+        "sinovi": "tang thất",
+        "reviewed": true
+      },
+      {
+        "word": "喪失感",
+        "sinovi": "tang thất cảm",
+        "reviewed": true
+      },
+      {
+        "word": "喪服",
+        "sinovi": "tang phục",
+        "reviewed": true
+      },
+      {
+        "word": "記憶喪失",
+        "sinovi": "kí ức tang thất",
+        "reviewed": true
+      }
+    ]
+  },
+  "営": {
+    "sinovi": "DOANH, DINH",
+    "vocabulary": [
+      {
+        "word": "営業",
+        "sinovi": "doanh nghiệp",
+        "reviewed": true
+      },
+      {
+        "word": "営業妨害",
+        "sinovi": "doanh nghiệp phương hại",
+        "reviewed": true
+      },
+      {
+        "word": "経営",
+        "sinovi": "kinh doanh",
+        "reviewed": true
+      },
+      {
+        "word": "運営",
+        "sinovi": "vận doanh",
+        "reviewed": true
+      },
+      {
+        "word": "陣営",
+        "sinovi": "trận doanh",
+        "reviewed": true
+      }
+    ]
+  },
+  "圏": {
+    "sinovi": "QUYỂN, KHUYÊN",
+    "vocabulary": [
+      {
+        "word": "圏",
+        "sinovi": "quyển",
+        "reviewed": true
+      },
+      {
+        "word": "圏内",
+        "sinovi": "quyển nội",
+        "reviewed": true
+      },
+      {
+        "word": "圏外",
+        "sinovi": "quyển ngoại",
+        "reviewed": true
+      },
+      {
+        "word": "大気圏",
+        "sinovi": "đại khí quyển",
+        "reviewed": true
+      },
+      {
+        "word": "安全圏",
+        "sinovi": "an toàn quyển",
+        "reviewed": true
+      }
+    ]
+  },
+  "塞": {
+    "sinovi": "TẮC, TÁI",
+    "vocabulary": [
+      {
+        "word": "城塞",
+        "sinovi": "thành tắc",
+        "reviewed": true
+      },
+      {
+        "word": "心筋梗塞",
+        "sinovi": "tâm cân ngạnh tắc",
+        "reviewed": true
+      },
+      {
+        "word": "梗塞",
+        "sinovi": "ngạnh tắc",
+        "reviewed": true
+      },
+      {
+        "word": "脳梗塞",
+        "sinovi": "não ngạnh tắc",
+        "reviewed": true
+      },
+      {
+        "word": "要塞",
+        "sinovi": "yếu tắc",
+        "reviewed": true
+      }
+    ]
+  },
+  "夫": {
+    "sinovi": "PHU, PHÙ",
+    "vocabulary": [
+      {
+        "word": "丈夫",
+        "sinovi": "trượng phu",
+        "reviewed": true
+      },
+      {
+        "word": "伯爵夫人",
+        "sinovi": "bá tước phu nhân",
+        "reviewed": true
+      },
+      {
+        "word": "侯爵夫人",
+        "sinovi": "hầu tước phu nhân",
+        "reviewed": true
+      },
+      {
+        "word": "坑夫",
+        "sinovi": "khanh phu",
+        "reviewed": true
+      },
+      {
+        "word": "大丈夫",
+        "sinovi": "đại trượng phu",
+        "reviewed": true
+      },
+      {
+        "word": "夫",
+        "sinovi": "phu",
+        "reviewed": true
+      },
+      {
+        "word": "夫人",
+        "sinovi": "phu nhân",
+        "reviewed": true
+      },
+      {
+        "word": "夫妻",
+        "sinovi": "phu thê",
+        "reviewed": true
+      },
+      {
+        "word": "夫婦",
+        "sinovi": "phu phụ",
+        "reviewed": true
+      },
+      {
+        "word": "工夫",
+        "sinovi": "công phu",
+        "reviewed": true
+      }
+    ]
+  },
+  "奇": {
+    "sinovi": "KÌ, CƠ",
+    "vocabulary": [
+      {
+        "word": "奇妙",
+        "sinovi": "kì diệu",
+        "reviewed": true
+      },
+      {
+        "word": "奇怪",
+        "sinovi": "kì quái",
+        "reviewed": true
+      },
+      {
+        "word": "奇矯",
+        "sinovi": "kì kiểu",
+        "reviewed": true
+      },
+      {
+        "word": "奇襲",
+        "sinovi": "kì tập",
+        "reviewed": true
+      },
+      {
+        "word": "奇跡",
+        "sinovi": "kì tích",
+        "reviewed": true
+      },
+      {
+        "word": "奇遇",
+        "sinovi": "kì ngộ",
+        "reviewed": true
+      },
+      {
+        "word": "好奇心",
+        "sinovi": "hảo kì tâm",
+        "reviewed": true
+      },
+      {
+        "word": "好奇心旺盛",
+        "sinovi": "hảo kì tâm vượng thịnh",
+        "reviewed": true
+      }
+    ]
+  },
+  "委": {
+    "sinovi": "ỦY, UY",
+    "vocabulary": [
+      {
+        "word": "委員",
+        "sinovi": "ủy viên",
+        "reviewed": true
+      },
+      {
+        "word": "委員会",
+        "sinovi": "ủy viên hội",
+        "reviewed": true
+      },
+      {
+        "word": "委員長",
+        "sinovi": "ủy viên trường",
+        "reviewed": true
+      },
+      {
+        "word": "委嘱",
+        "sinovi": "ủy chúc",
+        "reviewed": true
+      },
+      {
+        "word": "委託",
+        "sinovi": "ủy thác",
+        "reviewed": true
+      },
+      {
+        "word": "諮問委員会",
+        "sinovi": "tư vấn ủy viên hội",
+        "reviewed": true
+      }
+    ]
+  },
+  "媛": {
+    "sinovi": "VIỆN, VIÊN",
+    "vocabulary": [
+      {
+        "word": "媛",
+        "sinovi": "viên",
+        "reviewed": true
+      },
+      {
+        "word": "愛媛",
+        "sinovi": "ái viên",
+        "reviewed": true
+      },
+      {
+        "word": "愛媛大学",
+        "sinovi": "ái viên đại học",
+        "reviewed": true
+      },
+      {
+        "word": "愛媛県",
+        "sinovi": "ái viên huyện",
+        "reviewed": true
+      },
+      {
+        "word": "才媛",
+        "sinovi": "tài viên",
+        "reviewed": true
+      }
+    ]
+  },
+  "子": {
+    "sinovi": "TỬ, TÍ",
+    "vocabulary": [
+      {
+        "word": "丸椅子",
+        "sinovi": "hoàn ỷ tử",
+        "reviewed": true
+      },
+      {
+        "word": "冊子",
+        "sinovi": "sách tử",
+        "reviewed": true
+      },
+      {
+        "word": "双子",
+        "sinovi": "song tử",
+        "reviewed": true
+      },
+      {
+        "word": "和菓子",
+        "sinovi": "hòa quả tử",
+        "reviewed": true
+      },
+      {
+        "word": "唐辛子",
+        "sinovi": "đường tân tử",
+        "reviewed": true
+      },
+      {
+        "word": "嗣子",
+        "sinovi": "tự tử",
+        "reviewed": true
+      },
+      {
+        "word": "女子寮",
+        "sinovi": "nữ tử liêu",
+        "reviewed": true
+      },
+      {
+        "word": "妻子",
+        "sinovi": "thê tử",
+        "reviewed": true
+      },
+      {
+        "word": "嫡子",
+        "sinovi": "đích tử",
+        "reviewed": true
+      },
+      {
+        "word": "子",
+        "sinovi": "tử",
+        "reviewed": true
+      },
+      {
+        "word": "子供",
+        "sinovi": "tử cung",
+        "reviewed": true
+      },
+      {
+        "word": "子孫",
+        "sinovi": "tử tôn",
+        "reviewed": true
+      },
+      {
+        "word": "子守",
+        "sinovi": "tử thủ",
+        "reviewed": true
+      },
+      {
+        "word": "子守唄",
+        "sinovi": "tử thủ bái",
+        "reviewed": true
+      },
+      {
+        "word": "子爵",
+        "sinovi": "tử tước",
+        "reviewed": true
+      },
+      {
+        "word": "子犬",
+        "sinovi": "tử khuyển",
+        "reviewed": true
+      },
+      {
+        "word": "子猫",
+        "sinovi": "tử miêu",
+        "reviewed": true
+      },
+      {
+        "word": "子羊",
+        "sinovi": "tử dương",
+        "reviewed": true
+      },
+      {
+        "word": "子豚",
+        "sinovi": "tử đồn",
+        "reviewed": true
+      },
+      {
+        "word": "孔子",
+        "sinovi": "khổng tử",
+        "reviewed": true
+      },
+      {
+        "word": "帽子",
+        "sinovi": "mạo tử",
+        "reviewed": true
+      },
+      {
+        "word": "庶子",
+        "sinovi": "thứ tử",
+        "reviewed": true
+      },
+      {
+        "word": "弟子",
+        "sinovi": "đệ tử",
+        "reviewed": true
+      },
+      {
+        "word": "息子",
+        "sinovi": "tức tử",
+        "reviewed": true
+      },
+      {
+        "word": "扇子",
+        "sinovi": "phiến tử",
+        "reviewed": true
+      },
+      {
+        "word": "拍子",
+        "sinovi": "phách tử",
+        "reviewed": true
+      },
+      {
+        "word": "格子",
+        "sinovi": "cách tử",
+        "reviewed": true
+      },
+      {
+        "word": "椅子",
+        "sinovi": "ỷ tử",
+        "reviewed": true
+      },
+      {
+        "word": "様子",
+        "sinovi": "dạng tử",
+        "reviewed": true
+      },
+      {
+        "word": "氏子",
+        "sinovi": "thị tử",
+        "reviewed": true
+      },
+      {
+        "word": "獅子奮迅",
+        "sinovi": "sư tử phấn tấn",
+        "reviewed": true
+      },
+      {
+        "word": "王太子妃",
+        "sinovi": "vương thái tử phi",
+        "reviewed": true
+      },
+      {
+        "word": "王子",
+        "sinovi": "vương tử",
+        "reviewed": true
+      },
+      {
+        "word": "男子",
+        "sinovi": "nam tử",
+        "reviewed": true
+      },
+      {
+        "word": "皇太子",
+        "sinovi": "hoàng thái tử",
+        "reviewed": true
+      },
+      {
+        "word": "皇子",
+        "sinovi": "hoàng tử",
+        "reviewed": true
+      },
+      {
+        "word": "瞳子",
+        "sinovi": "đồng tử",
+        "reviewed": true
+      },
+      {
+        "word": "砂糖菓子",
+        "sinovi": "sa đường quả tử",
+        "reviewed": true
+      },
+      {
+        "word": "硝子",
+        "sinovi": "tiêu tử",
+        "reviewed": true
+      },
+      {
+        "word": "硝子戸",
+        "sinovi": "tiêu tử hộ",
+        "reviewed": true
+      },
+      {
+        "word": "窓硝子",
+        "sinovi": "song tiêu tử",
+        "reviewed": true
+      },
+      {
+        "word": "粒子",
+        "sinovi": "lạp tử",
+        "reviewed": true
+      },
+      {
+        "word": "綿菓子",
+        "sinovi": "miên quả tử",
+        "reviewed": true
+      },
+      {
+        "word": "胞子",
+        "sinovi": "bào tử",
+        "reviewed": true
+      },
+      {
+        "word": "菓子",
+        "sinovi": "quả tử",
+        "reviewed": true
+      },
+      {
+        "word": "藍子",
+        "sinovi": "lam tử",
+        "reviewed": true
+      },
+      {
+        "word": "親子丼",
+        "sinovi": "thân tử tỉnh",
+        "reviewed": true
+      },
+      {
+        "word": "調子",
+        "sinovi": "điệu tử",
+        "reviewed": true
+      },
+      {
+        "word": "車椅子",
+        "sinovi": "xa ỷ tử",
+        "reviewed": true
+      },
+      {
+        "word": "遺伝子",
+        "sinovi": "di truyền tử",
+        "reviewed": true
+      },
+      {
+        "word": "長椅子",
+        "sinovi": "trường ỷ tử",
+        "reviewed": true
+      },
+      {
+        "word": "養子",
+        "sinovi": "dưỡng tử",
+        "reviewed": true
+      }
+    ]
+  },
+  "孫": {
+    "sinovi": "TÔN, TỐN",
+    "vocabulary": [
+      {
+        "word": "嫡孫",
+        "sinovi": "đích tôn",
+        "reviewed": true
+      },
+      {
+        "word": "子孫",
+        "sinovi": "tử tôn",
+        "reviewed": true
+      },
+      {
+        "word": "孫",
+        "sinovi": "tôn",
+        "reviewed": true
+      },
+      {
+        "word": "孫娘",
+        "sinovi": "tôn nương",
+        "reviewed": true
+      },
+      {
+        "word": "曽孫",
+        "sinovi": "tằng tôn",
+        "reviewed": true
+      }
+    ]
+  },
+  "宝": {
+    "sinovi": "BẢO, BỬU",
+    "vocabulary": [
+      {
+        "word": "宝",
+        "sinovi": "bảo",
+        "reviewed": true
+      },
+      {
+        "word": "宝物",
+        "sinovi": "bảo vật",
+        "reviewed": true
+      },
+      {
+        "word": "宝珠",
+        "sinovi": "bảo châu",
+        "reviewed": true
+      },
+      {
+        "word": "宝石",
+        "sinovi": "bảo thạch",
+        "reviewed": true
+      },
+      {
+        "word": "宝箱",
+        "sinovi": "bảo tương",
+        "reviewed": true
+      },
+      {
+        "word": "財宝",
+        "sinovi": "tài bảo",
+        "reviewed": true
+      }
+    ]
+  },
+  "実": {
+    "sinovi": "THỰC, THẬT",
+    "vocabulary": [
+      {
+        "word": "事実",
+        "sinovi": "sự thực",
+        "reviewed": true
+      },
+      {
+        "word": "充実",
+        "sinovi": "sung thực",
+        "reviewed": true
+      },
+      {
+        "word": "史実",
+        "sinovi": "sử thực",
+        "reviewed": true
+      },
+      {
+        "word": "堅実",
+        "sinovi": "kiên thực",
+        "reviewed": true
+      },
+      {
+        "word": "如実",
+        "sinovi": "như thực",
+        "reviewed": true
+      },
+      {
+        "word": "実",
+        "sinovi": "thực",
+        "reviewed": true
+      },
+      {
+        "word": "実年齢",
+        "sinovi": "thực niên linh",
+        "reviewed": true
+      },
+      {
+        "word": "実施",
+        "sinovi": "thực thi",
+        "reviewed": true
+      },
+      {
+        "word": "実況",
+        "sinovi": "thực huống",
+        "reviewed": true
+      },
+      {
+        "word": "実績",
+        "sinovi": "thực tích",
+        "reviewed": true
+      },
+      {
+        "word": "実践",
+        "sinovi": "thực tiễn",
+        "reviewed": true
+      },
+      {
+        "word": "実践家",
+        "sinovi": "thực tiễn gia",
+        "reviewed": true
+      },
+      {
+        "word": "実践的",
+        "sinovi": "thực tiễn đích",
+        "reviewed": true
+      },
+      {
+        "word": "実践者",
+        "sinovi": "thực tiễn giả",
+        "reviewed": true
+      },
+      {
+        "word": "実際",
+        "sinovi": "thực tế",
+        "reviewed": true
+      },
+      {
+        "word": "実験",
+        "sinovi": "thực nghiệm",
+        "reviewed": true
+      },
+      {
+        "word": "忠実",
+        "sinovi": "trung thực",
+        "reviewed": true
+      },
+      {
+        "word": "摯実",
+        "sinovi": "chí thực",
+        "reviewed": true
+      },
+      {
+        "word": "既成事実",
+        "sinovi": "kí thành sự thực",
+        "reviewed": true
+      },
+      {
+        "word": "現実",
+        "sinovi": "hiện thực",
+        "reviewed": true
+      },
+      {
+        "word": "現実逃避",
+        "sinovi": "hiện thực đào tị",
+        "reviewed": true
+      },
+      {
+        "word": "真実",
+        "sinovi": "chân thực",
+        "reviewed": true
+      },
+      {
+        "word": "確実",
+        "sinovi": "xác thực",
+        "reviewed": true
+      },
+      {
+        "word": "誠実",
+        "sinovi": "thành thực",
+        "reviewed": true
+      }
+    ]
+  },
+  "将": {
+    "sinovi": "TƯƠNG, TƯỚNG",
+    "vocabulary": [
+      {
+        "word": "准将",
+        "sinovi": "chuẩn tướng",
+        "reviewed": true
+      },
+      {
+        "word": "大将",
+        "sinovi": "đại tướng",
+        "reviewed": true
+      },
+      {
+        "word": "女将",
+        "sinovi": "nữ tướng",
+        "reviewed": true
+      },
+      {
+        "word": "将",
+        "sinovi": "tướng",
+        "reviewed": true
+      },
+      {
+        "word": "将帥",
+        "sinovi": "tướng súy",
+        "reviewed": true
+      },
+      {
+        "word": "将来",
+        "sinovi": "tương lai",
+        "reviewed": true
+      },
+      {
+        "word": "将棋",
+        "sinovi": "tướng kì",
+        "reviewed": true
+      },
+      {
+        "word": "将棋盤",
+        "sinovi": "tướng kì bàn",
+        "reviewed": true
+      },
+      {
+        "word": "将軍",
+        "sinovi": "tướng quân",
+        "reviewed": true
+      }
+    ]
+  },
+  "少": {
+    "sinovi": "THIỂU, THIẾU",
+    "vocabulary": [
+      {
+        "word": "僅少",
+        "sinovi": "cận thiểu",
+        "reviewed": true
+      },
+      {
+        "word": "多少",
+        "sinovi": "đa thiểu",
+        "reviewed": true
+      },
+      {
+        "word": "少佐",
+        "sinovi": "thiếu tá",
+        "reviewed": true
+      },
+      {
+        "word": "少女",
+        "sinovi": "thiếu nữ",
+        "reviewed": true
+      },
+      {
+        "word": "少尉",
+        "sinovi": "thiếu uý",
+        "reviewed": true
+      },
+      {
+        "word": "少年",
+        "sinovi": "thiếu niên",
+        "reviewed": true
+      },
+      {
+        "word": "希少",
+        "sinovi": "hi thiểu",
+        "reviewed": true
+      },
+      {
+        "word": "減少",
+        "sinovi": "giảm thiểu",
+        "reviewed": true
+      },
+      {
+        "word": "美少女",
+        "sinovi": "mĩ thiếu nữ",
+        "reviewed": true
+      }
+    ]
+  },
+  "尽": {
+    "sinovi": "TẪN, TẬN",
+    "vocabulary": [
+      {
+        "word": "尽力",
+        "sinovi": "tận lực",
+        "reviewed": true
+      },
+      {
+        "word": "理不尽",
+        "sinovi": "lí bất tận",
+        "reviewed": true
+      },
+      {
+        "word": "縦横無尽",
+        "sinovi": "tung hoành vô tận",
+        "reviewed": true
+      }
+    ]
+  },
+  "屈": {
+    "sinovi": "KHUẤT, QUẬT",
+    "vocabulary": [
+      {
+        "word": "偏屈",
+        "sinovi": "thiên khuất",
+        "reviewed": true
+      },
+      {
+        "word": "卑屈",
+        "sinovi": "ti khuất",
+        "reviewed": true
+      },
+      {
+        "word": "屈託",
+        "sinovi": "khuất thác",
+        "reviewed": true
+      },
+      {
+        "word": "屈辱",
+        "sinovi": "khuất nhục",
+        "reviewed": true
+      },
+      {
+        "word": "屈辱的",
+        "sinovi": "khuất nhục đích",
+        "reviewed": true
+      },
+      {
+        "word": "理屈",
+        "sinovi": "lí khuất",
+        "reviewed": true
+      },
+      {
+        "word": "窮屈",
+        "sinovi": "cùng khuất",
+        "reviewed": true
+      },
+      {
+        "word": "退屈",
+        "sinovi": "thoái khuất",
+        "reviewed": true
+      }
+    ]
+  },
+  "属": {
+    "sinovi": "CHÚC, THUỘC",
+    "vocabulary": [
+      {
+        "word": "専属",
+        "sinovi": "chuyên thuộc",
+        "reviewed": true
+      },
+      {
+        "word": "属性",
+        "sinovi": "thuộc tính",
+        "reviewed": true
+      },
+      {
+        "word": "所属",
+        "sinovi": "sở thuộc",
+        "reviewed": true
+      },
+      {
+        "word": "金属",
+        "sinovi": "kim thuộc",
+        "reviewed": true
+      },
+      {
+        "word": "附属",
+        "sinovi": "phụ thuộc",
+        "reviewed": true
+      },
+      {
+        "word": "隷属",
+        "sinovi": "lệ thuộc",
+        "reviewed": true
+      }
+    ]
+  },
+  "屯": {
+    "sinovi": "TRUÂN, ĐỒN",
+    "vocabulary": [
+      {
+        "word": "屯",
+        "sinovi": "đồn",
+        "reviewed": true
+      },
+      {
+        "word": "屯所",
+        "sinovi": "đồn sở",
+        "reviewed": true
+      },
+      {
+        "word": "駐屯",
+        "sinovi": "trú đồn",
+        "reviewed": true
+      },
+      {
+        "word": "駐屯地",
+        "sinovi": "trú đồn địa",
+        "reviewed": true
+      }
+    ]
+  },
+  "山": {
+    "sinovi": "SƠN, SAN",
+    "vocabulary": [
+      {
+        "word": "富士山",
+        "sinovi": "phú sĩ sơn",
+        "reviewed": true
+      },
+      {
+        "word": "山",
+        "sinovi": "sơn",
+        "reviewed": true
+      },
+      {
+        "word": "山岳",
+        "sinovi": "sơn nhạc",
+        "reviewed": true
+      },
+      {
+        "word": "山岳地帯",
+        "sinovi": "sơn nhạc địa đới",
+        "reviewed": true
+      },
+      {
+        "word": "山峡",
+        "sinovi": "sơn hạp",
+        "reviewed": true
+      },
+      {
+        "word": "山梨",
+        "sinovi": "sơn lê",
+        "reviewed": true
+      },
+      {
+        "word": "山繭",
+        "sinovi": "sơn kiển",
+        "reviewed": true
+      },
+      {
+        "word": "山羊",
+        "sinovi": "sơn dương",
+        "reviewed": true
+      },
+      {
+        "word": "山脈",
+        "sinovi": "sơn mạch",
+        "reviewed": true
+      },
+      {
+        "word": "山荘",
+        "sinovi": "sơn trang",
+        "reviewed": true
+      },
+      {
+        "word": "山菜",
+        "sinovi": "sơn thái",
+        "reviewed": true
+      },
+      {
+        "word": "山裾",
+        "sinovi": "sơn cư",
+        "reviewed": true
+      },
+      {
+        "word": "山賊",
+        "sinovi": "sơn tặc",
+        "reviewed": true
+      },
+      {
+        "word": "山道",
+        "sinovi": "sơn đạo",
+        "reviewed": true
+      },
+      {
+        "word": "山麓",
+        "sinovi": "sơn lộc",
+        "reviewed": true
+      },
+      {
+        "word": "岡山",
+        "sinovi": "cương sơn",
+        "reviewed": true
+      },
+      {
+        "word": "岩山",
+        "sinovi": "nham sơn",
+        "reviewed": true
+      },
+      {
+        "word": "松山",
+        "sinovi": "tùng sơn",
+        "reviewed": true
+      },
+      {
+        "word": "江山",
+        "sinovi": "giang sơn",
+        "reviewed": true
+      },
+      {
+        "word": "沢山",
+        "sinovi": "trạch sơn",
+        "reviewed": true
+      },
+      {
+        "word": "登山",
+        "sinovi": "đăng sơn",
+        "reviewed": true
+      },
+      {
+        "word": "鉱山",
+        "sinovi": "khoáng sơn",
+        "reviewed": true
+      },
+      {
+        "word": "雪山",
+        "sinovi": "tuyết sơn",
+        "reviewed": true
+      }
+    ]
+  },
+  "峡": {
+    "sinovi": "HẠP, GIÁP",
+    "vocabulary": [
+      {
+        "word": "山峡",
+        "sinovi": "sơn hạp",
+        "reviewed": true
+      },
+      {
+        "word": "峡",
+        "sinovi": "hạp",
+        "reviewed": true
+      },
+      {
+        "word": "峡谷",
+        "sinovi": "hạp cốc",
+        "reviewed": true
+      },
+      {
+        "word": "海峡",
+        "sinovi": "hải hạp",
+        "reviewed": true
+      },
+      {
+        "word": "関門海峡",
+        "sinovi": "quan môn hải hạp",
+        "reviewed": true
+      }
+    ]
+  },
+  "巻": {
+    "sinovi": "QUYỂN, QUYỀN",
+    "vocabulary": [
+      {
+        "word": "竜巻",
+        "sinovi": "long quyển",
+        "reviewed": true
+      },
+      {
+        "word": "鉢巻",
+        "sinovi": "bát quyển",
+        "reviewed": true
+      }
+    ]
+  },
+  "帥": {
+    "sinovi": "SUẤT, SÚY",
+    "vocabulary": [
+      {
+        "word": "元帥",
+        "sinovi": "nguyên súy",
+        "reviewed": true
+      },
+      {
+        "word": "大元帥",
+        "sinovi": "đại nguyên súy",
+        "reviewed": true
+      },
+      {
+        "word": "将帥",
+        "sinovi": "tướng súy",
+        "reviewed": true
+      },
+      {
+        "word": "統帥",
+        "sinovi": "thống súy",
+        "reviewed": true
+      },
+      {
+        "word": "総帥",
+        "sinovi": "tổng súy",
+        "reviewed": true
+      }
+    ]
+  },
+  "幕": {
+    "sinovi": "MẠC, MÁN",
+    "vocabulary": [
+      {
+        "word": "剣幕",
+        "sinovi": "kiếm mạc",
+        "reviewed": true
+      },
+      {
+        "word": "天幕",
+        "sinovi": "thiên mạc",
+        "reviewed": true
+      },
+      {
+        "word": "幕",
+        "sinovi": "mạc",
+        "reviewed": true
+      },
+      {
+        "word": "幕僚",
+        "sinovi": "mạc liêu",
+        "reviewed": true
+      },
+      {
+        "word": "幕府",
+        "sinovi": "mạc phủ",
+        "reviewed": true
+      },
+      {
+        "word": "黒幕",
+        "sinovi": "hắc mạc",
+        "reviewed": true
+      }
+    ]
+  },
+  "幻": {
+    "sinovi": "HUYỄN, ẢO",
+    "vocabulary": [
+      {
+        "word": "幻",
+        "sinovi": "huyễn",
+        "reviewed": true
+      },
+      {
+        "word": "幻影",
+        "sinovi": "huyễn ảnh",
+        "reviewed": true
+      },
+      {
+        "word": "幻想",
+        "sinovi": "huyễn tưởng",
+        "reviewed": true
+      },
+      {
+        "word": "幻想的",
+        "sinovi": "huyễn tưởng đích",
+        "reviewed": true
+      },
+      {
+        "word": "幻聴",
+        "sinovi": "huyễn thính",
+        "reviewed": true
+      },
+      {
+        "word": "幻覚",
+        "sinovi": "huyễn giác",
+        "reviewed": true
+      }
+    ]
+  },
+  "幾": {
+    "sinovi": "KI, KỈ",
+    "vocabulary": [
+      {
+        "word": "幾",
+        "sinovi": "kỉ",
+        "reviewed": true
+      },
+      {
+        "word": "幾何学",
+        "sinovi": "kỉ hà học",
+        "reviewed": true
+      }
+    ]
+  },
+  "庁": {
+    "sinovi": "SẢNH, THÍNH",
+    "vocabulary": [
+      {
+        "word": "庁",
+        "sinovi": "sảnh",
+        "reviewed": true
+      },
+      {
+        "word": "庁舎",
+        "sinovi": "sảnh xá",
+        "reviewed": true
+      },
+      {
+        "word": "本庁",
+        "sinovi": "bản sảnh",
+        "reviewed": true
+      },
+      {
+        "word": "気象庁",
+        "sinovi": "khí tượng sảnh",
+        "reviewed": true
+      },
+      {
+        "word": "警視庁",
+        "sinovi": "cảnh thị sảnh",
+        "reviewed": true
+      }
+    ]
+  },
+  "庸": {
+    "sinovi": "DONG, DUNG",
+    "vocabulary": [
+      {
+        "word": "中庸",
+        "sinovi": "trung dung",
+        "reviewed": true
+      },
+      {
+        "word": "凡庸",
+        "sinovi": "phàm dung",
+        "reviewed": true
+      },
+      {
+        "word": "庸",
+        "sinovi": "dung",
+        "reviewed": true
+      },
+      {
+        "word": "登庸",
+        "sinovi": "đăng dung",
+        "reviewed": true
+      },
+      {
+        "word": "租庸調",
+        "sinovi": "tô dung điệu",
+        "reviewed": true
+      }
+    ]
+  },
+  "延": {
+    "sinovi": "DIÊN, DUYÊN",
+    "vocabulary": [
+      {
+        "word": "延暦",
+        "sinovi": "diên lịch",
+        "reviewed": true
+      },
+      {
+        "word": "延長",
+        "sinovi": "diên trường",
+        "reviewed": true
+      },
+      {
+        "word": "遅延",
+        "sinovi": "trì diên",
+        "reviewed": true
+      },
+      {
+        "word": "遷延",
+        "sinovi": "thiên diên",
+        "reviewed": true
+      }
+    ]
+  },
+  "弔": {
+    "sinovi": "ĐIẾU, ĐÍCH",
+    "vocabulary": [
+      {
+        "word": "弔問",
+        "sinovi": "điếu vấn",
+        "reviewed": true
+      },
+      {
+        "word": "弔辞",
+        "sinovi": "điếu từ",
+        "reviewed": true
+      }
+    ]
+  },
+  "強": {
+    "sinovi": "CƯỜNG, CƯỠNG",
+    "vocabulary": [
+      {
+        "word": "勉強",
+        "sinovi": "miễn cưỡng",
+        "reviewed": true
+      },
+      {
+        "word": "勉強会",
+        "sinovi": "miễn cưõng hội",
+        "reviewed": true
+      },
+      {
+        "word": "勉強机",
+        "sinovi": "miễn cưỡng cơ",
+        "reviewed": true
+      },
+      {
+        "word": "強制",
+        "sinovi": "cưỡng chế",
+        "reviewed": true
+      },
+      {
+        "word": "強力",
+        "sinovi": "cường lực",
+        "reviewed": true
+      },
+      {
+        "word": "強化",
+        "sinovi": "cường hóa",
+        "reviewed": true
+      },
+      {
+        "word": "強引",
+        "sinovi": "cường dẫn",
+        "reviewed": true
+      },
+      {
+        "word": "強烈",
+        "sinovi": "cường liệt",
+        "reviewed": true
+      },
+      {
+        "word": "強盗",
+        "sinovi": "cường đạo",
+        "reviewed": true
+      }
+    ]
+  },
+  "弾": {
+    "sinovi": "ĐÀN, ĐẠN",
+    "vocabulary": [
+      {
+        "word": "弾",
+        "sinovi": "đạn",
+        "reviewed": true
+      },
+      {
+        "word": "弾丸",
+        "sinovi": "đạn hoàn",
+        "reviewed": true
+      },
+      {
+        "word": "弾倉",
+        "sinovi": "đạn thương",
+        "reviewed": true
+      },
+      {
+        "word": "弾劾",
+        "sinovi": "đàn hặc",
+        "reviewed": true
+      },
+      {
+        "word": "弾劾裁判所",
+        "sinovi": "đàn hặc tài phán sở",
+        "reviewed": true
+      },
+      {
+        "word": "爆弾",
+        "sinovi": "bộc đạn",
+        "reviewed": true
+      },
+      {
+        "word": "糾弾",
+        "sinovi": "củ đàn",
+        "reviewed": true
+      },
+      {
+        "word": "銃弾",
+        "sinovi": "súng đạn",
+        "reviewed": true
+      }
+    ]
+  },
+  "当": {
+    "sinovi": "ĐƯƠNG, ĐÁNG",
+    "vocabulary": [
+      {
+        "word": "妥当",
+        "sinovi": "thoả đáng",
+        "reviewed": true
+      },
+      {
+        "word": "妥当性",
+        "sinovi": "thoả đáng tính",
+        "reviewed": true
+      },
+      {
+        "word": "弁当箱",
+        "sinovi": "biện đương tương",
+        "reviewed": true
+      },
+      {
+        "word": "当初",
+        "sinovi": "đương sơ",
+        "reviewed": true
+      },
+      {
+        "word": "当然",
+        "sinovi": "đương nhiên",
+        "reviewed": true
+      },
+      {
+        "word": "当該",
+        "sinovi": "đương cai",
+        "reviewed": true
+      },
+      {
+        "word": "担当",
+        "sinovi": "đảm đương",
+        "reviewed": true
+      },
+      {
+        "word": "担当者",
+        "sinovi": "đảm đương giả",
+        "reviewed": true
+      },
+      {
+        "word": "本当",
+        "sinovi": "bản đương",
+        "reviewed": true
+      },
+      {
+        "word": "相当",
+        "sinovi": "tương đương",
+        "reviewed": true
+      },
+      {
+        "word": "芸当",
+        "sinovi": "nghệ đương",
+        "reviewed": true
+      },
+      {
+        "word": "該当",
+        "sinovi": "cai đương",
+        "reviewed": true
+      },
+      {
+        "word": "該当者",
+        "sinovi": "cai đương giả",
+        "reviewed": true
+      },
+      {
+        "word": "適当",
+        "sinovi": "thích đáng",
+        "reviewed": true
+      }
+    ]
+  },
+  "彙": {
+    "sinovi": "VỊ, VỰNG",
+    "vocabulary": [
+      {
+        "word": "彙",
+        "sinovi": "vựng",
+        "reviewed": true
+      },
+      {
+        "word": "彙報",
+        "sinovi": "vị báo",
+        "reviewed": true
+      },
+      {
+        "word": "語彙",
+        "sinovi": "ngữ vựng",
+        "reviewed": true
+      },
+      {
+        "word": "語彙力",
+        "sinovi": "ngữ vựng lực",
+        "reviewed": true
+      },
+      {
+        "word": "辞彙",
+        "sinovi": "từ vựng",
+        "reviewed": true
+      }
+    ]
+  },
+  "彩": {
+    "sinovi": "THẢI, THÁI",
+    "vocabulary": [
+      {
+        "word": "多彩",
+        "sinovi": "đa thái",
+        "reviewed": true
+      },
+      {
+        "word": "色彩",
+        "sinovi": "sắc thái",
+        "reviewed": true
+      },
+      {
+        "word": "虹彩",
+        "sinovi": "hồng thái",
+        "reviewed": true
+      },
+      {
+        "word": "迷彩",
+        "sinovi": "mê thái",
+        "reviewed": true
+      }
+    ]
+  },
+  "復": {
+    "sinovi": "PHỤC, PHÚC",
+    "vocabulary": [
+      {
+        "word": "修復",
+        "sinovi": "tu phục",
+        "reviewed": true
+      },
+      {
+        "word": "回復",
+        "sinovi": "hồi phục",
+        "reviewed": true
+      },
+      {
+        "word": "往復",
+        "sinovi": "vãng phục",
+        "reviewed": true
+      },
+      {
+        "word": "復唱",
+        "sinovi": "phục xướng",
+        "reviewed": true
+      },
+      {
+        "word": "復帰",
+        "sinovi": "phục quy",
+        "reviewed": true
+      },
+      {
+        "word": "復旧",
+        "sinovi": "phục cựu",
+        "reviewed": true
+      },
+      {
+        "word": "復活",
+        "sinovi": "phục hoạt",
+        "reviewed": true
+      },
+      {
+        "word": "復興",
+        "sinovi": "phục hưng",
+        "reviewed": true
+      },
+      {
+        "word": "復讐",
+        "sinovi": "phục thù",
+        "reviewed": true
+      }
+    ]
+  },
+  "怖": {
+    "sinovi": "PHỐ, BỐ",
+    "vocabulary": [
+      {
+        "word": "恐怖",
+        "sinovi": "khủng bố",
+        "reviewed": true
+      },
+      {
+        "word": "恐怖心",
+        "sinovi": "khủng bố tâm",
+        "reviewed": true
+      },
+      {
+        "word": "畏怖",
+        "sinovi": "uý bố",
+        "reviewed": true
+      }
+    ]
+  },
+  "悪": {
+    "sinovi": "ÁC, Ố",
+    "vocabulary": [
+      {
+        "word": "凶悪",
+        "sinovi": "hung ác",
+        "reviewed": true
+      },
+      {
+        "word": "勧善懲悪",
+        "sinovi": "khuyến thiện trừng ác",
+        "reviewed": true
+      },
+      {
+        "word": "嫌悪",
+        "sinovi": "hiềm ác",
+        "reviewed": true
+      },
+      {
+        "word": "悪党",
+        "sinovi": "ác đảng",
+        "reviewed": true
+      },
+      {
+        "word": "悪夢",
+        "sinovi": "ác mộng",
+        "reviewed": true
+      },
+      {
+        "word": "悪寒",
+        "sinovi": "ác hàn",
+        "reviewed": true
+      },
+      {
+        "word": "悪循環",
+        "sinovi": "ác tuần hoàn",
+        "reviewed": true
+      },
+      {
+        "word": "悪徳",
+        "sinovi": "ác đức",
+        "reviewed": true
+      },
+      {
+        "word": "悪性腫瘍",
+        "sinovi": "ác tính thũng dương",
+        "reviewed": true
+      },
+      {
+        "word": "悪戯",
+        "sinovi": "ác hí",
+        "reviewed": true
+      },
+      {
+        "word": "悪癖",
+        "sinovi": "ác tích",
+        "reviewed": true
+      },
+      {
+        "word": "悪臭",
+        "sinovi": "ác xú",
+        "reviewed": true
+      },
+      {
+        "word": "悪趣味",
+        "sinovi": "ác thú vị",
+        "reviewed": true
+      },
+      {
+        "word": "悪辣",
+        "sinovi": "ác lạt",
+        "reviewed": true
+      },
+      {
+        "word": "悪阻",
+        "sinovi": "ác trở",
+        "reviewed": true
+      },
+      {
+        "word": "悪霊",
+        "sinovi": "ác linh",
+        "reviewed": true
+      },
+      {
+        "word": "悪鬼羅刹",
+        "sinovi": "ác quỷ la sát",
+        "reviewed": true
+      },
+      {
+        "word": "悪魔",
+        "sinovi": "ác ma",
+        "reviewed": true
+      },
+      {
+        "word": "憎悪",
+        "sinovi": "tăng ác",
+        "reviewed": true
+      },
+      {
+        "word": "最悪",
+        "sinovi": "tối ác",
+        "reviewed": true
+      },
+      {
+        "word": "罪悪感",
+        "sinovi": "tội ác cảm",
+        "reviewed": true
+      },
+      {
+        "word": "邪悪",
+        "sinovi": "tà ác",
+        "reviewed": true
+      },
+      {
+        "word": "醜悪",
+        "sinovi": "xú ác",
+        "reviewed": true
+      }
+    ]
+  },
+  "慰": {
+    "sinovi": "ỦY, ÚY",
+    "vocabulary": [
+      {
+        "word": "慰問",
+        "sinovi": "úy vấn",
+        "reviewed": true
+      },
+      {
+        "word": "慰謝料",
+        "sinovi": "úy tạ liệu",
+        "reviewed": true
+      },
+      {
+        "word": "自慰",
+        "sinovi": "tự úy",
+        "reviewed": true
+      }
+    ]
+  },
+  "披": {
+    "sinovi": "PHI, BIA",
+    "vocabulary": [
+      {
+        "word": "披瀝",
+        "sinovi": "phi lịch",
+        "reviewed": true
+      },
+      {
+        "word": "披露",
+        "sinovi": "phi lộ",
+        "reviewed": true
+      },
+      {
+        "word": "披露宴",
+        "sinovi": "phi lộ yến",
+        "reviewed": true
+      },
+      {
+        "word": "結婚披露宴",
+        "sinovi": "kết hôn phi lộ yến",
+        "reviewed": true
+      }
+    ]
+  },
+  "担": {
+    "sinovi": "ĐẢM, ĐAM",
+    "vocabulary": [
+      {
+        "word": "担当",
+        "sinovi": "đảm đương",
+        "reviewed": true
+      },
+      {
+        "word": "担当者",
+        "sinovi": "đảm đương giả",
+        "reviewed": true
+      },
+      {
+        "word": "担架",
+        "sinovi": "đảm giá",
+        "reviewed": true
+      },
+      {
+        "word": "負担",
+        "sinovi": "phụ đảm",
+        "reviewed": true
+      }
+    ]
+  },
+  "拡": {
+    "sinovi": "KHOÁNG, KHUẾCH",
+    "vocabulary": [
+      {
+        "word": "拡大",
+        "sinovi": "khuếch đại",
+        "reviewed": true
+      },
+      {
+        "word": "拡張",
+        "sinovi": "khuếch trương",
+        "reviewed": true
+      },
+      {
+        "word": "拡散",
+        "sinovi": "khuếch tán",
+        "reviewed": true
+      }
+    ]
+  },
+  "挑": {
+    "sinovi": "THIÊU, KHIÊU",
+    "vocabulary": [
+      {
+        "word": "挑戦",
+        "sinovi": "khiêu chiến",
+        "reviewed": true
+      },
+      {
+        "word": "挑発",
+        "sinovi": "khiêu phát",
+        "reviewed": true
+      },
+      {
+        "word": "挑発的",
+        "sinovi": "khiêu phát đích",
+        "reviewed": true
+      }
+    ]
+  },
+  "推": {
+    "sinovi": "THÔI, SUY",
+    "vocabulary": [
+      {
+        "word": "推奨",
+        "sinovi": "suy tưởng",
+        "reviewed": true
+      },
+      {
+        "word": "推察",
+        "sinovi": "suy sát",
+        "reviewed": true
+      },
+      {
+        "word": "推測",
+        "sinovi": "suy trắc",
+        "reviewed": true
+      },
+      {
+        "word": "推理",
+        "sinovi": "suy lí",
+        "reviewed": true
+      },
+      {
+        "word": "推薦",
+        "sinovi": "suy tiến",
+        "reviewed": true
+      },
+      {
+        "word": "推薦状",
+        "sinovi": "suy tiến trạng",
+        "reviewed": true
+      }
+    ]
+  },
+  "搬": {
+    "sinovi": "BÀN, BAN",
+    "vocabulary": [
+      {
+        "word": "搬入",
+        "sinovi": "bàn nhập",
+        "reviewed": true
+      },
+      {
+        "word": "搬入口",
+        "sinovi": "bàn nhập khẩu",
+        "reviewed": true
+      },
+      {
+        "word": "搬出",
+        "sinovi": "bàn xuất",
+        "reviewed": true
+      },
+      {
+        "word": "搬送",
+        "sinovi": "bàn tống",
+        "reviewed": true
+      },
+      {
+        "word": "運搬",
+        "sinovi": "vận bàn",
+        "reviewed": true
+      }
+    ]
+  },
+  "操": {
+    "sinovi": "THAO, THÁO",
+    "vocabulary": [
+      {
+        "word": "体操",
+        "sinovi": "thể thao",
+        "reviewed": true
+      },
+      {
+        "word": "操",
+        "sinovi": "thao",
+        "reviewed": true
+      },
+      {
+        "word": "操作",
+        "sinovi": "thao tác",
+        "reviewed": true
+      },
+      {
+        "word": "操縦",
+        "sinovi": "thao túng",
+        "reviewed": true
+      },
+      {
+        "word": "貞操",
+        "sinovi": "trinh thao",
+        "reviewed": true
+      }
+    ]
+  },
+  "散": {
+    "sinovi": "TÁN, TẢN",
+    "vocabulary": [
+      {
+        "word": "拡散",
+        "sinovi": "khuếch tán",
+        "reviewed": true
+      },
+      {
+        "word": "散歩",
+        "sinovi": "tản bộ",
+        "reviewed": true
+      },
+      {
+        "word": "散策",
+        "sinovi": "tản sách",
+        "reviewed": true
+      },
+      {
+        "word": "解散",
+        "sinovi": "giải tán",
+        "reviewed": true
+      },
+      {
+        "word": "閑散",
+        "sinovi": "nhàn tản",
+        "reviewed": true
+      },
+      {
+        "word": "霧散",
+        "sinovi": "vụ tán",
+        "reviewed": true
+      }
+    ]
+  },
+  "斗": {
+    "sinovi": "ĐẤU, ĐẨU",
+    "vocabulary": [
+      {
+        "word": "北斗",
+        "sinovi": "bắc đẩu",
+        "reviewed": true
+      },
+      {
+        "word": "北斗七星",
+        "sinovi": "bắc đẩu thất tinh",
+        "reviewed": true
+      },
+      {
+        "word": "抽斗",
+        "sinovi": "trừu đấu",
+        "reviewed": true
+      },
+      {
+        "word": "斗",
+        "sinovi": "đấu",
+        "reviewed": true
+      },
+      {
+        "word": "漏斗",
+        "sinovi": "lậu đấu",
+        "reviewed": true
+      }
+    ]
+  },
+  "断": {
+    "sinovi": "ĐOẠN, ĐOÁN",
+    "vocabulary": [
+      {
+        "word": "健康診断",
+        "sinovi": "kiện khang chẩn đoán",
+        "reviewed": true
+      },
+      {
+        "word": "判断",
+        "sinovi": "phán đoán",
+        "reviewed": true
+      },
+      {
+        "word": "断崖",
+        "sinovi": "đoạn nhai",
+        "reviewed": true
+      },
+      {
+        "word": "断崖絶壁",
+        "sinovi": "đoạn nhai tuyệt bích",
+        "reviewed": true
+      },
+      {
+        "word": "断罪",
+        "sinovi": "đoán tội",
+        "reviewed": true
+      },
+      {
+        "word": "決断",
+        "sinovi": "quyết đoán",
+        "reviewed": true
+      },
+      {
+        "word": "油断",
+        "sinovi": "du đoạn",
+        "reviewed": true
+      },
+      {
+        "word": "縦断",
+        "sinovi": "tung đoạn",
+        "reviewed": true
+      },
+      {
+        "word": "診断",
+        "sinovi": "chẩn đoán",
+        "reviewed": true
+      },
+      {
+        "word": "遮断",
+        "sinovi": "già đoạn",
+        "reviewed": true
+      }
+    ]
+  },
+  "易": {
+    "sinovi": "DỊCH, DỊ",
+    "vocabulary": [
+      {
+        "word": "交易",
+        "sinovi": "giao dịch",
+        "reviewed": true
+      },
+      {
+        "word": "安易",
+        "sinovi": "an dịch",
+        "reviewed": true
+      },
+      {
+        "word": "容易",
+        "sinovi": "dung dịch",
+        "reviewed": true
+      },
+      {
+        "word": "密貿易",
+        "sinovi": "mật mậu dịch",
+        "reviewed": true
+      },
+      {
+        "word": "簡易",
+        "sinovi": "giản dịch",
+        "reviewed": true
+      },
+      {
+        "word": "自由貿易",
+        "sinovi": "tự do mậu dịch",
+        "reviewed": true
+      },
+      {
+        "word": "貿易",
+        "sinovi": "mậu dịch",
+        "reviewed": true
+      },
+      {
+        "word": "貿易会社",
+        "sinovi": "mậu dịch hội xã",
+        "reviewed": true
+      },
+      {
+        "word": "貿易商",
+        "sinovi": "mậu dịch thương",
+        "reviewed": true
+      }
+    ]
+  },
+  "時": {
+    "sinovi": "THÌ, THỜI",
+    "vocabulary": [
+      {
+        "word": "七時",
+        "sinovi": "thất thời",
+        "reviewed": true
+      },
+      {
+        "word": "九時",
+        "sinovi": "cửu thời",
+        "reviewed": true
+      },
+      {
+        "word": "休憩時間",
+        "sinovi": "hưu khế thời gian",
+        "reviewed": true
+      },
+      {
+        "word": "古墳時代",
+        "sinovi": "cổ phần thời đại",
+        "reviewed": true
+      },
+      {
+        "word": "四六時中",
+        "sinovi": "tứ lục thời trung",
+        "reviewed": true
+      },
+      {
+        "word": "奈良時代",
+        "sinovi": "nại lương thời đại",
+        "reviewed": true
+      },
+      {
+        "word": "室町時代",
+        "sinovi": "thất đinh thời đại",
+        "reviewed": true
+      },
+      {
+        "word": "昭和時代",
+        "sinovi": "chiêu hòa thời đại",
+        "reviewed": true
+      },
+      {
+        "word": "時",
+        "sinovi": "thời",
+        "reviewed": true
+      },
+      {
+        "word": "時代",
+        "sinovi": "thời đại",
+        "reviewed": true
+      },
+      {
+        "word": "時刻",
+        "sinovi": "thời khắc",
+        "reviewed": true
+      },
+      {
+        "word": "時折",
+        "sinovi": "thời chiết",
+        "reviewed": true
+      },
+      {
+        "word": "時期",
+        "sinovi": "thời kì",
+        "reviewed": true
+      },
+      {
+        "word": "時期尚早",
+        "sinovi": "thời kì thượng tảo",
+        "reviewed": true
+      },
+      {
+        "word": "時点",
+        "sinovi": "thời điểm",
+        "reviewed": true
+      },
+      {
+        "word": "時計",
+        "sinovi": "thời kế",
+        "reviewed": true
+      },
+      {
+        "word": "時計塔",
+        "sinovi": "thời kế tháp",
+        "reviewed": true
+      },
+      {
+        "word": "時間",
+        "sinovi": "thời gian",
+        "reviewed": true
+      },
+      {
+        "word": "時間軸",
+        "sinovi": "thời gian trục",
+        "reviewed": true
+      },
+      {
+        "word": "暫時",
+        "sinovi": "tạm thời",
+        "reviewed": true
+      },
+      {
+        "word": "江戸時代",
+        "sinovi": "giang hộ thời đại",
+        "reviewed": true
+      },
+      {
+        "word": "潮時",
+        "sinovi": "triều thời",
+        "reviewed": true
+      },
+      {
+        "word": "睡眠時間",
+        "sinovi": "thuỵ miên thời gian",
+        "reviewed": true
+      },
+      {
+        "word": "瞬時",
+        "sinovi": "thuấn thời",
+        "reviewed": true
+      },
+      {
+        "word": "短時間",
+        "sinovi": "đoản thời gian",
+        "reviewed": true
+      },
+      {
+        "word": "縄文時代",
+        "sinovi": "thằng văn thời đại",
+        "reviewed": true
+      },
+      {
+        "word": "臨時",
+        "sinovi": "lâm thời",
+        "reviewed": true
+      },
+      {
+        "word": "鎌倉時代",
+        "sinovi": "liêm thương thời đại",
+        "reviewed": true
+      },
+      {
+        "word": "随時",
+        "sinovi": "tuỳ thời",
+        "reviewed": true
+      }
+    ]
+  },
+  "更": {
+    "sinovi": "CANH, CÁNH",
+    "vocabulary": [
+      {
+        "word": "今更",
+        "sinovi": "kim canh",
+        "reviewed": true
+      },
+      {
+        "word": "変更",
+        "sinovi": "biến canh",
+        "reviewed": true
+      },
+      {
+        "word": "尚更",
+        "sinovi": "thượng canh",
+        "reviewed": true
+      },
+      {
+        "word": "更新",
+        "sinovi": "canh tân",
+        "reviewed": true
+      },
+      {
+        "word": "更迭",
+        "sinovi": "canh điệt",
+        "reviewed": true
+      },
+      {
+        "word": "殊更",
+        "sinovi": "thù canh",
+        "reviewed": true
+      }
+    ]
+  },
+  "未": {
+    "sinovi": "VỊ, MÙI",
+    "vocabulary": [
+      {
+        "word": "前代未聞",
+        "sinovi": "tiền đại vị văn",
+        "reviewed": true
+      },
+      {
+        "word": "未墾",
+        "sinovi": "vị khẩn",
+        "reviewed": true
+      },
+      {
+        "word": "未墾地",
+        "sinovi": "vị khẩn địa",
+        "reviewed": true
+      },
+      {
+        "word": "未曽有",
+        "sinovi": "vị tằng hữu",
+        "reviewed": true
+      },
+      {
+        "word": "未来",
+        "sinovi": "vị lai",
+        "reviewed": true
+      },
+      {
+        "word": "未熟",
+        "sinovi": "vị thục",
+        "reviewed": true
+      },
+      {
+        "word": "未知",
+        "sinovi": "vị tri",
+        "reviewed": true
+      },
+      {
+        "word": "未練",
+        "sinovi": "vị luyện",
+        "reviewed": true
+      },
+      {
+        "word": "未舗装",
+        "sinovi": "vị phố trang",
+        "reviewed": true
+      },
+      {
+        "word": "未遂",
+        "sinovi": "vị toại",
+        "reviewed": true
+      }
+    ]
+  },
+  "本": {
+    "sinovi": "BẢN, BỔN",
+    "vocabulary": [
+      {
+        "word": "一本",
+        "sinovi": "nhất bản",
+        "reviewed": true
+      },
+      {
+        "word": "七本",
+        "sinovi": "thất bản",
+        "reviewed": true
+      },
+      {
+        "word": "三本",
+        "sinovi": "tam bản",
+        "reviewed": true
+      },
+      {
+        "word": "九本",
+        "sinovi": "cửu bản",
+        "reviewed": true
+      },
+      {
+        "word": "二本",
+        "sinovi": "nhị bản",
+        "reviewed": true
+      },
+      {
+        "word": "五本",
+        "sinovi": "ngũ bản",
+        "reviewed": true
+      },
+      {
+        "word": "八本",
+        "sinovi": "bát bản",
+        "reviewed": true
+      },
+      {
+        "word": "六本",
+        "sinovi": "lục bản",
+        "reviewed": true
+      },
+      {
+        "word": "十本",
+        "sinovi": "thập bản",
+        "reviewed": true
+      },
+      {
+        "word": "四本",
+        "sinovi": "tứ bản",
+        "reviewed": true
+      },
+      {
+        "word": "基本的",
+        "sinovi": "cơ bản đích",
+        "reviewed": true
+      },
+      {
+        "word": "戸籍抄本",
+        "sinovi": "hộ tịch sao bản",
+        "reviewed": true
+      },
+      {
+        "word": "戸籍謄本",
+        "sinovi": "hộ tịch đằng bản",
+        "reviewed": true
+      },
+      {
+        "word": "抄本",
+        "sinovi": "sao bản",
+        "reviewed": true
+      },
+      {
+        "word": "旗本",
+        "sinovi": "kì bản",
+        "reviewed": true
+      },
+      {
+        "word": "日本",
+        "sinovi": "nhật bản",
+        "reviewed": true
+      },
+      {
+        "word": "日本政府",
+        "sinovi": "nhật bản chính phủ",
+        "reviewed": true
+      },
+      {
+        "word": "日本舞踊",
+        "sinovi": "nhật bản vũ dũng",
+        "reviewed": true
+      },
+      {
+        "word": "日本語",
+        "sinovi": "nhật bản ngữ",
+        "reviewed": true
+      },
+      {
+        "word": "日本酒",
+        "sinovi": "nhật bản tửu",
+        "reviewed": true
+      },
+      {
+        "word": "本",
+        "sinovi": "bản",
+        "reviewed": true
+      },
+      {
+        "word": "本名",
+        "sinovi": "bản danh",
+        "reviewed": true
+      },
+      {
+        "word": "本州",
+        "sinovi": "bản châu",
+        "reviewed": true
+      },
+      {
+        "word": "本庁",
+        "sinovi": "bản sảnh",
+        "reviewed": true
+      },
+      {
+        "word": "本当",
+        "sinovi": "bản đương",
+        "reviewed": true
+      },
+      {
+        "word": "本来",
+        "sinovi": "bản lai",
+        "reviewed": true
+      },
+      {
+        "word": "本格的",
+        "sinovi": "bản cách đích",
+        "reviewed": true
+      },
+      {
+        "word": "本棚",
+        "sinovi": "bản bằng",
+        "reviewed": true
+      },
+      {
+        "word": "本気",
+        "sinovi": "bản khí",
+        "reviewed": true
+      },
+      {
+        "word": "本物",
+        "sinovi": "bản vật",
+        "reviewed": true
+      },
+      {
+        "word": "本番",
+        "sinovi": "bản phiên",
+        "reviewed": true
+      },
+      {
+        "word": "本邦",
+        "sinovi": "bản bang",
+        "reviewed": true
+      },
+      {
+        "word": "本音",
+        "sinovi": "bản âm",
+        "reviewed": true
+      },
+      {
+        "word": "根本的",
+        "sinovi": "căn bản đích",
+        "reviewed": true
+      },
+      {
+        "word": "標本",
+        "sinovi": "tiêu bản",
+        "reviewed": true
+      },
+      {
+        "word": "熊本県",
+        "sinovi": "hùng bản huyện",
+        "reviewed": true
+      },
+      {
+        "word": "登記簿謄本",
+        "sinovi": "đăng kí bộ đằng bản",
+        "reviewed": true
+      },
+      {
+        "word": "絵本",
+        "sinovi": "hội bản",
+        "reviewed": true
+      },
+      {
+        "word": "脚本",
+        "sinovi": "cước bản",
+        "reviewed": true
+      },
+      {
+        "word": "謄本",
+        "sinovi": "đằng bản",
+        "reviewed": true
+      }
+    ]
+  },
+  "校": {
+    "sinovi": "GIÁO, HIỆU",
+    "vocabulary": [
+      {
+        "word": "学校",
+        "sinovi": "học hiệu",
+        "reviewed": true
+      },
+      {
+        "word": "小学校",
+        "sinovi": "tiểu học hiệu",
+        "reviewed": true
+      },
+      {
+        "word": "校庭",
+        "sinovi": "hiệu đình",
+        "reviewed": true
+      },
+      {
+        "word": "校舎",
+        "sinovi": "hiệu xá",
+        "reviewed": true
+      },
+      {
+        "word": "校訂",
+        "sinovi": "hiệu đính",
+        "reviewed": true
+      },
+      {
+        "word": "校門",
+        "sinovi": "hiệu môn",
+        "reviewed": true
+      },
+      {
+        "word": "校閲",
+        "sinovi": "hiệu duyệt",
+        "reviewed": true
+      },
+      {
+        "word": "登校",
+        "sinovi": "đăng hiệu",
+        "reviewed": true
+      },
+      {
+        "word": "高校",
+        "sinovi": "cao hiệu",
+        "reviewed": true
+      },
+      {
+        "word": "高校生",
+        "sinovi": "cao hiệu sinh",
+        "reviewed": true
+      }
+    ]
+  },
+  "椅": {
+    "sinovi": "Y, Ỷ",
+    "vocabulary": [
+      {
+        "word": "丸椅子",
+        "sinovi": "hoàn ỷ tử",
+        "reviewed": true
+      },
+      {
+        "word": "椅子",
+        "sinovi": "ỷ tử",
+        "reviewed": true
+      },
+      {
+        "word": "車椅子",
+        "sinovi": "xa ỷ tử",
+        "reviewed": true
+      },
+      {
+        "word": "長椅子",
+        "sinovi": "trường ỷ tử",
+        "reviewed": true
+      }
+    ]
+  },
+  "楷": {
+    "sinovi": "GIAI, KHẢI",
+    "vocabulary": [
+      {
+        "word": "楷",
+        "sinovi": "khải",
+        "reviewed": true
+      },
+      {
+        "word": "楷書",
+        "sinovi": "khải thư",
+        "reviewed": true
+      },
+      {
+        "word": "楷書体",
+        "sinovi": "khải thư thể",
+        "reviewed": true
+      },
+      {
+        "word": "楷行草",
+        "sinovi": "khải hành thảo",
+        "reviewed": true
+      }
+    ]
+  },
+  "楽": {
+    "sinovi": "LẠC, NHẠC",
+    "vocabulary": [
+      {
+        "word": "享楽",
+        "sinovi": "hưởng lạc",
+        "reviewed": true
+      },
+      {
+        "word": "享楽的",
+        "sinovi": "hưởng lạc đích",
+        "reviewed": true
+      },
+      {
+        "word": "吹奏楽部",
+        "sinovi": "xúy tấu lạc bộ",
+        "reviewed": true
+      },
+      {
+        "word": "大衆娯楽",
+        "sinovi": "đại chúng ngu lạc",
+        "reviewed": true
+      },
+      {
+        "word": "娯楽",
+        "sinovi": "ngu lạc",
+        "reviewed": true
+      },
+      {
+        "word": "娯楽室",
+        "sinovi": "ngu lạc thất",
+        "reviewed": true
+      },
+      {
+        "word": "娯楽施設",
+        "sinovi": "ngu lạc thi thiết",
+        "reviewed": true
+      },
+      {
+        "word": "弦楽器",
+        "sinovi": "huyền nhạc khí",
+        "reviewed": true
+      },
+      {
+        "word": "快楽",
+        "sinovi": "khoái lạc",
+        "reviewed": true
+      },
+      {
+        "word": "楽",
+        "sinovi": "nhạc",
+        "reviewed": true
+      },
+      {
+        "word": "楽譜",
+        "sinovi": "nhạc phổ",
+        "reviewed": true
+      },
+      {
+        "word": "管弦楽",
+        "sinovi": "quản huyền nhạc",
+        "reviewed": true
+      },
+      {
+        "word": "音楽",
+        "sinovi": "âm nhạc",
+        "reviewed": true
+      }
+    ]
+  },
+  "機": {
+    "sinovi": "CƠ, KI",
+    "vocabulary": [
+      {
+        "word": "不機嫌",
+        "sinovi": "bất cơ hiềm",
+        "reviewed": true
+      },
+      {
+        "word": "乾燥機",
+        "sinovi": "can táo cơ",
+        "reviewed": true
+      },
+      {
+        "word": "僚機",
+        "sinovi": "liêu cơ",
+        "reviewed": true
+      },
+      {
+        "word": "危機",
+        "sinovi": "nguy cơ",
+        "reviewed": true
+      },
+      {
+        "word": "契機",
+        "sinovi": "khế cơ",
+        "reviewed": true
+      },
+      {
+        "word": "待機",
+        "sinovi": "đãi cơ",
+        "reviewed": true
+      },
+      {
+        "word": "扇風機",
+        "sinovi": "phiến phong cơ",
+        "reviewed": true
+      },
+      {
+        "word": "枢機卿",
+        "sinovi": "xu cơ khanh",
+        "reviewed": true
+      },
+      {
+        "word": "機",
+        "sinovi": "cơ",
+        "reviewed": true
+      },
+      {
+        "word": "機会",
+        "sinovi": "cơ hội",
+        "reviewed": true
+      },
+      {
+        "word": "機敏",
+        "sinovi": "cơ mẫn",
+        "reviewed": true
+      },
+      {
+        "word": "機械",
+        "sinovi": "cơ giới",
+        "reviewed": true
+      },
+      {
+        "word": "機械化",
+        "sinovi": "cơ giới hóa",
+        "reviewed": true
+      },
+      {
+        "word": "機械的",
+        "sinovi": "cơ giới đích",
+        "reviewed": true
+      },
+      {
+        "word": "機能",
+        "sinovi": "cơ năng",
+        "reviewed": true
+      },
+      {
+        "word": "洗濯機",
+        "sinovi": "tẩy trạc cơ",
+        "reviewed": true
+      },
+      {
+        "word": "自動販売機",
+        "sinovi": "tự động phiến mại cơ",
+        "reviewed": true
+      },
+      {
+        "word": "自販機",
+        "sinovi": "tự phiến cơ",
+        "reviewed": true
+      },
+      {
+        "word": "諮問機関",
+        "sinovi": "tư vấn cơ quan",
+        "reviewed": true
+      },
+      {
+        "word": "飛行機",
+        "sinovi": "phi hành cơ",
+        "reviewed": true
+      }
+    ]
+  },
+  "武": {
+    "sinovi": "VŨ, VÕ",
+    "vocabulary": [
+      {
+        "word": "武",
+        "sinovi": "võ",
+        "reviewed": true
+      },
+      {
+        "word": "武勲",
+        "sinovi": "vũ huân",
+        "reviewed": true
+      },
+      {
+        "word": "武器",
+        "sinovi": "vũ khí",
+        "reviewed": true
+      },
+      {
+        "word": "武士",
+        "sinovi": "võ sĩ",
+        "reviewed": true
+      },
+      {
+        "word": "武者",
+        "sinovi": "võ giả",
+        "reviewed": true
+      },
+      {
+        "word": "武装",
+        "sinovi": "vũ trang",
+        "reviewed": true
+      },
+      {
+        "word": "玄武",
+        "sinovi": "huyền vũ",
+        "reviewed": true
+      }
+    ]
+  },
+  "段": {
+    "sinovi": "ĐOẠN, ĐOÀN",
+    "vocabulary": [
+      {
+        "word": "値段",
+        "sinovi": "trị đoạn",
+        "reviewed": true
+      },
+      {
+        "word": "手段",
+        "sinovi": "thủ đoạn",
+        "reviewed": true
+      },
+      {
+        "word": "普段",
+        "sinovi": "phổ đoạn",
+        "reviewed": true
+      },
+      {
+        "word": "普段着",
+        "sinovi": "phổ đoạn trứ",
+        "reviewed": true
+      },
+      {
+        "word": "段階",
+        "sinovi": "đoạn giai",
+        "reviewed": true
+      },
+      {
+        "word": "算段",
+        "sinovi": "toán đoạn",
+        "reviewed": true
+      },
+      {
+        "word": "階段",
+        "sinovi": "giai đoạn",
+        "reviewed": true
+      }
+    ]
+  },
+  "比": {
+    "sinovi": "TỈ, BỈ",
+    "vocabulary": [
+      {
+        "word": "比丘尼",
+        "sinovi": "tỉ khâu ni",
+        "reviewed": true
+      },
+      {
+        "word": "比例",
+        "sinovi": "tỉ lệ",
+        "reviewed": true
+      },
+      {
+        "word": "比喩",
+        "sinovi": "tỉ dụ",
+        "reviewed": true
+      },
+      {
+        "word": "比喩表現",
+        "sinovi": "tỉ dụ biểu hiện",
+        "reviewed": true
+      },
+      {
+        "word": "比較",
+        "sinovi": "tỉ giác",
+        "reviewed": true
+      },
+      {
+        "word": "比較的",
+        "sinovi": "tỉ giác đích",
+        "reviewed": true
+      }
+    ]
+  },
+  "汁": {
+    "sinovi": "TRẤP, HIỆP",
+    "vocabulary": [
+      {
+        "word": "出汁",
+        "sinovi": "xuất trấp",
+        "reviewed": true
+      },
+      {
+        "word": "味噌汁",
+        "sinovi": "vị tăng trấp",
+        "reviewed": true
+      },
+      {
+        "word": "墨汁",
+        "sinovi": "mặc trấp",
+        "reviewed": true
+      },
+      {
+        "word": "果汁",
+        "sinovi": "quả trấp",
+        "reviewed": true
+      },
+      {
+        "word": "汁",
+        "sinovi": "trấp",
+        "reviewed": true
+      },
+      {
+        "word": "肉汁",
+        "sinovi": "nhục trấp",
+        "reviewed": true
+      },
+      {
+        "word": "豚汁",
+        "sinovi": "đồn trấp",
+        "reviewed": true
+      }
+    ]
+  },
+  "汗": {
+    "sinovi": "HÃN, HÀN",
+    "vocabulary": [
+      {
+        "word": "汗",
+        "sinovi": "hãn",
+        "reviewed": true
+      },
+      {
+        "word": "汗腺",
+        "sinovi": "hãn tuyến",
+        "reviewed": true
+      },
+      {
+        "word": "発汗",
+        "sinovi": "phát hãn",
+        "reviewed": true
+      },
+      {
+        "word": "脂汗",
+        "sinovi": "chi hãn",
+        "reviewed": true
+      }
+    ]
+  },
+  "汰": {
+    "sinovi": "THÁI, THẢI",
+    "vocabulary": [
+      {
+        "word": "沙汰",
+        "sinovi": "sa thải",
+        "reviewed": true
+      },
+      {
+        "word": "淘汰",
+        "sinovi": "đào thải",
+        "reviewed": true
+      },
+      {
+        "word": "表沙汰",
+        "sinovi": "biểu sa thải",
+        "reviewed": true
+      },
+      {
+        "word": "音沙汰",
+        "sinovi": "âm sa thải",
+        "reviewed": true
+      }
+    ]
+  },
+  "沖": {
+    "sinovi": "TRÙNG, XUNG",
+    "vocabulary": [
+      {
+        "word": "沖",
+        "sinovi": "trùng",
+        "reviewed": true
+      },
+      {
+        "word": "沖合",
+        "sinovi": "trùng hợp",
+        "reviewed": true
+      },
+      {
+        "word": "沖天",
+        "sinovi": "trùng thiên",
+        "reviewed": true
+      },
+      {
+        "word": "沖縄",
+        "sinovi": "trùng thằng",
+        "reviewed": true
+      },
+      {
+        "word": "沖縄県",
+        "sinovi": "trùng thằng huyện",
+        "reviewed": true
+      }
+    ]
+  },
+  "沙": {
+    "sinovi": "SA, SÁ",
+    "vocabulary": [
+      {
+        "word": "沙",
+        "sinovi": "sa",
+        "reviewed": true
+      },
+      {
+        "word": "沙汰",
+        "sinovi": "sa thải",
+        "reviewed": true
+      },
+      {
+        "word": "沙漠",
+        "sinovi": "sa mạc",
+        "reviewed": true
+      },
+      {
+        "word": "表沙汰",
+        "sinovi": "biểu sa thải",
+        "reviewed": true
+      },
+      {
+        "word": "音沙汰",
+        "sinovi": "âm sa thải",
+        "reviewed": true
+      }
+    ]
+  },
+  "治": {
+    "sinovi": "TRỊ, TRÌ",
+    "vocabulary": [
+      {
+        "word": "政治",
+        "sinovi": "chính trị",
+        "reviewed": true
+      },
+      {
+        "word": "治安維持",
+        "sinovi": "trị an duy trì",
+        "reviewed": true
+      },
+      {
+        "word": "治療",
+        "sinovi": "trị liệu",
+        "reviewed": true
+      },
+      {
+        "word": "治療法",
+        "sinovi": "trị liệu pháp",
+        "reviewed": true
+      },
+      {
+        "word": "治癒",
+        "sinovi": "trị dũ",
+        "reviewed": true
+      },
+      {
+        "word": "退治",
+        "sinovi": "thoái trị",
+        "reviewed": true
+      }
+    ]
+  },
+  "泡": {
+    "sinovi": "PHAO, BÀO",
+    "vocabulary": [
+      {
+        "word": "気泡",
+        "sinovi": "khí phao",
+        "reviewed": true
+      },
+      {
+        "word": "泡",
+        "sinovi": "phao",
+        "reviewed": true
+      }
+    ]
+  },
+  "泥": {
+    "sinovi": "NÊ, NỆ",
+    "vocabulary": [
+      {
+        "word": "拘泥",
+        "sinovi": "câu nệ",
+        "reviewed": true
+      },
+      {
+        "word": "泥",
+        "sinovi": "nê",
+        "reviewed": true
+      },
+      {
+        "word": "泥棒",
+        "sinovi": "nê bổng",
+        "reviewed": true
+      },
+      {
+        "word": "泥水",
+        "sinovi": "nê thủy",
+        "reviewed": true
+      },
+      {
+        "word": "泥沼",
+        "sinovi": "nê chiểu",
+        "reviewed": true
+      },
+      {
+        "word": "泥酔",
+        "sinovi": "nê tuý",
+        "reviewed": true
+      }
+    ]
+  },
+  "浦": {
+    "sinovi": "PHỔ, PHỐ",
+    "vocabulary": [
+      {
+        "word": "浦",
+        "sinovi": "phổ",
+        "reviewed": true
+      },
+      {
+        "word": "浦島太郎",
+        "sinovi": "phổ đảo thái lang",
+        "reviewed": true
+      },
+      {
+        "word": "浦辺",
+        "sinovi": "phổ biên",
+        "reviewed": true
+      }
+    ]
+  },
+  "浪": {
+    "sinovi": "LÃNG, LANG",
+    "vocabulary": [
+      {
+        "word": "放浪",
+        "sinovi": "phóng lãng",
+        "reviewed": true
+      },
+      {
+        "word": "浪",
+        "sinovi": "lãng",
+        "reviewed": true
+      },
+      {
+        "word": "浪人",
+        "sinovi": "lãng nhân",
+        "reviewed": true
+      },
+      {
+        "word": "浪費",
+        "sinovi": "lãng phí",
+        "reviewed": true
+      },
+      {
+        "word": "浮浪者",
+        "sinovi": "phù lãng giả",
+        "reviewed": true
+      }
+    ]
+  },
+  "済": {
+    "sinovi": "TẾ, TỂ",
+    "vocabulary": [
+      {
+        "word": "経済",
+        "sinovi": "kinh tế",
+        "reviewed": true
+      },
+      {
+        "word": "経済財政諮問会議",
+        "sinovi": "kinh tế tài chính tư vấn hội nghị",
+        "reviewed": true
+      }
+    ]
+  },
+  "渦": {
+    "sinovi": "QUA, OA",
+    "vocabulary": [
+      {
+        "word": "渦",
+        "sinovi": "qua",
+        "reviewed": true
+      },
+      {
+        "word": "渦中",
+        "sinovi": "qua trung",
+        "reviewed": true
+      },
+      {
+        "word": "渦潮",
+        "sinovi": "oa triều",
+        "reviewed": true
+      }
+    ]
+  },
+  "湯": {
+    "sinovi": "THANG, SƯƠNG",
+    "vocabulary": [
+      {
+        "word": "湯",
+        "sinovi": "thang",
+        "reviewed": true
+      },
+      {
+        "word": "湯気",
+        "sinovi": "thang khí",
+        "reviewed": true
+      },
+      {
+        "word": "湯船",
+        "sinovi": "thang thuyền",
+        "reviewed": true
+      },
+      {
+        "word": "葛湯",
+        "sinovi": "cát thang",
+        "reviewed": true
+      },
+      {
+        "word": "銭湯",
+        "sinovi": "tiền thang",
+        "reviewed": true
+      }
+    ]
+  },
+  "溺": {
+    "sinovi": "NỊCH, NIỆU",
+    "vocabulary": [
+      {
+        "word": "溺愛",
+        "sinovi": "nịch ái",
+        "reviewed": true
+      },
+      {
+        "word": "溺死",
+        "sinovi": "nịch tử",
+        "reviewed": true
+      },
+      {
+        "word": "耽溺",
+        "sinovi": "đam nịch",
+        "reviewed": true
+      }
+    ]
+  },
+  "滴": {
+    "sinovi": "TÍCH, TRÍCH",
+    "vocabulary": [
+      {
+        "word": "一滴",
+        "sinovi": "nhất tích",
+        "reviewed": true
+      },
+      {
+        "word": "水滴",
+        "sinovi": "thủy tích",
+        "reviewed": true
+      },
+      {
+        "word": "滴",
+        "sinovi": "tích",
+        "reviewed": true
+      }
+    ]
+  },
+  "漂": {
+    "sinovi": "PHIÊU, PHIẾU",
+    "vocabulary": [
+      {
+        "word": "漂泊",
+        "sinovi": "phiêu bạc",
+        "reviewed": true
+      },
+      {
+        "word": "漂流",
+        "sinovi": "phiêu lưu",
+        "reviewed": true
+      },
+      {
+        "word": "漂白",
+        "sinovi": "phiêu bạch",
+        "reviewed": true
+      },
+      {
+        "word": "漂着",
+        "sinovi": "phiêu trứ",
+        "reviewed": true
+      }
+    ]
+  },
+  "漸": {
+    "sinovi": "TIỆM, TIÊM",
+    "vocabulary": [
+      {
+        "word": "漸",
+        "sinovi": "tiệm",
+        "reviewed": true
+      },
+      {
+        "word": "漸次",
+        "sinovi": "tiệm thứ",
+        "reviewed": true
+      },
+      {
+        "word": "漸減",
+        "sinovi": "tiệm giảm",
+        "reviewed": true
+      }
+    ]
+  },
+  "潮": {
+    "sinovi": "TRIỀU, TRÀO",
+    "vocabulary": [
+      {
+        "word": "最高潮",
+        "sinovi": "tối cao triều",
+        "reviewed": true
+      },
+      {
+        "word": "渦潮",
+        "sinovi": "qua triều",
+        "reviewed": true
+      },
+      {
+        "word": "潮",
+        "sinovi": "triều",
+        "reviewed": true
+      },
+      {
+        "word": "潮時",
+        "sinovi": "triều thời",
+        "reviewed": true
+      },
+      {
+        "word": "潮風",
+        "sinovi": "triều phong",
+        "reviewed": true
+      },
+      {
+        "word": "紅潮",
+        "sinovi": "hồng triều",
+        "reviewed": true
+      }
+    ]
+  },
+  "激": {
+    "sinovi": "KÍCH, KHÍCH",
+    "vocabulary": [
+      {
+        "word": "刺激",
+        "sinovi": "thích kích",
+        "reviewed": true
+      },
+      {
+        "word": "急激",
+        "sinovi": "cấp kích",
+        "reviewed": true
+      },
+      {
+        "word": "感激",
+        "sinovi": "cảm kích",
+        "reviewed": true
+      },
+      {
+        "word": "激励",
+        "sinovi": "khích lệ",
+        "reviewed": true
+      },
+      {
+        "word": "過激",
+        "sinovi": "quá khích",
+        "reviewed": true
+      }
+    ]
+  },
+  "為": {
+    "sinovi": "VI, VỊ",
+    "vocabulary": [
+      {
+        "word": "無為",
+        "sinovi": "vô vị",
+        "reviewed": true
+      },
+      {
+        "word": "行為",
+        "sinovi": "hành vi",
+        "reviewed": true
+      }
+    ]
+  },
+  "煎": {
+    "sinovi": "TIÊN, TIỄN",
+    "vocabulary": [
+      {
+        "word": "焙煎",
+        "sinovi": "bồi tiên",
+        "reviewed": true
+      },
+      {
+        "word": "煎",
+        "sinovi": "tiên",
+        "reviewed": true
+      },
+      {
+        "word": "煎餅",
+        "sinovi": "tiên bính",
+        "reviewed": true
+      }
+    ]
+  },
+  "率": {
+    "sinovi": "SUẤT, LUẬT",
+    "vocabulary": [
+      {
+        "word": "体脂肪率",
+        "sinovi": "thể chi phương suất",
+        "reviewed": true
+      },
+      {
+        "word": "効率",
+        "sinovi": "hiệu suất",
+        "reviewed": true
+      },
+      {
+        "word": "率",
+        "sinovi": "suất",
+        "reviewed": true
+      },
+      {
+        "word": "率直",
+        "sinovi": "suất trực",
+        "reviewed": true
+      },
+      {
+        "word": "確率",
+        "sinovi": "xác suất",
+        "reviewed": true
+      },
+      {
+        "word": "統率",
+        "sinovi": "thống suất",
+        "reviewed": true
+      }
+    ]
+  },
+  "生": {
+    "sinovi": "SINH, SANH",
+    "vocabulary": [
+      {
+        "word": "一生",
+        "sinovi": "nhất sinh",
+        "reviewed": true
+      },
+      {
+        "word": "一生懸命",
+        "sinovi": "nhất sinh huyền mệnh",
+        "reviewed": true
+      },
+      {
+        "word": "一生涯",
+        "sinovi": "nhất sinh nhai",
+        "reviewed": true
+      },
+      {
+        "word": "人生",
+        "sinovi": "nhân sinh",
+        "reviewed": true
+      },
+      {
+        "word": "先生",
+        "sinovi": "tiên sinh",
+        "reviewed": true
+      },
+      {
+        "word": "再生",
+        "sinovi": "tái sinh",
+        "reviewed": true
+      },
+      {
+        "word": "同級生",
+        "sinovi": "đồng cấp sinh",
+        "reviewed": true
+      },
+      {
+        "word": "塾生",
+        "sinovi": "thục sinh",
+        "reviewed": true
+      },
+      {
+        "word": "学生",
+        "sinovi": "học sinh",
+        "reviewed": true
+      },
+      {
+        "word": "学生寮",
+        "sinovi": "học sinh liêu",
+        "reviewed": true
+      },
+      {
+        "word": "寄生",
+        "sinovi": "kí sinh",
+        "reviewed": true
+      },
+      {
+        "word": "寮生",
+        "sinovi": "liêu sinh",
+        "reviewed": true
+      },
+      {
+        "word": "弥生",
+        "sinovi": "di sinh",
+        "reviewed": true
+      },
+      {
+        "word": "生",
+        "sinovi": "sinh",
+        "reviewed": true
+      },
+      {
+        "word": "生卵",
+        "sinovi": "sinh noãn",
+        "reviewed": true
+      },
+      {
+        "word": "生唾",
+        "sinovi": "sinh thoá",
+        "reviewed": true
+      },
+      {
+        "word": "生徒",
+        "sinovi": "sinh đồ",
+        "reviewed": true
+      },
+      {
+        "word": "生徒会",
+        "sinovi": "sinh đồ hội",
+        "reviewed": true
+      },
+      {
+        "word": "生憎",
+        "sinovi": "sinh tăng",
+        "reviewed": true
+      },
+      {
+        "word": "生殖",
+        "sinovi": "sinh thực",
+        "reviewed": true
+      },
+      {
+        "word": "生活",
+        "sinovi": "sinh hoạt",
+        "reviewed": true
+      },
+      {
+        "word": "生活必需品",
+        "sinovi": "sinh hoạt tất nhu phẩm",
+        "reviewed": true
+      },
+      {
+        "word": "生活費",
+        "sinovi": "sinh hoạt phí",
+        "reviewed": true
+      },
+      {
+        "word": "生涯",
+        "sinovi": "sinh nhai",
+        "reviewed": true
+      },
+      {
+        "word": "生産",
+        "sinovi": "sinh sản",
+        "reviewed": true
+      },
+      {
+        "word": "生粋",
+        "sinovi": "sinh tuý",
+        "reviewed": true
+      },
+      {
+        "word": "生誕",
+        "sinovi": "sinh đản",
+        "reviewed": true
+      },
+      {
+        "word": "生還",
+        "sinovi": "sinh hoàn",
+        "reviewed": true
+      },
+      {
+        "word": "畜生",
+        "sinovi": "súc sinh",
+        "reviewed": true
+      },
+      {
+        "word": "芝生",
+        "sinovi": "chi sinh",
+        "reviewed": true
+      },
+      {
+        "word": "誕生",
+        "sinovi": "đản sinh",
+        "reviewed": true
+      },
+      {
+        "word": "誕生日",
+        "sinovi": "đản sinh nhật",
+        "reviewed": true
+      },
+      {
+        "word": "誕生日会",
+        "sinovi": "đản sinh nhật hội",
+        "reviewed": true
+      },
+      {
+        "word": "高校生",
+        "sinovi": "cao hiệu sinh",
+        "reviewed": true
+      }
+    ]
+  },
+  "画": {
+    "sinovi": "HỌA, HOẠCH",
+    "vocabulary": [
+      {
+        "word": "企画",
+        "sinovi": "xí hoạch",
+        "reviewed": true
+      },
+      {
+        "word": "区画",
+        "sinovi": "khu hoạch",
+        "reviewed": true
+      },
+      {
+        "word": "抽象画",
+        "sinovi": "trừu tượng họa",
+        "reviewed": true
+      },
+      {
+        "word": "描画",
+        "sinovi": "miêu họa",
+        "reviewed": true
+      },
+      {
+        "word": "映画",
+        "sinovi": "ánh họa",
+        "reviewed": true
+      },
+      {
+        "word": "映画俳優",
+        "sinovi": "ánh họa bài ưu",
+        "reviewed": true
+      },
+      {
+        "word": "映画監督",
+        "sinovi": "ánh họa giám đốc",
+        "reviewed": true
+      },
+      {
+        "word": "漫画",
+        "sinovi": "mạn họa",
+        "reviewed": true
+      },
+      {
+        "word": "漫画家",
+        "sinovi": "mạn họa gia",
+        "reviewed": true
+      },
+      {
+        "word": "画像",
+        "sinovi": "họa tượng",
+        "reviewed": true
+      },
+      {
+        "word": "画廊",
+        "sinovi": "họa lang",
+        "reviewed": true
+      },
+      {
+        "word": "画面",
+        "sinovi": "họa diện",
+        "reviewed": true
+      },
+      {
+        "word": "絵画",
+        "sinovi": "hội họa",
+        "reviewed": true
+      },
+      {
+        "word": "肖像画",
+        "sinovi": "tiêu tượng họa",
+        "reviewed": true
+      },
+      {
+        "word": "肖像画家",
+        "sinovi": "tiêu tượng họa gia",
+        "reviewed": true
+      },
+      {
+        "word": "計画",
+        "sinovi": "kế họach",
+        "reviewed": true
+      },
+      {
+        "word": "録画",
+        "sinovi": "lục họa",
+        "reviewed": true
+      }
+    ]
+  },
+  "番": {
+    "sinovi": "PHIÊN, PHAN",
+    "vocabulary": [
+      {
+        "word": "一番",
+        "sinovi": "nhất phiên",
+        "reviewed": true
+      },
+      {
+        "word": "出番",
+        "sinovi": "xuất phiên",
+        "reviewed": true
+      },
+      {
+        "word": "本番",
+        "sinovi": "bản phiên",
+        "reviewed": true
+      },
+      {
+        "word": "番",
+        "sinovi": "phiên",
+        "reviewed": true
+      },
+      {
+        "word": "番号",
+        "sinovi": "phiên hiệu",
+        "reviewed": true
+      },
+      {
+        "word": "番組",
+        "sinovi": "phiên tổ",
+        "reviewed": true
+      },
+      {
+        "word": "順番",
+        "sinovi": "thuận phiên",
+        "reviewed": true
+      }
+    ]
+  },
+  "監": {
+    "sinovi": "GIAM, GIÁM",
+    "vocabulary": [
+      {
+        "word": "拉致監禁",
+        "sinovi": "lạp trí giam cấm",
+        "reviewed": true
+      },
+      {
+        "word": "映画監督",
+        "sinovi": "ánh họa giám đốc",
+        "reviewed": true
+      },
+      {
+        "word": "監査",
+        "sinovi": "giám tra",
+        "reviewed": true
+      },
+      {
+        "word": "監獄",
+        "sinovi": "giám ngục",
+        "reviewed": true
+      },
+      {
+        "word": "監督",
+        "sinovi": "giám đốc",
+        "reviewed": true
+      },
+      {
+        "word": "監禁",
+        "sinovi": "giam cấm",
+        "reviewed": true
+      },
+      {
+        "word": "監視",
+        "sinovi": "giám thị",
+        "reviewed": true
+      }
+    ]
+  },
+  "相": {
+    "sinovi": "TƯƠNG, TƯỚNG",
+    "vocabulary": [
+      {
+        "word": "宰相",
+        "sinovi": "tể tướng",
+        "reviewed": true
+      },
+      {
+        "word": "形相",
+        "sinovi": "hình tương",
+        "reviewed": true
+      },
+      {
+        "word": "相互",
+        "sinovi": "tương hỗ",
+        "reviewed": true
+      },
+      {
+        "word": "相互扶助",
+        "sinovi": "tương hỗ phù trợ",
+        "reviewed": true
+      },
+      {
+        "word": "相克",
+        "sinovi": "tương khắc",
+        "reviewed": true
+      },
+      {
+        "word": "相当",
+        "sinovi": "tương đương",
+        "reviewed": true
+      },
+      {
+        "word": "相性",
+        "sinovi": "tương tính",
+        "reviewed": true
+      },
+      {
+        "word": "相手",
+        "sinovi": "tương thủ",
+        "reviewed": true
+      },
+      {
+        "word": "相撲",
+        "sinovi": "tương phác",
+        "reviewed": true
+      },
+      {
+        "word": "相棒",
+        "sinovi": "tương bổng",
+        "reviewed": true
+      },
+      {
+        "word": "相殺",
+        "sinovi": "tương sát",
+        "reviewed": true
+      },
+      {
+        "word": "相談",
+        "sinovi": "tương đàm",
+        "reviewed": true
+      },
+      {
+        "word": "粗相",
+        "sinovi": "thô tướng",
+        "reviewed": true
+      },
+      {
+        "word": "腕相撲",
+        "sinovi": "oản tương phác",
+        "reviewed": true
+      },
+      {
+        "word": "貧相",
+        "sinovi": "bần tướng",
+        "reviewed": true
+      }
+    ]
+  },
+  "着": {
+    "sinovi": "TRỨ, TRƯỚC",
+    "vocabulary": [
+      {
+        "word": "下着",
+        "sinovi": "hạ trứ",
+        "reviewed": true
+      },
+      {
+        "word": "到着",
+        "sinovi": "đáo trước",
+        "reviewed": true
+      },
+      {
+        "word": "執着",
+        "sinovi": "chấp trước",
+        "reviewed": true
+      },
+      {
+        "word": "密着",
+        "sinovi": "mật trước",
+        "reviewed": true
+      },
+      {
+        "word": "巾着",
+        "sinovi": "cân trước",
+        "reviewed": true
+      },
+      {
+        "word": "普段着",
+        "sinovi": "phổ đoạn trước",
+        "reviewed": true
+      },
+      {
+        "word": "水着",
+        "sinovi": "thủy trước",
+        "reviewed": true
+      },
+      {
+        "word": "漂着",
+        "sinovi": "phiêu trước",
+        "reviewed": true
+      },
+      {
+        "word": "無頓着",
+        "sinovi": "vô đốn trước",
+        "reviewed": true
+      },
+      {
+        "word": "癒着",
+        "sinovi": "dũ trước",
+        "reviewed": true
+      },
+      {
+        "word": "着陸",
+        "sinovi": "trước lục",
+        "reviewed": true
+      },
+      {
+        "word": "粘着",
+        "sinovi": "niêm trước",
+        "reviewed": true
+      },
+      {
+        "word": "胴着",
+        "sinovi": "đỗng trước",
+        "reviewed": true
+      },
+      {
+        "word": "腰巾着",
+        "sinovi": "yêu cân trước",
+        "reviewed": true
+      },
+      {
+        "word": "頓着",
+        "sinovi": "đốn trước",
+        "reviewed": true
+      }
+    ]
+  },
+  "知": {
+    "sinovi": "TRI, TRÍ",
+    "vocabulary": [
+      {
+        "word": "基礎知識",
+        "sinovi": "cơ sở tri thức",
+        "reviewed": true
+      },
+      {
+        "word": "察知",
+        "sinovi": "sát tri",
+        "reviewed": true
+      },
+      {
+        "word": "承知",
+        "sinovi": "thừa tri",
+        "reviewed": true
+      },
+      {
+        "word": "既知",
+        "sinovi": "kí tri",
+        "reviewed": true
+      },
+      {
+        "word": "旧知",
+        "sinovi": "cựu tri",
+        "reviewed": true
+      },
+      {
+        "word": "未知",
+        "sinovi": "vị trí",
+        "reviewed": true
+      },
+      {
+        "word": "熟知",
+        "sinovi": "thục tri",
+        "reviewed": true
+      },
+      {
+        "word": "知己",
+        "sinovi": "tri kỉ",
+        "reviewed": true
+      },
+      {
+        "word": "知恵",
+        "sinovi": "tri huệ",
+        "reviewed": true
+      },
+      {
+        "word": "知識",
+        "sinovi": "tri thức",
+        "reviewed": true
+      },
+      {
+        "word": "英知",
+        "sinovi": "anh trí",
+        "reviewed": true
+      }
+    ]
+  },
+  "示": {
+    "sinovi": "KÌ, THỊ",
+    "vocabulary": [
+      {
+        "word": "啓示",
+        "sinovi": "khải thị",
+        "reviewed": true
+      },
+      {
+        "word": "展示",
+        "sinovi": "triển thị",
+        "reviewed": true
+      },
+      {
+        "word": "指示",
+        "sinovi": "chỉ thị",
+        "reviewed": true
+      },
+      {
+        "word": "掲示板",
+        "sinovi": "yết thị bản",
+        "reviewed": true
+      },
+      {
+        "word": "提示",
+        "sinovi": "đề thị",
+        "reviewed": true
+      },
+      {
+        "word": "示唆",
+        "sinovi": "thị toa",
+        "reviewed": true
+      },
+      {
+        "word": "示唆的",
+        "sinovi": "thị toa đích",
+        "reviewed": true
+      },
+      {
+        "word": "表示",
+        "sinovi": "biểu thị",
+        "reviewed": true
+      },
+      {
+        "word": "誇示",
+        "sinovi": "khoa thị",
+        "reviewed": true
+      },
+      {
+        "word": "電光掲示板",
+        "sinovi": "điện quang yết thị bản",
+        "reviewed": true
+      }
+    ]
+  },
+  "票": {
+    "sinovi": "PHIẾU, TIÊU, PHIÊU",
+    "vocabulary": [
+      {
+        "word": "一票",
+        "sinovi": "nhất phiếu",
+        "reviewed": true
+      },
+      {
+        "word": "人気投票",
+        "sinovi": "nhân khí đầu phiếu",
+        "reviewed": true
+      },
+      {
+        "word": "伝票",
+        "sinovi": "truyền phiếu",
+        "reviewed": true
+      },
+      {
+        "word": "投票",
+        "sinovi": "đầu phiếu",
+        "reviewed": true
+      },
+      {
+        "word": "票",
+        "sinovi": "phiếu",
+        "reviewed": true
+      }
+    ]
+  },
+  "禅": {
+    "sinovi": "THIỆN, THIỀN",
+    "vocabulary": [
+      {
+        "word": "座禅",
+        "sinovi": "toạ thiền",
+        "reviewed": true
+      },
+      {
+        "word": "禅",
+        "sinovi": "thiền",
+        "reviewed": true
+      },
+      {
+        "word": "禅問答",
+        "sinovi": "thiền vấn đáp",
+        "reviewed": true
+      },
+      {
+        "word": "禅寺",
+        "sinovi": "thiền tự",
+        "reviewed": true
+      },
+      {
+        "word": "禅師",
+        "sinovi": "thiền sư",
+        "reviewed": true
+      }
+    ]
+  },
+  "移": {
+    "sinovi": "DI, SỈ",
+    "vocabulary": [
+      {
+        "word": "移動",
+        "sinovi": "di động",
+        "reviewed": true
+      },
+      {
+        "word": "移植",
+        "sinovi": "di thực",
+        "reviewed": true
+      },
+      {
+        "word": "移行",
+        "sinovi": "di hành",
+        "reviewed": true
+      },
+      {
+        "word": "転移",
+        "sinovi": "chuyển di",
+        "reviewed": true
+      },
+      {
+        "word": "遷移",
+        "sinovi": "thiên di",
+        "reviewed": true
+      }
+    ]
+  },
+  "稽": {
+    "sinovi": "KÊ, KHỂ",
+    "vocabulary": [
+      {
+        "word": "滑稽",
+        "sinovi": "hoạt kê",
+        "reviewed": true
+      },
+      {
+        "word": "稽古",
+        "sinovi": "kê cổ",
+        "reviewed": true
+      },
+      {
+        "word": "稽古場",
+        "sinovi": "kê cổ trường",
+        "reviewed": true
+      },
+      {
+        "word": "荒唐無稽",
+        "sinovi": "hoang đường vô kê",
+        "reviewed": true
+      }
+    ]
+  },
+  "箱": {
+    "sinovi": "TƯƠNG, SƯƠNG",
+    "vocabulary": [
+      {
+        "word": "下駄箱",
+        "sinovi": "hạ đà tương",
+        "reviewed": true
+      },
+      {
+        "word": "宝箱",
+        "sinovi": "bảo tương",
+        "reviewed": true
+      },
+      {
+        "word": "弁当箱",
+        "sinovi": "biện đương tương",
+        "reviewed": true
+      },
+      {
+        "word": "木箱",
+        "sinovi": "mộc tương",
+        "reviewed": true
+      },
+      {
+        "word": "箱",
+        "sinovi": "tương",
+        "reviewed": true
+      },
+      {
+        "word": "箱舟",
+        "sinovi": "tương chu",
+        "reviewed": true
+      }
+    ]
+  },
+  "簿": {
+    "sinovi": "BỘ, BẠC",
+    "vocabulary": [
+      {
+        "word": "出席簿",
+        "sinovi": "xuất tịch bộ",
+        "reviewed": true
+      },
+      {
+        "word": "名簿",
+        "sinovi": "danh bộ",
+        "reviewed": true
+      },
+      {
+        "word": "家計簿",
+        "sinovi": "gia kế bộ",
+        "reviewed": true
+      },
+      {
+        "word": "帳簿",
+        "sinovi": "trướng bộ",
+        "reviewed": true
+      },
+      {
+        "word": "登記簿謄本",
+        "sinovi": "đăng kí bộ đằng bản",
+        "reviewed": true
+      },
+      {
+        "word": "裏帳簿",
+        "sinovi": "lí trướng bộ",
+        "reviewed": true
+      }
+    ]
+  },
+  "索": {
+    "sinovi": "TÁC, SÁCH",
+    "vocabulary": [
+      {
+        "word": "捜索",
+        "sinovi": "sưu tác",
+        "reviewed": true
+      },
+      {
+        "word": "探索",
+        "sinovi": "thám tác",
+        "reviewed": true
+      },
+      {
+        "word": "検索",
+        "sinovi": "kiểm tác",
+        "reviewed": true
+      },
+      {
+        "word": "模索",
+        "sinovi": "mô tác",
+        "reviewed": true
+      },
+      {
+        "word": "詮索",
+        "sinovi": "thuyên tác",
+        "reviewed": true
+      }
+    ]
+  },
+  "累": {
+    "sinovi": "LUY, LŨY, LỤY",
+    "vocabulary": [
+      {
+        "word": "累",
+        "sinovi": "lũy",
+        "reviewed": true
+      },
+      {
+        "word": "累積",
+        "sinovi": "lũy tích",
+        "reviewed": true
+      },
+      {
+        "word": "累計",
+        "sinovi": "lũy kế",
+        "reviewed": true
+      }
+    ]
+  },
+  "縦": {
+    "sinovi": "TÚNG, TUNG",
+    "vocabulary": [
+      {
+        "word": "操縦",
+        "sinovi": "thao túng",
+        "reviewed": true
+      },
+      {
+        "word": "縦",
+        "sinovi": "túng",
+        "reviewed": true
+      },
+      {
+        "word": "縦断",
+        "sinovi": "tung đoạn",
+        "reviewed": true
+      },
+      {
+        "word": "縦横無尽",
+        "sinovi": "tung hoành vô tẫn",
+        "reviewed": true
+      }
+    ]
+  },
+  "缶": {
+    "sinovi": "PHỮU, PHẪU",
+    "vocabulary": [
+      {
+        "word": "缶",
+        "sinovi": "phữu",
+        "reviewed": true
+      },
+      {
+        "word": "缶詰",
+        "sinovi": "phữu cật",
+        "reviewed": true
+      }
+    ]
+  },
+  "署": {
+    "sinovi": "THỰ, THỤ",
+    "vocabulary": [
+      {
+        "word": "署",
+        "sinovi": "thự",
+        "reviewed": true
+      },
+      {
+        "word": "署名",
+        "sinovi": "thự danh",
+        "reviewed": true
+      },
+      {
+        "word": "署長",
+        "sinovi": "thự trường",
+        "reviewed": true
+      },
+      {
+        "word": "警察署",
+        "sinovi": "cảnh sát thự",
+        "reviewed": true
+      },
+      {
+        "word": "部署",
+        "sinovi": "bộ thự",
+        "reviewed": true
+      }
+    ]
+  },
+  "耗": {
+    "sinovi": "HAO, HÁO",
+    "vocabulary": [
+      {
+        "word": "損耗",
+        "sinovi": "tổn hao",
+        "reviewed": true
+      },
+      {
+        "word": "摩耗",
+        "sinovi": "ma hao",
+        "reviewed": true
+      },
+      {
+        "word": "消耗",
+        "sinovi": "tiêu hao",
+        "reviewed": true
+      },
+      {
+        "word": "消耗品",
+        "sinovi": "tiêu hao phẩm",
+        "reviewed": true
+      },
+      {
+        "word": "消耗戦",
+        "sinovi": "tiêu hao chiến",
+        "reviewed": true
+      }
+    ]
+  },
+  "背": {
+    "sinovi": "BỐI, BỘI",
+    "vocabulary": [
+      {
+        "word": "背",
+        "sinovi": "bối",
+        "reviewed": true
+      },
+      {
+        "word": "背丈",
+        "sinovi": "bối trượng",
+        "reviewed": true
+      },
+      {
+        "word": "背中",
+        "sinovi": "bối trung",
+        "reviewed": true
+      },
+      {
+        "word": "背後",
+        "sinovi": "bối hậu",
+        "reviewed": true
+      },
+      {
+        "word": "背徳",
+        "sinovi": "bối đức",
+        "reviewed": true
+      },
+      {
+        "word": "背景",
+        "sinovi": "bối cảnh",
+        "reviewed": true
+      },
+      {
+        "word": "背筋",
+        "sinovi": "bối cân",
+        "reviewed": true
+      }
+    ]
+  },
+  "腸": {
+    "sinovi": "TRÀNG, TRƯỜNG",
+    "vocabulary": [
+      {
+        "word": "盲腸",
+        "sinovi": "manh tràng",
+        "reviewed": true
+      },
+      {
+        "word": "直腸",
+        "sinovi": "trực tràng",
+        "reviewed": true
+      },
+      {
+        "word": "胃腸",
+        "sinovi": "vị tràng",
+        "reviewed": true
+      },
+      {
+        "word": "腸",
+        "sinovi": "trường",
+        "reviewed": true
+      }
+    ]
+  },
+  "膜": {
+    "sinovi": "MÔ, MẠC",
+    "vocabulary": [
+      {
+        "word": "処女膜",
+        "sinovi": "xử nữ mạc",
+        "reviewed": true
+      },
+      {
+        "word": "粘膜",
+        "sinovi": "niêm mạc",
+        "reviewed": true
+      },
+      {
+        "word": "網膜",
+        "sinovi": "võng mạc",
+        "reviewed": true
+      },
+      {
+        "word": "膜",
+        "sinovi": "mạc",
+        "reviewed": true
+      },
+      {
+        "word": "鼓膜",
+        "sinovi": "cổ mạc",
+        "reviewed": true
+      }
+    ]
+  },
+  "臨": {
+    "sinovi": "LÂM, LẤM",
+    "vocabulary": [
+      {
+        "word": "君臨",
+        "sinovi": "quân lâm",
+        "reviewed": true
+      },
+      {
+        "word": "臨戦態勢",
+        "sinovi": "lâm chiến thái thế",
+        "reviewed": true
+      },
+      {
+        "word": "臨時",
+        "sinovi": "lâm thời",
+        "reviewed": true
+      },
+      {
+        "word": "降臨",
+        "sinovi": "giáng lâm",
+        "reviewed": true
+      }
+    ]
+  },
+  "興": {
+    "sinovi": "HƯNG, HỨNG",
+    "vocabulary": [
+      {
+        "word": "勃興",
+        "sinovi": "bột hưng",
+        "reviewed": true
+      },
+      {
+        "word": "復興",
+        "sinovi": "phục hưng",
+        "reviewed": true
+      },
+      {
+        "word": "興味",
+        "sinovi": "hưng vị",
+        "reviewed": true
+      },
+      {
+        "word": "興奮",
+        "sinovi": "hưng phấn",
+        "reviewed": true
+      },
+      {
+        "word": "興奮気味",
+        "sinovi": "hưng phấn khí vị",
+        "reviewed": true
+      },
+      {
+        "word": "興隆",
+        "sinovi": "hưng long",
+        "reviewed": true
+      }
+    ]
+  },
+  "般": {
+    "sinovi": "BÀN, BAN",
+    "vocabulary": [
+      {
+        "word": "一般",
+        "sinovi": "nhất bàn",
+        "reviewed": true
+      },
+      {
+        "word": "一般人",
+        "sinovi": "nhất bàn nhân",
+        "reviewed": true
+      },
+      {
+        "word": "一般庶民",
+        "sinovi": "nhất bàn thứ dân",
+        "reviewed": true
+      },
+      {
+        "word": "一般的",
+        "sinovi": "nhất bàn đích",
+        "reviewed": true
+      },
+      {
+        "word": "全般",
+        "sinovi": "toàn bàn",
+        "reviewed": true
+      },
+      {
+        "word": "般若面",
+        "sinovi": "bàn nhược diện",
+        "reviewed": true
+      }
+    ]
+  },
+  "芋": {
+    "sinovi": "DỤ, VU",
+    "vocabulary": [
+      {
+        "word": "芋",
+        "sinovi": "dụ",
+        "reviewed": true
+      },
+      {
+        "word": "芋焼酎",
+        "sinovi": "dụ thiêu trữu",
+        "reviewed": true
+      },
+      {
+        "word": "芋虫",
+        "sinovi": "dụ trùng",
+        "reviewed": true
+      },
+      {
+        "word": "里芋",
+        "sinovi": "lí dụ",
+        "reviewed": true
+      }
+    ]
+  },
+  "芸": {
+    "sinovi": "VÂN, NGHỆ",
+    "vocabulary": [
+      {
+        "word": "芸",
+        "sinovi": "nghệ",
+        "reviewed": true
+      },
+      {
+        "word": "芸人",
+        "sinovi": "nghệ nhân",
+        "reviewed": true
+      },
+      {
+        "word": "芸当",
+        "sinovi": "nghệ đương",
+        "reviewed": true
+      },
+      {
+        "word": "芸術",
+        "sinovi": "nghệ thuật",
+        "reviewed": true
+      },
+      {
+        "word": "芸術家",
+        "sinovi": "nghệ thuật gia",
+        "reviewed": true
+      }
+    ]
+  },
+  "荷": {
+    "sinovi": "HÀ, HẠ",
+    "vocabulary": [
+      {
+        "word": "稲荷",
+        "sinovi": "đạo hà",
+        "reviewed": true
+      },
+      {
+        "word": "荷",
+        "sinovi": "hà",
+        "reviewed": true
+      },
+      {
+        "word": "荷台",
+        "sinovi": "hà đài",
+        "reviewed": true
+      },
+      {
+        "word": "荷物",
+        "sinovi": "hà vật",
+        "reviewed": true
+      },
+      {
+        "word": "負荷",
+        "sinovi": "phụ hà",
+        "reviewed": true
+      },
+      {
+        "word": "重荷",
+        "sinovi": "trọng hà",
+        "reviewed": true
+      }
+    ]
+  },
+  "萎": {
+    "sinovi": "NUY, UY",
+    "vocabulary": [
+      {
+        "word": "萎",
+        "sinovi": "uy",
+        "reviewed": true
+      },
+      {
+        "word": "萎縮",
+        "sinovi": "uy súc",
+        "reviewed": true
+      }
+    ]
+  },
+  "著": {
+    "sinovi": "TRỨ, TRƯỚC",
+    "vocabulary": [
+      {
+        "word": "著",
+        "sinovi": "trứ",
+        "reviewed": true
+      },
+      {
+        "word": "著作",
+        "sinovi": "trứ tác",
+        "reviewed": true
+      },
+      {
+        "word": "著者",
+        "sinovi": "trứ giả",
+        "reviewed": true
+      },
+      {
+        "word": "顕著",
+        "sinovi": "hiển trứ",
+        "reviewed": true
+      }
+    ]
+  },
+  "蔵": {
+    "sinovi": "TÀNG, TẠNG",
+    "vocabulary": [
+      {
+        "word": "内蔵",
+        "sinovi": "nội tạng",
+        "reviewed": true
+      },
+      {
+        "word": "冷蔵庫",
+        "sinovi": "lãnh tàng khố",
+        "reviewed": true
+      },
+      {
+        "word": "蔵",
+        "sinovi": "tàng",
+        "reviewed": true
+      },
+      {
+        "word": "蔵書",
+        "sinovi": "tàng thư",
+        "reviewed": true
+      },
+      {
+        "word": "貯蔵",
+        "sinovi": "trữ tàng",
+        "reviewed": true
+      }
+    ]
+  },
+  "蚕": {
+    "sinovi": "TẰM, TÀM",
+    "vocabulary": [
+      {
+        "word": "蚕",
+        "sinovi": "tằm",
+        "reviewed": true
+      },
+      {
+        "word": "蚕室",
+        "sinovi": "tằm thất",
+        "reviewed": true
+      },
+      {
+        "word": "蚕食",
+        "sinovi": "tằm thực",
+        "reviewed": true
+      },
+      {
+        "word": "養蚕",
+        "sinovi": "dưỡng tằm",
+        "reviewed": true
+      },
+      {
+        "word": "養蚕業",
+        "sinovi": "dưỡng tằm nghiệp",
+        "reviewed": true
+      }
+    ]
+  },
+  "行": {
+    "sinovi": "HÀNH, HÀNG",
+    "vocabulary": [
+      {
+        "word": "並行",
+        "sinovi": "tịnh hành",
+        "reviewed": true
+      },
+      {
+        "word": "中央銀行",
+        "sinovi": "trung ương ngân hàng",
+        "reviewed": true
+      },
+      {
+        "word": "修行",
+        "sinovi": "tu hành",
+        "reviewed": true
+      },
+      {
+        "word": "刊行",
+        "sinovi": "khan hành",
+        "reviewed": true
+      },
+      {
+        "word": "執行猶予",
+        "sinovi": "chấp hành do dự",
+        "reviewed": true
+      },
+      {
+        "word": "奉行",
+        "sinovi": "phụng hành",
+        "reviewed": true
+      },
+      {
+        "word": "孝行",
+        "sinovi": "hiếu hành",
+        "reviewed": true
+      },
+      {
+        "word": "宇宙飛行士",
+        "sinovi": "vũ trụ phi hành sĩ",
+        "reviewed": true
+      },
+      {
+        "word": "尾行",
+        "sinovi": "vĩ hành",
+        "reviewed": true
+      },
+      {
+        "word": "徐行",
+        "sinovi": "từ hành",
+        "reviewed": true
+      },
+      {
+        "word": "徐行運転",
+        "sinovi": "từ hành vận chuyển",
+        "reviewed": true
+      },
+      {
+        "word": "敢行",
+        "sinovi": "cảm hành",
+        "reviewed": true
+      },
+      {
+        "word": "旅行",
+        "sinovi": "lữ hành",
+        "reviewed": true
+      },
+      {
+        "word": "楷行草",
+        "sinovi": "khải hành thảo",
+        "reviewed": true
+      },
+      {
+        "word": "犯行",
+        "sinovi": "phạm hành",
+        "reviewed": true
+      },
+      {
+        "word": "現行犯逮捕",
+        "sinovi": "hiện hành phạm đãi bộ",
+        "reviewed": true
+      },
+      {
+        "word": "移行",
+        "sinovi": "di hành",
+        "reviewed": true
+      },
+      {
+        "word": "航行",
+        "sinovi": "hàng hành",
+        "reviewed": true
+      },
+      {
+        "word": "蛇行",
+        "sinovi": "xà hành",
+        "reviewed": true
+      },
+      {
+        "word": "蛮行",
+        "sinovi": "man hành",
+        "reviewed": true
+      },
+      {
+        "word": "行列",
+        "sinovi": "hàng liệt",
+        "reviewed": true
+      },
+      {
+        "word": "行動",
+        "sinovi": "hành động",
+        "reviewed": true
+      },
+      {
+        "word": "行為",
+        "sinovi": "hành vi",
+        "reviewed": true
+      },
+      {
+        "word": "親孝行",
+        "sinovi": "thân hiếu hành",
+        "reviewed": true
+      },
+      {
+        "word": "試行錯誤",
+        "sinovi": "thí hành thác ngộ",
+        "reviewed": true
+      },
+      {
+        "word": "進行",
+        "sinovi": "tiến hành",
+        "reviewed": true
+      },
+      {
+        "word": "遂行",
+        "sinovi": "toại hành",
+        "reviewed": true
+      },
+      {
+        "word": "遡行",
+        "sinovi": "tố hành",
+        "reviewed": true
+      },
+      {
+        "word": "遵行",
+        "sinovi": "tuân hành",
+        "reviewed": true
+      },
+      {
+        "word": "銀行",
+        "sinovi": "ngân hàng",
+        "reviewed": true
+      },
+      {
+        "word": "飛行機",
+        "sinovi": "phi hành cơ",
+        "reviewed": true
+      },
+      {
+        "word": "飛行艇",
+        "sinovi": "phi hành đĩnh",
+        "reviewed": true
+      }
+    ]
+  },
+  "衰": {
+    "sinovi": "SUY, SÚY",
+    "vocabulary": [
+      {
+        "word": "老衰",
+        "sinovi": "lão suy",
+        "reviewed": true
+      },
+      {
+        "word": "衰弱",
+        "sinovi": "suy nhược",
+        "reviewed": true
+      },
+      {
+        "word": "衰退",
+        "sinovi": "suy thoái",
+        "reviewed": true
+      }
+    ]
+  },
+  "衷": {
+    "sinovi": "TRUNG, TRÚNG",
+    "vocabulary": [
+      {
+        "word": "和洋折衷",
+        "sinovi": "hòa dương chiết trung",
+        "reviewed": true
+      },
+      {
+        "word": "折衷",
+        "sinovi": "chiết trung",
+        "reviewed": true
+      },
+      {
+        "word": "折衷案",
+        "sinovi": "chiết trung án",
+        "reviewed": true
+      },
+      {
+        "word": "苦衷",
+        "sinovi": "khổ trung",
+        "reviewed": true
+      },
+      {
+        "word": "衷心",
+        "sinovi": "trung tâm",
+        "reviewed": true
+      }
+    ]
+  },
+  "裸": {
+    "sinovi": "LỎA, KHỎA",
+    "vocabulary": [
+      {
+        "word": "全裸",
+        "sinovi": "toàn lỏa",
+        "reviewed": true
+      },
+      {
+        "word": "半裸",
+        "sinovi": "bán lỏa",
+        "reviewed": true
+      },
+      {
+        "word": "裸",
+        "sinovi": "lỏa",
+        "reviewed": true
+      },
+      {
+        "word": "裸体",
+        "sinovi": "lỏa thể",
+        "reviewed": true
+      },
+      {
+        "word": "裸足",
+        "sinovi": "lỏa túc",
+        "reviewed": true
+      }
+    ]
+  },
+  "裾": {
+    "sinovi": "CƯ, CỨ",
+    "vocabulary": [
+      {
+        "word": "山裾",
+        "sinovi": "sơn cư",
+        "reviewed": true
+      },
+      {
+        "word": "裳裾",
+        "sinovi": "thường cư",
+        "reviewed": true
+      },
+      {
+        "word": "裾",
+        "sinovi": "cư",
+        "reviewed": true
+      },
+      {
+        "word": "裾野",
+        "sinovi": "cư dã",
+        "reviewed": true
+      }
+    ]
+  },
+  "褐": {
+    "sinovi": "HẠT, CÁT",
+    "vocabulary": [
+      {
+        "word": "暗褐色",
+        "sinovi": "ám hạt sắc",
+        "reviewed": true
+      },
+      {
+        "word": "茶褐色",
+        "sinovi": "trà hạt sắc",
+        "reviewed": true
+      },
+      {
+        "word": "褐色",
+        "sinovi": "hạt sắc",
+        "reviewed": true
+      },
+      {
+        "word": "赤褐色",
+        "sinovi": "xích hạt sắc",
+        "reviewed": true
+      },
+      {
+        "word": "黄褐色",
+        "sinovi": "hoàng hạt sắc",
+        "reviewed": true
+      }
+    ]
+  },
+  "要": {
+    "sinovi": "YẾU, YÊU",
+    "vocabulary": [
+      {
+        "word": "必要",
+        "sinovi": "tất yếu",
+        "reviewed": true
+      },
+      {
+        "word": "概要",
+        "sinovi": "khái yếu",
+        "reviewed": true
+      },
+      {
+        "word": "要",
+        "sinovi": "yếu",
+        "reviewed": true
+      },
+      {
+        "word": "要因",
+        "sinovi": "yếu nhân",
+        "reviewed": true
+      },
+      {
+        "word": "要塞",
+        "sinovi": "yếu tắc",
+        "reviewed": true
+      },
+      {
+        "word": "要求",
+        "sinovi": "yêu cầu",
+        "reviewed": true
+      },
+      {
+        "word": "要素",
+        "sinovi": "yếu tố",
+        "reviewed": true
+      },
+      {
+        "word": "要綱",
+        "sinovi": "yếu cương",
+        "reviewed": true
+      },
+      {
+        "word": "要請",
+        "sinovi": "yếu thỉnh",
+        "reviewed": true
+      },
+      {
+        "word": "要領",
+        "sinovi": "yếu lĩnh",
+        "reviewed": true
+      },
+      {
+        "word": "重要",
+        "sinovi": "trọng yếu",
+        "reviewed": true
+      },
+      {
+        "word": "需要",
+        "sinovi": "nhu yếu",
+        "reviewed": true
+      }
+    ]
+  },
+  "覆": {
+    "sinovi": "PHÚC, PHÚ",
+    "vocabulary": [
+      {
+        "word": "覆面",
+        "sinovi": "phúc diện",
+        "reviewed": true
+      },
+      {
+        "word": "転覆",
+        "sinovi": "chuyển phúc",
+        "reviewed": true
+      }
+    ]
+  },
+  "記": {
+    "sinovi": "KÍ, KỈ",
+    "vocabulary": [
+      {
+        "word": "登記簿謄本",
+        "sinovi": "đăng kí bộ đằng bản",
+        "reviewed": true
+      },
+      {
+        "word": "記事",
+        "sinovi": "kí sự",
+        "reviewed": true
+      },
+      {
+        "word": "記念",
+        "sinovi": "kỉ niệm",
+        "reviewed": true
+      },
+      {
+        "word": "記念碑",
+        "sinovi": "kỉ niệm bi",
+        "reviewed": true
+      },
+      {
+        "word": "記憶",
+        "sinovi": "kí ức",
+        "reviewed": true
+      },
+      {
+        "word": "記憶力",
+        "sinovi": "kí ức lực",
+        "reviewed": true
+      },
+      {
+        "word": "記憶喪失",
+        "sinovi": "kí ức tang thất",
+        "reviewed": true
+      },
+      {
+        "word": "記載",
+        "sinovi": "kí tải",
+        "reviewed": true
+      },
+      {
+        "word": "記述",
+        "sinovi": "kí thuật",
+        "reviewed": true
+      },
+      {
+        "word": "記録",
+        "sinovi": "kỉ lục",
+        "reviewed": true
+      }
+    ]
+  },
+  "調": {
+    "sinovi": "ĐIỆU, ĐIỀU",
+    "vocabulary": [
+      {
+        "word": "口調",
+        "sinovi": "khẩu điệu",
+        "reviewed": true
+      },
+      {
+        "word": "壱越調",
+        "sinovi": "nhất việt điệu",
+        "reviewed": true
+      },
+      {
+        "word": "租庸調",
+        "sinovi": "tô dung điệu",
+        "reviewed": true
+      },
+      {
+        "word": "調子",
+        "sinovi": "điệu tử",
+        "reviewed": true
+      },
+      {
+        "word": "調整",
+        "sinovi": "điều chỉnh",
+        "reviewed": true
+      },
+      {
+        "word": "調査",
+        "sinovi": "điều tra",
+        "reviewed": true
+      },
+      {
+        "word": "諧調",
+        "sinovi": "hài điều",
+        "reviewed": true
+      },
+      {
+        "word": "順調",
+        "sinovi": "thuận điều",
+        "reviewed": true
+      }
+    ]
+  },
+  "識": {
+    "sinovi": "THỨC, CHÍ",
+    "vocabulary": [
+      {
+        "word": "基礎知識",
+        "sinovi": "cơ sở tri thức",
+        "reviewed": true
+      },
+      {
+        "word": "常識",
+        "sinovi": "thường thức",
+        "reviewed": true
+      },
+      {
+        "word": "意識",
+        "sinovi": "ý thức",
+        "reviewed": true
+      },
+      {
+        "word": "無意識",
+        "sinovi": "vô ý thức",
+        "reviewed": true
+      },
+      {
+        "word": "知識",
+        "sinovi": "tri thức",
+        "reviewed": true
+      },
+      {
+        "word": "自意識過剰",
+        "sinovi": "tự ý thức quá thặng",
+        "reviewed": true
+      },
+      {
+        "word": "認識",
+        "sinovi": "nhận thức",
+        "reviewed": true
+      },
+      {
+        "word": "非常識",
+        "sinovi": "phi thường thức",
+        "reviewed": true
+      }
+    ]
+  },
+  "譜": {
+    "sinovi": "PHỔ, PHẢ",
+    "vocabulary": [
+      {
+        "word": "棋譜",
+        "sinovi": "kì phổ",
+        "reviewed": true
+      },
+      {
+        "word": "楽譜",
+        "sinovi": "nhạc phổ",
+        "reviewed": true
+      },
+      {
+        "word": "系譜",
+        "sinovi": "hệ phổ",
+        "reviewed": true
+      },
+      {
+        "word": "譜",
+        "sinovi": "phổ",
+        "reviewed": true
+      },
+      {
+        "word": "譜代",
+        "sinovi": "phổ đại",
+        "reviewed": true
+      },
+      {
+        "word": "譜面",
+        "sinovi": "phổ diện",
+        "reviewed": true
+      }
+    ]
+  },
+  "豚": {
+    "sinovi": "ĐỒN, ĐỘN",
+    "vocabulary": [
+      {
+        "word": "子豚",
+        "sinovi": "tử đồn",
+        "reviewed": true
+      },
+      {
+        "word": "豚",
+        "sinovi": "đồn",
+        "reviewed": true
+      },
+      {
+        "word": "豚汁",
+        "sinovi": "đồn trấp",
+        "reviewed": true
+      },
+      {
+        "word": "豚肉",
+        "sinovi": "đồn nhục",
+        "reviewed": true
+      },
+      {
+        "word": "酢豚",
+        "sinovi": "tạc đồn",
+        "reviewed": true
+      },
+      {
+        "word": "雌豚",
+        "sinovi": "thư đồn",
+        "reviewed": true
+      }
+    ]
+  },
+  "販": {
+    "sinovi": "PHIẾN, PHÁN",
+    "vocabulary": [
+      {
+        "word": "市販",
+        "sinovi": "thị phiến",
+        "reviewed": true
+      },
+      {
+        "word": "自動販売機",
+        "sinovi": "tự động phiến mại cơ",
+        "reviewed": true
+      },
+      {
+        "word": "自販機",
+        "sinovi": "tự phiến cơ",
+        "reviewed": true
+      },
+      {
+        "word": "販促",
+        "sinovi": "phiến xúc",
+        "reviewed": true
+      },
+      {
+        "word": "販売",
+        "sinovi": "phiến mại",
+        "reviewed": true
+      },
+      {
+        "word": "通販",
+        "sinovi": "thông phiến",
+        "reviewed": true
+      }
+    ]
+  },
+  "較": {
+    "sinovi": "GIÁC, GIẢO",
+    "vocabulary": [
+      {
+        "word": "比較",
+        "sinovi": "tỉ giác",
+        "reviewed": true
+      },
+      {
+        "word": "比較的",
+        "sinovi": "tỉ giác đích",
+        "reviewed": true
+      }
+    ]
+  },
+  "載": {
+    "sinovi": "TÁI, TẢI",
+    "vocabulary": [
+      {
+        "word": "掲載",
+        "sinovi": "yết tải",
+        "reviewed": true
+      },
+      {
+        "word": "搭載",
+        "sinovi": "đáp tải",
+        "reviewed": true
+      },
+      {
+        "word": "舶載",
+        "sinovi": "bạc tải",
+        "reviewed": true
+      },
+      {
+        "word": "記載",
+        "sinovi": "kí tải",
+        "reviewed": true
+      }
+    ]
+  },
+  "迎": {
+    "sinovi": "NGHÊNH, NGHỊNH",
+    "vocabulary": [
+      {
+        "word": "大歓迎",
+        "sinovi": "đại hoan nghênh",
+        "reviewed": true
+      },
+      {
+        "word": "歓迎",
+        "sinovi": "hoan nghênh",
+        "reviewed": true
+      },
+      {
+        "word": "歓迎会",
+        "sinovi": "hoan nghênh hội",
+        "reviewed": true
+      },
+      {
+        "word": "迎撃",
+        "sinovi": "nghênh kích",
+        "reviewed": true
+      }
+    ]
+  },
+  "過": {
+    "sinovi": "QUÁ, QUA",
+    "vocabulary": [
+      {
+        "word": "擦過",
+        "sinovi": "sát qua",
+        "reviewed": true
+      },
+      {
+        "word": "経過",
+        "sinovi": "kinh qua",
+        "reviewed": true
+      },
+      {
+        "word": "自信過剰",
+        "sinovi": "tự tín quá thặng",
+        "reviewed": true
+      },
+      {
+        "word": "自意識過剰",
+        "sinovi": "tự ý thức quá thặng",
+        "reviewed": true
+      },
+      {
+        "word": "過剰",
+        "sinovi": "quá thặng",
+        "reviewed": true
+      },
+      {
+        "word": "過剰反応",
+        "sinovi": "quá thặng phản ứng",
+        "reviewed": true
+      },
+      {
+        "word": "過去",
+        "sinovi": "quá khứ",
+        "reviewed": true
+      },
+      {
+        "word": "過激",
+        "sinovi": "quá khích",
+        "reviewed": true
+      },
+      {
+        "word": "過程",
+        "sinovi": "quá trình",
+        "reviewed": true
+      },
+      {
+        "word": "過酷",
+        "sinovi": "quá khốc",
+        "reviewed": true
+      }
+    ]
+  },
+  "那": {
+    "sinovi": "NA, NẢ",
+    "vocabulary": [
+      {
+        "word": "一刹那",
+        "sinovi": "nhất sát na",
+        "reviewed": true
+      },
+      {
+        "word": "刹那",
+        "sinovi": "sát na",
+        "reviewed": true
+      },
+      {
+        "word": "刹那的",
+        "sinovi": "sát na đích",
+        "reviewed": true
+      },
+      {
+        "word": "支那",
+        "sinovi": "chi na",
+        "reviewed": true
+      },
+      {
+        "word": "旦那",
+        "sinovi": "đán na",
+        "reviewed": true
+      },
+      {
+        "word": "旦那様",
+        "sinovi": "đán na dạng",
+        "reviewed": true
+      },
+      {
+        "word": "若旦那",
+        "sinovi": "nhược đán na",
+        "reviewed": true
+      },
+      {
+        "word": "那覇",
+        "sinovi": "na bá",
+        "reviewed": true
+      }
+    ]
+  },
+  "郷": {
+    "sinovi": "HƯƠNG, HƯỚNG",
+    "vocabulary": [
+      {
+        "word": "故郷",
+        "sinovi": "cố hương",
+        "reviewed": true
+      },
+      {
+        "word": "桃源郷",
+        "sinovi": "đào nguyên hương",
+        "reviewed": true
+      },
+      {
+        "word": "郷",
+        "sinovi": "hương",
+        "reviewed": true
+      },
+      {
+        "word": "郷愁",
+        "sinovi": "hương sầu",
+        "reviewed": true
+      },
+      {
+        "word": "郷里",
+        "sinovi": "hương lí",
+        "reviewed": true
+      }
+    ]
+  },
+  "重": {
+    "sinovi": "TRỌNG, TRÙNG",
+    "vocabulary": [
+      {
+        "word": "丁重",
+        "sinovi": "đinh trọng",
+        "reviewed": true
+      },
+      {
+        "word": "厳重",
+        "sinovi": "nghiêm trọng",
+        "reviewed": true
+      },
+      {
+        "word": "尊重",
+        "sinovi": "tôn trọng",
+        "reviewed": true
+      },
+      {
+        "word": "慎重",
+        "sinovi": "thận trọng",
+        "reviewed": true
+      },
+      {
+        "word": "荘重",
+        "sinovi": "trang trọng",
+        "reviewed": true
+      },
+      {
+        "word": "貴重",
+        "sinovi": "quý trọng",
+        "reviewed": true
+      },
+      {
+        "word": "重厚",
+        "sinovi": "trọng hậu",
+        "reviewed": true
+      },
+      {
+        "word": "重曹",
+        "sinovi": "trọng tào",
+        "reviewed": true
+      },
+      {
+        "word": "重症",
+        "sinovi": "trọng chứng",
+        "reviewed": true
+      },
+      {
+        "word": "重禁錮",
+        "sinovi": "trọng cấm cố",
+        "reviewed": true
+      },
+      {
+        "word": "重篤",
+        "sinovi": "trọng đốc",
+        "reviewed": true
+      },
+      {
+        "word": "重荷",
+        "sinovi": "trọng hà",
+        "reviewed": true
+      },
+      {
+        "word": "重複",
+        "sinovi": "trọng phức",
+        "reviewed": true
+      },
+      {
+        "word": "重要",
+        "sinovi": "trọng yếu",
+        "reviewed": true
+      },
+      {
+        "word": "重量",
+        "sinovi": "trọng lượng",
+        "reviewed": true
+      },
+      {
+        "word": "重鎮",
+        "sinovi": "trọng trấn",
+        "reviewed": true
+      }
+    ]
+  },
+  "量": {
+    "sinovi": "LƯỢNG, LƯƠNG",
+    "vocabulary": [
+      {
+        "word": "大量",
+        "sinovi": "đại lượng",
+        "reviewed": true
+      },
+      {
+        "word": "度量衡",
+        "sinovi": "độ lượng hành",
+        "reviewed": true
+      },
+      {
+        "word": "情状酌量",
+        "sinovi": "tình trạng chước lượng",
+        "reviewed": true
+      },
+      {
+        "word": "斤量",
+        "sinovi": "cân lượng",
+        "reviewed": true
+      },
+      {
+        "word": "狭量",
+        "sinovi": "hiệp lượng",
+        "reviewed": true
+      },
+      {
+        "word": "肺活量",
+        "sinovi": "phế hoạt lượng",
+        "reviewed": true
+      },
+      {
+        "word": "質量",
+        "sinovi": "chất lượng",
+        "reviewed": true
+      },
+      {
+        "word": "重量",
+        "sinovi": "trọng lượng",
+        "reviewed": true
+      },
+      {
+        "word": "量",
+        "sinovi": "lượng",
+        "reviewed": true
+      }
+    ]
+  },
+  "針": {
+    "sinovi": "CHÂM, TRÂM",
+    "vocabulary": [
+      {
+        "word": "指針",
+        "sinovi": "chỉ châm",
+        "reviewed": true
+      },
+      {
+        "word": "方針",
+        "sinovi": "phương châm",
+        "reviewed": true
+      },
+      {
+        "word": "秒針",
+        "sinovi": "miểu châm",
+        "reviewed": true
+      },
+      {
+        "word": "針",
+        "sinovi": "châm",
+        "reviewed": true
+      },
+      {
+        "word": "針金",
+        "sinovi": "châm kim",
+        "reviewed": true
+      }
+    ]
+  },
+  "長": {
+    "sinovi": "TRƯỜNG, TRƯỞNG",
+    "vocabulary": [
+      {
+        "word": "侍従長",
+        "sinovi": "thị tòng trưởng",
+        "reviewed": true
+      },
+      {
+        "word": "億万長者",
+        "sinovi": "ức vạn trưởng giả",
+        "reviewed": true
+      },
+      {
+        "word": "冗長",
+        "sinovi": "nhũng trường",
+        "reviewed": true
+      },
+      {
+        "word": "副会長",
+        "sinovi": "phó hội trường",
+        "reviewed": true
+      },
+      {
+        "word": "副長",
+        "sinovi": "phó trưởng",
+        "reviewed": true
+      },
+      {
+        "word": "塾長",
+        "sinovi": "thục trưởng",
+        "reviewed": true
+      },
+      {
+        "word": "委員長",
+        "sinovi": "ủy viên trưởng",
+        "reviewed": true
+      },
+      {
+        "word": "局長",
+        "sinovi": "cục trưởng",
+        "reviewed": true
+      },
+      {
+        "word": "延長",
+        "sinovi": "diên trường",
+        "reviewed": true
+      },
+      {
+        "word": "悠長",
+        "sinovi": "du trường",
+        "reviewed": true
+      },
+      {
+        "word": "慶長",
+        "sinovi": "khánh trường",
+        "reviewed": true
+      },
+      {
+        "word": "成長",
+        "sinovi": "thành trưởng",
+        "reviewed": true
+      },
+      {
+        "word": "曹長",
+        "sinovi": "tào trưởng",
+        "reviewed": true
+      },
+      {
+        "word": "村長",
+        "sinovi": "thôn trưởng",
+        "reviewed": true
+      },
+      {
+        "word": "班長",
+        "sinovi": "ban trưởng",
+        "reviewed": true
+      },
+      {
+        "word": "町長",
+        "sinovi": "đinh trưởng",
+        "reviewed": true
+      },
+      {
+        "word": "社長",
+        "sinovi": "xã trưởng",
+        "reviewed": true
+      },
+      {
+        "word": "署長",
+        "sinovi": "thự trưởng",
+        "reviewed": true
+      },
+      {
+        "word": "船長",
+        "sinovi": "thuyền trưởng",
+        "reviewed": true
+      },
+      {
+        "word": "艦長",
+        "sinovi": "hạm trưởng",
+        "reviewed": true
+      },
+      {
+        "word": "課長",
+        "sinovi": "khóa trưởng",
+        "reviewed": true
+      },
+      {
+        "word": "郡長",
+        "sinovi": "quận trưởng",
+        "reviewed": true
+      },
+      {
+        "word": "長",
+        "sinovi": "trường",
+        "reviewed": true
+      },
+      {
+        "word": "長唄",
+        "sinovi": "trường bái",
+        "reviewed": true
+      },
+      {
+        "word": "長寿",
+        "sinovi": "trường thọ",
+        "reviewed": true
+      },
+      {
+        "word": "長崎",
+        "sinovi": "trường kì",
+        "reviewed": true
+      },
+      {
+        "word": "長年",
+        "sinovi": "trường niên",
+        "reviewed": true
+      },
+      {
+        "word": "長机",
+        "sinovi": "trường cơ",
+        "reviewed": true
+      },
+      {
+        "word": "長椅子",
+        "sinovi": "trường ỷ tử",
+        "reviewed": true
+      },
+      {
+        "word": "長男",
+        "sinovi": "trưởng nam",
+        "reviewed": true
+      },
+      {
+        "word": "長袖",
+        "sinovi": "trường tụ",
+        "reviewed": true
+      },
+      {
+        "word": "長身痩躯",
+        "sinovi": "trường thân sấu khu",
+        "reviewed": true
+      },
+      {
+        "word": "長閑",
+        "sinovi": "trường nhàn",
+        "reviewed": true
+      },
+      {
+        "word": "隊長",
+        "sinovi": "đội trưởng",
+        "reviewed": true
+      }
+    ]
+  },
+  "降": {
+    "sinovi": "GIÁNG, HÀNG",
+    "vocabulary": [
+      {
+        "word": "以降",
+        "sinovi": "dĩ giáng",
+        "reviewed": true
+      },
+      {
+        "word": "降伏",
+        "sinovi": "giáng phục",
+        "reviewed": true
+      },
+      {
+        "word": "降参",
+        "sinovi": "giáng tham",
+        "reviewed": true
+      },
+      {
+        "word": "降臨",
+        "sinovi": "giáng lâm",
+        "reviewed": true
+      }
+    ]
+  },
+  "難": {
+    "sinovi": "NAN, NẠN",
+    "vocabulary": [
+      {
+        "word": "困難",
+        "sinovi": "khốn nạn",
+        "reviewed": true
+      },
+      {
+        "word": "批難",
+        "sinovi": "phê nan",
+        "reviewed": true
+      },
+      {
+        "word": "災難",
+        "sinovi": "tai nạn",
+        "reviewed": true
+      },
+      {
+        "word": "遭難",
+        "sinovi": "tao nan",
+        "reviewed": true
+      },
+      {
+        "word": "避難",
+        "sinovi": "tị nạn",
+        "reviewed": true
+      },
+      {
+        "word": "難航",
+        "sinovi": "nạn hàng",
+        "reviewed": true
+      },
+      {
+        "word": "非難",
+        "sinovi": "phi nan",
+        "reviewed": true
+      }
+    ]
+  },
+  "頂": {
+    "sinovi": "ĐỈNH, ĐÍNH",
+    "vocabulary": [
+      {
+        "word": "仏頂面",
+        "sinovi": "phật đỉnh diện",
+        "reviewed": true
+      },
+      {
+        "word": "絶頂",
+        "sinovi": "tuyệt đỉnh",
+        "reviewed": true
+      },
+      {
+        "word": "頂",
+        "sinovi": "đỉnh",
+        "reviewed": true
+      },
+      {
+        "word": "頂戴",
+        "sinovi": "đỉnh đới",
+        "reviewed": true
+      },
+      {
+        "word": "頂点",
+        "sinovi": "đỉnh điểm",
+        "reviewed": true
+      }
+    ]
+  },
+  "頃": {
+    "sinovi": "KHOẢNH, KHUYNH",
+    "vocabulary": [
+      {
+        "word": "今頃",
+        "sinovi": "kim khoảnh",
+        "reviewed": true
+      },
+      {
+        "word": "頃",
+        "sinovi": "khoảnh",
+        "reviewed": true
+      }
+    ]
+  },
+  "領": {
+    "sinovi": "LĨNH, LÃNH",
+    "vocabulary": [
+      {
+        "word": "占領",
+        "sinovi": "chiêm lĩnh",
+        "reviewed": true
+      },
+      {
+        "word": "大統領",
+        "sinovi": "đại thống lĩnh",
+        "reviewed": true
+      },
+      {
+        "word": "宰領",
+        "sinovi": "tể lĩnh",
+        "reviewed": true
+      },
+      {
+        "word": "要領",
+        "sinovi": "yếu lĩnh",
+        "reviewed": true
+      },
+      {
+        "word": "領地",
+        "sinovi": "lĩnh địa",
+        "reviewed": true
+      },
+      {
+        "word": "領域",
+        "sinovi": "lĩnh vực",
+        "reviewed": true
+      },
+      {
+        "word": "領袖",
+        "sinovi": "lãnh tụ",
+        "reviewed": true
+      }
+    ]
+  },
+  "養": {
+    "sinovi": "DƯỠNG, DƯỢNG",
+    "vocabulary": [
+      {
+        "word": "供養",
+        "sinovi": "cung dưỡng",
+        "reviewed": true
+      },
+      {
+        "word": "培養",
+        "sinovi": "bồi dưỡng",
+        "reviewed": true
+      },
+      {
+        "word": "培養液",
+        "sinovi": "bồi dưỡng dịch",
+        "reviewed": true
+      },
+      {
+        "word": "扶養",
+        "sinovi": "phù dưỡng",
+        "reviewed": true
+      },
+      {
+        "word": "教養",
+        "sinovi": "giáo dưỡng",
+        "reviewed": true
+      },
+      {
+        "word": "栄養",
+        "sinovi": "dinh dưỡng",
+        "reviewed": true
+      },
+      {
+        "word": "滋養",
+        "sinovi": "tư dưỡng",
+        "reviewed": true
+      },
+      {
+        "word": "滋養分",
+        "sinovi": "tư dưỡng phân",
+        "reviewed": true
+      },
+      {
+        "word": "療養",
+        "sinovi": "liệu dưỡng",
+        "reviewed": true
+      },
+      {
+        "word": "純粋培養",
+        "sinovi": "thuần tuý bồi dưỡng",
+        "reviewed": true
+      },
+      {
+        "word": "養子",
+        "sinovi": "dưỡng tử",
+        "reviewed": true
+      },
+      {
+        "word": "養殖",
+        "sinovi": "dưỡng thực",
+        "reviewed": true
+      },
+      {
+        "word": "養蚕",
+        "sinovi": "dưỡng tằm",
+        "reviewed": true
+      },
+      {
+        "word": "養蚕業",
+        "sinovi": "dưỡng tằm nghiệp",
+        "reviewed": true
+      },
+      {
+        "word": "養護教諭",
+        "sinovi": "dưỡng hộ giáo dụ",
+        "reviewed": true
+      }
+    ]
+  },
+  "麗": {
+    "sinovi": "LỆ, LI",
+    "vocabulary": [
+      {
+        "word": "壮麗",
+        "sinovi": "tráng lệ",
+        "reviewed": true
+      },
+      {
+        "word": "流麗",
+        "sinovi": "lưu lệ",
+        "reviewed": true
+      },
+      {
+        "word": "綺麗",
+        "sinovi": "ỷ lệ",
+        "reviewed": true
+      },
+      {
+        "word": "華麗",
+        "sinovi": "hoa lệ",
+        "reviewed": true
+      }
+    ]
+  }
+}

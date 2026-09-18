@@ -145,7 +145,7 @@
         "frequency": 10136,
         "meaning": "seven o'clock",
         "reading": "しちじ",
-        "sinovi": "thất thì",
+        "sinovi": "thất thời",
         "word": "七時"
       },
       {
@@ -570,7 +570,7 @@
         "frequency": 7482,
         "meaning": "participation, taking part in, participating in",
         "reading": "かんよ",
-        "sinovi": "quan dữ",
+        "sinovi": "quan dự",
         "word": "関与"
       },
       {
@@ -1102,7 +1102,7 @@
         "frequency": 8232,
         "meaning": "bullet, shot, shell",
         "reading": "だんがん",
-        "sinovi": "đàn hoàn",
+        "sinovi": "đạn hoàn",
         "word": "弾丸"
       }
     ]
@@ -1267,7 +1267,7 @@
         "frequency": 37729,
         "meaning": "oyakodon, bowl of rice topped with chicken and egg, threesome including a mother and her daughter",
         "reading": "おやこどん",
-        "sinovi": "thân tử đảm",
+        "sinovi": "thân tử tỉnh",
         "word": "親子丼"
       },
       {
@@ -1525,7 +1525,7 @@
         "frequency": 9544,
         "meaning": "nine o'clock",
         "reading": "くじ",
-        "sinovi": "cửu thì",
+        "sinovi": "cửu thời",
         "word": "九時"
       },
       {
@@ -1763,14 +1763,14 @@
         "frequency": 4988,
         "meaning": "cheers, bottoms-up, prosit",
         "reading": "かんぱい",
-        "sinovi": "kiền bôi",
+        "sinovi": "can bôi",
         "word": "乾杯"
       },
       {
         "frequency": 7700,
         "meaning": "dryness, aridity, drying (e.g. clothes)",
         "reading": "かんそう",
-        "sinovi": "kiền táo",
+        "sinovi": "can táo",
         "word": "乾燥"
       },
       {
@@ -1783,7 +1783,7 @@
         "frequency": 19219,
         "meaning": "qian (one of the trigrams of the I Ching: heaven, northwest)",
         "reading": "けん",
-        "sinovi": "kiền",
+        "sinovi": "càn",
         "word": "乾"
       }
     ]
@@ -2277,7 +2277,7 @@
         "frequency": 27482,
         "meaning": "above the ceiling",
         "reading": "てんじょううら",
-        "sinovi": "thiên tỉnh lý",
+        "sinovi": "thiên tỉnh lí",
         "word": "天井裏"
       }
     ]
@@ -2833,7 +2833,7 @@
         "frequency": 4270,
         "meaning": "self-introduction",
         "reading": "じこしょうかい",
-        "sinovi": "tự kỷ thiệu giới",
+        "sinovi": "tự kỉ thiệu giới",
         "word": "自己紹介"
       },
       {
@@ -3174,7 +3174,7 @@
         "frequency": 890,
         "meaning": "period, epoch, era",
         "reading": "じだい",
-        "sinovi": "thì đại",
+        "sinovi": "thời đại",
         "word": "時代"
       },
       {
@@ -3571,14 +3571,14 @@
         "frequency": 1145,
         "meaning": "duty, responsibility (incl. supervision of staff), liability",
         "reading": "せきにん",
-        "sinovi": "trách nhậm",
+        "sinovi": "trách nhiệm",
         "word": "責任"
       },
       {
         "frequency": 3267,
         "meaning": "duty, function, office",
         "reading": "にんむ",
-        "sinovi": "nhậm vụ",
+        "sinovi": "nhiệm vụ",
         "word": "任務"
       },
       {
@@ -3620,7 +3620,7 @@
         "frequency": 4923,
         "meaning": "planning, plan, project",
         "reading": "きかく",
-        "sinovi": "xí họa",
+        "sinovi": "xí hoạch",
         "word": "企画"
       },
       {
@@ -3666,28 +3666,28 @@
       "キ"
     ],
     "radical": "人",
-    "sinovi": "KỸ",
+    "sinovi": "KĨ",
     "stroke_count": 6,
     "vocabulary": [
       {
         "frequency": 24460,
         "meaning": "kabuki, traditional form of drama and music performed by male actors wearing makeup mainly in white and red",
         "reading": "かぶき",
-        "sinovi": "ca vũ kỹ",
+        "sinovi": "ca vũ kĩ",
         "word": "歌舞伎"
       },
       {
         "frequency": 57720,
         "meaning": "kabuki troupe, kabuki theater (theatre), Kabuki-za (theatre in Tokyo)",
         "reading": "かぶきざ",
-        "sinovi": "ca vũ kỹ toạ",
+        "sinovi": "ca vũ kĩ toạ",
         "word": "歌舞伎座"
       },
       {
         "frequency": 73741,
         "meaning": "technique, art, skill",
         "reading": "わざ",
-        "sinovi": "kỹ",
+        "sinovi": "kĩ",
         "word": "伎"
       },
       {
@@ -3700,7 +3700,7 @@
         "frequency": 120811,
         "meaning": "kabuki play, kabuki drama",
         "reading": "かぶきげき",
-        "sinovi": "ca vũ kỹ kịch",
+        "sinovi": "ca vũ kĩ kịch",
         "word": "歌舞伎劇"
       }
     ]
@@ -4183,7 +4183,7 @@
       "シ"
     ],
     "radical": "人",
-    "sinovi": "TÝ, TỨ",
+    "sinovi": "TÍ, TỨ",
     "stroke_count": 7,
     "vocabulary": [
       {
@@ -4208,7 +4208,7 @@
         "frequency": 48739,
         "meaning": "waiting upon (someone)",
         "reading": "しこう",
-        "sinovi": "tý hậu",
+        "sinovi": "tứ hậu",
         "word": "伺候"
       },
       {
@@ -4530,7 +4530,7 @@
         "frequency": 15185,
         "meaning": "major, lieutenant commander, wing commander",
         "reading": "しょうさ",
-        "sinovi": "thiểu tá",
+        "sinovi": "thiếu tá",
         "word": "少佐"
       },
       {
@@ -4922,7 +4922,7 @@
         "frequency": 3285,
         "meaning": "angel",
         "reading": "てんし",
-        "sinovi": "thiên sử",
+        "sinovi": "thiên sứ",
         "word": "天使"
       },
       {
@@ -4935,7 +4935,7 @@
         "frequency": 4580,
         "meaning": "mission, errand, task",
         "reading": "しめい",
-        "sinovi": "sử mệnh",
+        "sinovi": "sứ mệnh",
         "word": "使命"
       }
     ]
@@ -4989,7 +4989,7 @@
         "frequency": 11828,
         "meaning": "proportion, proportional representation section (of an election)",
         "reading": "ひれい",
-        "sinovi": "tỷ lệ",
+        "sinovi": "tỉ lệ",
         "word": "比例"
       }
     ]
@@ -5046,7 +5046,7 @@
         "frequency": 42654,
         "meaning": "grand chamberlain",
         "reading": "じじゅうちょう",
-        "sinovi": "thị tòng trường",
+        "sinovi": "thị tòng trưởng",
         "word": "侍従長"
       }
     ]
@@ -5852,7 +5852,7 @@
         "frequency": 5499,
         "meaning": "repair, mending, fixing",
         "reading": "しゅうり",
-        "sinovi": "tu lý",
+        "sinovi": "tu lí",
         "word": "修理"
       },
       {
@@ -6136,7 +6136,7 @@
         "frequency": 25019,
         "meaning": "magazine (for a firearm), cylinder (of a revolver)",
         "reading": "だんそう",
-        "sinovi": "đàn thương",
+        "sinovi": "đạn thương",
         "word": "弾倉"
       },
       {
@@ -6554,21 +6554,21 @@
         "frequency": 14396,
         "meaning": "ethics, morals",
         "reading": "りんり",
-        "sinovi": "luân lý",
+        "sinovi": "luân lí",
         "word": "倫理"
       },
       {
         "frequency": 23871,
         "meaning": "ethics, ethical viewpoint, moral value",
         "reading": "りんりかん",
-        "sinovi": "luân lý quan",
+        "sinovi": "luân lí quan",
         "word": "倫理観"
       },
       {
         "frequency": 25272,
         "meaning": "ethical",
         "reading": "りんりてき",
-        "sinovi": "luân lý đích",
+        "sinovi": "luân lí đích",
         "word": "倫理的"
       },
       {
@@ -8002,7 +8002,7 @@
         "frequency": 48870,
         "meaning": "billionaire, multimillionaire, very rich person",
         "reading": "おくまんちょうじゃ",
-        "sinovi": "ức vạn trường giả",
+        "sinovi": "ức vạn trưởng giả",
         "word": "億万長者"
       }
     ]
@@ -8551,7 +8551,7 @@
         "frequency": 54387,
         "meaning": "self-control, self-mastery, self-restraint",
         "reading": "こっき",
-        "sinovi": "khắc kỷ",
+        "sinovi": "khắc kỉ",
         "word": "克己"
       }
     ]
@@ -8986,7 +8986,7 @@
         "frequency": 15684,
         "meaning": "around the clock, day and night",
         "reading": "しろくじちゅう",
-        "sinovi": "tứ lục thì trung",
+        "sinovi": "tứ lục thời trung",
         "word": "四六時中"
       },
       {
@@ -9289,7 +9289,7 @@
         "frequency": 25371,
         "meaning": "serving concurrently as, holding the additional post of",
         "reading": "けんにん",
-        "sinovi": "kiêm nhậm",
+        "sinovi": "kiêm nhiệm",
         "word": "兼任"
       }
     ]
@@ -10033,7 +10033,7 @@
         "frequency": 39680,
         "meaning": "commodore, brigadier general",
         "reading": "じゅんしょう",
-        "sinovi": "chuẩn tương",
+        "sinovi": "chuẩn tướng",
         "word": "准将"
       },
       {
@@ -10216,7 +10216,7 @@
         "frequency": 19339,
         "meaning": "mediocre, ordinary, commonplace",
         "reading": "ぼんよう",
-        "sinovi": "phàm dong",
+        "sinovi": "phàm dung",
         "word": "凡庸"
       },
       {
@@ -10263,28 +10263,28 @@
         "frequency": 2330,
         "meaning": "processing, dealing with, treatment",
         "reading": "しょり",
-        "sinovi": "xứ lý",
+        "sinovi": "xử lí",
         "word": "処理"
       },
       {
         "frequency": 2677,
         "meaning": "dealing with, coping with",
         "reading": "たいしょ",
-        "sinovi": "đối xứ",
+        "sinovi": "đối xử",
         "word": "対処"
       },
       {
         "frequency": 2793,
         "meaning": "disposal, throwing away, selling off",
         "reading": "しょぶん",
-        "sinovi": "xứ phân",
+        "sinovi": "xử phân",
         "word": "処分"
       },
       {
         "frequency": 5390,
         "meaning": "execution",
         "reading": "しょけい",
-        "sinovi": "xứ hình",
+        "sinovi": "xử hình",
         "word": "処刑"
       },
       {
@@ -10834,7 +10834,7 @@
         "frequency": 18657,
         "meaning": "weekly (publication), weekly magazine, weekly journal",
         "reading": "しゅうかんし",
-        "sinovi": "chu khan chí",
+        "sinovi": "chu san chí",
         "word": "週刊誌"
       },
       {
@@ -10848,21 +10848,21 @@
         "frequency": 20854,
         "meaning": "new book, new publication",
         "reading": "しんかん",
-        "sinovi": "tân khan",
+        "sinovi": "tân san",
         "word": "新刊"
       },
       {
         "frequency": 24961,
         "meaning": "weekly publication",
         "reading": "しゅうかん",
-        "sinovi": "chu khan",
+        "sinovi": "chu san",
         "word": "週刊"
       },
       {
         "frequency": 32203,
         "meaning": "publication, edition (e.g. morning, evening, special), published in (year)",
         "reading": "かん",
-        "sinovi": "khan",
+        "sinovi": "san",
         "word": "刊"
       }
     ]
@@ -10888,7 +10888,7 @@
         "frequency": 5390,
         "meaning": "execution",
         "reading": "しょけい",
-        "sinovi": "xứ hình",
+        "sinovi": "xử hình",
         "word": "処刑"
       },
       {
@@ -10951,7 +10951,7 @@
         "frequency": 7273,
         "meaning": "line, queue, procession",
         "reading": "ぎょうれつ",
-        "sinovi": "hành liệt",
+        "sinovi": "hàng liệt",
         "word": "行列"
       },
       {
@@ -11060,7 +11060,7 @@
         "frequency": 763,
         "meaning": "judgment, judgement, decision",
         "reading": "はんだん",
-        "sinovi": "phán đoạn",
+        "sinovi": "phán đoán",
         "word": "判断"
       },
       {
@@ -11227,7 +11227,7 @@
         "frequency": 1250,
         "meaning": "arrival",
         "reading": "とうちゃく",
-        "sinovi": "đáo trứ",
+        "sinovi": "đáo trước",
         "word": "到着"
       },
       {
@@ -11307,7 +11307,7 @@
         "frequency": 5100,
         "meaning": "compulsion, coercion, forcing (to do)",
         "reading": "きょうせい",
-        "sinovi": "cường chế",
+        "sinovi": "cưỡng chế",
         "word": "強制"
       }
     ]
@@ -11499,7 +11499,7 @@
         "frequency": 1857,
         "meaning": "stimulus, stimulation, irritation (esp. of the body, e.g. skin, eyes)",
         "reading": "しげき",
-        "sinovi": "thứ kích",
+        "sinovi": "thích kích",
         "word": "刺激"
       },
       {
@@ -11568,7 +11568,7 @@
         "frequency": 3458,
         "meaning": "time, (the) hour, favourable time",
         "reading": "じこく",
-        "sinovi": "thì khắc",
+        "sinovi": "thời khắc",
         "word": "時刻"
       },
       {
@@ -12015,7 +12015,7 @@
         "frequency": 41287,
         "meaning": "detachment, coming off, peeling off",
         "reading": "はくり",
-        "sinovi": "bác ly",
+        "sinovi": "bác li",
         "word": "剥離"
       }
     ]
@@ -12068,7 +12068,7 @@
         "frequency": 21052,
         "meaning": "deputy head, deputy director, vice chief (of something)",
         "reading": "ふくちょう",
-        "sinovi": "phó trường",
+        "sinovi": "phó trưởng",
         "word": "副長"
       }
     ]
@@ -12217,7 +12217,7 @@
         "frequency": 9049,
         "meaning": "creation, Creation (by God)",
         "reading": "そうぞう",
-        "sinovi": "sang tạo",
+        "sinovi": "sáng tạo",
         "word": "創造"
       },
       {
@@ -12230,21 +12230,21 @@
         "frequency": 11129,
         "meaning": "creation, production, creative work (novel, film, etc.)",
         "reading": "そうさく",
-        "sinovi": "sang tác",
+        "sinovi": "sáng tác",
         "word": "創作"
       },
       {
         "frequency": 18125,
         "meaning": "having wounds all over one's body, being wounded all over, receiving a drubbing",
         "reading": "まんしんそうい",
-        "sinovi": "mãn thân sang di",
+        "sinovi": "mãn thân sáng di",
         "word": "満身創痍"
       },
       {
         "frequency": 20254,
         "meaning": "adhesive bandage, sticking plaster, band-aid",
         "reading": "ばんそうこう",
-        "sinovi": "bán sang cao",
+        "sinovi": "bán sáng cao",
         "word": "絆創膏"
       }
     ]
@@ -12670,7 +12670,7 @@
         "frequency": 16288,
         "meaning": "encouragement, spurring (on), cheering (on)",
         "reading": "げきれい",
-        "sinovi": "kích lệ",
+        "sinovi": "khích lệ",
         "word": "激励"
       },
       {
@@ -12919,7 +12919,7 @@
         "frequency": 44677,
         "meaning": "imperial envoy, imperial messenger",
         "reading": "ちょくし",
-        "sinovi": "sắc sử",
+        "sinovi": "sắc sứ",
         "word": "勅使"
       },
       {
@@ -13020,7 +13020,7 @@
         "frequency": 852,
         "meaning": "study, diligence, working hard",
         "reading": "べんきょう",
-        "sinovi": "miễn cường",
+        "sinovi": "miễn cưỡng",
         "word": "勉強"
       },
       {
@@ -13047,7 +13047,7 @@
         "frequency": 16956,
         "meaning": "study group, study meeting",
         "reading": "べんきょうかい",
-        "sinovi": "miễn cường hội",
+        "sinovi": "miễn cưõng hội",
         "word": "勉強会"
       }
     ]
@@ -13192,7 +13192,7 @@
         "frequency": 3267,
         "meaning": "duty, function, office",
         "reading": "にんむ",
-        "sinovi": "nhậm vụ",
+        "sinovi": "nhiệm vụ",
         "word": "任務"
       },
       {
@@ -13973,7 +13973,7 @@
         "frequency": 8889,
         "meaning": "division, section, compartment",
         "reading": "くかく",
-        "sinovi": "khu họa",
+        "sinovi": "khu hoạch",
         "word": "区画"
       },
       {
@@ -14383,7 +14383,7 @@
       "ヒ"
     ],
     "radical": "十",
-    "sinovi": "TY",
+    "sinovi": "TI",
     "stroke_count": 9,
     "vocabulary": [
       {
@@ -14789,7 +14789,7 @@
         "frequency": 6758,
         "meaning": "monopoly, monopolization, exclusivity",
         "reading": "どくせん",
-        "sinovi": "độc chiêm",
+        "sinovi": "độc chiếm",
         "word": "独占"
       },
       {
@@ -14809,7 +14809,7 @@
         "frequency": 10341,
         "meaning": "occupation, taking and maintaining exclusive control (of a location)",
         "reading": "せんきょ",
-        "sinovi": "chiêm cứ",
+        "sinovi": "chiếm cứ",
         "word": "占拠"
       }
     ]
@@ -15220,42 +15220,42 @@
       "リン"
     ],
     "radical": "厂",
-    "sinovi": "LY",
+    "sinovi": "LI",
     "stroke_count": 9,
     "vocabulary": [
       {
         "frequency": 37427,
         "meaning": "one-hundredth, 0.3 mm (one-hundredth of a sun), 0.1 percent (one-hundredth of a wari)",
         "reading": "りん",
-        "sinovi": "ly",
+        "sinovi": "li",
         "word": "厘"
       },
       {
         "frequency": 57699,
         "meaning": "almost certainly, in all probability, ten to one",
         "reading": "くぶくりん",
-        "sinovi": "cửu phân cửu ly",
+        "sinovi": "cửu phân cửu li",
         "word": "九分九厘"
       },
       {
         "frequency": 110554,
         "meaning": "(not even) a bit of, (not even) a hint of, (not) an iota of",
         "reading": "いちぶいちりん",
-        "sinovi": "nhất phân nhất ly",
+        "sinovi": "nhất phân nhất li",
         "word": "一分一厘"
       },
       {
         "frequency": 123469,
         "meaning": "earthen charcoal brazier (for cooking)",
         "reading": "しちりん",
-        "sinovi": "thất ly",
+        "sinovi": "thất li",
         "word": "七厘"
       },
       {
         "frequency": 211991,
         "meaning": "farthing, trifle",
         "reading": "りんもう",
-        "sinovi": "ly mao",
+        "sinovi": "li mao",
         "word": "厘毛"
       }
     ]
@@ -15366,7 +15366,7 @@
         "frequency": 7369,
         "meaning": "principle, theory, fundamental truth",
         "reading": "げんり",
-        "sinovi": "nguyên lý",
+        "sinovi": "nguyên lí",
         "word": "原理"
       },
       {
@@ -15553,7 +15553,7 @@
         "frequency": 22373,
         "meaning": "carrot (Daucus carota)​, Asian ginseng (Panax ginseng)",
         "reading": "にんじん",
-        "sinovi": "nhân tham",
+        "sinovi": "nhân sâm",
         "word": "人参"
       }
     ]
@@ -16112,7 +16112,7 @@
         "frequency": 54798,
         "meaning": "investiture",
         "reading": "じょにん",
-        "sinovi": "tự nhậm",
+        "sinovi": "tự nhiệm",
         "word": "叙任"
       }
     ]
@@ -16739,7 +16739,7 @@
       "シ"
     ],
     "radical": "口",
-    "sinovi": "TƯ, TY",
+    "sinovi": "TƯ, TI",
     "stroke_count": 5,
     "vocabulary": [
       {
@@ -17605,14 +17605,14 @@
         "frequency": 18352,
         "meaning": "breath, sign (of something new and fresh), breath (of spring, fresh air, etc.)",
         "reading": "いぶき",
-        "sinovi": "tức xuy",
+        "sinovi": "tức xúy",
         "word": "息吹"
       },
       {
         "frequency": 26468,
         "meaning": "concert band (as a school activity), wind ensemble",
         "reading": "すいそうがくぶ",
-        "sinovi": "xuy tấu lạc bộ",
+        "sinovi": "xúy tấu lạc bộ",
         "word": "吹奏楽部"
       }
     ]
@@ -18633,7 +18633,7 @@
         "frequency": 14166,
         "meaning": "suggestion, hint, implication",
         "reading": "しさ",
-        "sinovi": "kì toa",
+        "sinovi": "thị toa",
         "word": "示唆"
       },
       {
@@ -18659,7 +18659,7 @@
         "frequency": 113823,
         "meaning": "suggestive, pregnant (e.g. pregnant pause)",
         "reading": "しさてき",
-        "sinovi": "kì toa đích",
+        "sinovi": "thị toa đích",
         "word": "示唆的"
       }
     ]
@@ -19066,7 +19066,7 @@
         "frequency": 24664,
         "meaning": "(divine) revelation",
         "reading": "けいじ",
-        "sinovi": "khải kì",
+        "sinovi": "khải thị",
         "word": "啓示"
       },
       {
@@ -19385,7 +19385,7 @@
         "frequency": 13698,
         "meaning": "simile, metaphor, allegory",
         "reading": "ひゆ",
-        "sinovi": "tỷ dụ",
+        "sinovi": "tỉ dụ",
         "word": "比喩"
       },
       {
@@ -19404,7 +19404,7 @@
         "frequency": 51237,
         "meaning": "figurative expression, metaphorical expression",
         "reading": "ひゆひょうげん",
-        "sinovi": "tỷ dụ biểu hiện",
+        "sinovi": "tỉ dụ biểu hiện",
         "word": "比喩表現"
       },
       {
@@ -19444,7 +19444,7 @@
         "frequency": 15169,
         "meaning": "loss of memory, amnesia",
         "reading": "きおくそうしつ",
-        "sinovi": "ký ức tang thất",
+        "sinovi": "kí ức tang thất",
         "word": "記憶喪失"
       },
       {
@@ -20300,7 +20300,7 @@
         "frequency": 8149,
         "meaning": "order of chivalry, chivalric order",
         "reading": "きしだん",
-        "sinovi": "kỵ sĩ đoàn",
+        "sinovi": "kị sĩ đoàn",
         "word": "騎士団"
       }
     ]
@@ -20333,7 +20333,7 @@
         "frequency": 2692,
         "meaning": "difficulty, hardship, trouble",
         "reading": "こんなん",
-        "sinovi": "khốn nan",
+        "sinovi": "khốn nạn",
         "word": "困難"
       },
       {
@@ -21547,7 +21547,7 @@
         "frequency": 5515,
         "meaning": "attachment, adhesion, insistence",
         "reading": "しゅうちゃく",
-        "sinovi": "chấp trứ",
+        "sinovi": "chấp trước",
         "word": "執着"
       },
       {
@@ -21705,42 +21705,42 @@
       "キ"
     ],
     "radical": "土",
-    "sinovi": "KỲ",
+    "sinovi": "KÌ",
     "stroke_count": 11,
     "vocabulary": [
       {
         "frequency": 27929,
         "meaning": "Saitama Prefecture (Kanto area)",
         "reading": "さいたまけん",
-        "sinovi": "kỳ ngọc huyện",
+        "sinovi": "kì ngọc huyện",
         "word": "埼玉県"
       },
       {
         "frequency": 29228,
         "meaning": "Saitama (city, prefecture)",
         "reading": "さいたま",
-        "sinovi": "kỳ ngọc",
+        "sinovi": "kì ngọc",
         "word": "埼玉"
       },
       {
         "frequency": 68566,
         "meaning": "small peninsula, cape, promontory",
         "reading": "さき",
-        "sinovi": "kỳ",
+        "sinovi": "kì",
         "word": "埼"
       },
       {
         "frequency": 159048,
         "meaning": "Saitama University",
         "reading": "さいたまだいがく",
-        "sinovi": "kỳ ngọc đại học",
+        "sinovi": "kì ngọc đại học",
         "word": "埼玉大学"
       },
       {
         "frequency": 195197,
         "meaning": "Saitama Institute of Technology",
         "reading": "さいたまこうぎょうだいがく",
-        "sinovi": "kỳ ngọc công nghiệp đại học",
+        "sinovi": "kì ngọc công nghiệp đại học",
         "word": "埼玉工業大学"
       }
     ]
@@ -22003,7 +22003,7 @@
         "frequency": 30491,
         "meaning": "fallen angel (esp. Lucifer)",
         "reading": "だてんし",
-        "sinovi": "đoạ thiên sử",
+        "sinovi": "đoạ thiên sứ",
         "word": "堕天使"
       },
       {
@@ -22495,7 +22495,7 @@
         "frequency": 25866,
         "meaning": "clock tower",
         "reading": "とけいとう",
-        "sinovi": "thì kế tháp",
+        "sinovi": "thời kế tháp",
         "word": "時計塔"
       },
       {
@@ -22606,7 +22606,7 @@
         "frequency": 83393,
         "meaning": "milestone (1 ri apart)",
         "reading": "いちりづか",
-        "sinovi": "nhất lý trủng",
+        "sinovi": "nhất lí trủng",
         "word": "一里塚"
       },
       {
@@ -22834,7 +22834,7 @@
         "frequency": 53870,
         "meaning": "principal of a private school",
         "reading": "じゅくちょう",
-        "sinovi": "thục trường",
+        "sinovi": "thục trưởng",
         "word": "塾長"
       }
     ]
@@ -23146,7 +23146,7 @@
         "frequency": 99516,
         "meaning": "Kofun period (of Japanese history, 250-538 CE), Tumulus period",
         "reading": "こふんじだい",
-        "sinovi": "cổ phần thì đại",
+        "sinovi": "cổ phần thời đại",
         "word": "古墳時代"
       },
       {
@@ -23469,7 +23469,7 @@
         "frequency": 3051,
         "meaning": "(medieval) knight, samurai on horseback",
         "reading": "きし",
-        "sinovi": "kỵ sĩ",
+        "sinovi": "kị sĩ",
         "word": "騎士"
       },
       {
@@ -23632,7 +23632,7 @@
         "frequency": 59201,
         "meaning": "Iki (former province located on Iki Island in present-day Nagasaki Prefecture), Iki (island)",
         "reading": "いき",
-        "sinovi": "nhất kỳ",
+        "sinovi": "nhất kì",
         "word": "壱岐"
       },
       {
@@ -24187,7 +24187,7 @@
         "frequency": 3285,
         "meaning": "angel",
         "reading": "てんし",
-        "sinovi": "thiên sử",
+        "sinovi": "thiên sứ",
         "word": "天使"
       },
       {
@@ -24364,7 +24364,7 @@
         "frequency": 57544,
         "meaning": "central bank",
         "reading": "ちゅうおうぎんこう",
-        "sinovi": "trung ương ngân hành",
+        "sinovi": "trung ương ngân hàng",
         "word": "中央銀行"
       }
     ]
@@ -24532,7 +24532,7 @@
         "frequency": 67576,
         "meaning": "Nara period (710-794 CE)​",
         "reading": "ならじだい",
-        "sinovi": "nại lương thì đại",
+        "sinovi": "nại lương thời đại",
         "word": "奈良時代"
       }
     ]
@@ -24643,7 +24643,7 @@
         "frequency": 26468,
         "meaning": "concert band (as a school activity), wind ensemble",
         "reading": "すいそうがくぶ",
-        "sinovi": "xuy tấu lạc bộ",
+        "sinovi": "xúy tấu lạc bộ",
         "word": "吹奏楽部"
       }
     ]
@@ -24831,7 +24831,7 @@
         "frequency": 14053,
         "meaning": "recommendation, endorsement",
         "reading": "すいしょう",
-        "sinovi": "thôi tưởng",
+        "sinovi": "suy tưởng",
         "word": "推奨"
       },
       {
@@ -25345,7 +25345,7 @@
         "frequency": 30735,
         "meaning": "contraception, birth control",
         "reading": "ひにん",
-        "sinovi": "tỵ nhâm",
+        "sinovi": "tị nhâm",
         "word": "避妊"
       },
       {
@@ -25359,7 +25359,7 @@
         "frequency": 48058,
         "meaning": "contraceptive device, birth-control device",
         "reading": "ひにんぐ",
-        "sinovi": "tỵ nhâm cụ",
+        "sinovi": "tị nhâm cụ",
         "word": "避妊具"
       }
     ]
@@ -25501,7 +25501,7 @@
         "frequency": 6928,
         "meaning": "valid, proper, right",
         "reading": "だとう",
-        "sinovi": "thoả đương",
+        "sinovi": "thoả đáng",
         "word": "妥当"
       },
       {
@@ -25522,7 +25522,7 @@
         "frequency": 59962,
         "meaning": "validity, verification, propriety",
         "reading": "だとうせい",
-        "sinovi": "thoả đương tính",
+        "sinovi": "thoả đáng tính",
         "word": "妥当性"
       },
       {
@@ -25931,7 +25931,7 @@
         "frequency": 6223,
         "meaning": "chairperson (of a committee), chair, chairman",
         "reading": "いいんちょう",
-        "sinovi": "ủy viên trường",
+        "sinovi": "ủy viên trưởng",
         "word": "委員長"
       },
       {
@@ -26426,7 +26426,7 @@
         "frequency": 5234,
         "meaning": "divorce",
         "reading": "りこん",
-        "sinovi": "ly hôn",
+        "sinovi": "li hôn",
         "word": "離婚"
       },
       {
@@ -26622,35 +26622,35 @@
         "frequency": 44372,
         "meaning": "literary woman, talented woman",
         "reading": "さいえん",
-        "sinovi": "tài viện",
+        "sinovi": "tài viên",
         "word": "才媛"
       },
       {
         "frequency": 50222,
         "meaning": "young lady of noble birth, princess (esp. in Western contexts, tales, etc.), girl",
         "reading": "ひめ",
-        "sinovi": "viện",
+        "sinovi": "viên",
         "word": "媛"
       },
       {
         "frequency": 52731,
         "meaning": "Ehime Prefecture (Shikoku)",
         "reading": "えひめけん",
-        "sinovi": "ái viện huyện",
+        "sinovi": "ái viên huyện",
         "word": "愛媛県"
       },
       {
         "frequency": 64971,
         "meaning": "Ehime (prefecture)",
         "reading": "えひめ",
-        "sinovi": "ái viện",
+        "sinovi": "ái viên",
         "word": "愛媛"
       },
       {
         "frequency": 166632,
         "meaning": "Ehime University",
         "reading": "えひめだいがく",
-        "sinovi": "ái viện đại học",
+        "sinovi": "ái viên đại học",
         "word": "愛媛大学"
       }
     ]
@@ -26705,7 +26705,7 @@
         "frequency": 33317,
         "meaning": "shifting the responsibility (for something) on to (someone), passing the buck",
         "reading": "せきにんてんか",
-        "sinovi": "trách nhậm chuyển giá",
+        "sinovi": "trách nhiệm chuyển giá",
         "word": "責任転嫁"
       }
     ]
@@ -27330,7 +27330,7 @@
         "frequency": 676,
         "meaning": "school",
         "reading": "がっこう",
-        "sinovi": "học giáo",
+        "sinovi": "học hiệu",
         "word": "学校"
       },
       {
@@ -27357,7 +27357,7 @@
         "frequency": 2840,
         "meaning": "primary school, elementary school, grade school",
         "reading": "しょうがっこう",
-        "sinovi": "tiểu học giáo",
+        "sinovi": "tiểu học hiệu",
         "word": "小学校"
       }
     ]
@@ -28184,7 +28184,7 @@
         "frequency": 10232,
         "meaning": "assassin,&nbsp;candidate fielded by a political party to oust an incumbent of the same party",
         "reading": "しかく",
-        "sinovi": "thứ khách",
+        "sinovi": "thích khách",
         "word": "刺客"
       }
     ]
@@ -28295,7 +28295,7 @@
         "frequency": 43126,
         "meaning": "Muromachi period (1336-1573)",
         "reading": "むろまちじだい",
-        "sinovi": "thất đinh thì đại",
+        "sinovi": "thất đinh thời đại",
         "word": "室町時代"
       }
     ]
@@ -28379,7 +28379,7 @@
         "frequency": 8884,
         "meaning": "prime minister, premier, chancellor",
         "reading": "さいしょう",
-        "sinovi": "tể tương",
+        "sinovi": "tể tướng",
         "word": "宰相"
       },
       {
@@ -28824,7 +28824,7 @@
       "キ"
     ],
     "radical": "宀",
-    "sinovi": "KÝ",
+    "sinovi": "KÍ",
     "stroke_count": 11,
     "vocabulary": [
       {
@@ -28849,14 +28849,14 @@
         "frequency": 12436,
         "meaning": "contribution, donation",
         "reading": "きふ",
-        "sinovi": "ký phó",
+        "sinovi": "kí phó",
         "word": "寄付"
       },
       {
         "frequency": 15820,
         "meaning": "parasitism",
         "reading": "きせい",
-        "sinovi": "ký sinh",
+        "sinovi": "kí sinh",
         "word": "寄生"
       }
     ]
@@ -28891,7 +28891,7 @@
         "frequency": 5120,
         "meaning": "close adhesion, sticking firmly (to), being glued (to)",
         "reading": "みっちゃく",
-        "sinovi": "mật trứ",
+        "sinovi": "mật trước",
         "word": "密着"
       },
       {
@@ -29509,7 +29509,7 @@
         "frequency": 46969,
         "meaning": "Zen temple",
         "reading": "ぜんでら",
-        "sinovi": "thiện tự",
+        "sinovi": "thiền tự",
         "word": "禅寺"
       }
     ]
@@ -29839,28 +29839,28 @@
         "frequency": 8170,
         "meaning": "general, shogun",
         "reading": "しょうぐん",
-        "sinovi": "tương quân",
+        "sinovi": "tướng quân",
         "word": "将軍"
       },
       {
         "frequency": 8338,
         "meaning": "general, admiral, head",
         "reading": "たいしょう",
-        "sinovi": "đại tương",
+        "sinovi": "đại tướng",
         "word": "大将"
       },
       {
         "frequency": 8692,
         "meaning": "commander, general, leader",
         "reading": "しょう",
-        "sinovi": "tương",
+        "sinovi": "tướng",
         "word": "将"
       },
       {
         "frequency": 12952,
         "meaning": "proprietress (of a traditional Japanese inn, restaurant, or shop), landlady, hostess",
         "reading": "おかみ",
-        "sinovi": "nữ tương",
+        "sinovi": "nữ tướng",
         "word": "女将"
       }
     ]
@@ -29901,7 +29901,7 @@
         "frequency": 19516,
         "meaning": "second lieutenant, sublieutenant, ensign",
         "reading": "しょうい",
-        "sinovi": "thiểu uý",
+        "sinovi": "thiếu uý",
         "word": "少尉"
       },
       {
@@ -30124,7 +30124,7 @@
         "frequency": 2840,
         "meaning": "primary school, elementary school, grade school",
         "reading": "しょうがっこう",
-        "sinovi": "tiểu học giáo",
+        "sinovi": "tiểu học hiệu",
         "word": "小学校"
       },
       {
@@ -30183,14 +30183,14 @@
         "frequency": 1385,
         "meaning": "girl (usu. between 7 and 17), young lady, female between 17 and 20 years old (ritsuryō period)",
         "reading": "しょうじょ",
-        "sinovi": "thiểu nữ",
+        "sinovi": "thiếu nữ",
         "word": "少女"
       },
       {
         "frequency": 1396,
         "meaning": "boy, juvenile, child",
         "reading": "しょうねん",
-        "sinovi": "thiểu niên",
+        "sinovi": "thiếu niên",
         "word": "少年"
       }
     ]
@@ -30246,7 +30246,7 @@
         "frequency": 33344,
         "meaning": "premature",
         "reading": "じきしょうそう",
-        "sinovi": "thì kỳ thượng tảo",
+        "sinovi": "thời kì thượng tảo",
         "word": "時期尚早"
       }
     ]
@@ -30291,7 +30291,7 @@
         "frequency": 7865,
         "meaning": "assumption (of office), taking up (a post), inauguration",
         "reading": "しゅうにん",
-        "sinovi": "tựu nhậm",
+        "sinovi": "tựu nhiệm",
         "word": "就任"
       },
       {
@@ -30468,7 +30468,7 @@
         "frequency": 65336,
         "meaning": "bhikkhuni (fully ordained Buddhist nun), travelling female entertainer dressed as a nun (Kamakura, Muromachi periods), lowly prostitute dressed as a nun (Edo period)",
         "reading": "びくに",
-        "sinovi": "tỷ khâu ni",
+        "sinovi": "tỉ khâu ni",
         "word": "比丘尼"
       }
     ]
@@ -30521,7 +30521,7 @@
         "frequency": 4050,
         "meaning": "unreasonable, irrational, outrageous",
         "reading": "りふじん",
-        "sinovi": "lý bất tẫn",
+        "sinovi": "lí bất tận",
         "word": "理不尽"
       },
       {
@@ -30534,7 +30534,7 @@
         "frequency": 8061,
         "meaning": "efforts, exertion, endeavour",
         "reading": "じんりょく",
-        "sinovi": "tẫn lực",
+        "sinovi": "tận lực",
         "word": "尽力"
       }
     ]
@@ -30704,7 +30704,7 @@
         "frequency": 15746,
         "meaning": "bureau director, office chief",
         "reading": "きょくちょう",
-        "sinovi": "cục trường",
+        "sinovi": "cục trưởng",
         "word": "局長"
       }
     ]
@@ -30798,7 +30798,7 @@
         "frequency": 3445,
         "meaning": "theory, reason, logic",
         "reading": "りくつ",
-        "sinovi": "lý khuất",
+        "sinovi": "lí khuất",
         "word": "理屈"
       },
       {
@@ -30976,7 +30976,7 @@
         "frequency": 10842,
         "meaning": "exhibition, display",
         "reading": "てんじ",
-        "sinovi": "triển kì",
+        "sinovi": "triển thị",
         "word": "展示"
       },
       {
@@ -31014,14 +31014,14 @@
         "frequency": 2670,
         "meaning": "belonging to (a group, organization, etc.), affiliation (with), being attached to",
         "reading": "しょぞく",
-        "sinovi": "sở chúc",
+        "sinovi": "sở thuộc",
         "word": "所属"
       },
       {
         "frequency": 3633,
         "meaning": "metal",
         "reading": "きんぞく",
-        "sinovi": "kim chúc",
+        "sinovi": "kim thuộc",
         "word": "金属"
       },
       {
@@ -31034,14 +31034,14 @@
         "frequency": 8180,
         "meaning": "attribute, property, attribute",
         "reading": "ぞくせい",
-        "sinovi": "chúc tính",
+        "sinovi": "thuộc tính",
         "word": "属性"
       },
       {
         "frequency": 9733,
         "meaning": "exclusive, attached to, specialist",
         "reading": "せんぞく",
-        "sinovi": "chuyên chúc",
+        "sinovi": "chuyên thuộc",
         "word": "専属"
       }
     ]
@@ -31117,7 +31117,7 @@
       "リ"
     ],
     "radical": "尸",
-    "sinovi": "LÝ",
+    "sinovi": "LÍ",
     "stroke_count": 15,
     "vocabulary": [
       {
@@ -31130,7 +31130,7 @@
         "frequency": 16991,
         "meaning": "personal history, background, career",
         "reading": "りれき",
-        "sinovi": "lý lịch",
+        "sinovi": "lí lịch",
         "word": "履歴"
       },
       {
@@ -31149,7 +31149,7 @@
         "frequency": 22062,
         "meaning": "zori, traditional Japanese thonged sandals",
         "reading": "ぞうり",
-        "sinovi": "thảo lý",
+        "sinovi": "thảo lí",
         "word": "草履"
       }
     ]
@@ -31176,28 +31176,28 @@
         "frequency": 29799,
         "meaning": "stationing (troops), garrisoning",
         "reading": "ちゅうとん",
-        "sinovi": "trú truân",
+        "sinovi": "trú đồn",
         "word": "駐屯"
       },
       {
         "frequency": 31165,
         "meaning": "garrison, military base",
         "reading": "ちゅうとんち",
-        "sinovi": "trú truân địa",
+        "sinovi": "trú đồn địa",
         "word": "駐屯地"
       },
       {
         "frequency": 47084,
         "meaning": "gathering, place where people gather, police station",
         "reading": "たむろ",
-        "sinovi": "truân",
+        "sinovi": "đồn",
         "word": "屯"
       },
       {
         "frequency": 51158,
         "meaning": "post, quarters, military station",
         "reading": "とんしょ",
-        "sinovi": "truân sở",
+        "sinovi": "đồn sở",
         "word": "屯所"
       },
       {
@@ -31278,21 +31278,21 @@
       "ギ"
     ],
     "radical": "山",
-    "sinovi": "KỲ",
+    "sinovi": "KÌ",
     "stroke_count": 7,
     "vocabulary": [
       {
         "frequency": 18399,
         "meaning": "divergence, ramification, bifurcation",
         "reading": "ぶんき",
-        "sinovi": "phân kỳ",
+        "sinovi": "phân kì",
         "word": "分岐"
       },
       {
         "frequency": 25221,
         "meaning": "fork, junction, diverging point",
         "reading": "ぶんきてん",
-        "sinovi": "phân kỳ điểm",
+        "sinovi": "phân kì điểm",
         "word": "分岐点"
       },
       {
@@ -31305,14 +31305,14 @@
         "frequency": 31294,
         "meaning": "Gifu (city, prefecture)",
         "reading": "ぎふ",
-        "sinovi": "kỳ phụ",
+        "sinovi": "kì phụ",
         "word": "岐阜"
       },
       {
         "frequency": 37044,
         "meaning": "forked road, crossroads",
         "reading": "きろ",
-        "sinovi": "kỳ lộ",
+        "sinovi": "kì lộ",
         "word": "岐路"
       }
     ]
@@ -31874,7 +31874,7 @@
         "frequency": 18976,
         "meaning": "Nagasaki (city, prefecture)",
         "reading": "ながさき",
-        "sinovi": "trường khi",
+        "sinovi": "trường kì",
         "word": "長崎"
       },
       {
@@ -32433,7 +32433,7 @@
         "frequency": 20870,
         "meaning": "technique, finesse",
         "reading": "ぎこう",
-        "sinovi": "kỹ xảo",
+        "sinovi": "kĩ xảo",
         "word": "技巧"
       },
       {
@@ -32572,28 +32572,28 @@
       "キ"
     ],
     "radical": "己",
-    "sinovi": "KỶ",
+    "sinovi": "KỈ",
     "stroke_count": 3,
     "vocabulary": [
       {
         "frequency": 3050,
         "meaning": "oneself (itself, etc.), I, me",
         "reading": "おのれ",
-        "sinovi": "kỷ",
+        "sinovi": "kỉ",
         "word": "己"
       },
       {
         "frequency": 4270,
         "meaning": "self-introduction",
         "reading": "じこしょうかい",
-        "sinovi": "tự kỷ thiệu giới",
+        "sinovi": "tự kỉ thiệu giới",
         "word": "自己紹介"
       },
       {
         "frequency": 4699,
         "meaning": "self, oneself",
         "reading": "じこ",
-        "sinovi": "tự kỷ",
+        "sinovi": "tự kỉ",
         "word": "自己"
       },
       {
@@ -32606,7 +32606,7 @@
         "frequency": 23448,
         "meaning": "acquaintance,&nbsp;close friend",
         "reading": "ちき",
-        "sinovi": "tri kỷ",
+        "sinovi": "tri kỉ",
         "word": "知己"
       }
     ]
@@ -32717,14 +32717,14 @@
         "frequency": 30588,
         "meaning": "drawstring purse, money pouch, pouch of fried tofu stuffed with var. ingredients, used in oden",
         "reading": "きんちゃく",
-        "sinovi": "cân trứ",
+        "sinovi": "cân trước",
         "word": "巾着"
       },
       {
         "frequency": 40461,
         "meaning": "hanger-on, follower, flunky",
         "reading": "こしぎんちゃく",
-        "sinovi": "yêu cân trứ",
+        "sinovi": "yêu cân trước",
         "word": "腰巾着"
       }
     ]
@@ -33030,35 +33030,35 @@
         "frequency": 23739,
         "meaning": "(field) marshal, (fleet) admiral, general of the army",
         "reading": "げんすい",
-        "sinovi": "nguyên suất",
+        "sinovi": "nguyên súy",
         "word": "元帥"
       },
       {
         "frequency": 25920,
         "meaning": "commander-in-chief, leader, head of a group of companies",
         "reading": "そうすい",
-        "sinovi": "tổng suất",
+        "sinovi": "tổng súy",
         "word": "総帥"
       },
       {
         "frequency": 65870,
         "meaning": "commander-in-chief, generalissimo",
         "reading": "だいげんすい",
-        "sinovi": "đại nguyên suất",
+        "sinovi": "đại nguyên súy",
         "word": "大元帥"
       },
       {
         "frequency": 69342,
         "meaning": "commander",
         "reading": "しょうすい",
-        "sinovi": "tương suất",
+        "sinovi": "tướng súy",
         "word": "将帥"
       },
       {
         "frequency": 72162,
         "meaning": "supreme command, high command",
         "reading": "とうすい",
-        "sinovi": "thống suất",
+        "sinovi": "thống súy",
         "word": "統帥"
       }
     ]
@@ -33330,7 +33330,7 @@
         "frequency": 18763,
         "meaning": "methodical, precise, meticulous",
         "reading": "きちょうめん",
-        "sinovi": "kỷ trướng diện",
+        "sinovi": "kỉ trướng diện",
         "word": "几帳面"
       },
       {
@@ -33766,7 +33766,7 @@
         "frequency": 1396,
         "meaning": "boy, juvenile, child",
         "reading": "しょうねん",
-        "sinovi": "thiểu niên",
+        "sinovi": "thiếu niên",
         "word": "少年"
       },
       {
@@ -34083,7 +34083,7 @@
         "frequency": 6301,
         "meaning": "some, several, a few",
         "reading": "いく",
-        "sinovi": "ki",
+        "sinovi": "kỉ",
         "word": "幾"
       },
       {
@@ -34108,7 +34108,7 @@
         "frequency": 45059,
         "meaning": "geometry",
         "reading": "きかがく",
-        "sinovi": "ki hà học",
+        "sinovi": "kỉ hà học",
         "word": "幾何学"
       }
     ]
@@ -34722,7 +34722,7 @@
         "frequency": 9654,
         "meaning": "schoolyard, school playground, school grounds",
         "reading": "こうてい",
-        "sinovi": "giáo đình",
+        "sinovi": "hiệu đình",
         "word": "校庭"
       }
     ]
@@ -34820,7 +34820,7 @@
         "frequency": 28998,
         "meaning": "health checkup, (general) medical examination, physical examination",
         "reading": "けんこうしんだん",
-        "sinovi": "kiện khang chẩn đoạn",
+        "sinovi": "kiện khang chẩn đoán",
         "word": "健康診断"
       },
       {
@@ -34852,35 +34852,35 @@
         "frequency": 19339,
         "meaning": "mediocre, ordinary, commonplace",
         "reading": "ぼんよう",
-        "sinovi": "phàm dong",
+        "sinovi": "phàm dung",
         "word": "凡庸"
       },
       {
         "frequency": 46243,
         "meaning": "middle way, (golden) mean, moderation",
         "reading": "ちゅうよう",
-        "sinovi": "trung dong",
+        "sinovi": "trung dung",
         "word": "中庸"
       },
       {
         "frequency": 70401,
         "meaning": "tax paid to avoid forced labor (ritsuryō period), tax in kind, mediocrity",
         "reading": "よう",
-        "sinovi": "dong",
+        "sinovi": "dung",
         "word": "庸"
       },
       {
         "frequency": 184737,
         "meaning": "corvee, taxes in kind or service (ritsuryō system)",
         "reading": "そようちょう",
-        "sinovi": "tô dong điệu",
+        "sinovi": "tô dung điệu",
         "word": "租庸調"
       },
       {
         "frequency": 189423,
         "meaning": "appointment, assignment, promotion",
         "reading": "とうよう",
-        "sinovi": "đăng dong",
+        "sinovi": "đăng dung",
         "word": "登庸"
       }
     ]
@@ -35738,35 +35738,35 @@
       "ビ"
     ],
     "radical": "弓",
-    "sinovi": "MY",
+    "sinovi": "MI",
     "stroke_count": 8,
     "vocabulary": [
       {
         "frequency": 23125,
         "meaning": "third month of the lunar calendar, Yayoi period (ca. 300 BCE-300 CE), Yayoi culture",
         "reading": "やよい",
-        "sinovi": "my sinh",
+        "sinovi": "di sinh",
         "word": "弥生"
       },
       {
         "frequency": 26102,
         "meaning": "more and more, increasingly, extremely",
         "reading": "いや",
-        "sinovi": "my",
+        "sinovi": "mi",
         "word": "弥"
       },
       {
         "frequency": 40258,
         "meaning": "Namu Amida Butsu, Hail Amitabha Buddha, Homage to Amida Buddha",
         "reading": "なむあみだぶつ",
-        "sinovi": "nam vô a my đà phật",
+        "sinovi": "nam vô a mi đà phật",
         "word": "南無阿弥陀仏"
       },
       {
         "frequency": 54024,
         "meaning": "Amitabha (Buddha), Amida, ghostleg lottery",
         "reading": "あみだ",
-        "sinovi": "a my đà",
+        "sinovi": "a mi đà",
         "word": "阿弥陀"
       },
       {
@@ -35806,7 +35806,7 @@
         "frequency": 42968,
         "meaning": "string instrument, stringed instrument",
         "reading": "げんがっき",
-        "sinovi": "huyền lạc khí",
+        "sinovi": "huyền nhạc khí",
         "word": "弦楽器"
       },
       {
@@ -35827,7 +35827,7 @@
         "frequency": 72082,
         "meaning": "orchestral music",
         "reading": "かんげんがく",
-        "sinovi": "quản huyền lạc",
+        "sinovi": "quản huyền nhạc",
         "word": "管弦楽"
       }
     ]
@@ -36025,7 +36025,7 @@
         "frequency": 852,
         "meaning": "study, diligence, working hard",
         "reading": "べんきょう",
-        "sinovi": "miễn cường",
+        "sinovi": "miễn cưỡng",
         "word": "勉強"
       },
       {
@@ -36087,14 +36087,14 @@
         "frequency": 4015,
         "meaning": "bullet",
         "reading": "たま",
-        "sinovi": "đàn",
+        "sinovi": "đạn",
         "word": "弾"
       },
       {
         "frequency": 4378,
         "meaning": "bomb, alcohol with liquor added (esp. wine-based shōchū highball, also beer with whiskey)",
         "reading": "ばくだん",
-        "sinovi": "bộc đàn",
+        "sinovi": "bộc đạn",
         "word": "爆弾"
       },
       {
@@ -36190,21 +36190,21 @@
         "frequency": 22128,
         "meaning": "vocabulary, lexicon, lexis",
         "reading": "ごい",
-        "sinovi": "ngữ vị",
+        "sinovi": "ngữ vựng",
         "word": "語彙"
       },
       {
         "frequency": 41376,
         "meaning": "(the extent of) one's vocabulary",
         "reading": "ごいりょく",
-        "sinovi": "ngữ vị lực",
+        "sinovi": "ngữ vựng lực",
         "word": "語彙力"
       },
       {
         "frequency": 105650,
         "meaning": "kind, sort, type",
         "reading": "い",
-        "sinovi": "vị",
+        "sinovi": "vựng",
         "word": "彙"
       },
       {
@@ -36218,7 +36218,7 @@
         "frequency": 242311,
         "meaning": "glossary, dictionary",
         "reading": "じい",
-        "sinovi": "từ vị",
+        "sinovi": "từ vựng",
         "word": "辞彙"
       }
     ]
@@ -36310,7 +36310,7 @@
         "frequency": 7860,
         "meaning": "colour, color, hue",
         "reading": "しきさい",
-        "sinovi": "sắc thải",
+        "sinovi": "sắc thái",
         "word": "色彩"
       },
       {
@@ -36323,14 +36323,14 @@
         "frequency": 20788,
         "meaning": "camouflage, disguise",
         "reading": "めいさい",
-        "sinovi": "mê thải",
+        "sinovi": "mê thái",
         "word": "迷彩"
       },
       {
         "frequency": 21600,
         "meaning": "colourful, colorful, multicoloured",
         "reading": "たさい",
-        "sinovi": "đa thải",
+        "sinovi": "đa thái",
         "word": "多彩"
       }
     ]
@@ -36806,7 +36806,7 @@
         "frequency": 488,
         "meaning": "expectation, anticipation, hope",
         "reading": "きたい",
-        "sinovi": "kỳ đãi",
+        "sinovi": "kì đãi",
         "word": "期待"
       },
       {
@@ -37051,7 +37051,7 @@
         "frequency": 13314,
         "meaning": "apostle, disciple",
         "reading": "しと",
-        "sinovi": "sử đồ",
+        "sinovi": "sứ đồ",
         "word": "使徒"
       },
       {
@@ -37701,7 +37701,7 @@
       "キ"
     ],
     "radical": "心",
-    "sinovi": "KỴ",
+    "sinovi": "KỊ",
     "stroke_count": 7,
     "vocabulary": [
       {
@@ -37714,7 +37714,7 @@
         "frequency": 10241,
         "meaning": "taboo, contraindication",
         "reading": "きんき",
-        "sinovi": "cấm kỵ",
+        "sinovi": "cấm kị",
         "word": "禁忌"
       },
       {
@@ -37727,7 +37727,7 @@
         "frequency": 15289,
         "meaning": "evasion, avoidance, shirking",
         "reading": "きひ",
-        "sinovi": "kỵ tỵ",
+        "sinovi": "kị tị",
         "word": "忌避"
       },
       {
@@ -38271,7 +38271,7 @@
         "frequency": 1486,
         "meaning": "fear, dread, dismay",
         "reading": "きょうふ",
-        "sinovi": "khủng phố",
+        "sinovi": "khủng bố",
         "word": "恐怖"
       },
       {
@@ -38284,14 +38284,14 @@
         "frequency": 11128,
         "meaning": "awe, fear, dread",
         "reading": "いふ",
-        "sinovi": "uý phố",
+        "sinovi": "uý bố",
         "word": "畏怖"
       },
       {
         "frequency": 12814,
         "meaning": "fear, terror",
         "reading": "きょうふしん",
-        "sinovi": "khủng phố tâm",
+        "sinovi": "khủng bố tâm",
         "word": "恐怖心"
       }
     ]
@@ -38714,7 +38714,7 @@
         "frequency": 1486,
         "meaning": "fear, dread, dismay",
         "reading": "きょうふ",
-        "sinovi": "khủng phố",
+        "sinovi": "khủng bố",
         "word": "恐怖"
       },
       {
@@ -40961,21 +40961,21 @@
         "frequency": 17990,
         "meaning": "consolation money, solatium, reparation",
         "reading": "いしゃりょう",
-        "sinovi": "ủy tạ liệu",
+        "sinovi": "úy tạ liệu",
         "word": "慰謝料"
       },
       {
         "frequency": 28887,
         "meaning": "masturbation, onanism, self-consolation",
         "reading": "じい",
-        "sinovi": "tự ủy",
+        "sinovi": "tự úy",
         "word": "自慰"
       },
       {
         "frequency": 38447,
         "meaning": "visit to console someone, giving comfort (to the sick, injured, etc.), expressing condolences (sympathy, concern, etc.)",
         "reading": "いもん",
-        "sinovi": "ủy vấn",
+        "sinovi": "úy vấn",
         "word": "慰問"
       }
     ]
@@ -41077,7 +41077,7 @@
         "frequency": 11221,
         "meaning": "needless fear, groundless apprehension, unfounded worry",
         "reading": "きゆう",
-        "sinovi": "kỷ ưu",
+        "sinovi": "kỉ ưu",
         "word": "杞憂"
       },
       {
@@ -41288,7 +41288,7 @@
         "frequency": 13116,
         "meaning": "rest period, intermission, break time",
         "reading": "きゅうけいじかん",
-        "sinovi": "hưu khế thì gian",
+        "sinovi": "hưu khế thời gian",
         "word": "休憩時間"
       },
       {
@@ -41429,7 +41429,7 @@
         "frequency": 646,
         "meaning": "memory, recollection, remembrance",
         "reading": "きおく",
-        "sinovi": "ký ức",
+        "sinovi": "kí ức",
         "word": "記憶"
       },
       {
@@ -41449,14 +41449,14 @@
         "frequency": 12956,
         "meaning": "memory, ability to remember",
         "reading": "きおくりょく",
-        "sinovi": "ký ức lực",
+        "sinovi": "kí ức lực",
         "word": "記憶力"
       },
       {
         "frequency": 15169,
         "meaning": "loss of memory, amnesia",
         "reading": "きおくそうしつ",
-        "sinovi": "ký ức tang thất",
+        "sinovi": "kí ức tang thất",
         "word": "記憶喪失"
       }
     ]
@@ -41782,7 +41782,7 @@
         "frequency": 1149,
         "meaning": "growth, development, growing up",
         "reading": "せいちょう",
-        "sinovi": "thành trường",
+        "sinovi": "thành trưởng",
         "word": "成長"
       },
       {
@@ -42348,7 +42348,7 @@
         "frequency": 2670,
         "meaning": "belonging to (a group, organization, etc.), affiliation (with), being attached to",
         "reading": "しょぞく",
-        "sinovi": "sở chúc",
+        "sinovi": "sở thuộc",
         "word": "所属"
       },
       {
@@ -42935,42 +42935,42 @@
       "ギ"
     ],
     "radical": "手",
-    "sinovi": "KỸ",
+    "sinovi": "KĨ",
     "stroke_count": 7,
     "vocabulary": [
       {
         "frequency": 1678,
         "meaning": "technology, engineering, technique",
         "reading": "ぎじゅつ",
-        "sinovi": "kỹ thuật",
+        "sinovi": "kĩ thuật",
         "word": "技術"
       },
       {
         "frequency": 3165,
         "meaning": "technique, art, skill",
         "reading": "わざ",
-        "sinovi": "kỹ",
+        "sinovi": "kĩ",
         "word": "技"
       },
       {
         "frequency": 3573,
         "meaning": "acting, performance",
         "reading": "えんぎ",
-        "sinovi": "diễn kỹ",
+        "sinovi": "diễn kĩ",
         "word": "演技"
       },
       {
         "frequency": 9641,
         "meaning": "game, match, contest",
         "reading": "きょうぎ",
-        "sinovi": "cạnh kỹ",
+        "sinovi": "cạnh kĩ",
         "word": "競技"
       },
       {
         "frequency": 10391,
         "meaning": "special skill",
         "reading": "とくぎ",
-        "sinovi": "đặc kỹ",
+        "sinovi": "đặc kĩ",
         "word": "特技"
       }
     ]
@@ -43297,7 +43297,7 @@
         "frequency": 3792,
         "meaning": "sometimes, at intervals, occasionally",
         "reading": "ときおり",
-        "sinovi": "thì chiết",
+        "sinovi": "thời chiết",
         "word": "時折"
       },
       {
@@ -44130,7 +44130,7 @@
         "frequency": 36880,
         "meaning": "adhering to, being a stickler for, being particular about",
         "reading": "こうでい",
-        "sinovi": "câu nê",
+        "sinovi": "câu nệ",
         "word": "拘泥"
       },
       {
@@ -44349,7 +44349,7 @@
         "frequency": 10341,
         "meaning": "occupation, taking and maintaining exclusive control (of a location)",
         "reading": "せんきょ",
-        "sinovi": "chiêm cứ",
+        "sinovi": "chiếm cứ",
         "word": "占拠"
       },
       {
@@ -44386,21 +44386,21 @@
         "frequency": 2935,
         "meaning": "expansion, extension, magnification",
         "reading": "かくだい",
-        "sinovi": "khoáng đại",
+        "sinovi": "khuếch đại",
         "word": "拡大"
       },
       {
         "frequency": 9218,
         "meaning": "spreading, disseminating, scattering",
         "reading": "かくさん",
-        "sinovi": "khoáng tán",
+        "sinovi": "khuếch tán",
         "word": "拡散"
       },
       {
         "frequency": 10373,
         "meaning": "expansion, extension, enlargement",
         "reading": "かくちょう",
-        "sinovi": "khoáng trương",
+        "sinovi": "khuếch trương",
         "word": "拡張"
       },
       {
@@ -44819,7 +44819,7 @@
         "frequency": 1578,
         "meaning": "indication, denotation, designation",
         "reading": "しじ",
-        "sinovi": "chỉ kì",
+        "sinovi": "chỉ thị",
         "word": "指示"
       },
       {
@@ -44859,7 +44859,7 @@
         "frequency": 2961,
         "meaning": "challenge, defiance, dare",
         "reading": "ちょうせん",
-        "sinovi": "thiêu chiến",
+        "sinovi": "khiêu chiến",
         "word": "挑戦"
       },
       {
@@ -44872,14 +44872,14 @@
         "frequency": 4536,
         "meaning": "provocation, stirring up, arousal",
         "reading": "ちょうはつ",
-        "sinovi": "thiêu phát",
+        "sinovi": "khiêu phát",
         "word": "挑発"
       },
       {
         "frequency": 14268,
         "meaning": "provocative, incendiary, inflammatory",
         "reading": "ちょうはつてき",
-        "sinovi": "thiêu phát đích",
+        "sinovi": "khiêu phát đích",
         "word": "挑発的"
       },
       {
@@ -46177,14 +46177,14 @@
         "frequency": 3417,
         "meaning": "guess, conjecture",
         "reading": "すいそく",
-        "sinovi": "thôi trắc",
+        "sinovi": "suy trắc",
         "word": "推測"
       },
       {
         "frequency": 6779,
         "meaning": "recommendation, referral, endorsement",
         "reading": "すいせん",
-        "sinovi": "thôi tiến",
+        "sinovi": "suy tiến",
         "word": "推薦"
       },
       {
@@ -46197,14 +46197,14 @@
         "frequency": 8388,
         "meaning": "reasoning, inference, deduction",
         "reading": "すいり",
-        "sinovi": "thôi lý",
+        "sinovi": "suy lí",
         "word": "推理"
       },
       {
         "frequency": 10933,
         "meaning": "guess, conjecture, surmise",
         "reading": "すいさつ",
-        "sinovi": "thôi sát",
+        "sinovi": "suy sát",
         "word": "推察"
       }
     ]
@@ -46297,21 +46297,21 @@
         "frequency": 8084,
         "meaning": "publication (e.g. of an article in a newspaper), carrying (e.g. a story), running (e.g. a serial)",
         "reading": "けいさい",
-        "sinovi": "yết tái",
+        "sinovi": "yết tải",
         "word": "掲載"
       },
       {
         "frequency": 9663,
         "meaning": "bulletin board, display board, notice board",
         "reading": "けいじばん",
-        "sinovi": "yết kì bản",
+        "sinovi": "yết thị bản",
         "word": "掲示板"
       },
       {
         "frequency": 49177,
         "meaning": "electric noticeboard, electric scoreboard, electric bulletin board",
         "reading": "でんこうけいじばん",
-        "sinovi": "điện quang yết kì bản",
+        "sinovi": "điện quang yết thị bản",
         "word": "電光掲示板"
       },
       {
@@ -46899,7 +46899,7 @@
         "frequency": 11154,
         "meaning": "loading (on a ship), equipping (an aircraft, car, etc.) with, being equipped with",
         "reading": "とうさい",
-        "sinovi": "đáp tái",
+        "sinovi": "đáp tải",
         "word": "搭載"
       },
       {
@@ -47075,7 +47075,7 @@
         "frequency": 17180,
         "meaning": "laws (of nature), (divine) providence",
         "reading": "せつり",
-        "sinovi": "nhiếp lý",
+        "sinovi": "nhiếp lí",
         "word": "摂理"
       },
       {
@@ -47629,7 +47629,7 @@
         "frequency": 49729,
         "meaning": "abrasion, scrape, graze",
         "reading": "さっか",
-        "sinovi": "sát quá",
+        "sinovi": "sát qua",
         "word": "擦過"
       }
     ]
@@ -48342,7 +48342,7 @@
         "frequency": 2563,
         "meaning": "walk, stroll",
         "reading": "さんぽ",
-        "sinovi": "tán bộ",
+        "sinovi": "tản bộ",
         "word": "散歩"
       },
       {
@@ -48530,14 +48530,14 @@
         "frequency": 2570,
         "meaning": "sorting, arrangement, organization",
         "reading": "せいり",
-        "sinovi": "chỉnh lý",
+        "sinovi": "chỉnh lí",
         "word": "整理"
       },
       {
         "frequency": 2652,
         "meaning": "adjustment, regulation, coordination",
         "reading": "ちょうせい",
-        "sinovi": "điệu chỉnh",
+        "sinovi": "điều chỉnh",
         "word": "調整"
       },
       {
@@ -48929,7 +48929,7 @@
         "frequency": 36824,
         "meaning": "the Big Dipper (asterism), the Plough, the Plow",
         "reading": "ほくと",
-        "sinovi": "bắc đấu",
+        "sinovi": "bắc đẩu",
         "word": "北斗"
       },
       {
@@ -48950,7 +48950,7 @@
         "frequency": 60274,
         "meaning": "the Big Dipper (asterism), the Plough, the Plow",
         "reading": "ほくとしちせい",
-        "sinovi": "bắc đấu thất tinh",
+        "sinovi": "bắc đẩu thất tinh",
         "word": "北斗七星"
       }
     ]
@@ -48974,7 +48974,7 @@
         "frequency": 750,
         "meaning": "cooking, cookery, cuisine",
         "reading": "りょうり",
-        "sinovi": "liệu lý",
+        "sinovi": "liệu lí",
         "word": "料理"
       },
       {
@@ -49260,7 +49260,7 @@
         "frequency": 763,
         "meaning": "judgment, judgement, decision",
         "reading": "はんだん",
-        "sinovi": "phán đoạn",
+        "sinovi": "phán đoán",
         "word": "判断"
       },
       {
@@ -49280,7 +49280,7 @@
         "frequency": 2765,
         "meaning": "decision, determination",
         "reading": "けつだん",
-        "sinovi": "quyết đoạn",
+        "sinovi": "quyết đoán",
         "word": "決断"
       },
       {
@@ -49630,28 +49630,28 @@
       "キ"
     ],
     "radical": "方",
-    "sinovi": "KỲ",
+    "sinovi": "KÌ",
     "stroke_count": 14,
     "vocabulary": [
       {
         "frequency": 6091,
         "meaning": "flag, pataka (banner), banner (administrative division of Inner Mongolia)",
         "reading": "はた",
-        "sinovi": "kỳ",
+        "sinovi": "kì",
         "word": "旗"
       },
       {
         "frequency": 22117,
         "meaning": "white flag, truce flag, surrender flag",
         "reading": "しらはた",
-        "sinovi": "bạch kỳ",
+        "sinovi": "bạch kì",
         "word": "白旗"
       },
       {
         "frequency": 24697,
         "meaning": "shogunal vassal, direct retainer of a shogun",
         "reading": "はたもと",
-        "sinovi": "kỳ bản",
+        "sinovi": "kì bản",
         "word": "旗本"
       },
       {
@@ -49664,7 +49664,7 @@
         "frequency": 25892,
         "meaning": "flagship",
         "reading": "きかん",
-        "sinovi": "kỳ hạm",
+        "sinovi": "kì hạm",
         "word": "旗艦"
       }
     ]
@@ -49684,7 +49684,7 @@
       "キ"
     ],
     "radical": "无",
-    "sinovi": "KÝ",
+    "sinovi": "KÍ",
     "stroke_count": 10,
     "vocabulary": [
       {
@@ -49697,28 +49697,28 @@
         "frequency": 14058,
         "meaning": "existing",
         "reading": "きそん",
-        "sinovi": "ký tồn",
+        "sinovi": "kí tồn",
         "word": "既存"
       },
       {
         "frequency": 15095,
         "meaning": "déjà vu",
         "reading": "きしかん",
-        "sinovi": "ký thị cảm",
+        "sinovi": "kí thị cảm",
         "word": "既視感"
       },
       {
         "frequency": 26018,
         "meaning": "established fact, fait accompli",
         "reading": "きせいじじつ",
-        "sinovi": "ký thành sự thực",
+        "sinovi": "kí thành sự thực",
         "word": "既成事実"
       },
       {
         "frequency": 27021,
         "meaning": "(already) known, established",
         "reading": "きち",
-        "sinovi": "ký tri",
+        "sinovi": "kí tri",
         "word": "既知"
       }
     ]
@@ -50553,7 +50553,7 @@
         "frequency": 11191,
         "meaning": "puberty, adolescence",
         "reading": "ししゅんき",
-        "sinovi": "tư xuân kỳ",
+        "sinovi": "tư xuân kì",
         "word": "思春期"
       },
       {
@@ -50719,7 +50719,7 @@
         "frequency": 97293,
         "meaning": "Shōwa period (1926-1989), Showa period",
         "reading": "しょうわじだい",
-        "sinovi": "chiêu hòa thì đại",
+        "sinovi": "chiêu hòa thời đại",
         "word": "昭和時代"
       },
       {
@@ -50862,14 +50862,14 @@
         "frequency": 152,
         "meaning": "time, hour, moment",
         "reading": "とき",
-        "sinovi": "thì",
+        "sinovi": "thời",
         "word": "時"
       },
       {
         "frequency": 184,
         "meaning": "time, hour, period",
         "reading": "じかん",
-        "sinovi": "thì gian",
+        "sinovi": "thời gian",
         "word": "時間"
       },
       {
@@ -50888,7 +50888,7 @@
         "frequency": 890,
         "meaning": "period, epoch, era",
         "reading": "じだい",
-        "sinovi": "thì đại",
+        "sinovi": "thời đại",
         "word": "時代"
       }
     ]
@@ -50990,7 +50990,7 @@
         "frequency": 16791,
         "meaning": "everyday clothes, ordinary clothes, casual wear",
         "reading": "ふだんぎ",
-        "sinovi": "phổ đoạn trứ",
+        "sinovi": "phổ đoạn trước",
         "word": "普段着"
       },
       {
@@ -51540,7 +51540,7 @@
         "frequency": 45118,
         "meaning": "short while",
         "reading": "ざんじ",
-        "sinovi": "tạm thì",
+        "sinovi": "tạm thời",
         "word": "暫時"
       }
     ]
@@ -52018,7 +52018,7 @@
         "frequency": 36688,
         "meaning": "master sergeant, sergeant major (JSDF)",
         "reading": "そうちょう",
-        "sinovi": "tào trường",
+        "sinovi": "tào trưởng",
         "word": "曹長"
       },
       {
@@ -52584,35 +52584,35 @@
       "ゴ"
     ],
     "radical": "月",
-    "sinovi": "KỲ",
+    "sinovi": "KÌ",
     "stroke_count": 12,
     "vocabulary": [
       {
         "frequency": 488,
         "meaning": "expectation, anticipation, hope",
         "reading": "きたい",
-        "sinovi": "kỳ đãi",
+        "sinovi": "kì đãi",
         "word": "期待"
       },
       {
         "frequency": 1235,
         "meaning": "time, season, period",
         "reading": "じき",
-        "sinovi": "thì kỳ",
+        "sinovi": "thời kì",
         "word": "時期"
       },
       {
         "frequency": 2825,
         "meaning": "period, term, interval",
         "reading": "きかん",
-        "sinovi": "kỳ gian",
+        "sinovi": "kì gian",
         "word": "期間"
       },
       {
         "frequency": 4734,
         "meaning": "one's last moment, one's death, one's end",
         "reading": "さいご",
-        "sinovi": "tối kỳ",
+        "sinovi": "tối kì",
         "word": "最期"
       },
       {
@@ -52724,7 +52724,7 @@
         "frequency": 5128,
         "meaning": "not yet known, unknown, strange",
         "reading": "みち",
-        "sinovi": "vị tri",
+        "sinovi": "vị trí",
         "word": "未知"
       },
       {
@@ -52847,7 +52847,7 @@
         "frequency": 24697,
         "meaning": "shogunal vassal, direct retainer of a shogun",
         "reading": "はたもと",
-        "sinovi": "kỳ bản",
+        "sinovi": "kì bản",
         "word": "旗本"
       }
     ]
@@ -53068,7 +53068,7 @@
         "frequency": 34540,
         "meaning": "study desk",
         "reading": "べんきょうづくえ",
-        "sinovi": "miễn cường cơ",
+        "sinovi": "miễn cưỡng cơ",
         "word": "勉強机"
       }
     ]
@@ -53270,7 +53270,7 @@
         "frequency": 9346,
         "meaning": "village headman, village mayor",
         "reading": "そんちょう",
-        "sinovi": "thôn trường",
+        "sinovi": "thôn trưởng",
         "word": "村長"
       },
       {
@@ -53507,7 +53507,7 @@
         "frequency": 4988,
         "meaning": "cheers, bottoms-up, prosit",
         "reading": "かんぱい",
-        "sinovi": "kiền bôi",
+        "sinovi": "can bôi",
         "word": "乾杯"
       },
       {
@@ -53670,7 +53670,7 @@
         "frequency": 9663,
         "meaning": "bulletin board, display board, notice board",
         "reading": "けいじばん",
-        "sinovi": "yết kì bản",
+        "sinovi": "yết thị bản",
         "word": "掲示板"
       },
       {
@@ -53724,7 +53724,7 @@
         "frequency": 46614,
         "meaning": "self-analysis, autoanalysis",
         "reading": "じこぶんせき",
-        "sinovi": "tự kỷ phân tích",
+        "sinovi": "tự kỉ phân tích",
         "word": "自己分析"
       },
       {
@@ -54566,7 +54566,7 @@
         "frequency": 38823,
         "meaning": "beautiful eyebrows",
         "reading": "りゅうび",
-        "sinovi": "liễu my",
+        "sinovi": "liễu mi",
         "word": "柳眉"
       },
       {
@@ -54663,7 +54663,7 @@
         "frequency": 1874,
         "meaning": "investigation, examination, inquiry",
         "reading": "ちょうさ",
-        "sinovi": "điệu tra",
+        "sinovi": "điều tra",
         "word": "調査"
       },
       {
@@ -54829,7 +54829,7 @@
         "frequency": 5865,
         "meaning": "nutrition, nourishment",
         "reading": "えいよう",
-        "sinovi": "vinh dưỡng",
+        "sinovi": "dinh dưỡng",
         "word": "栄養"
       },
       {
@@ -54931,35 +54931,35 @@
         "frequency": 676,
         "meaning": "school",
         "reading": "がっこう",
-        "sinovi": "học giáo",
+        "sinovi": "học hiệu",
         "word": "学校"
       },
       {
         "frequency": 2131,
         "meaning": "senior high school, high school",
         "reading": "こうこう",
-        "sinovi": "cao giáo",
+        "sinovi": "cao hiệu",
         "word": "高校"
       },
       {
         "frequency": 2840,
         "meaning": "primary school, elementary school, grade school",
         "reading": "しょうがっこう",
-        "sinovi": "tiểu học giáo",
+        "sinovi": "tiểu học hiệu",
         "word": "小学校"
       },
       {
         "frequency": 3678,
         "meaning": "school building, schoolhouse",
         "reading": "こうしゃ",
-        "sinovi": "giáo xá",
+        "sinovi": "hiệu xá",
         "word": "校舎"
       },
       {
         "frequency": 3790,
         "meaning": "senior high school student",
         "reading": "こうこうせい",
-        "sinovi": "cao giáo sinh",
+        "sinovi": "cao hiệu sinh",
         "word": "高校生"
       }
     ]
@@ -55859,28 +55859,28 @@
       "キ"
     ],
     "radical": "木",
-    "sinovi": "KỲ",
+    "sinovi": "KÌ",
     "stroke_count": 12,
     "vocabulary": [
       {
         "frequency": 14158,
         "meaning": "shogi, Japanese chess",
         "reading": "しょうぎ",
-        "sinovi": "tương kỳ",
+        "sinovi": "tướng kì",
         "word": "将棋"
       },
       {
         "frequency": 47385,
         "meaning": "professional shogi player, professional go player",
         "reading": "きし",
-        "sinovi": "kỳ sĩ",
+        "sinovi": "kì sĩ",
         "word": "棋士"
       },
       {
         "frequency": 49454,
         "meaning": "shogi board",
         "reading": "しょうぎばん",
-        "sinovi": "tương kỳ bàn",
+        "sinovi": "tướng kì bàn",
         "word": "将棋盤"
       },
       {
@@ -55893,7 +55893,7 @@
         "frequency": 62344,
         "meaning": "record of a game of go, shogi, chess, etc.",
         "reading": "きふ",
-        "sinovi": "kỳ phổ",
+        "sinovi": "kì phổ",
         "word": "棋譜"
       }
     ]
@@ -56189,21 +56189,21 @@
         "frequency": 1498,
         "meaning": "chair, seat, stool",
         "reading": "いす",
-        "sinovi": "y tử",
+        "sinovi": "ỷ tử",
         "word": "椅子"
       },
       {
         "frequency": 12067,
         "meaning": "couch, bench, ottoman",
         "reading": "ながいす",
-        "sinovi": "trường y tử",
+        "sinovi": "trường ỷ tử",
         "word": "長椅子"
       },
       {
         "frequency": 16135,
         "meaning": "wheelchair",
         "reading": "くるまいす",
-        "sinovi": "xa y tử",
+        "sinovi": "xa ỷ tử",
         "word": "車椅子"
       },
       {
@@ -56216,7 +56216,7 @@
         "frequency": 38388,
         "meaning": "stool",
         "reading": "まるいす",
-        "sinovi": "hoàn y tử",
+        "sinovi": "hoàn ỷ tử",
         "word": "丸椅子"
       }
     ]
@@ -56526,28 +56526,28 @@
         "frequency": 85608,
         "meaning": "printed style (of writing Chinese characters), square style, block style",
         "reading": "かいしょ",
-        "sinovi": "giai thư",
+        "sinovi": "khải thư",
         "word": "楷書"
       },
       {
         "frequency": 97501,
         "meaning": "regular script (of Chinese characters), square style, block style",
         "reading": "かい",
-        "sinovi": "giai",
+        "sinovi": "khải",
         "word": "楷"
       },
       {
         "frequency": 186481,
         "meaning": "square (block) style of printed typeface",
         "reading": "かいしょたい",
-        "sinovi": "giai thư thể",
+        "sinovi": "khải thư thể",
         "word": "楷書体"
       },
       {
         "frequency": 287408,
         "meaning": "printed, semi-cursive, and cursive scripts",
         "reading": "かいぎょうそう",
-        "sinovi": "giai hành thảo",
+        "sinovi": "khải hành thảo",
         "word": "楷行草"
       }
     ]
@@ -56651,14 +56651,14 @@
         "frequency": 1151,
         "meaning": "comfort, ease, relief",
         "reading": "らく",
-        "sinovi": "lạc",
+        "sinovi": "nhạc",
         "word": "楽"
       },
       {
         "frequency": 2180,
         "meaning": "music",
         "reading": "おんがく",
-        "sinovi": "âm lạc",
+        "sinovi": "âm nhạc",
         "word": "音楽"
       }
     ]
@@ -57929,21 +57929,21 @@
         "frequency": 6620,
         "meaning": "the art of war, martial arts, military arts",
         "reading": "ぶ",
-        "sinovi": "vũ",
+        "sinovi": "võ",
         "word": "武"
       },
       {
         "frequency": 8758,
         "meaning": "samurai, warrior",
         "reading": "ぶし",
-        "sinovi": "vũ sĩ",
+        "sinovi": "võ sĩ",
         "word": "武士"
       },
       {
         "frequency": 16765,
         "meaning": "warrior",
         "reading": "むしゃ",
-        "sinovi": "vũ giả",
+        "sinovi": "võ giả",
         "word": "武者"
       }
     ]
@@ -57977,7 +57977,7 @@
         "frequency": 2563,
         "meaning": "walk, stroll",
         "reading": "さんぽ",
-        "sinovi": "tán bộ",
+        "sinovi": "tản bộ",
         "word": "散歩"
       },
       {
@@ -58965,7 +58965,7 @@
       "ヒ"
     ],
     "radical": "比",
-    "sinovi": "TỶ, BỈ",
+    "sinovi": "TỈ, BỈ",
     "stroke_count": 4,
     "vocabulary": [
       {
@@ -58984,7 +58984,7 @@
         "frequency": 2978,
         "meaning": "comparatively, relatively",
         "reading": "ひかくてき",
-        "sinovi": "tỷ giác đích",
+        "sinovi": "tỉ giác đích",
         "word": "比較的"
       },
       {
@@ -58997,7 +58997,7 @@
         "frequency": 11828,
         "meaning": "proportion,&nbsp;proportional representation section (of an election)",
         "reading": "ひれい",
-        "sinovi": "tỷ lệ",
+        "sinovi": "tỉ lệ",
         "word": "比例"
       }
     ]
@@ -59263,7 +59263,7 @@
         "frequency": 8135,
         "meaning": "bathing suit, swimsuit, swimmers",
         "reading": "みずぎ",
-        "sinovi": "thủy trứ",
+        "sinovi": "thủy trước",
         "word": "水着"
       },
       {
@@ -59509,7 +59509,7 @@
         "frequency": 2151,
         "meaning": "demand, firm request, requisition",
         "reading": "ようきゅう",
-        "sinovi": "yếu cầu",
+        "sinovi": "yêu cầu",
         "word": "要求"
       },
       {
@@ -59738,7 +59738,7 @@
         "frequency": 16530,
         "meaning": "Edo period (1603-1868)",
         "reading": "えどじだい",
-        "sinovi": "giang hộ thì đại",
+        "sinovi": "giang hộ thời đại",
         "word": "江戸時代"
       },
       {
@@ -59841,28 +59841,28 @@
         "frequency": 11766,
         "meaning": "affair, state, incident",
         "reading": "さた",
-        "sinovi": "sa thái",
+        "sinovi": "sa thải",
         "word": "沙汰"
       },
       {
         "frequency": 24555,
         "meaning": "news (from someone), word, letter",
         "reading": "おとさた",
-        "sinovi": "âm sa thái",
+        "sinovi": "âm sa thải",
         "word": "音沙汰"
       },
       {
         "frequency": 26418,
         "meaning": "going public (with a matter), becoming public knowledge, recourse to litigation",
         "reading": "おもてざた",
-        "sinovi": "biểu sa thái",
+        "sinovi": "biểu sa thải",
         "word": "表沙汰"
       },
       {
         "frequency": 27553,
         "meaning": "weeding out, elimination (e.g. of unneeded employees), culling",
         "reading": "とうた",
-        "sinovi": "đào thái",
+        "sinovi": "đào thải",
         "word": "淘汰"
       }
     ]
@@ -60172,7 +60172,7 @@
         "frequency": 11766,
         "meaning": "affair, state, incident",
         "reading": "さた",
-        "sinovi": "sa thái",
+        "sinovi": "sa thải",
         "word": "沙汰"
       },
       {
@@ -63446,7 +63446,7 @@
         "frequency": 3417,
         "meaning": "guess, conjecture",
         "reading": "すいそく",
-        "sinovi": "thôi trắc",
+        "sinovi": "suy trắc",
         "word": "推測"
       },
       {
@@ -64558,7 +64558,7 @@
         "frequency": 38000,
         "meaning": "drifting ashore",
         "reading": "ひょうちゃく",
-        "sinovi": "phiêu trứ",
+        "sinovi": "phiêu trước",
         "word": "漂着"
       },
       {
@@ -64705,7 +64705,7 @@
         "frequency": 3573,
         "meaning": "acting, performance",
         "reading": "えんぎ",
-        "sinovi": "diễn kỹ",
+        "sinovi": "diễn kĩ",
         "word": "演技"
       },
       {
@@ -64919,7 +64919,7 @@
       "シ"
     ],
     "radical": "水",
-    "sinovi": "TÝ",
+    "sinovi": "TÍ",
     "stroke_count": 14,
     "vocabulary": [
       {
@@ -64938,7 +64938,7 @@
         "frequency": 26023,
         "meaning": "tsukemono, Japanese pickled vegetables",
         "reading": "つけもの",
-        "sinovi": "tý vật",
+        "sinovi": "tí vật",
         "word": "漬物"
       },
       {
@@ -65288,7 +65288,7 @@
         "frequency": 18896,
         "meaning": "tidal hour, right time (to do something), opportunity",
         "reading": "しおどき",
-        "sinovi": "triều thì",
+        "sinovi": "triều thời",
         "word": "潮時"
       }
     ]
@@ -65437,7 +65437,7 @@
         "frequency": 1857,
         "meaning": "stimulus, stimulation, irritation (esp. of the body, e.g. skin, eyes)",
         "reading": "しげき",
-        "sinovi": "thứ kích",
+        "sinovi": "thích kích",
         "word": "刺激"
       },
       {
@@ -65458,7 +65458,7 @@
         "frequency": 7737,
         "meaning": "extreme (measure, idea, etc.), radical, violent (language)",
         "reading": "かげき",
-        "sinovi": "quá kích",
+        "sinovi": "quá khích",
         "word": "過激"
       }
     ]
@@ -65939,7 +65939,7 @@
         "frequency": 7943,
         "meaning": "calamity, misfortune, disaster",
         "reading": "さいなん",
-        "sinovi": "tai nan",
+        "sinovi": "tai nạn",
         "word": "災難"
       },
       {
@@ -66015,7 +66015,7 @@
         "frequency": 36434,
         "meaning": "sunken hearth, sunken fireplace",
         "reading": "いろり",
-        "sinovi": "vi lô lý",
+        "sinovi": "vi lô lí",
         "word": "囲炉裏"
       }
     ]
@@ -66217,7 +66217,7 @@
         "frequency": 1774,
         "meaning": "point in time, occasion",
         "reading": "じてん",
-        "sinovi": "thì điểm",
+        "sinovi": "thời điểm",
         "word": "時点"
       },
       {
@@ -66306,7 +66306,7 @@
         "frequency": 14650,
         "meaning": "idleness, inactivity",
         "reading": "むい",
-        "sinovi": "vô vi",
+        "sinovi": "vô vị",
         "word": "無為"
       }
     ]
@@ -66395,7 +66395,7 @@
         "frequency": 244,
         "meaning": "unreasonable, unnatural, unjustifiable",
         "reading": "むり",
-        "sinovi": "vô lý",
+        "sinovi": "vô lí",
         "word": "無理"
       },
       {
@@ -67122,7 +67122,7 @@
         "frequency": 7700,
         "meaning": "dryness, aridity, drying (e.g. clothes)",
         "reading": "かんそう",
-        "sinovi": "kiền táo",
+        "sinovi": "can táo",
         "word": "乾燥"
       },
       {
@@ -67143,14 +67143,14 @@
         "frequency": 42157,
         "meaning": "dull, uninteresting, dry",
         "reading": "むみかんそう",
-        "sinovi": "vô vị kiền táo",
+        "sinovi": "vô vị can táo",
         "word": "無味乾燥"
       },
       {
         "frequency": 43535,
         "meaning": "drying machine, dryer, desiccator",
         "reading": "かんそうき",
-        "sinovi": "kiền táo cơ",
+        "sinovi": "can táo cơ",
         "word": "乾燥機"
       }
     ]
@@ -67185,7 +67185,7 @@
         "frequency": 4378,
         "meaning": "bomb, alcohol with liquor added (esp. wine-based shōchū highball, also beer with whiskey)",
         "reading": "ばくだん",
-        "sinovi": "bộc đàn",
+        "sinovi": "bộc đạn",
         "word": "爆弾"
       },
       {
@@ -67778,21 +67778,21 @@
         "frequency": 2571,
         "meaning": "sacrifice, victim (esp. someone killed), casualty",
         "reading": "ぎせい",
-        "sinovi": "hy sinh",
+        "sinovi": "hi sinh",
         "word": "犠牲"
       },
       {
         "frequency": 7300,
         "meaning": "victim (esp. someone killed), casualty",
         "reading": "ぎせいしゃ",
-        "sinovi": "hy sinh giả",
+        "sinovi": "hi sinh giả",
         "word": "犠牲者"
       },
       {
         "frequency": 22782,
         "meaning": "self-sacrifice, self-renunciation",
         "reading": "じこぎせい",
-        "sinovi": "tự kỷ hy sinh",
+        "sinovi": "tự kỉ hi sinh",
         "word": "自己犠牲"
       },
       {
@@ -67873,21 +67873,21 @@
       "キ"
     ],
     "radical": "牛",
-    "sinovi": "HY",
+    "sinovi": "HI",
     "stroke_count": 17,
     "vocabulary": [
       {
         "frequency": 2571,
         "meaning": "sacrifice, victim (esp. someone killed), casualty",
         "reading": "ぎせい",
-        "sinovi": "hy sinh",
+        "sinovi": "hi sinh",
         "word": "犠牲"
       },
       {
         "frequency": 7300,
         "meaning": "victim (esp. someone killed), casualty",
         "reading": "ぎせいしゃ",
-        "sinovi": "hy sinh giả",
+        "sinovi": "hi sinh giả",
         "word": "犠牲者"
       },
       {
@@ -67900,14 +67900,14 @@
         "frequency": 210401,
         "meaning": "sacrifice hit (baseball)",
         "reading": "ぎだ",
-        "sinovi": "hy đả",
+        "sinovi": "hi đả",
         "word": "犠打"
       },
       {
         "frequency": 999999,
         "meaning": "sacrifice fly&nbsp;(baseball)",
         "reading": "ぎひ",
-        "sinovi": "hy phi",
+        "sinovi": "hi phi",
         "word": "犠飛"
       }
     ]
@@ -68625,7 +68625,7 @@
         "frequency": 54679,
         "meaning": "grace period, moratorium",
         "reading": "ゆうよきかん",
-        "sinovi": "do dự kỳ gian",
+        "sinovi": "do dự kì gian",
         "word": "猶予期間"
       }
     ]
@@ -68714,7 +68714,7 @@
         "frequency": 16371,
         "meaning": "prison",
         "reading": "かんごく",
-        "sinovi": "giam ngục",
+        "sinovi": "giám ngục",
         "word": "監獄"
       },
       {
@@ -69262,7 +69262,7 @@
         "frequency": 18342,
         "meaning": "squad leader, group leader, team leader",
         "reading": "はんちょう",
-        "sinovi": "ban trường",
+        "sinovi": "ban trưởng",
         "word": "班長"
       },
       {
@@ -69415,42 +69415,42 @@
       "リ"
     ],
     "radical": "玉",
-    "sinovi": "LÝ",
+    "sinovi": "LÍ",
     "stroke_count": 11,
     "vocabulary": [
       {
         "frequency": 244,
         "meaning": "unreasonable, unnatural, unjustifiable",
         "reading": "むり",
-        "sinovi": "vô lý",
+        "sinovi": "vô lí",
         "word": "無理"
       },
       {
         "frequency": 265,
         "meaning": "reason, grounds, pretext",
         "reading": "りゆう",
-        "sinovi": "lý do",
+        "sinovi": "lí do",
         "word": "理由"
       },
       {
         "frequency": 340,
         "meaning": "understanding, comprehension, appreciation",
         "reading": "りかい",
-        "sinovi": "lý giải",
+        "sinovi": "lí giải",
         "word": "理解"
       },
       {
         "frequency": 750,
         "meaning": "cooking, cookery, cuisine",
         "reading": "りょうり",
-        "sinovi": "liệu lý",
+        "sinovi": "liệu lí",
         "word": "料理"
       },
       {
         "frequency": 2143,
         "meaning": "control, management (e.g. of a business)",
         "reading": "かんり",
-        "sinovi": "quản lý",
+        "sinovi": "quản lí",
         "word": "管理"
       }
     ]
@@ -69732,42 +69732,42 @@
       "ジ"
     ],
     "radical": "玉",
-    "sinovi": "TỶ",
+    "sinovi": "TỈ",
     "stroke_count": 19,
     "vocabulary": [
       {
         "frequency": 64786,
         "meaning": "sovereign's seal",
         "reading": "ぎょくじ",
-        "sinovi": "ngọc tỷ",
+        "sinovi": "ngọc tỉ",
         "word": "玉璽"
       },
       {
         "frequency": 85944,
         "meaning": "imperial seal",
         "reading": "いんじ",
-        "sinovi": "ấn tỷ",
+        "sinovi": "ấn tỉ",
         "word": "印璽"
       },
       {
         "frequency": 87062,
         "meaning": "emperor's seal",
         "reading": "じ",
-        "sinovi": "tỷ",
+        "sinovi": "tỉ",
         "word": "璽"
       },
       {
         "frequency": 93054,
         "meaning": "great seal, seal of state",
         "reading": "こくじ",
-        "sinovi": "quốc tỷ",
+        "sinovi": "quốc tỉ",
         "word": "国璽"
       },
       {
         "frequency": 106431,
         "meaning": "imperial seal, privy seal",
         "reading": "ぎょじ",
-        "sinovi": "ngự tỷ",
+        "sinovi": "ngự tỉ",
         "word": "御璽"
       }
     ]
@@ -70259,7 +70259,7 @@
         "frequency": 265,
         "meaning": "reason, grounds, pretext",
         "reading": "りゆう",
-        "sinovi": "lý do",
+        "sinovi": "lí do",
         "word": "理由"
       },
       {
@@ -70453,7 +70453,7 @@
         "frequency": 6656,
         "meaning": "eldest son (may be the only son), first-born son",
         "reading": "ちょうなん",
-        "sinovi": "trường nam",
+        "sinovi": "trưởng nam",
         "word": "長男"
       }
     ]
@@ -70509,7 +70509,7 @@
         "frequency": 20888,
         "meaning": "town mayor",
         "reading": "ちょうちょう",
-        "sinovi": "đinh trường",
+        "sinovi": "đinh trưởng",
         "word": "町長"
       }
     ]
@@ -70542,7 +70542,7 @@
         "frequency": 1194,
         "meaning": "plan, project, schedule",
         "reading": "けいかく",
-        "sinovi": "kế họa",
+        "sinovi": "kế họach",
         "word": "計画"
       },
       {
@@ -70570,7 +70570,7 @@
         "frequency": 4923,
         "meaning": "planning, plan, project",
         "reading": "きかく",
-        "sinovi": "xí họa",
+        "sinovi": "xí hoạch",
         "word": "企画"
       }
     ]
@@ -70652,7 +70652,7 @@
         "frequency": 11128,
         "meaning": "awe, fear, dread",
         "reading": "いふ",
-        "sinovi": "uý phố",
+        "sinovi": "uý bố",
         "word": "畏怖"
       },
       {
@@ -71206,42 +71206,42 @@
       "キ"
     ],
     "radical": "田",
-    "sinovi": "KỲ",
+    "sinovi": "KÌ",
     "stroke_count": 15,
     "vocabulary": [
       {
         "frequency": 43937,
         "meaning": "Kinki (region around Osaka, Kyoto, Nara)",
         "reading": "きんき",
-        "sinovi": "cận kỳ",
+        "sinovi": "cận kì",
         "word": "近畿"
       },
       {
         "frequency": 57849,
         "meaning": "Kinai (the five provinces in the immediate vicinity of Kyoto)",
         "reading": "きない",
-        "sinovi": "kỳ nội",
+        "sinovi": "kì nội",
         "word": "畿内"
       },
       {
         "frequency": 80250,
         "meaning": "Kinki region (Osaka, Kyoto, Hyogo, Nara, Wakayama, Mie and Shiga prefectures)",
         "reading": "きんきちほう",
-        "sinovi": "cận kỳ địa phương",
+        "sinovi": "cận kì địa phương",
         "word": "近畿地方"
       },
       {
         "frequency": 124599,
         "meaning": "territories in the vicinity of Kyoto, territories in the vicinity of the imperial palace",
         "reading": "けいき",
-        "sinovi": "kinh kỳ",
+        "sinovi": "kinh kì",
         "word": "京畿"
       },
       {
         "frequency": 147649,
         "meaning": "Kindai University",
         "reading": "きんきだいがく",
-        "sinovi": "cận kỳ đại học",
+        "sinovi": "cận kì đại học",
         "word": "近畿大学"
       }
     ]
@@ -72097,7 +72097,7 @@
         "frequency": 24800,
         "meaning": "adhesion, conglutination, accretion",
         "reading": "ゆちゃく",
-        "sinovi": "dũ trứ",
+        "sinovi": "dũ trước",
         "word": "癒着"
       }
     ]
@@ -72267,7 +72267,7 @@
         "frequency": 5394,
         "meaning": "attendance (at school), going to school",
         "reading": "とうこう",
-        "sinovi": "đăng giáo",
+        "sinovi": "đăng hiệu",
         "word": "登校"
       },
       {
@@ -72946,14 +72946,14 @@
         "frequency": 2279,
         "meaning": "monitoring, watching, observation",
         "reading": "かんし",
-        "sinovi": "giam thị",
+        "sinovi": "giám thị",
         "word": "監視"
       },
       {
         "frequency": 4428,
         "meaning": "supervision, superintendence, director",
         "reading": "かんとく",
-        "sinovi": "giam đốc",
+        "sinovi": "giám đốc",
         "word": "監督"
       },
       {
@@ -72967,14 +72967,14 @@
         "frequency": 16371,
         "meaning": "prison",
         "reading": "かんごく",
-        "sinovi": "giam ngục",
+        "sinovi": "giám ngục",
         "word": "監獄"
       },
       {
         "frequency": 30958,
         "meaning": "inspection, audit, judgement",
         "reading": "かんさ",
-        "sinovi": "giam tra",
+        "sinovi": "giám tra",
         "word": "監査"
       }
     ]
@@ -73268,7 +73268,7 @@
         "frequency": 8884,
         "meaning": "prime minister, premier, chancellor",
         "reading": "さいしょう",
-        "sinovi": "tể tương",
+        "sinovi": "tể tướng",
         "word": "宰相"
       }
     ]
@@ -73321,7 +73321,7 @@
         "frequency": 64896,
         "meaning": "self-contradiction, paradox, antinomy",
         "reading": "じこむじゅん",
-        "sinovi": "tự kỷ mâu thuẫn",
+        "sinovi": "tự kỉ mâu thuẫn",
         "word": "自己矛盾"
       }
     ]
@@ -73395,21 +73395,21 @@
       "ミ"
     ],
     "radical": "目",
-    "sinovi": "MY",
+    "sinovi": "MI",
     "stroke_count": 9,
     "vocabulary": [
       {
         "frequency": 3363,
         "meaning": "eyebrow, eyebrows",
         "reading": "まゆ",
-        "sinovi": "my",
+        "sinovi": "mi",
         "word": "眉"
       },
       {
         "frequency": 4029,
         "meaning": "brow, glabella, middle forehead",
         "reading": "みけん",
-        "sinovi": "my gian",
+        "sinovi": "mi gian",
         "word": "眉間"
       },
       {
@@ -73428,7 +73428,7 @@
         "frequency": 38823,
         "meaning": "beautiful eyebrows",
         "reading": "りゅうび",
-        "sinovi": "liễu my",
+        "sinovi": "liễu mi",
         "word": "柳眉"
       }
     ]
@@ -73535,7 +73535,7 @@
         "frequency": 27929,
         "meaning": "Saitama Prefecture (Kanto area)",
         "reading": "さいたまけん",
-        "sinovi": "kỳ ngọc huyện",
+        "sinovi": "kì ngọc huyện",
         "word": "埼玉県"
       }
     ]
@@ -73803,7 +73803,7 @@
         "frequency": 1250,
         "meaning": "arrival",
         "reading": "とうちゃく",
-        "sinovi": "đáo trứ",
+        "sinovi": "đáo trước",
         "word": "到着"
       },
       {
@@ -73866,7 +73866,7 @@
         "frequency": 20024,
         "meaning": "(one's) sleeping hours, hours of sleep",
         "reading": "すいみんじかん",
-        "sinovi": "thuỵ miên thì gian",
+        "sinovi": "thuỵ miên thời gian",
         "word": "睡眠時間"
       }
     ]
@@ -73893,7 +73893,7 @@
         "frequency": 4428,
         "meaning": "supervision, control, superintendence",
         "reading": "かんとく",
-        "sinovi": "giam đốc",
+        "sinovi": "giám đốc",
         "word": "監督"
       },
       {
@@ -73921,7 +73921,7 @@
         "frequency": 45176,
         "meaning": "movie director, film director",
         "reading": "えいがかんとく",
-        "sinovi": "ánh họa giam đốc",
+        "sinovi": "ánh họa giám đốc",
         "word": "映画監督"
       }
     ]
@@ -74020,7 +74020,7 @@
         "frequency": 4885,
         "meaning": "instant, moment, (split) second",
         "reading": "しゅんじ",
-        "sinovi": "thuấn thì",
+        "sinovi": "thuấn thời",
         "word": "瞬時"
       },
       {
@@ -74192,7 +74192,7 @@
         "frequency": 64896,
         "meaning": "self-contradiction, paradox, antinomy",
         "reading": "じこむじゅん",
-        "sinovi": "tự kỷ mâu thuẫn",
+        "sinovi": "tự kỉ mâu thuẫn",
         "word": "自己矛盾"
       }
     ]
@@ -74225,7 +74225,7 @@
         "frequency": 4170,
         "meaning": "forcibly, by force, against one's will",
         "reading": "むりやり",
-        "sinovi": "vô lý thỉ lý",
+        "sinovi": "vô lí thỉ lí",
         "word": "無理矢理"
       },
       {
@@ -74333,14 +74333,14 @@
         "frequency": 7394,
         "meaning": "short time",
         "reading": "たんじかん",
-        "sinovi": "đoản thì gian",
+        "sinovi": "đoản thời gian",
         "word": "短時間"
       },
       {
         "frequency": 7911,
         "meaning": "short term, short time",
         "reading": "たんきかん",
-        "sinovi": "đoản kỳ gian",
+        "sinovi": "đoản kì gian",
         "word": "短期間"
       },
       {
@@ -74911,35 +74911,35 @@
       "ゴ"
     ],
     "radical": "石",
-    "sinovi": "KỲ",
+    "sinovi": "KÌ",
     "stroke_count": 13,
     "vocabulary": [
       {
         "frequency": 33801,
         "meaning": "go (board game)",
         "reading": "ご",
-        "sinovi": "kỳ",
+        "sinovi": "kì",
         "word": "碁"
       },
       {
         "frequency": 33860,
         "meaning": "go (board game)",
         "reading": "いご",
-        "sinovi": "vi kỳ",
+        "sinovi": "vi kì",
         "word": "囲碁"
       },
       {
         "frequency": 51160,
         "meaning": "Go board",
         "reading": "ごばん",
-        "sinovi": "kỳ bàn",
+        "sinovi": "kì bàn",
         "word": "碁盤"
       },
       {
         "frequency": 54581,
         "meaning": "go stone, go piece",
         "reading": "ごいし",
-        "sinovi": "kỳ thạch",
+        "sinovi": "kì thạch",
         "word": "碁石"
       },
       {
@@ -74992,7 +74992,7 @@
         "frequency": 48773,
         "meaning": "commemorative plaque (usu. on a stone), stone monument (bearing an inscription)",
         "reading": "きねんひ",
-        "sinovi": "ký niệm bi",
+        "sinovi": "kỉ niệm bi",
         "word": "記念碑"
       },
       {
@@ -75306,28 +75306,28 @@
         "frequency": 1578,
         "meaning": "indication, denotation, designation",
         "reading": "しじ",
-        "sinovi": "chỉ kì",
+        "sinovi": "chỉ thị",
         "word": "指示"
       },
       {
         "frequency": 3427,
         "meaning": "indication, expression, showing",
         "reading": "ひょうじ",
-        "sinovi": "biểu kì",
+        "sinovi": "biểu thị",
         "word": "表示"
       },
       {
         "frequency": 5687,
         "meaning": "presentation (of a passport, ID, etc.), showing, production (e.g. of documents)",
         "reading": "ていじ",
-        "sinovi": "đề kì",
+        "sinovi": "đề thị",
         "word": "提示"
       },
       {
         "frequency": 14166,
         "meaning": "suggestion, hint, implication",
         "reading": "しさ",
-        "sinovi": "kì toa",
+        "sinovi": "thị toa",
         "word": "示唆"
       }
     ]
@@ -75457,7 +75457,7 @@
       "キ"
     ],
     "radical": "示",
-    "sinovi": "KỲ",
+    "sinovi": "KÌ",
     "stroke_count": 8,
     "vocabulary": [
       {
@@ -75482,14 +75482,14 @@
         "frequency": 21025,
         "meaning": "prayer (for something), supplication",
         "reading": "きがん",
-        "sinovi": "kỳ nguyện",
+        "sinovi": "kì nguyện",
         "word": "祈願"
       },
       {
         "frequency": 24869,
         "meaning": "prayer, grace (at meals), exorcism",
         "reading": "きとう",
-        "sinovi": "kỳ đảo",
+        "sinovi": "kì đảo",
         "word": "祈祷"
       }
     ]
@@ -75917,7 +75917,7 @@
         "frequency": 10241,
         "meaning": "taboo, contraindication",
         "reading": "きんき",
-        "sinovi": "cấm kỵ",
+        "sinovi": "cấm kị",
         "word": "禁忌"
       },
       {
@@ -75951,35 +75951,35 @@
         "frequency": 26129,
         "meaning": "dhyana (profound meditation), Zen (Buddhism)",
         "reading": "ぜん",
-        "sinovi": "thiện",
+        "sinovi": "thiền",
         "word": "禅"
       },
       {
         "frequency": 37864,
         "meaning": "zazen (seated Zen meditation, usu. in a cross-legged position)",
         "reading": "ざぜん",
-        "sinovi": "toạ thiện",
+        "sinovi": "toạ thiền",
         "word": "座禅"
       },
       {
         "frequency": 46969,
         "meaning": "Zen temple",
         "reading": "ぜんでら",
-        "sinovi": "thiện tự",
+        "sinovi": "thiền tự",
         "word": "禅寺"
       },
       {
         "frequency": 51544,
         "meaning": "monk, priest, particularly a high-ranking Zen monk honored by the imperial court",
         "reading": "ぜんじ",
-        "sinovi": "thiện sư",
+        "sinovi": "thiền sư",
         "word": "禅師"
       },
       {
         "frequency": 55200,
         "meaning": "Zen dialogue, Zen questions and answers",
         "reading": "ぜんもんどう",
-        "sinovi": "thiện vấn đáp",
+        "sinovi": "thiền vấn đáp",
         "word": "禅問答"
       }
     ]
@@ -77347,7 +77347,7 @@
         "frequency": 59499,
         "meaning": "harvest time",
         "reading": "しゅうかくき",
-        "sinovi": "thu hoạch kỳ",
+        "sinovi": "thu hoạch kì",
         "word": "収穫期"
       },
       {
@@ -77794,7 +77794,7 @@
         "frequency": 34145,
         "meaning": "theory, reason, logic",
         "reading": "りくつ",
-        "sinovi": "lý quật",
+        "sinovi": "lí quật",
         "word": "理窟"
       },
       {
@@ -78251,7 +78251,7 @@
         "frequency": 9641,
         "meaning": "game, match, contest",
         "reading": "きょうぎ",
-        "sinovi": "cạnh kỹ",
+        "sinovi": "cạnh kĩ",
         "word": "競技"
       },
       {
@@ -78863,7 +78863,7 @@
         "frequency": 11257,
         "meaning": "walking, strolling, roaming",
         "reading": "さんさく",
-        "sinovi": "tán sách",
+        "sinovi": "tản sách",
         "word": "散策"
       },
       {
@@ -78963,7 +78963,7 @@
         "frequency": 55694,
         "meaning": "prescription",
         "reading": "しょほうせん",
-        "sinovi": "xứ phương tiên",
+        "sinovi": "xử phương tiên",
         "word": "処方箋"
       },
       {
@@ -79062,7 +79062,7 @@
         "frequency": 2143,
         "meaning": "control, management (e.g. of a business)",
         "reading": "かんり",
-        "sinovi": "quản lý",
+        "sinovi": "quản lí",
         "word": "管理"
       },
       {
@@ -79083,7 +79083,7 @@
         "frequency": 11639,
         "meaning": "administrator, janitor, manager",
         "reading": "かんりにん",
-        "sinovi": "quản lý nhân",
+        "sinovi": "quản lí nhân",
         "word": "管理人"
       },
       {
@@ -79528,7 +79528,7 @@
         "frequency": 58730,
         "meaning": "secret accounts, second set of accounts",
         "reading": "うらちょうぼ",
-        "sinovi": "lý trướng bộ",
+        "sinovi": "lí trướng bộ",
         "word": "裏帳簿"
       },
       {
@@ -79908,7 +79908,7 @@
         "frequency": 16690,
         "meaning": "carelessness, careless mistake, blunder",
         "reading": "そそう",
-        "sinovi": "thô tương",
+        "sinovi": "thô tướng",
         "word": "粗相"
       },
       {
@@ -79961,7 +79961,7 @@
         "frequency": 11283,
         "meaning": "mucous membrane",
         "reading": "ねんまく",
-        "sinovi": "niêm mô",
+        "sinovi": "niêm mạc",
         "word": "粘膜"
       },
       {
@@ -79982,7 +79982,7 @@
         "frequency": 19399,
         "meaning": "cohesion, adhesion",
         "reading": "ねんちゃく",
-        "sinovi": "niêm trứ",
+        "sinovi": "niêm trước",
         "word": "粘着"
       }
     ]
@@ -81156,7 +81156,7 @@
         "frequency": 39774,
         "meaning": "cumulative total, accumulated total, total up to now",
         "reading": "るいけい",
-        "sinovi": "luy kế",
+        "sinovi": "lũy kế",
         "word": "累計"
       },
       {
@@ -81169,7 +81169,7 @@
         "frequency": 44024,
         "meaning": "trouble, harmful effect, evil influence",
         "reading": "るい",
-        "sinovi": "luy",
+        "sinovi": "lũy",
         "word": "累"
       },
       {
@@ -81182,7 +81182,7 @@
         "frequency": 49174,
         "meaning": "accumulation, cumulative, accumulated",
         "reading": "るいせき",
-        "sinovi": "luy tích",
+        "sinovi": "lũy tích",
         "word": "累積"
       }
     ]
@@ -81324,7 +81324,7 @@
         "frequency": 4270,
         "meaning": "self-introduction",
         "reading": "じこしょうかい",
-        "sinovi": "tự kỷ thiệu giới",
+        "sinovi": "tự kỉ thiệu giới",
         "word": "自己紹介"
       },
       {
@@ -81560,7 +81560,7 @@
         "frequency": 2728,
         "meaning": "passage (of time), elapsing, lapse",
         "reading": "けいか",
-        "sinovi": "kinh quá",
+        "sinovi": "kinh qua",
         "word": "経過"
       },
       {
@@ -82294,7 +82294,7 @@
         "frequency": 20579,
         "meaning": "retina",
         "reading": "もうまく",
-        "sinovi": "võng mô",
+        "sinovi": "võng mạc",
         "word": "網膜"
       }
     ]
@@ -82519,7 +82519,7 @@
         "frequency": 16500,
         "meaning": "prime minister (as the head of a cabinet government), premier",
         "reading": "そうりだいじん",
-        "sinovi": "tổng lý đại thần",
+        "sinovi": "tổng lí đại thần",
         "word": "総理大臣"
       }
     ]
@@ -83147,7 +83147,7 @@
         "frequency": 55666,
         "meaning": "Jōmon period (ca. 14000-1000 BCE)​",
         "reading": "じょうもんじだい",
-        "sinovi": "thằng văn thì đại",
+        "sinovi": "thằng văn thời đại",
         "word": "縄文時代"
       }
     ]
@@ -83251,14 +83251,14 @@
         "frequency": 15760,
         "meaning": "freely, right and left, as one pleases",
         "reading": "じゅうおうむじん",
-        "sinovi": "túng hoành vô tẫn",
+        "sinovi": "tung hoành vô tẫn",
         "word": "縦横無尽"
       },
       {
         "frequency": 39790,
         "meaning": "running through (north-south),&nbsp;running through (north-south),&nbsp;travelling across​",
         "reading": "じゅうだん",
-        "sinovi": "túng đoạn",
+        "sinovi": "tung đoạn",
         "word": "縦断"
       }
     ]
@@ -83862,7 +83862,7 @@
         "frequency": 11350,
         "meaning": "judgment (of a crime), conviction, condemnation",
         "reading": "だんざい",
-        "sinovi": "đoạn tội",
+        "sinovi": "đoán tội",
         "word": "断罪"
       }
     ]
@@ -83957,7 +83957,7 @@
         "frequency": 10482,
         "meaning": "punishment, penalty",
         "reading": "しょばつ",
-        "sinovi": "xứ phạt",
+        "sinovi": "xử phạt",
         "word": "処罰"
       },
       {
@@ -84028,7 +84028,7 @@
         "frequency": 21041,
         "meaning": "chief (of police), head (of office)",
         "reading": "しょちょう",
-        "sinovi": "thự trường",
+        "sinovi": "thự trưởng",
         "word": "署長"
       }
     ]
@@ -84288,7 +84288,7 @@
         "frequency": 3950,
         "meaning": "beautiful girl",
         "reading": "びしょうじょ",
-        "sinovi": "mĩ thiểu nữ",
+        "sinovi": "mĩ thiếu nữ",
         "word": "美少女"
       },
       {
@@ -84503,7 +84503,7 @@
         "frequency": 4783,
         "meaning": "duty, sense of duty, honor",
         "reading": "ぎり",
-        "sinovi": "nghĩa lý",
+        "sinovi": "nghĩa lí",
         "word": "義理"
       },
       {
@@ -86016,7 +86016,7 @@
         "frequency": 69956,
         "meaning": "self-esteem, feeling of self-approval",
         "reading": "じここうていかん",
-        "sinovi": "tự kỷ khẳng định cảm",
+        "sinovi": "tự kỉ khẳng định cảm",
         "word": "自己肯定感"
       }
     ]
@@ -86440,7 +86440,7 @@
         "frequency": 47487,
         "meaning": "(sleeveless) undergarment, padded undershirt",
         "reading": "どうぎ",
-        "sinovi": "đỗng trứ",
+        "sinovi": "đỗng trước",
         "word": "胴着"
       },
       {
@@ -86943,7 +86943,7 @@
         "frequency": 6426,
         "meaning": "withdrawal, secession, separation",
         "reading": "りだつ",
-        "sinovi": "ly thoát",
+        "sinovi": "li thoát",
         "word": "離脱"
       },
       {
@@ -86989,7 +86989,7 @@
         "frequency": 3997,
         "meaning": "one's mind",
         "reading": "のうり",
-        "sinovi": "não lý",
+        "sinovi": "não lí",
         "word": "脳裏"
       },
       {
@@ -87311,7 +87311,7 @@
         "frequency": 15491,
         "meaning": "intestine, bowel",
         "reading": "ちょう",
-        "sinovi": "tràng",
+        "sinovi": "trường",
         "word": "腸"
       },
       {
@@ -87384,7 +87384,7 @@
         "frequency": 5455,
         "meaning": "opposite, reverse, contrary",
         "reading": "うらはら",
-        "sinovi": "lý phúc",
+        "sinovi": "lí phúc",
         "word": "裏腹"
       },
       {
@@ -87521,35 +87521,35 @@
         "frequency": 10261,
         "meaning": "eardrum, tympanic membrane",
         "reading": "こまく",
-        "sinovi": "cổ mô",
+        "sinovi": "cổ mạc",
         "word": "鼓膜"
       },
       {
         "frequency": 10615,
         "meaning": "membrane, film",
         "reading": "まく",
-        "sinovi": "mô",
+        "sinovi": "mạc",
         "word": "膜"
       },
       {
         "frequency": 11283,
         "meaning": "mucous membrane",
         "reading": "ねんまく",
-        "sinovi": "niêm mô",
+        "sinovi": "niêm mạc",
         "word": "粘膜"
       },
       {
         "frequency": 20579,
         "meaning": "retina",
         "reading": "もうまく",
-        "sinovi": "võng mô",
+        "sinovi": "võng mạc",
         "word": "網膜"
       },
       {
         "frequency": 35880,
         "meaning": "hymen",
         "reading": "しょじょまく",
-        "sinovi": "xứ nữ mô",
+        "sinovi": "xử nữ mạc",
         "word": "処女膜"
       }
     ]
@@ -87865,7 +87865,7 @@
         "frequency": 16500,
         "meaning": "prime minister (as the head of a cabinet government), premier",
         "reading": "そうりだいじん",
-        "sinovi": "tổng lý đại thần",
+        "sinovi": "tổng lí đại thần",
         "word": "総理大臣"
       },
       {
@@ -87908,7 +87908,7 @@
         "frequency": 7495,
         "meaning": "temporary, provisional, interim",
         "reading": "りんじ",
-        "sinovi": "lâm thì",
+        "sinovi": "lâm thời",
         "word": "臨時"
       },
       {
@@ -88094,7 +88094,7 @@
         "frequency": 8581,
         "meaning": "point-blank range",
         "reading": "しきんきょり",
-        "sinovi": "chí cận cự ly",
+        "sinovi": "chí cận cự li",
         "word": "至近距離"
       },
       {
@@ -88362,7 +88362,7 @@
         "frequency": 3678,
         "meaning": "school building, schoolhouse",
         "reading": "こうしゃ",
-        "sinovi": "giáo xá",
+        "sinovi": "hiệu xá",
         "word": "校舎"
       },
       {
@@ -88592,7 +88592,7 @@
         "frequency": 18160,
         "meaning": "difficult voyage, stormy passage, hard flight",
         "reading": "なんこう",
-        "sinovi": "nan hàng",
+        "sinovi": "nạn hàng",
         "word": "難航"
       },
       {
@@ -88704,7 +88704,7 @@
         "frequency": 110711,
         "meaning": "ocean transportation, importation",
         "reading": "はくさい",
-        "sinovi": "bạc tái",
+        "sinovi": "bạc tải",
         "word": "舶載"
       }
     ]
@@ -88798,7 +88798,7 @@
         "frequency": 10971,
         "meaning": "ship's captain, skipper, length of a ship",
         "reading": "せんちょう",
-        "sinovi": "thuyền trường",
+        "sinovi": "thuyền trưởng",
         "word": "船長"
       },
       {
@@ -88907,7 +88907,7 @@
         "frequency": 17058,
         "meaning": "captain (of a warship)",
         "reading": "かんちょう",
-        "sinovi": "hạm trường",
+        "sinovi": "hạm trưởng",
         "word": "艦長"
       },
       {
@@ -89127,7 +89127,7 @@
         "frequency": 45762,
         "meaning": "taro (Colocasia esculenta), dasheen, eddo",
         "reading": "さといも",
-        "sinovi": "lý dụ",
+        "sinovi": "lí dụ",
         "word": "里芋"
       },
       {
@@ -89378,35 +89378,35 @@
         "frequency": 5651,
         "meaning": "art, the arts",
         "reading": "げいじゅつ",
-        "sinovi": "vân thuật",
+        "sinovi": "nghệ thuật",
         "word": "芸術"
       },
       {
         "frequency": 9491,
         "meaning": "art, craft, accomplishment",
         "reading": "げい",
-        "sinovi": "vân",
+        "sinovi": "nghệ",
         "word": "芸"
       },
       {
         "frequency": 11899,
         "meaning": "artist",
         "reading": "げいじゅつか",
-        "sinovi": "vân thuật gia",
+        "sinovi": "nghệ thuật gia",
         "word": "芸術家"
       },
       {
         "frequency": 13298,
         "meaning": "performance, trick, feat",
         "reading": "げいとう",
-        "sinovi": "vân đương",
+        "sinovi": "nghệ đương",
         "word": "芸当"
       },
       {
         "frequency": 13889,
         "meaning": "(TV) comedian, performer (esp. of a traditional art), entertainer",
         "reading": "げいにん",
-        "sinovi": "vân nhân",
+        "sinovi": "nghệ nhân",
         "word": "芸人"
       }
     ]
@@ -89749,7 +89749,7 @@
         "frequency": 27150,
         "meaning": "wisdom, intelligence, sagacity",
         "reading": "えいち",
-        "sinovi": "anh tri",
+        "sinovi": "anh trí",
         "word": "英知"
       }
     ]
@@ -89878,21 +89878,21 @@
       "ジ"
     ],
     "radical": "艸",
-    "sinovi": "TỲ",
+    "sinovi": "TÌ",
     "stroke_count": 9,
     "vocabulary": [
       {
         "frequency": 21923,
         "meaning": "thorny shrub, wild rose, briar",
         "reading": "いばら",
-        "sinovi": "tỳ",
+        "sinovi": "tì",
         "word": "茨"
       },
       {
         "frequency": 38999,
         "meaning": "Ibaraki prefecture",
         "reading": "いばらきけん",
-        "sinovi": "tỳ thành huyện",
+        "sinovi": "tì thành huyện",
         "word": "茨城県"
       },
       {
@@ -89905,14 +89905,14 @@
         "frequency": 44033,
         "meaning": "Ibaraki (prefecture)",
         "reading": "いばらき",
-        "sinovi": "tỳ thành",
+        "sinovi": "tì thành",
         "word": "茨城"
       },
       {
         "frequency": 92950,
         "meaning": "Sleeping Beauty, Thorn Princess, Briar Rose",
         "reading": "いばらひめ",
-        "sinovi": "tỳ cơ",
+        "sinovi": "tì cơ",
         "word": "茨姫"
       }
     ]
@@ -90505,7 +90505,7 @@
         "frequency": 13499,
         "meaning": "withering, shrivelling, shrinking",
         "reading": "いしゅく",
-        "sinovi": "nuy súc",
+        "sinovi": "uy súc",
         "word": "萎縮"
       },
       {
@@ -90524,7 +90524,7 @@
         "frequency": 43641,
         "meaning": "interpenetration of spirit between the poet and nature in a haiku",
         "reading": "しおり",
-        "sinovi": "nuy",
+        "sinovi": "uy",
         "word": "萎"
       }
     ]
@@ -91088,7 +91088,7 @@
         "frequency": 19598,
         "meaning": "internal (e.g. disk), built-in, equipped (with)",
         "reading": "ないぞう",
-        "sinovi": "nội tàng",
+        "sinovi": "nội tạng",
         "word": "内蔵"
       },
       {
@@ -91242,7 +91242,7 @@
         "frequency": 6779,
         "meaning": "recommendation, referral, endorsement",
         "reading": "すいせん",
-        "sinovi": "thôi tiến",
+        "sinovi": "suy tiến",
         "word": "推薦"
       },
       {
@@ -91261,7 +91261,7 @@
         "frequency": 39835,
         "meaning": "letter of invitation, letter of recommendation, reference",
         "reading": "すいせんじょう",
-        "sinovi": "thôi tiến trạng",
+        "sinovi": "suy tiến trạng",
         "word": "推薦状"
       },
       {
@@ -92019,7 +92019,7 @@
         "frequency": 33338,
         "meaning": "iris",
         "reading": "こうさい",
-        "sinovi": "hồng thải",
+        "sinovi": "hồng thái",
         "word": "虹彩"
       },
       {
@@ -92665,7 +92665,7 @@
         "frequency": 1678,
         "meaning": "technology, engineering, technique",
         "reading": "ぎじゅつ",
-        "sinovi": "kỹ thuật",
+        "sinovi": "kĩ thuật",
         "word": "技術"
       },
       {
@@ -92686,7 +92686,7 @@
         "frequency": 5651,
         "meaning": "art, the arts",
         "reading": "げいじゅつ",
-        "sinovi": "vân thuật",
+        "sinovi": "nghệ thuật",
         "word": "芸術"
       },
       {
@@ -93249,7 +93249,7 @@
         "frequency": 77610,
         "meaning": "leader, chief, boss",
         "reading": "りょうしゅう",
-        "sinovi": "lĩnh tụ",
+        "sinovi": "lãnh tụ",
         "word": "領袖"
       }
     ]
@@ -93503,14 +93503,14 @@
       "リ"
     ],
     "radical": "衣",
-    "sinovi": "LÝ",
+    "sinovi": "LÍ",
     "stroke_count": 13,
     "vocabulary": [
       {
         "frequency": 1095,
         "meaning": "opposite side, bottom, other side",
         "reading": "うら",
-        "sinovi": "lý",
+        "sinovi": "lí",
         "word": "裏"
       },
       {
@@ -93523,21 +93523,21 @@
         "frequency": 3997,
         "meaning": "one's mind",
         "reading": "のうり",
-        "sinovi": "não lý",
+        "sinovi": "não lí",
         "word": "脳裏"
       },
       {
         "frequency": 5455,
         "meaning": "opposite, reverse, contrary",
         "reading": "うらはら",
-        "sinovi": "lý phúc",
+        "sinovi": "lí phúc",
         "word": "裏腹"
       },
       {
         "frequency": 5869,
         "meaning": "the reverse (side), back (side), other side",
         "reading": "うらがわ",
-        "sinovi": "lý trắc",
+        "sinovi": "lí trắc",
         "word": "裏側"
       }
     ]
@@ -94174,7 +94174,7 @@
         "frequency": 2151,
         "meaning": "demand, firm request, requisition",
         "reading": "ようきゅう",
-        "sinovi": "yếu cầu",
+        "sinovi": "yêu cầu",
         "word": "要求"
       },
       {
@@ -94459,7 +94459,7 @@
         "frequency": 2279,
         "meaning": "monitoring, watching, observation",
         "reading": "かんし",
-        "sinovi": "giam thị",
+        "sinovi": "giám thị",
         "word": "監視"
       },
       {
@@ -94791,7 +94791,7 @@
         "frequency": 340,
         "meaning": "understanding, comprehension, appreciation",
         "reading": "りかい",
-        "sinovi": "lý giải",
+        "sinovi": "lí giải",
         "word": "理解"
       },
       {
@@ -94978,7 +94978,7 @@
         "frequency": 98215,
         "meaning": "revision of a text (by comparison of variant sources), emendation, recension",
         "reading": "こうてい",
-        "sinovi": "giáo đính",
+        "sinovi": "hiệu đính",
         "word": "校訂"
       },
       {
@@ -95060,14 +95060,14 @@
         "frequency": 1194,
         "meaning": "plan, project, schedule",
         "reading": "けいかく",
-        "sinovi": "kế họa",
+        "sinovi": "kế họach",
         "word": "計画"
       },
       {
         "frequency": 2368,
         "meaning": "clock, watch, timepiece",
         "reading": "とけい",
-        "sinovi": "thì kế",
+        "sinovi": "thời kế",
         "word": "時計"
       },
       {
@@ -95270,21 +95270,21 @@
       "キ"
     ],
     "radical": "言",
-    "sinovi": "KÝ, KỶ",
+    "sinovi": "KÍ, KỈ",
     "stroke_count": 10,
     "vocabulary": [
       {
         "frequency": 646,
         "meaning": "memory, recollection, remembrance",
         "reading": "きおく",
-        "sinovi": "ký ức",
+        "sinovi": "kí ức",
         "word": "記憶"
       },
       {
         "frequency": 1945,
         "meaning": "record, document, minutes",
         "reading": "きろく",
-        "sinovi": "ký lục",
+        "sinovi": "kỉ lục",
         "word": "記録"
       },
       {
@@ -95297,14 +95297,14 @@
         "frequency": 4181,
         "meaning": "article, news story, report",
         "reading": "きじ",
-        "sinovi": "ký sự",
+        "sinovi": "kí sự",
         "word": "記事"
       },
       {
         "frequency": 5561,
         "meaning": "commemoration, celebration, remembrance",
         "reading": "きねん",
-        "sinovi": "ký niệm",
+        "sinovi": "kỉ niệm",
         "word": "記念"
       }
     ]
@@ -95335,7 +95335,7 @@
         "frequency": 103867,
         "meaning": "divorce suit, divorce proceedings",
         "reading": "りこんそしょう",
-        "sinovi": "ly hôn tố tụng",
+        "sinovi": "li hôn tố tụng",
         "word": "離婚訴訟"
       },
       {
@@ -95654,7 +95654,7 @@
         "frequency": 8024,
         "meaning": "diagnosis, medical examination",
         "reading": "しんだん",
-        "sinovi": "chẩn đoạn",
+        "sinovi": "chẩn đoán",
         "word": "診断"
       },
       {
@@ -96500,7 +96500,7 @@
         "frequency": 15099,
         "meaning": "flaunting, showing off, display (of power, wealth, etc.)",
         "reading": "こじ",
-        "sinovi": "khoa kì",
+        "sinovi": "khoa thị",
         "word": "誇示"
       }
     ]
@@ -96593,7 +96593,7 @@
         "frequency": 18657,
         "meaning": "weekly (publication), weekly magazine, weekly journal",
         "reading": "しゅうかんし",
-        "sinovi": "chu khan chí",
+        "sinovi": "chu san chí",
         "word": "週刊誌"
       },
       {
@@ -97215,7 +97215,7 @@
         "frequency": 8728,
         "meaning": "section manager, section chief",
         "reading": "かちょう",
-        "sinovi": "khóa trường",
+        "sinovi": "khóa trưởng",
         "word": "課長"
       }
     ]
@@ -97270,7 +97270,7 @@
         "frequency": 1874,
         "meaning": "investigation, examination, inquiry",
         "reading": "ちょうさ",
-        "sinovi": "điệu tra",
+        "sinovi": "điều tra",
         "word": "調査"
       },
       {
@@ -97438,7 +97438,7 @@
         "frequency": 4762,
         "meaning": "theory",
         "reading": "りろん",
-        "sinovi": "lý luận",
+        "sinovi": "lí luận",
         "word": "理論"
       }
     ]
@@ -97531,7 +97531,7 @@
         "frequency": 89715,
         "meaning": "harmonious melody, harmony, unity",
         "reading": "かいちょう",
-        "sinovi": "hài điệu",
+        "sinovi": "hài điều",
         "word": "諧調"
       },
       {
@@ -97923,7 +97923,7 @@
         "frequency": 183779,
         "meaning": "copy of a registration certificate, certified copy of register",
         "reading": "とうきぼとうほん",
-        "sinovi": "đăng ký bộ đằng bản",
+        "sinovi": "đăng kí bộ đằng bản",
         "word": "登記簿謄本"
       }
     ]
@@ -98131,7 +98131,7 @@
         "frequency": 17990,
         "meaning": "consolation money, solatium, reparation",
         "reading": "いしゃりょう",
-        "sinovi": "ủy tạ liệu",
+        "sinovi": "úy tạ liệu",
         "word": "慰謝料"
       },
       {
@@ -98329,7 +98329,7 @@
         "frequency": 21966,
         "meaning": "score, sheet music",
         "reading": "がくふ",
-        "sinovi": "lạc phổ",
+        "sinovi": "nhạc phổ",
         "word": "楽譜"
       },
       {
@@ -99297,7 +99297,7 @@
         "frequency": 15427,
         "meaning": "seedy-looking, thin",
         "reading": "ひんそう",
-        "sinovi": "bần tương",
+        "sinovi": "bần tướng",
         "word": "貧相"
       }
     ]
@@ -99540,7 +99540,7 @@
         "frequency": 1145,
         "meaning": "duty, responsibility (incl. supervision of staff), liability",
         "reading": "せきにん",
-        "sinovi": "trách nhậm",
+        "sinovi": "trách nhiệm",
         "word": "責任"
       },
       {
@@ -99553,7 +99553,7 @@
         "frequency": 6780,
         "meaning": "irresponsibility",
         "reading": "むせきにん",
-        "sinovi": "vô trách nhậm",
+        "sinovi": "vô trách nhiệm",
         "word": "無責任"
       },
       {
@@ -100522,7 +100522,7 @@
         "frequency": 117979,
         "meaning": "compensation liability, indemnity liability, obligation to pay reparations",
         "reading": "ばいしょうせきにん",
-        "sinovi": "bồi thường trách nhậm",
+        "sinovi": "bồi thường trách nhiệm",
         "word": "賠償責任"
       },
       {
@@ -100846,7 +100846,7 @@
         "frequency": 34919,
         "meaning": "donation, presentation, gift",
         "reading": "きぞう",
-        "sinovi": "ký tặng",
+        "sinovi": "kí tặng",
         "word": "寄贈"
       },
       {
@@ -101051,28 +101051,28 @@
         "frequency": 17660,
         "meaning": "moving to a different location to start a new job, (proceeding to) new appointment",
         "reading": "ふにん",
-        "sinovi": "phó nhậm",
+        "sinovi": "phó nhiệm",
         "word": "赴任"
       },
       {
         "frequency": 36454,
         "meaning": "(intra-company) job transfer away from one's family, unaccompanied posting",
         "reading": "たんしんふにん",
-        "sinovi": "đơn thân phó nhậm",
+        "sinovi": "đơn thân phó nhiệm",
         "word": "単身赴任"
       },
       {
         "frequency": 67340,
         "meaning": "overseas assignment, overseas posting",
         "reading": "かいがいふにん",
-        "sinovi": "hải ngoại phó nhậm",
+        "sinovi": "hải ngoại phó nhiệm",
         "word": "海外赴任"
       },
       {
         "frequency": 110928,
         "meaning": "place of (new) post, (new) place of appointment",
         "reading": "ふにんち",
-        "sinovi": "phó nhậm địa",
+        "sinovi": "phó nhiệm địa",
         "word": "赴任地"
       }
     ]
@@ -101382,7 +101382,7 @@
         "frequency": 883,
         "meaning": "distance, range, interval",
         "reading": "きょり",
-        "sinovi": "cự ly",
+        "sinovi": "cự li",
         "word": "距離"
       },
       {
@@ -101401,7 +101401,7 @@
         "frequency": 8581,
         "meaning": "point-blank range",
         "reading": "しきんきょり",
-        "sinovi": "chí cận cự ly",
+        "sinovi": "chí cận cự li",
         "word": "至近距離"
       },
       {
@@ -102102,7 +102102,7 @@
         "frequency": 8170,
         "meaning": "general, shogun",
         "reading": "しょうぐん",
-        "sinovi": "tương quân",
+        "sinovi": "tướng quân",
         "word": "将軍"
       },
       {
@@ -102316,7 +102316,7 @@
         "frequency": 26846,
         "meaning": "time axis, time basis, timeline",
         "reading": "じかんじく",
-        "sinovi": "thì gian trục",
+        "sinovi": "thời gian trục",
         "word": "時間軸"
       },
       {
@@ -102417,14 +102417,14 @@
         "frequency": 2978,
         "meaning": "comparatively, relatively",
         "reading": "ひかくてき",
-        "sinovi": "tỷ giác đích",
+        "sinovi": "tỉ giác đích",
         "word": "比較的"
       },
       {
         "frequency": 5140,
         "meaning": "comparison",
         "reading": "ひかく",
-        "sinovi": "tỷ giác",
+        "sinovi": "tỉ giác",
         "word": "比較"
       },
       {
@@ -102483,21 +102483,21 @@
         "frequency": 7471,
         "meaning": "mention (in a document), record, entry",
         "reading": "きさい",
-        "sinovi": "ký tái",
+        "sinovi": "kí tải",
         "word": "記載"
       },
       {
         "frequency": 8084,
         "meaning": "publication (e.g. of an article in a newspaper), carrying (e.g. a story), running (e.g. a serial)",
         "reading": "けいさい",
-        "sinovi": "yết tái",
+        "sinovi": "yết tải",
         "word": "掲載"
       },
       {
         "frequency": 11154,
         "meaning": "loading (on a ship), equipping (an aircraft, car, etc.) with, being equipped with",
         "reading": "とうさい",
-        "sinovi": "đáp tái",
+        "sinovi": "đáp tải",
         "word": "搭載"
       }
     ]
@@ -103496,7 +103496,7 @@
         "frequency": 7342,
         "meaning": "description, account",
         "reading": "きじゅつ",
-        "sinovi": "ký thuật",
+        "sinovi": "kí thuật",
         "word": "記述"
       },
       {
@@ -104741,7 +104741,7 @@
         "frequency": 14780,
         "meaning": "treatment (of a person), dealing with",
         "reading": "しょぐう",
-        "sinovi": "xứ ngộ",
+        "sinovi": "xử ngộ",
         "word": "処遇"
       }
     ]
@@ -104961,7 +104961,7 @@
         "frequency": 2728,
         "meaning": "passage (of time), elapsing, lapse",
         "reading": "けいか",
-        "sinovi": "kinh quá",
+        "sinovi": "kinh qua",
         "word": "経過"
       },
       {
@@ -105387,7 +105387,7 @@
         "frequency": 1575,
         "meaning": "suitable, proper, appropriate",
         "reading": "てきとう",
-        "sinovi": "thích đương",
+        "sinovi": "thích đáng",
         "word": "適当"
       },
       {
@@ -105768,7 +105768,7 @@
       "ヒ"
     ],
     "radical": "辵",
-    "sinovi": "TỴ",
+    "sinovi": "TỊ",
     "stroke_count": 16,
     "vocabulary": [
       {
@@ -105781,28 +105781,28 @@
         "frequency": 3284,
         "meaning": "evasion, avoidance, recusal (of a judge)",
         "reading": "かいひ",
-        "sinovi": "hồi tỵ",
+        "sinovi": "hồi tị",
         "word": "回避"
       },
       {
         "frequency": 3953,
         "meaning": "taking refuge, finding shelter, evacuation",
         "reading": "ひなん",
-        "sinovi": "tỵ nan",
+        "sinovi": "tị nạn",
         "word": "避難"
       },
       {
         "frequency": 10954,
         "meaning": "taking refuge, evacuation, backup (of data)",
         "reading": "たいひ",
-        "sinovi": "thoái tỵ",
+        "sinovi": "thoái tị",
         "word": "退避"
       },
       {
         "frequency": 12319,
         "meaning": "escape from reality, escapism, ostrichism",
         "reading": "げんじつとうひ",
-        "sinovi": "hiện thực đào tỵ",
+        "sinovi": "hiện thực đào tị",
         "word": "現実逃避"
       }
     ]
@@ -106222,7 +106222,7 @@
         "frequency": 85492,
         "meaning": "district headman, head county official",
         "reading": "ぐんちょう",
-        "sinovi": "quận trường",
+        "sinovi": "quận trưởng",
         "word": "郡長"
       },
       {
@@ -106448,7 +106448,7 @@
         "frequency": 23552,
         "meaning": "hometown, birthplace",
         "reading": "きょうり",
-        "sinovi": "hương lý",
+        "sinovi": "hương lí",
         "word": "郷里"
       },
       {
@@ -106888,7 +106888,7 @@
         "frequency": 108915,
         "meaning": "cheese",
         "reading": "かんらく",
-        "sinovi": "kiền lạc",
+        "sinovi": "can lạc",
         "word": "乾酪"
       },
       {
@@ -107413,42 +107413,42 @@
       "リ"
     ],
     "radical": "里",
-    "sinovi": "LÝ",
+    "sinovi": "LÍ",
     "stroke_count": 7,
     "vocabulary": [
       {
         "frequency": 8221,
         "meaning": "hamlet, home (of one's parents, etc.),&nbsp;one's upbringing",
         "reading": "さと",
-        "sinovi": "lý",
+        "sinovi": "lí",
         "word": "里"
       },
       {
         "frequency": 9348,
         "meaning": "ri (old Japanese unit of distance, approx. 3.927 km or 2.44 miles)",
         "reading": "り",
-        "sinovi": "lý",
+        "sinovi": "lí",
         "word": "里"
       },
       {
         "frequency": 19956,
         "meaning": "village, human habitation, human settlement",
         "reading": "ひとざと",
-        "sinovi": "nhân lý",
+        "sinovi": "nhân lí",
         "word": "人里"
       },
       {
         "frequency": 23055,
         "meaning": "1000 ri, (a) long distance",
         "reading": "せんり",
-        "sinovi": "thiên lý",
+        "sinovi": "thiên lí",
         "word": "千里"
       },
       {
         "frequency": 23552,
         "meaning": "hometown, birthplace",
         "reading": "きょうり",
-        "sinovi": "hương lý",
+        "sinovi": "hương lí",
         "word": "郷里"
       }
     ]
@@ -108208,7 +108208,7 @@
         "frequency": 6056,
         "meaning": "bank, banking institution",
         "reading": "ぎんこう",
-        "sinovi": "ngân hành",
+        "sinovi": "ngân hàng",
         "word": "銀行"
       },
       {
@@ -108269,7 +108269,7 @@
         "frequency": 8620,
         "meaning": "bullet (from a rifle)",
         "reading": "じゅうだん",
-        "sinovi": "súng đàn",
+        "sinovi": "súng đạn",
         "word": "銃弾"
       },
       {
@@ -108710,7 +108710,7 @@
         "frequency": 89606,
         "meaning": "pennant, gold-brocade flag",
         "reading": "きんき",
-        "sinovi": "cẩm kỳ",
+        "sinovi": "cẩm kì",
         "word": "錦旗"
       }
     ]
@@ -108820,7 +108820,7 @@
         "frequency": 280795,
         "meaning": "life imprisonment without work",
         "reading": "むききんこ",
-        "sinovi": "vô kỳ cấm cố",
+        "sinovi": "vô kì cấm cố",
         "word": "無期禁錮"
       }
     ]
@@ -108900,7 +108900,7 @@
         "frequency": 1945,
         "meaning": "record, document, minutes",
         "reading": "きろく",
-        "sinovi": "ký lục",
+        "sinovi": "kỉ lục",
         "word": "記録"
       },
       {
@@ -109140,7 +109140,7 @@
         "frequency": 44323,
         "meaning": "Kamakura period (1185-1333)",
         "reading": "かまくらじだい",
-        "sinovi": "liêm thương thì đại",
+        "sinovi": "liêm thương thời đại",
         "word": "鎌倉時代"
       }
     ]
@@ -109447,7 +109447,7 @@
         "frequency": 1149,
         "meaning": "growth, development, growing up",
         "reading": "せいちょう",
-        "sinovi": "thành trường",
+        "sinovi": "thành trưởng",
         "word": "成長"
       },
       {
@@ -109468,7 +109468,7 @@
         "frequency": 3244,
         "meaning": "company president, manager, director",
         "reading": "しゃちょう",
-        "sinovi": "xã trường",
+        "sinovi": "xã trưởng",
         "word": "社長"
       }
     ]
@@ -109515,7 +109515,7 @@
         "frequency": 8778,
         "meaning": "school gate",
         "reading": "こうもん",
-        "sinovi": "giáo môn",
+        "sinovi": "hiệu môn",
         "word": "校門"
       },
       {
@@ -109657,7 +109657,7 @@
         "frequency": 16224,
         "meaning": "deserted (esp. store, market, town, streets), quiet, still",
         "reading": "かんさん",
-        "sinovi": "nhàn tán",
+        "sinovi": "nhàn tản",
         "word": "閑散"
       },
       {
@@ -109714,7 +109714,7 @@
         "frequency": 184,
         "meaning": "time, hour, period",
         "reading": "じかん",
-        "sinovi": "thì gian",
+        "sinovi": "thời gian",
         "word": "時間"
       },
       {
@@ -109963,7 +109963,7 @@
         "frequency": 65090,
         "meaning": "revision, proofreading",
         "reading": "こうえつ",
-        "sinovi": "giáo duyệt",
+        "sinovi": "hiệu duyệt",
         "word": "校閲"
       }
     ]
@@ -110099,14 +110099,14 @@
         "frequency": 31294,
         "meaning": "Gifu (city, prefecture)",
         "reading": "ぎふ",
-        "sinovi": "kỳ phụ",
+        "sinovi": "kì phụ",
         "word": "岐阜"
       },
       {
         "frequency": 43000,
         "meaning": "Gifu Prefecture (Chūbu area)",
         "reading": "ぎふけん",
-        "sinovi": "kỳ phụ huyện",
+        "sinovi": "kì phụ huyện",
         "word": "岐阜県"
       },
       {
@@ -110127,7 +110127,7 @@
         "frequency": 249865,
         "meaning": "Gifu University",
         "reading": "ぎふだいがく",
-        "sinovi": "kỳ phụ đại học",
+        "sinovi": "kì phụ đại học",
         "word": "岐阜大学"
       }
     ]
@@ -110334,7 +110334,7 @@
         "frequency": 40997,
         "meaning": "being attached (to), being affiliated (to), belonging (to)",
         "reading": "ふぞく",
-        "sinovi": "phụ chúc",
+        "sinovi": "phụ thuộc",
         "word": "附属"
       },
       {
@@ -110347,7 +110347,7 @@
         "frequency": 60991,
         "meaning": "contribution, donation",
         "reading": "きふ",
-        "sinovi": "ký phụ",
+        "sinovi": "kí phụ",
         "word": "寄附"
       }
     ]
@@ -111056,7 +111056,7 @@
         "frequency": 13646,
         "meaning": "landing, alighting, touch down",
         "reading": "ちゃくりく",
-        "sinovi": "trứ lục",
+        "sinovi": "trước lục",
         "word": "着陸"
       },
       {
@@ -111328,7 +111328,7 @@
         "frequency": 8168,
         "meaning": "commanding officer",
         "reading": "たいちょう",
-        "sinovi": "đội trường",
+        "sinovi": "đội trưởng",
         "word": "隊長"
       },
       {
@@ -111454,7 +111454,7 @@
         "frequency": 30525,
         "meaning": "whenever necessary, as needed, as required",
         "reading": "ずいじ",
-        "sinovi": "tuỳ thì",
+        "sinovi": "tuỳ thời",
         "word": "随時"
       }
     ]
@@ -111497,7 +111497,7 @@
         "frequency": 9392,
         "meaning": "isolation, segregation, separation",
         "reading": "かくり",
-        "sinovi": "cách ly",
+        "sinovi": "cách li",
         "word": "隔離"
       },
       {
@@ -111836,7 +111836,7 @@
         "frequency": 22452,
         "meaning": "subordination, servitude, servility",
         "reading": "れいぞく",
-        "sinovi": "lệ chúc",
+        "sinovi": "lệ thuộc",
         "word": "隷属"
       },
       {
@@ -112266,7 +112266,7 @@
       "リ"
     ],
     "radical": "隹",
-    "sinovi": "LY",
+    "sinovi": "LI",
     "stroke_count": 19,
     "vocabulary": [
       {
@@ -112279,7 +112279,7 @@
         "frequency": 883,
         "meaning": "distance, range, interval",
         "reading": "きょり",
-        "sinovi": "cự ly",
+        "sinovi": "cự li",
         "word": "距離"
       },
       {
@@ -112298,7 +112298,7 @@
         "frequency": 5234,
         "meaning": "divorce",
         "reading": "りこん",
-        "sinovi": "ly hôn",
+        "sinovi": "li hôn",
         "word": "離婚"
       }
     ]
@@ -112338,7 +112338,7 @@
         "frequency": 2692,
         "meaning": "difficulty, hardship, trouble",
         "reading": "こんなん",
-        "sinovi": "khốn nan",
+        "sinovi": "khốn nạn",
         "word": "困難"
       },
       {
@@ -113487,7 +113487,7 @@
         "frequency": 2180,
         "meaning": "music",
         "reading": "おんがく",
-        "sinovi": "âm lạc",
+        "sinovi": "âm nhạc",
         "word": "音楽"
       },
       {
@@ -113805,7 +113805,7 @@
         "frequency": 2650,
         "meaning": "favourable, favorable, doing well",
         "reading": "じゅんちょう",
-        "sinovi": "thuận điệu",
+        "sinovi": "thuận điều",
         "word": "順調"
       },
       {
@@ -114082,14 +114082,14 @@
         "frequency": 17369,
         "meaning": "indifferent, unconcerned, nonchalant",
         "reading": "むとんちゃく",
-        "sinovi": "vô đốn trứ",
+        "sinovi": "vô đốn trước",
         "word": "無頓着"
       },
       {
         "frequency": 21783,
         "meaning": "being concerned about or mindful of",
         "reading": "とんちゃく",
-        "sinovi": "đốn trứ",
+        "sinovi": "đốn trước",
         "word": "頓着"
       },
       {
@@ -114526,7 +114526,7 @@
         "frequency": 37747,
         "meaning": "beard (esp. on the chin), goatee",
         "reading": "あごひげ",
-        "sinovi": "ngạc tỳ",
+        "sinovi": "ngạc tì",
         "word": "顎髭"
       },
       {
@@ -115383,7 +115383,7 @@
         "frequency": 5865,
         "meaning": "nutrition, nourishment",
         "reading": "えいよう",
-        "sinovi": "vinh dưỡng",
+        "sinovi": "dinh dưỡng",
         "word": "栄養"
       },
       {
@@ -115952,7 +115952,7 @@
         "frequency": 29799,
         "meaning": "stationing (troops), garrisoning",
         "reading": "ちゅうとん",
-        "sinovi": "trú truân",
+        "sinovi": "trú đồn",
         "word": "駐屯"
       }
     ]
@@ -116022,42 +116022,42 @@
       "キ"
     ],
     "radical": "馬",
-    "sinovi": "KỴ",
+    "sinovi": "KỊ",
     "stroke_count": 18,
     "vocabulary": [
       {
         "frequency": 3051,
         "meaning": "(medieval) knight, samurai on horseback",
         "reading": "きし",
-        "sinovi": "kỵ sĩ",
+        "sinovi": "kị sĩ",
         "word": "騎士"
       },
       {
         "frequency": 8149,
         "meaning": "order of chivalry, chivalric order",
         "reading": "きしだん",
-        "sinovi": "kỵ sĩ đoàn",
+        "sinovi": "kị sĩ đoàn",
         "word": "騎士団"
       },
       {
         "frequency": 9363,
         "meaning": "counter for horsemen",
         "reading": "き",
-        "sinovi": "kỵ",
+        "sinovi": "kị",
         "word": "騎"
       },
       {
         "frequency": 12389,
         "meaning": "horse riding, horseback riding, horseback rider",
         "reading": "きば",
-        "sinovi": "kỵ mã",
+        "sinovi": "kị mã",
         "word": "騎馬"
       },
       {
         "frequency": 15047,
         "meaning": "cavalry, cavalryman, trooper",
         "reading": "きへい",
-        "sinovi": "kỵ binh",
+        "sinovi": "kị binh",
         "word": "騎兵"
       }
     ]
@@ -116488,7 +116488,7 @@
         "frequency": 2131,
         "meaning": "senior high school, high school",
         "reading": "こうこう",
-        "sinovi": "cao giáo",
+        "sinovi": "cao hiệu",
         "word": "高校"
       },
       {
@@ -117482,7 +117482,7 @@
         "frequency": 5775,
         "meaning": "paralysis, palsy, stupor",
         "reading": "まひ",
-        "sinovi": "ma tý",
+        "sinovi": "ma tí",
         "word": "麻痺"
       },
       {
@@ -117706,7 +117706,7 @@
         "frequency": 10261,
         "meaning": "eardrum, tympanic membrane",
         "reading": "こまく",
-        "sinovi": "cổ mô",
+        "sinovi": "cổ mạc",
         "word": "鼓膜"
       },
       {
