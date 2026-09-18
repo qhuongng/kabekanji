@@ -12,8 +12,4 @@ data/*.apkg
 # Local SQLite database
 data/kanji.db
 
-# Fonts (download per README)
-fonts/*.ttf
-fonts/*.otf
-
 .DS_Store
