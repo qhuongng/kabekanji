@@ -12,14 +12,6 @@ FONTS_DIR = BASE_DIR / "fonts"
 STATIC_DIR = BASE_DIR / "static"
 DB_PATH = DATA_DIR / "kanji.db"
 
-# Base URL where this server is reachable
-# Explicit SERVER_URL > Render's RENDER_EXTERNAL_URL > localhost
-SERVER_URL = (
-    os.environ.get("SERVER_URL")
-    or os.environ.get("RENDER_EXTERNAL_URL")
-    or "http://localhost:8000"
-).rstrip("/")
-
 # iCloud share link for the published iOS Shortcut
 # Empty string hides the install button in the UI
 SHORTCUT_URL = os.environ.get("SHORTCUT_URL", "").strip()

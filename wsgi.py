@@ -15,11 +15,11 @@ On PythonAnywhere:
 
         from wsgi import app as application
 
-  5. Set your env vars (SERVER_URL, SHORTCUT_URL) in the Web tab's
-     "Environment variables" section
+  5. Set SHORTCUT_URL in a .env file at the repo root (or in the WSGI file
+     via os.environ["SHORTCUT_URL"] = "...")
   6. Optional but faster: add a static-files mapping so PythonAnywhere serves
      static/ directly via nginx instead of routing through Flask
-     URL /  →  /home/<user>/kabekanji/static
+     URL /  ->  /home/<user>/kabekanji/static
 """
 
 from server.main import app

@@ -54,18 +54,21 @@ def select_kanji(token: str, config: dict) -> dict | None:
         if not chosen:
             return None
 
-        # Prune history only when a window is configured
         if recency_window > 0:
+            # Prune rows outside the current window; record this pick
             cutoff = (now - timedelta(days=recency_window)).isoformat()
             db.execute(
                 "DELETE FROM history WHERE token = ? AND shown_date < ?",
                 (token, cutoff),
             )
+            db.execute(
+                "INSERT INTO history (character, shown_date, token) VALUES (?, ?, ?)",
+                (chosen["character"], now.isoformat(), token),
+            )
+        else:
+            # Wipe any history left over from a previous window and don't record this pick either
+            db.execute("DELETE FROM history WHERE token = ?", (token,))
 
-        db.execute(
-            "INSERT INTO history (character, shown_date, token) VALUES (?, ?, ?)",
-            (chosen["character"], now.isoformat(), token),
-        )
         db.commit()
 
     return dict(chosen)

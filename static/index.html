@@ -13,9 +13,7 @@
   <link rel="manifest" href="/site.webmanifest">
   <meta name="theme-color" content="#2da0ed">
   <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link
-    href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@400;600&display=swap"
-    rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@400;600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="/style.css">
 </head>
 
@@ -41,7 +39,7 @@
           <div class="phone-screen" id="phoneScreen">
             <img id="overlayImg" class="overlay-img hidden" alt="Lock screen overlay">
             <img id="previewImg" class="preview-img hidden" alt="">
-            <div class="preview-loader hidden" id="previewLoader" aria-hidden="true">作っていますよ</div>
+            <div class="preview-loader hidden" id="previewLoader" aria-hidden="true">つくっていますよ</div>
             <div class="preview-error hidden" id="previewError" role="alert">Oops, my dog ate my code!</div>
             <div class="margin-indicator top" id="topMarginLine"></div>
             <div class="margin-indicator bottom" id="bottomMarginLine"></div>
@@ -84,6 +82,8 @@
                   inputmode="numeric">
               </div>
             </div>
+            <p class="hint-muted">You can also upload a screenshot of your current lock screen to help you place the
+              margins!</p>
           </div>
         </fieldset>
 
@@ -125,8 +125,8 @@
                 <input type="number" id="recencyWindowVal" class="slider-num" min="0" max="365" step="1"
                   inputmode="numeric">
               </div>
-              <p class="hint-muted">Set to 0 to allow repeats without any wait.</p>
             </div>
+            <p class="hint-muted">Set to 0 to allow repeats without any wait.</p>
           </div>
         </fieldset>
 
@@ -204,7 +204,10 @@
             <details class="advanced-url">
               <summary>Wallpaper URL (advanced)</summary>
               <div class="field token-load-row">
-                <label for="loadToken">For the customization-loving Android folks!<br><br>Jokes aside, this app was developed with iOS shortcuts as the core concept and there's not really a native, universal equivalent on Android. Sorry. ༼;´༎ຶ ۝ ༎ຶ༽<br>I heard that <strong>Tasker</strong> is a good automation app, though, so this API URL is for you to tinker with.</label>
+                <label for="loadToken">For the customization-loving Android folks!<br><br>Jokes aside, this app was
+                  developed with iOS shortcuts as the core concept and there's not really a native, universal equivalent
+                  on Android. Sorry. ༼;´༎ຶ ۝ ༎ຶ༽<br>I heard that <strong>Tasker</strong> is a good automation app,
+                  though, so this API URL is for you to tinker with.</label>
                 <div class="url-copy-row">
                   <code id="apiUrl"></code>
                   <button class="btn small" id="copyUrl">Copy</button>
@@ -219,7 +222,8 @@
         <fieldset>
           <legend>iOS Shortcut</legend>
           <div class="fieldset-body">
-            <p class="hint">Boop big blue button below.<br><br>On the first run, the shortcut will ask for your token. Paste it in and
+            <p class="hint">Boop big blue button below.<br><br>On the first run, the shortcut will ask for your token.
+              Paste it in and
               you're done. To change your token later, open the shortcut and edit the <strong>Token</strong>
               text at the top.</p>
             <a class="btn primary wide" id="installShortcut" href="#" target="_blank" rel="noopener">
@@ -229,7 +233,12 @@
               Uh... Maybe check back later? ( ͡° ͜ʖ ͡°)
             </p>
             <p class="hint">After installing, add an Automation (Time of Day > Daily > Run Immediately >
-              Run Shortcut > kabekanji) to refresh your wallpaper on a schedule. Or you can make it any interval you want. Just don't spam my server please. (｡•́︿•̀｡)</p>
+              Run Shortcut > kabekanji) to refresh your wallpaper on a schedule. Or you can make it any interval you
+              want. Just don't spam my server please. (｡•́︿•̀｡)
+            </p>
+            <p class="hint">Oh, one more thing: the shortcut replaces your <strong>current</strong> wallpaper slot (just
+              the lock screen, though), so make sure you have another slot applied if you don't want it to override your
+              original wallpaper!</p>
           </div>
         </fieldset>
       </section>
