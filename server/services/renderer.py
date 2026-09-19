@@ -92,7 +92,11 @@ def render_wallpaper(kanji: dict, config: dict) -> bytes:
     DIVIDER_GAP = 48
 
     # Fonts
-    main_size = min(int(content_height * 0.32), int(w * 0.5))
+    # main_size is the character size of the hero, which is dynamic
+    # Measure the middle + vocab sections first, then give the hero whatever remains
+    MAIN_SIZE_MAX = min(int(content_height * 0.32), int(w * 0.5))
+    MAIN_SIZE_MIN = 220
+    main_size = MAIN_SIZE_MAX
     main_font = _load_font("stroke_order", main_size)
     readings_font_jp = _load_font("mincho", 54)
     readings_font_serif = _load_font("serif", 54)
@@ -247,8 +251,9 @@ def render_wallpaper(kanji: dict, config: dict) -> bytes:
 
         return y
 
-    def draw_vocab(d, y_start, max_y=None):
-        """Vocab section. If max_y is set, entries that would cross it are skipped."""
+    def draw_vocab(d, y_start):
+        """Vocab section. Always draws all 3 entries at fixed font sizes
+        """
         if not config.get("show_vocabulary", True) or not vocab:
             return y_start
 
@@ -269,9 +274,6 @@ def render_wallpaper(kanji: dict, config: dict) -> bytes:
             meaning = entry.get("meaning", "")
 
             meaning_lines = _wrap_text(real_draw, meaning, vocab_meaning_font, max_vocab_meaning_w)[:max_vocab_meaning_lines]
-            entry_h = furi_h + furi_gap + word_h + word_meaning_gap + vocab_meaning_line_h * len(meaning_lines)
-            if max_y is not None and y + entry_h > max_y:
-                break
 
             wb = real_draw.textbbox((0, 0), word, font=word_font, anchor="lt")
             fb = real_draw.textbbox((0, 0), reading, font=furi_font, anchor="lt")
@@ -307,13 +309,20 @@ def render_wallpaper(kanji: dict, config: dict) -> bytes:
 
         return last_entry_end
 
-    # Pipeline: hero top-anchored, vocab bottom-anchored, middle centered
-    hero_end_y = draw_hero(real_draw, content_top)
-    hero_boundary = hero_end_y + HERO_BOTTOM_GAP
-
+    # Pipeline: measure middle + vocab first (at their fixed font sizes)
+    # Shrink the hero character to fit whatever vertical space is left.
     dry = _DryDraw(real_draw)
     middle_h = draw_middle(dry, 0)
     vocab_h = draw_vocab(dry, 0)
+
+    # Room reserved for the hero: content_height minus everything else, minus
+    # the HERO_BOTTOM_GAP and a SECTION_GAP between middle and vocab
+    hero_budget = content_height - HERO_BOTTOM_GAP - middle_h - SECTION_GAP - vocab_h
+    main_size = max(MAIN_SIZE_MIN, min(MAIN_SIZE_MAX, hero_budget))
+    main_font = _load_font("stroke_order", main_size)
+
+    hero_end_y = draw_hero(real_draw, content_top)
+    hero_boundary = hero_end_y + HERO_BOTTOM_GAP
 
     slack = content_bottom - hero_boundary - middle_h - vocab_h
     if slack >= 2 * SECTION_GAP:
@@ -329,7 +338,7 @@ def render_wallpaper(kanji: dict, config: dict) -> bytes:
         vocab_top = middle_top + middle_h + SECTION_GAP
 
     draw_middle(real_draw, middle_top)
-    draw_vocab(real_draw, vocab_top, max_y=content_bottom)
+    draw_vocab(real_draw, vocab_top)
 
     # Output
     buf = io.BytesIO()

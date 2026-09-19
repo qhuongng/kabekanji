@@ -72,14 +72,16 @@
               <label for="topMargin">Top margin (clock area)</label>
               <div class="slider-row">
                 <input type="range" id="topMargin" min="0" max="800" step="10">
-                <output id="topMarginVal"></output>
+                <input type="number" id="topMarginVal" class="slider-num" min="0" max="800" step="10"
+                  inputmode="numeric">
               </div>
             </div>
             <div class="field">
               <label for="bottomMargin">Bottom margin (controls area)</label>
               <div class="slider-row">
                 <input type="range" id="bottomMargin" min="0" max="800" step="10">
-                <output id="bottomMarginVal"></output>
+                <input type="number" id="bottomMarginVal" class="slider-num" min="0" max="800" step="10"
+                  inputmode="numeric">
               </div>
             </div>
           </div>
@@ -119,9 +121,11 @@
             <div class="field">
               <label for="recencyWindow">Days before a previously selected kanji is shown again</label>
               <div class="slider-row">
-                <input type="range" id="recencyWindow" min="7" max="365" step="1">
-                <output id="recencyWindowVal"></output>
+                <input type="range" id="recencyWindow" min="0" max="365" step="1">
+                <input type="number" id="recencyWindowVal" class="slider-num" min="0" max="365" step="1"
+                  inputmode="numeric">
               </div>
+              <p class="hint-muted">Set to 0 to allow repeats without any wait.</p>
             </div>
           </div>
         </fieldset>

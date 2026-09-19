@@ -109,6 +109,18 @@ body {
   }
 }
 
+/* Mobile: stretch preview column to full layout width so buttons match the config fieldsets */
+@media (max-width: 768px) {
+  .preview-section {
+    align-self: stretch;
+  }
+
+  /* Compound selector to beat the base .preview-actions rule that comes later in the file */
+  .layout .preview-actions {
+    width: 100%;
+  }
+}
+
 @media (max-width: 480px) {
   .layout {
     padding: 0 2rem 3rem;
@@ -421,10 +433,8 @@ legend {
 }
 
 .slider-row input[type="range"] {
-  display: flex;
-  align-items: center;
-  gap: 0.8rem;
-  width: 100%;
+  flex: 1;
+  min-width: 0;
 }
 
 
@@ -462,6 +472,7 @@ input[type="range"]::-webkit-slider-thumb {
   background: var(--accent);
   border-radius: 0;
   margin-top: -4px;
+  box-shadow: none;
   /* recenter */
 }
 
@@ -471,6 +482,7 @@ input[type="range"]::-moz-range-thumb {
   background: var(--accent);
   border: none;
   border-radius: 0;
+  box-shadow: none;
 }
 
 /* Focus ring */
@@ -478,16 +490,38 @@ input[type="range"]:focus {
   outline: none;
 }
 
-.slider-row output {
-  font-size: 0.85rem;
-  color: var(--text);
-  min-width: 3.5ch;
+.slider-num {
+  width: 3rem;
+  padding: 0.15rem 0.2rem;
   text-align: right;
+  font-size: 0.75rem;
+  font-weight: 600;
+  border: none;
+  border-bottom: 1px solid var(--border);
+  border-radius: 0;
+  background: transparent;
+  color: var(--accent);
+  font-family: var(--font-jp);
+  outline: none;
+  flex-shrink: 0;
+  transition: border-bottom-color 0.15s;
+  -moz-appearance: textfield;
+  appearance: textfield;
+}
+
+.slider-num::-webkit-outer-spin-button,
+.slider-num::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.slider-num:focus {
+  border-bottom-color: var(--accent);
 }
 
 /* Notebook-style inputs with only a bottom rule */
 select,
-input[type="number"],
+input[type="number"]:not(.slider-num),
 input[type="time"] {
   width: 100%;
   padding: 0.35rem 0.15rem;
@@ -504,7 +538,7 @@ input[type="time"] {
 }
 
 select:focus,
-input[type="number"]:focus,
+input[type="number"]:not(.slider-num):focus,
 input[type="time"]:focus {
   border-bottom-color: var(--accent);
   border-bottom-width: 2px;
@@ -543,14 +577,17 @@ input[type="time"]:focus {
   border: 1px solid var(--border);
   background: none;
   cursor: pointer;
+  border-radius: 0;
 }
 
 .color-picker input[type="color"]::-webkit-color-swatch-wrapper {
   padding: 0;
+  border-radius: 0;
 }
 
 .color-picker input[type="color"]::-webkit-color-swatch {
   border: none;
+  border-radius: 0;
 }
 
 /* Checkbox styled as full-width parens with 〇 (checked) / ✕ (unchecked) inside */
@@ -747,6 +784,12 @@ input[type="time"]:focus {
 .hint {
   font-size: 0.8rem;
   color: var(--text);
+  line-height: 1.5;
+}
+
+.hint-muted {
+  font-size: 0.8rem;
+  color: var(--text-muted);
   line-height: 1.5;
 }
 

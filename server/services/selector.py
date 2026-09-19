@@ -6,27 +6,32 @@ from server.config import DB_PATH
 
 
 def select_kanji(token: str, config: dict) -> dict | None:
-    """Pick a random kanji not shown to this token within the recency window,
-    record it, and return it. Falls back to the least-recently-shown kanji if
-    every kanji has been shown within the window
+    """Pick a random kanji, record it, return it
+
+    - recency_window > 0: exclude kanji shown to this token within the window;
+      fall back to least-recently-shown if every kanji is filtered out
+    - recency_window <= 0: allow kanji repeats
     """
     now = datetime.now()
     recency_window = int(config.get("recency_window", 5))
-    cutoff = (now - timedelta(days=recency_window)).isoformat()
 
     with sqlite3.connect(DB_PATH) as db:
         db.row_factory = sqlite3.Row
 
-        candidates = db.execute(
-            """
-            SELECT k.* FROM kanji k
-            WHERE k.character NOT IN (
-                SELECT h.character FROM history h
-                WHERE h.token = ? AND h.shown_date >= ?
-            )
-            """,
-            (token, cutoff),
-        ).fetchall()
+        if recency_window > 0:
+            cutoff = (now - timedelta(days=recency_window)).isoformat()
+            candidates = db.execute(
+                """
+                SELECT k.* FROM kanji k
+                WHERE k.character NOT IN (
+                    SELECT h.character FROM history h
+                    WHERE h.token = ? AND h.shown_date >= ?
+                )
+                """,
+                (token, cutoff),
+            ).fetchall()
+        else:
+            candidates = db.execute("SELECT * FROM kanji").fetchall()
 
         if candidates:
             chosen = random.choice(candidates)
@@ -49,11 +54,13 @@ def select_kanji(token: str, config: dict) -> dict | None:
         if not chosen:
             return None
 
-        # Prune history rows older than the recency window for this token
-        db.execute(
-            "DELETE FROM history WHERE token = ? AND shown_date < ?",
-            (token, cutoff),
-        )
+        # Prune history only when a window is configured
+        if recency_window > 0:
+            cutoff = (now - timedelta(days=recency_window)).isoformat()
+            db.execute(
+                "DELETE FROM history WHERE token = ? AND shown_date < ?",
+                (token, cutoff),
+            )
 
         db.execute(
             "INSERT INTO history (character, shown_date, token) VALUES (?, ?, ?)",
