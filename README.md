@@ -11,8 +11,8 @@ An iOS Shortcut fetches a new wallpaper each morning from the server and sets it
 
 ## Stack
 
-- **Backend:** Python 3.11+, FastAPI, Pillow, SQLite (via aiosqlite)
-- **Frontend:** Vanilla HTML/CSS/JS (served as static files by FastAPI)
+- **Backend:** Python 3.11+, Flask, Pillow, SQLite
+- **Frontend:** Vanilla HTML/CSS/JS (served as static files)
 - **Data:**
 
   | Data source | Usage |
@@ -71,7 +71,7 @@ Once the JSONs are (re)generated, the `.apkg` files can be moved out of `data/`.
 For production / iOS Shortcut:
 
 ```bash
-uvicorn server.main:app --host 0.0.0.0 --port 8000
+flask run --host 0.0.0.0 --port 8000
 ```
 
 For local development (Python auto-reloads, but you have to manually refresh the browser to get latest static file changes):

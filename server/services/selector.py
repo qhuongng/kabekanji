@@ -1,12 +1,11 @@
 import random
+import sqlite3
 from datetime import datetime, timedelta
-
-import aiosqlite
 
 from server.config import DB_PATH
 
 
-async def select_kanji(token: str, config: dict) -> dict | None:
+def select_kanji(token: str, config: dict) -> dict | None:
     """Pick a random kanji not shown to this token within the recency window,
     record it, and return it. Falls back to the least-recently-shown kanji if
     every kanji has been shown within the window
@@ -15,10 +14,10 @@ async def select_kanji(token: str, config: dict) -> dict | None:
     recency_window = int(config.get("recency_window", 5))
     cutoff = (now - timedelta(days=recency_window)).isoformat()
 
-    async with aiosqlite.connect(DB_PATH) as db:
-        db.row_factory = aiosqlite.Row
+    with sqlite3.connect(DB_PATH) as db:
+        db.row_factory = sqlite3.Row
 
-        cursor = await db.execute(
+        candidates = db.execute(
             """
             SELECT k.* FROM kanji k
             WHERE k.character NOT IN (
@@ -27,14 +26,13 @@ async def select_kanji(token: str, config: dict) -> dict | None:
             )
             """,
             (token, cutoff),
-        )
-        candidates = await cursor.fetchall()
+        ).fetchall()
 
         if candidates:
             chosen = random.choice(candidates)
         else:
             # All kanji shown within the window; fall back to least-recently-shown
-            cursor = await db.execute(
+            chosen = db.execute(
                 """
                 SELECT k.* FROM kanji k
                 LEFT JOIN (
@@ -46,22 +44,21 @@ async def select_kanji(token: str, config: dict) -> dict | None:
                 LIMIT 1
                 """,
                 (token,),
-            )
-            chosen = await cursor.fetchone()
+            ).fetchone()
 
         if not chosen:
             return None
 
         # Prune history rows older than the recency window for this token
-        await db.execute(
+        db.execute(
             "DELETE FROM history WHERE token = ? AND shown_date < ?",
             (token, cutoff),
         )
 
-        await db.execute(
+        db.execute(
             "INSERT INTO history (character, shown_date, token) VALUES (?, ?, ?)",
             (chosen["character"], now.isoformat(), token),
         )
-        await db.commit()
+        db.commit()
 
-        return dict(chosen)
+    return dict(chosen)

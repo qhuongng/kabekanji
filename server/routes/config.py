@@ -1,62 +1,72 @@
-from fastapi import APIRouter, HTTPException, Query
+from flask import Blueprint, abort, jsonify, request
 
 from server.config import DEFAULTS, SERVER_URL, SHORTCUT_URL
 from server.database import create_token, get_config, save_config, token_exists
 
-router = APIRouter(prefix="/api")
+config_bp = Blueprint("config", __name__, url_prefix="/api")
 
 
-@router.get("/app-info")
-async def get_app_info():
+@config_bp.get("/app-info")
+def get_app_info():
     """Frontend-facing settings that don't depend on a token"""
-    return {"shortcut_url": SHORTCUT_URL}
+    return jsonify({"shortcut_url": SHORTCUT_URL})
 
 
-@router.post("/tokens")
-async def create_new_token():
+@config_bp.post("/tokens")
+def create_new_token():
     """Generate a fresh token seeded with the default config"""
-    token = await create_token()
-    return {
-        "token": token,
-        "config": dict(DEFAULTS),
-        "wallpaper_url": f"{SERVER_URL}/api/wallpaper?token={token}",
-    }
+    token = create_token()
+    return jsonify(
+        {
+            "token": token,
+            "config": dict(DEFAULTS),
+            "wallpaper_url": f"{SERVER_URL}/api/wallpaper?token={token}",
+        }
+    )
 
 
-@router.get("/config")
-async def read_config(token: str = Query(...)):
+@config_bp.get("/config")
+def read_config():
     """Get the current config for this token"""
-    config = await get_config(token)
+    token = request.args.get("token")
+    if not token:
+        abort(400, description="token required")
+    config = get_config(token)
     if config is None:
-        raise HTTPException(status_code=404, detail="unknown token")
-    return config
+        abort(404, description="unknown token")
+    return jsonify(config)
 
 
-@router.put("/config")
-async def update_config(token: str = Query(...), body: dict = {}):
+@config_bp.put("/config")
+def update_config():
     """Update config for this token. Only saves known keys"""
-    current = await get_config(token)
+    token = request.args.get("token")
+    if not token:
+        abort(400, description="token required")
+    current = get_config(token)
     if current is None:
-        raise HTTPException(status_code=404, detail="unknown token")
+        abort(404, description="unknown token")
 
+    body = request.get_json(silent=True) or {}
     allowed_keys = set(DEFAULTS.keys())
     filtered = {k: v for k, v in body.items() if k in allowed_keys}
     merged = {**current, **filtered}
-    await save_config(token, merged)
-    return merged
+    save_config(token, merged)
+    return jsonify(merged)
 
 
-@router.get("/config/url")
-async def get_wallpaper_url(token: str = Query(...)):
-    """
-    Return the wallpaper URL the user should paste into their iOS Shortcut
-    """
-    if not await token_exists(token):
-        raise HTTPException(status_code=404, detail="unknown token")
-    return {"url": f"{SERVER_URL}/api/wallpaper?token={token}"}
+@config_bp.get("/config/url")
+def get_wallpaper_url():
+    """Return the wallpaper URL for a given token"""
+    token = request.args.get("token")
+    if not token:
+        abort(400, description="token required")
+    if not token_exists(token):
+        abort(404, description="unknown token")
+    return jsonify({"url": f"{SERVER_URL}/api/wallpaper?token={token}"})
 
 
-@router.get("/config/defaults")
-async def read_defaults():
+@config_bp.get("/config/defaults")
+def read_defaults():
     """Return the default config values for reference"""
-    return DEFAULTS
+    return jsonify(DEFAULTS)
