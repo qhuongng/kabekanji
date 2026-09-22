@@ -163,8 +163,13 @@ async function refreshPreview() {
   if (char) params.set("char", char);
 
   const uiConfig = readConfigFromUI();
+  const loader = $("#previewLoader");
+  const errorEl = $("#previewError");
 
   previewImg.style.opacity = "0.4";
+  errorEl.classList.add("hidden");
+  loader.classList.remove("hidden");
+  let failed = false;
   try {
     const res = await fetch(`/api/preview?${params}`, {
       method: "POST",
@@ -179,8 +184,11 @@ async function refreshPreview() {
     if (oldUrl && oldUrl.startsWith("blob:")) URL.revokeObjectURL(oldUrl);
   } catch (e) {
     console.error("Preview failed:", e);
+    failed = true;
   } finally {
     previewImg.style.opacity = "1";
+    loader.classList.add("hidden");
+    if (failed) errorEl.classList.remove("hidden");
   }
 }
 
