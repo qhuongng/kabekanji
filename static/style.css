@@ -780,6 +780,10 @@ input[type="time"]:focus {
   word-break: break-all;
 }
 
+#saveConfig {
+  margin-bottom: 1rem;
+}
+
 /* Token + install */
 .hint {
   font-size: 0.8rem;
