@@ -102,11 +102,11 @@ async function fetchConfig(t) {
 
 function populateUI() {
   topSlider.value = config.top_margin;
-  topVal.textContent = config.top_margin;
+  topVal.value = config.top_margin;
   bottomSlider.value = config.bottom_margin;
-  bottomVal.textContent = config.bottom_margin;
+  bottomVal.value = config.bottom_margin;
   recencySlider.value = config.recency_window;
-  recencyVal.textContent = config.recency_window;
+  recencyVal.value = config.recency_window;
 
   widthInput.value = config.screen_width;
   heightInput.value = config.screen_height;
@@ -317,22 +317,59 @@ async function copyToClipboard(text, btn) {
 // Event listeners
 
 // Margin sliders: live update lines, debounced preview
-topSlider.addEventListener("input", () => {
-  config.top_margin = parseInt(topSlider.value, 10);
-  topVal.textContent = topSlider.value;
-  updateMarginLines();
-});
-topSlider.addEventListener("change", schedulePreview);
+// Bidirectional bind: slider and number input
+function bindSliderPair({ slider, num, onLive, onCommit }) {
+  const min = parseInt(slider.min, 10);
+  const max = parseInt(slider.max, 10);
 
-bottomSlider.addEventListener("input", () => {
-  config.bottom_margin = parseInt(bottomSlider.value, 10);
-  bottomVal.textContent = bottomSlider.value;
-  updateMarginLines();
-});
-bottomSlider.addEventListener("change", schedulePreview);
+  slider.addEventListener("input", () => {
+    num.value = slider.value;
+    onLive?.(parseInt(slider.value, 10));
+  });
+  slider.addEventListener("change", () => onCommit?.(parseInt(slider.value, 10)));
 
-recencySlider.addEventListener("input", () => {
-  recencyVal.textContent = recencySlider.value;
+  num.addEventListener("input", () => {
+    let v = parseInt(num.value, 10);
+    if (Number.isNaN(v)) return;
+    v = Math.max(min, Math.min(max, v));
+    slider.value = v;
+    onLive?.(v);
+  });
+  num.addEventListener("change", () => {
+    // Clamp + normalize on commit (blur / Enter)
+    let v = parseInt(num.value, 10);
+    if (Number.isNaN(v)) v = parseInt(slider.value, 10);
+    v = Math.max(min, Math.min(max, v));
+    num.value = v;
+    slider.value = v;
+    onCommit?.(v);
+  });
+}
+
+bindSliderPair({
+  slider: topSlider,
+  num: topVal,
+  onLive: (v) => {
+    config.top_margin = v;
+    updateMarginLines();
+  },
+  onCommit: () => schedulePreview(),
+});
+
+bindSliderPair({
+  slider: bottomSlider,
+  num: bottomVal,
+  onLive: (v) => {
+    config.bottom_margin = v;
+    updateMarginLines();
+  },
+  onCommit: () => schedulePreview(),
+});
+
+bindSliderPair({
+  slider: recencySlider,
+  num: recencyVal,
+  // recency doesn't affect the preview image, so no live/commit preview call
 });
 
 // Screen preset
