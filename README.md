@@ -1,7 +1,6 @@
 # kabekanji
 
-A personal kanji study tool that generates lock screen wallpapers in an interval.
-An iOS Shortcut fetches a new wallpaper each morning from the server and sets it automatically.
+A simple app that can set a kanji card as your wallpaper via an iOS Shortcut. Also possible to set wallpapers on a schedule (because iOS Shortcut). Check it out here: [https://kabekanji.pythonanywhere.com](https://kabekanji.pythonanywhere.com).
 
 ![kabekanji lock screen example](./static/images/example.jpg)
 
@@ -12,12 +11,12 @@ An iOS Shortcut fetches a new wallpaper each morning from the server and sets it
 ## Stack
 
 - **Backend:** Python 3.11+, Flask, Pillow, SQLite
-- **Frontend:** Vanilla HTML/CSS/JS (served as static files)
+- **Frontend:** Vanilla HTML/CSS/JS
 - **Data:**
 
   | Data source | Usage |
   | --- | --- |
-  | [Hán Tự Thường Dùng Tiếng Nhật (Kanji JLPT N5 tới N1)](https://ankiweb.net/shared/info/2095212688) | Anki deck with 2136 Jouyou Kanji with readings (on, kun and Sino-Vietnamese), English meanings and stroke numbers |
+  | [Hán Tự Thường Dùng Tiếng Nhật (Kanji JLPT N5 tới N1)](https://ankiweb.net/shared/info/2095212688) | Anki deck with 2136 jouyou kanji with readings (on, kun and Sino-Vietnamese), English meanings and stroke numbers |
   | [Bộ Thủ Chữ Hán (Tiếng Nhật)](https://ankiweb.net/shared/info/1364084349) | Anki deck with kanji radicals |
   | [Japanese Jouyou Kanji Word Readings](https://ankiweb.net/shared/info/351673913) | Anki deck with vocabulary examples for each jouyou kanji, ordered by frequency |
 
@@ -40,9 +39,9 @@ Place the `.ttf` files in `fonts/`:
 
 - [Kanji Stroke Orders](https://www.nihilist.org.uk/): `fonts/KanjiStrokeOrders.ttf` — main character with stroke-order numbers baked in
 - [Noto Sans JP](https://fonts.google.com/noto/specimen/Noto+Sans+JP): `fonts/NotoSansJP-Regular.ttf`, `fonts/NotoSansJP-Bold.ttf` — sans-serif/gothic style sample
-- [Noto Serif JP](https://fonts.google.com/noto/specimen/Noto+Serif+JP): `fonts/NotoSerifJP-Regular.ttf` and `fonts/NotoSerifJP-Bold.ttf` — serif/mincho/kyokasho-ish style sample and UI
+- [Noto Serif JP](https://fonts.google.com/noto/specimen/Noto+Serif+JP): `fonts/NotoSerifJP-Regular.ttf` and `fonts/NotoSerifJP-Bold.ttf` — serif/mincho/kyokasho-ish style sample and web UI font
 - [Y.OzFont Mouhitsu Gyosho](http://yozvox.web.fc2.com/YOzK97.7z): `fonts/YOzK97-Regular.ttf` — handwritten/gyosho calligraphy style sample
-- [Crimson Pro](https://fonts.google.com/specimen/Crimson+Pro): `fonts/CrimsonPro-Regular.ttf` — serif for all non-Japanese text (English meanings, Sino-Vietnamese readings, Vietnamese diacritics) and UI font
+- [Crimson Pro](https://fonts.google.com/specimen/Crimson+Pro): `fonts/CrimsonPro-Regular.ttf` — serif for all non-Japanese text (English meanings, Sino-Vietnamese readings, Vietnamese diacritics)
 
 ### 3. Seed the database
 
@@ -51,8 +50,6 @@ This repo already includes pre-generated JSONs in `data/` that you can use to se
 ```bash
 python scripts/seed_db.py
 ```
-
-This creates `data/kanji.db` from `data/kanji.json`.
 
 ### 4. (Optional) Regenerating the JSONs from source
 
@@ -74,11 +71,13 @@ For production / iOS Shortcut:
 flask run --host 0.0.0.0 --port 8000
 ```
 
-For local development (Python auto-reloads, but you have to manually refresh the browser to get latest static file changes):
+For local development:
 
 ```bash
 python scripts/dev.py
 ```
+
+The Python server code changes will trigger auto-reload, but you have to manually refresh the browser to get latest static file changes.
 
 Visit `http://localhost:8000` for the configuration UI.
 
@@ -93,6 +92,7 @@ To (re)publish the shortcut:
    - **Text** named `Server`: your deployed server URL, e.g. `https://kabekanji.example.com`
    - **Text** named `URL`: `[Server]/api/wallpaper?token=[Token]`
    - **Get Contents of URL**: input `[URL]`, method `GET`
+   - **Get Current Wallpaper**, or you can skip this and pick any wallpaper slot you want in the action below
    - **Set Wallpaper**: input `Contents of URL`, Show Preview off, Display Lock Screen, Both off
 2. In the shortcut's **Details > Import Questions**, add a single question bound to the `Token` text action so iOS asks the user to paste their token on install.
 3. **Share > Copy iCloud Link** and set the `https://www.icloud.com/shortcuts/...` URL as the `SHORTCUT_URL` env var (see [`.env.example`](./.env.example)). If it's empty, the install button is hidden.
@@ -101,7 +101,7 @@ Users then follow the flow inside the web UI:
 
 1. Visit the site. The app generates a token for them and stores it in `localStorage`.
 2. Tap **Give me the shortcut!** and paste the token when iOS prompts.
-3. Optionally add an Automation (Shortcuts app > Automation > Time of Day > Daily > Run Immediately > Run Shortcut > kabekanji) to refresh the wallpaper on a schedule. You can mess around with the interval too.
+3. Optionally add an Automation (Shortcuts app > Automation > Time of Day > Daily > Run Immediately > Run Shortcut > kabekanji) to refresh the wallpaper on a schedule. You can mess around with the interval too (by setting multiple Time of Day automations lmao).
 4. To change the token later, either edit the `Token` text action inside the installed shortcut or re-import from the share link.
 
 ## Configuration
@@ -154,6 +154,10 @@ Coverage notes:
 ### `radicals.json`
 
 This file maps the 214 Kangxi radical numbers to `{char, sinovi, english, ja_reading}`. It's loaded once by the wallpaper renderer at startup to look up the Sino-Vietnamese name of each kanji's radical.
+
+### `multi_sinovi.json`
+
+To correct the programmatically generated sinovi mentioned above, this file is included and it contains my corrected pronunciations, so you can run `scripts/bake_multi_sinovi.py` to override `kanji.json` with the corrections if you choose to regenerate `kanji.json` and `radicals.json` for some reason. But if the input decks have been updated with new vocab or format then who knows what might happen...
 
 ## Future plans
 
