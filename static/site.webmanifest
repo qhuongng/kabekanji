@@ -1,0 +1,20 @@
+{
+  "name": "kabekanji",
+  "short_name": "kabekanji",
+  "icons": [
+    {
+      "src": "/icons/android-chrome-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/icons/android-chrome-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "theme_color": "#2da0ed",
+  "background_color": "#f5f3eb",
+  "display": "standalone",
+  "start_url": "/"
+}
