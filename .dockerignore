@@ -5,6 +5,6 @@ __pycache__/
 .gitignore
 *.md
 data/*.apkg
-scripts/
+data/kanji.db
 *.bak
 .DS_Store
