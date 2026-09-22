@@ -1,7 +1,7 @@
 from flask import Blueprint, abort, jsonify, request
 
-from server.config import DEFAULTS, SERVER_URL, SHORTCUT_URL
-from server.database import create_token, get_config, save_config, token_exists
+from server.config import DEFAULTS, SHORTCUT_URL
+from server.database import create_token, get_config, save_config
 
 config_bp = Blueprint("config", __name__, url_prefix="/api")
 
@@ -16,13 +16,7 @@ def get_app_info():
 def create_new_token():
     """Generate a fresh token seeded with the default config"""
     token = create_token()
-    return jsonify(
-        {
-            "token": token,
-            "config": dict(DEFAULTS),
-            "wallpaper_url": f"{SERVER_URL}/api/wallpaper?token={token}",
-        }
-    )
+    return jsonify({"token": token, "config": dict(DEFAULTS)})
 
 
 @config_bp.get("/config")
@@ -53,17 +47,6 @@ def update_config():
     merged = {**current, **filtered}
     save_config(token, merged)
     return jsonify(merged)
-
-
-@config_bp.get("/config/url")
-def get_wallpaper_url():
-    """Return the wallpaper URL for a given token"""
-    token = request.args.get("token")
-    if not token:
-        abort(400, description="token required")
-    if not token_exists(token):
-        abort(404, description="unknown token")
-    return jsonify({"url": f"{SERVER_URL}/api/wallpaper?token={token}"})
 
 
 @config_bp.get("/config/defaults")

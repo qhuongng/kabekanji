@@ -6,8 +6,7 @@ let shortcutUrl = ""; // fetched from /api/app-info during init()
 const $ = (sel) => document.querySelector(sel);
 
 // Header date
-// Japanese weekday kanji (Sun–Sat)
-const WEEKDAY_KANJI = ["日", "月", "火", "水", "木", "金", "土"];
+const WEEKDAYS = ["にち", "げつ", "か", "すい", "もく", "きん", "ど"];
 function updateHeaderDate() {
   const now = new Date();
   const y = document.getElementById("dateYear");
@@ -17,7 +16,7 @@ function updateHeaderDate() {
   if (y) y.textContent = now.getFullYear();
   if (m) m.textContent = now.getMonth() + 1;
   if (d) d.textContent = now.getDate();
-  if (w) w.textContent = WEEKDAY_KANJI[now.getDay()];
+  if (w) w.textContent = WEEKDAYS[now.getDay()];
 }
 updateHeaderDate();
 const previewImg = $("#previewImg");
