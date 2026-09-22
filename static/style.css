@@ -15,7 +15,6 @@
   --accent: #2da0ed;
   --accent-dim: rgba(120, 181, 255, 0.096);
   --radius: 10px;
-  --font: "Crimson Pro", system-ui, -apple-system, serif;
   --font-jp: "Noto Serif JP", serif;
 }
 
@@ -80,7 +79,7 @@ body {
   gap: 3rem;
   max-width: 1080px;
   margin: 0 auto;
-  padding: 0 2rem 4rem;
+  padding: 0 6rem 4rem;
   align-items: flex-start;
 }
 
@@ -133,7 +132,7 @@ body {
   border: 1px solid var(--accent);
   background: var(--bg);
   color: var(--accent);
-  font-family: var(--font);
+  font-family: var(--font-jp);
   font-size: 1.5rem;
   line-height: 1;
   cursor: pointer;
@@ -452,8 +451,9 @@ input[type="time"] {
   border-bottom: 1px solid var(--border);
   border-radius: 0;
   color: var(--accent);
-  font-family: var(--font);
-  font-size: 1rem;
+  font-family: var(--font-jp);
+  font-size: 0.7rem;
+  font-weight: 600;
   outline: none;
   transition: border-bottom-color 0.15s;
 }
@@ -483,7 +483,7 @@ input[type="time"]:focus {
   border: none;
   border-bottom: 1px solid var(--border);
   color: var(--text) !important;
-  font-family: var(--font);
+  font-family: var(--font-jp);
   font-size: 1rem;
   cursor: pointer;
   margin-bottom: 0 !important;
@@ -590,8 +590,9 @@ input[type="time"]:focus {
   border: 1px solid var(--border);
   background: transparent;
   color: var(--accent);
-  font-family: var(--font);
-  font-size: 1rem;
+  font-family: var(--font-jp);
+  font-size: 0.7rem;
+  font-weight: 600;
   cursor: pointer;
   transition: background 0.12s, color 0.12s, border-color 0.12s;
 }
@@ -627,23 +628,15 @@ input[type="time"]:focus {
 }
 
 .btn.small {
-  padding: 0.3rem 0.7rem;
-  font-size: 0.85rem;
-}
-
-/* Keep Copy button width AND height stable when its label swaps to ○ */
-#copyUrl {
   min-width: 4rem;
   height: 1.9rem;
-  padding-top: 0;
-  padding-bottom: 0;
+  padding: 0 0.7rem;
   display: inline-flex;
   align-items: center;
   justify-content: center;
 }
 
-/* Copy-button confirmation flash: matches the checkbox ○ style
-   Both selectors so it beats .btn:hover specificity */
+/* Copy-button confirmation flash: ○ */
 .btn.copied,
 .btn.copied:hover:not(:disabled) {
   color: var(--accent);
@@ -660,7 +653,7 @@ input[type="time"]:focus {
   border: 1px dashed var(--border);
   background: var(--surface);
   color: var(--text-muted);
-  font-size: 0.85rem;
+  font-size: 0.7rem;
   cursor: pointer;
   transition: border-color 0.15s;
 }
@@ -698,41 +691,83 @@ input[type="time"]:focus {
 
 .url-copy-row code {
   flex: 1;
-  font-family: var(--font);
-  font-size: 0.85rem;
+  font-family: var(--font-jp);
+  font-size: 0.75rem;
+  font-weight: 600;
   color: var(--accent);
   word-break: break-all;
 }
 
-/* Shortcut guide */
-.shortcut-guide {
-  background: var(--surface);
-  border: 1px solid var(--border);
-  padding: 1rem 1.2rem;
-}
-
-.shortcut-guide summary {
-  font-weight: 500;
-  cursor: pointer;
-  color: var(--text);
-  font-size: 0.85rem;
-}
-
-.shortcut-guide summary:hover {
-  color: var(--accent);
-}
-
-.shortcut-guide ol {
-  margin-top: 0.8rem;
-  padding-left: 1.4rem;
-  display: flex;
-  flex-direction: column;
-  gap: 0.45rem;
-  font-size: 0.85rem;
+/* Token + install */
+.hint {
+  font-size: 0.8rem;
   color: var(--text);
   line-height: 1.5;
 }
 
-.shortcut-guide ol strong {
+#installShortcutPlaceholder {
+  color: var(--text-muted);
+  font-size: 0.7rem;
+  text-align: center;
+}
+
+#apiToken {
+  flex: 1;
+  font-family: var(--font-jp);
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: var(--accent);
+  word-break: break-all;
+}
+
+.token-load-row label {
+  font-size: 0.8rem;
   color: var(--text);
+  margin-bottom: 0.3rem;
+  display: block;
+}
+
+#loadToken {
+  flex: 1;
+  font-family: var(--font-jp);
+  font-size: 0.7rem;
+  padding: 0.35rem 0;
+  border: none;
+  border-bottom: 1px solid var(--border);
+  background: transparent;
+  color: var(--text);
+}
+
+#loadToken:focus {
+  outline: none;
+  border-bottom-color: var(--accent);
+}
+
+#loadToken.invalid {
+  border-bottom-color: #d64545;
+  color: #d64545;
+}
+
+.advanced-url {
+  margin-top: 0.6rem;
+}
+
+.advanced-url summary {
+  font-size: 0.8rem;
+  margin-bottom: 1rem;
+  color: var(--text-muted);
+  cursor: pointer;
+}
+
+.advanced-url summary:hover {
+  color: var(--accent);
+}
+
+.advanced-url .url-copy-row {
+  margin-top: 0.7rem;
+}
+
+#installShortcut {
+  text-decoration: none;
+  text-align: center;
 }

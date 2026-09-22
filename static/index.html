@@ -7,7 +7,7 @@
   <title>kabekanji</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link
-    href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@400;600&family=Crimson+Pro:wght@400;600&display=swap"
+    href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@400;600&display=swap"
     rel="stylesheet">
   <link rel="stylesheet" href="/style.css">
 </head>
@@ -20,10 +20,10 @@
         <span id="dateMonth">9</span> <span class="date-text"> がつ </span>
         <span id="dateDay">17</span> <span class="date-text"> にち </span>
         <span id="dateWeekday">木</span> <span class="date-text"> ようび </span>
-        · <a href="#">ギットハブ</a>
+        · <a href="https://github.com/qhuongng/kabekanji">ギットハブ</a>
       </p>
       <h1>かべかんじ</h1>
-      <p>Set a kanji card as your lock screen wallpaper for lazy studying ;p</p>
+      <p>Set a kanji card as your lock screen wallpaper for lazy studying ദ്ദി ˉ͈̀꒳ˉ͈́ )✧</p>
     </header>
 
     <main class="layout">
@@ -49,7 +49,7 @@
             <input type="file" id="overlayUpload" accept="image/*" hidden>
           </label>
           <button class="btn secondary" id="clearOverlay" disabled>Remove overlay</button>
-          <button class="btn primary" id="refreshPreview">Refresh preview</button>
+          <button class="btn primary" id="refreshPreview">View another kanji</button>
         </div>
       </section>
 
@@ -108,7 +108,7 @@
           <legend>Study settings</legend>
           <div class="fieldset-body">
             <div class="field">
-              <label for="recencyWindow">Recency window (days before repeat)</label>
+              <label for="recencyWindow">Days before a previously selected kanji is shown again</label>
               <div class="slider-row">
                 <input type="range" id="recencyWindow" min="7" max="365" step="1">
                 <output id="recencyWindowVal"></output>
@@ -134,19 +134,19 @@
             <div class="field">
               <label class="toggle">
                 <input type="checkbox" id="showGothic">
-                <span>Show gothic (ゴシック) style</span>
+                <span>Show sans-serif/gothic sample</span>
               </label>
             </div>
             <div class="field">
               <label class="toggle">
                 <input type="checkbox" id="showMincho">
-                <span>Show mincho (明朝) style</span>
+                <span>Show serif/mincho sample</span>
               </label>
             </div>
             <div class="field">
               <label class="toggle">
                 <input type="checkbox" id="showHandwritten">
-                <span>Show handwritten (手書き) style</span>
+                <span>Show handwritten/calligraphic sample</span>
               </label>
             </div>
             <div class="field">
@@ -164,39 +164,61 @@
           </div>
         </fieldset>
 
-        <!-- Save + URL -->
+        <!-- Save -->
         <div class="actions">
           <button class="btn primary wide" id="saveConfig">Save configuration</button>
-          <div class="url-box" id="urlBox">
-            <label>Your wallpaper API URL:</label>
-            <div class="url-copy-row">
-              <code id="apiUrl"></code>
-              <button class="btn small" id="copyUrl">Copy</button>
-            </div>
-          </div>
         </div>
 
-        <!-- Shortcut guide -->
-        <details class="shortcut-guide">
-          <summary>How to set up the iOS Shortcut</summary>
-          <ol>
-            <li>Copy your URL above.</li>
-            <li>Open the <strong>Shortcuts</strong> app and tap <strong>+</strong> to create a new shortcut.</li>
-            <li>Add the <strong>Get Contents of URL</strong> action and paste the URL into it.</li>
-            <li>Add the <strong>Set Wallpaper</strong> action. Expand it (tap <strong>⌵</strong>) and set <em>Show
-                Preview</em> to off, <em>Display</em> to <strong>Lock Screen</strong>, and <em>Both</em> to off.</li>
-            <li>Rename the shortcut (e.g. <em>kabekanji</em>) and tap <strong>Done</strong>.</li>
-            <li>In the Shortcuts app, switch to the <strong>Automation</strong> tab and tap <strong>+</strong> →
-              <strong>Time of Day</strong>.
-            </li>
-            <li>Pick when you want a new kanji (e.g. 6:00 AM), set <em>Repeat</em> to <strong>Daily</strong>, and turn
-              on <strong>Run Immediately</strong>.</li>
-            <li>Tap <strong>Next</strong>, add the <strong>Run Shortcut</strong> action, and choose the shortcut you
-              just made.</li>
-            <li>Tap <strong>Done</strong>. You're done! Play around with the interval to customize when your wallpaper
-              should change and good luck!</li>
-          </ol>
-        </details>
+        <!-- Token + install -->
+        <fieldset>
+          <legend>Your token</legend>
+          <div class="fieldset-body">
+            <p class="hint">Your configuration is tied to this token. Paste it into the <strong>kabekanji</strong>
+              shortcut on
+              the first run. This also means you'll need this again when you switch phones or reinstall the shortcut, so
+              don't forget it!</p>
+            <div class="url-copy-row">
+              <code id="apiToken"></code>
+              <button class="btn small" id="copyToken">Copy</button>
+            </div>
+            <div class="field token-load-row">
+              <label for="loadToken">Have a token already and still remember it? Good brain! Load it here:</label>
+              <div class="url-copy-row">
+                <input type="text" id="loadToken" placeholder="e.g. ab7k3m9x" autocomplete="off" spellcheck="false">
+                <button class="btn small secondary" id="loadTokenBtn">Load</button>
+              </div>
+            </div>
+            <details class="advanced-url">
+              <summary>Wallpaper URL (advanced)</summary>
+              <div class="field token-load-row">
+                <label for="loadToken">For the customization-loving Android folks!<br><br>Jokes aside, this app was developed with iOS shortcuts as the core concept and there's not really a native, universal equivalent on Android. Sorry. ༼;´༎ຶ ۝ ༎ຶ༽<br>I heard that <strong>Tasker</strong> is a good automation app, though, so this API URL is for you to tinker with.</label>
+                <div class="url-copy-row">
+                  <code id="apiUrl"></code>
+                  <button class="btn small" id="copyUrl">Copy</button>
+                </div>
+
+              </div>
+            </details>
+          </div>
+        </fieldset>
+
+        <!-- Install shortcut -->
+        <fieldset>
+          <legend>iOS Shortcut</legend>
+          <div class="fieldset-body">
+            <p class="hint">Boop big blue button below.<br><br>On the first run, the shortcut will ask for your token. Paste it in and
+              you're done. To change your token later, open the shortcut and edit the <strong>Token</strong>
+              text at the top.</p>
+            <a class="btn primary wide" id="installShortcut" href="#" target="_blank" rel="noopener">
+              Give me the shortcut!
+            </a>
+            <p class="hint hidden" id="installShortcutPlaceholder">
+              Uh... Maybe check back later? ( ͡° ͜ʖ ͡°)
+            </p>
+            <p class="hint">After installing, add an Automation (Time of Day > Daily > Run Immediately >
+              Run Shortcut > kabekanji) to refresh your wallpaper on a schedule. Or you can make it any interval you want. Just don't spam my server please. (｡•́︿•̀｡)</p>
+          </div>
+        </fieldset>
       </section>
     </main>
   </div>
