@@ -181,6 +181,7 @@ async function refreshPreview() {
     const newUrl = URL.createObjectURL(blob);
     const oldUrl = previewImg.src;
     previewImg.src = newUrl;
+    previewImg.classList.remove("hidden");
     if (oldUrl && oldUrl.startsWith("blob:")) URL.revokeObjectURL(oldUrl);
   } catch (e) {
     console.error("Preview failed:", e);
