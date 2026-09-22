@@ -1,7 +1,6 @@
 import json
 import secrets
-
-import aiosqlite
+import sqlite3
 
 from server.config import DB_PATH
 
@@ -12,16 +11,16 @@ _TOKEN_ALPHABET = "abcdefghjkmnpqrstuvwxyz23456789"
 _TOKEN_LENGTH = 8
 
 
-async def get_db() -> aiosqlite.Connection:
-    db = await aiosqlite.connect(DATABASE_URL)
-    db.row_factory = aiosqlite.Row
-    return db
+def _connect() -> sqlite3.Connection:
+    conn = sqlite3.connect(DATABASE_URL)
+    conn.row_factory = sqlite3.Row
+    return conn
 
 
-async def init_db():
-    """Create tables if they don't exist."""
-    async with aiosqlite.connect(DATABASE_URL) as db:
-        await db.executescript("""
+def init_db() -> None:
+    """Create tables if they don't exist"""
+    with _connect() as db:
+        db.executescript("""
             CREATE TABLE IF NOT EXISTS kanji (
                 character TEXT PRIMARY KEY,
                 meanings TEXT NOT NULL,         -- JSON array of English meanings
@@ -51,52 +50,50 @@ async def init_db():
                 config TEXT NOT NULL            -- JSON blob of settings
             );
         """)
-        await db.commit()
+        db.commit()
 
 
-async def token_exists(token: str) -> bool:
+def token_exists(token: str) -> bool:
     """True if a user_config row exists for this token"""
-    async with aiosqlite.connect(DATABASE_URL) as db:
-        cursor = await db.execute(
+    with _connect() as db:
+        row = db.execute(
             "SELECT 1 FROM user_config WHERE token = ?", (token,)
-        )
-        return await cursor.fetchone() is not None
+        ).fetchone()
+    return row is not None
 
 
-async def create_token() -> str:
+def create_token() -> str:
     """Generate a fresh unique token and seed a default config row for it"""
     from server.config import DEFAULTS
 
-    async with aiosqlite.connect(DATABASE_URL) as db:
+    with _connect() as db:
         while True:
             token = "".join(
                 secrets.choice(_TOKEN_ALPHABET) for _ in range(_TOKEN_LENGTH)
             )
-            cursor = await db.execute(
+            row = db.execute(
                 "SELECT 1 FROM user_config WHERE token = ?", (token,)
-            )
-            if await cursor.fetchone() is None:
+            ).fetchone()
+            if row is None:
                 break
 
-        await db.execute(
+        db.execute(
             "INSERT INTO user_config (token, config) VALUES (?, ?)",
             (token, json.dumps(dict(DEFAULTS))),
         )
-        await db.commit()
+        db.commit()
 
     return token
 
 
-async def get_config(token: str) -> dict | None:
+def get_config(token: str) -> dict | None:
     """Return the config for a token, or None if the token doesn't exist"""
     from server.config import DEFAULTS
 
-    async with aiosqlite.connect(DATABASE_URL) as db:
-        db.row_factory = aiosqlite.Row
-        cursor = await db.execute(
+    with _connect() as db:
+        row = db.execute(
             "SELECT config FROM user_config WHERE token = ?", (token,)
-        )
-        row = await cursor.fetchone()
+        ).fetchone()
 
     if row is None:
         return None
@@ -104,23 +101,21 @@ async def get_config(token: str) -> dict | None:
     return {**DEFAULTS, **saved}
 
 
-async def get_kanji_by_char(character: str) -> dict | None:
-    """Fetch a specific kanji by character without touching history."""
-    async with aiosqlite.connect(DATABASE_URL) as db:
-        db.row_factory = aiosqlite.Row
-        cursor = await db.execute(
+def get_kanji_by_char(character: str) -> dict | None:
+    """Fetch a specific kanji by character without touching history"""
+    with _connect() as db:
+        row = db.execute(
             "SELECT * FROM kanji WHERE character = ?", (character,)
-        )
-        row = await cursor.fetchone()
+        ).fetchone()
     return dict(row) if row else None
 
 
-async def save_config(token: str, config: dict):
-    """Upsert user config."""
-    async with aiosqlite.connect(DATABASE_URL) as db:
-        await db.execute(
+def save_config(token: str, config: dict) -> None:
+    """Upsert user config"""
+    with _connect() as db:
+        db.execute(
             """INSERT INTO user_config (token, config) VALUES (?, ?)
                ON CONFLICT(token) DO UPDATE SET config = excluded.config""",
             (token, json.dumps(config)),
         )
-        await db.commit()
+        db.commit()
