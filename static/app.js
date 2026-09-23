@@ -57,13 +57,13 @@ let config = {};
 
 // Init
 async function init() {
-  const [appInfo, resolvedToken] = await Promise.all([
+  const [appInfo, session] = await Promise.all([
     fetchAppInfo(),
-    ensureToken(),
+    ensureSession(),
   ]);
   shortcutUrl = appInfo.shortcut_url || "";
-  token = resolvedToken;
-  config = await fetchConfig(token);
+  token = session.token;
+  config = session.config;
   populateUI();
   updateMarginLines();
   refreshPreview();
@@ -75,28 +75,24 @@ async function fetchAppInfo() {
   return await res.json();
 }
 
-async function ensureToken() {
+// Resolve {token, config}: reuse the stored token if the server still has a saved
+// config for it, otherwise mint a fresh one (which returns defaults)
+// A freshly-minted token isn't in the DB until the user clicks Save
+async function ensureSession() {
   const stored = localStorage.getItem(TOKEN_STORAGE_KEY);
   if (stored) {
-    // Verify server still knows this token; if not, generate a new one
     const res = await fetch(`/api/config?token=${encodeURIComponent(stored)}`);
-    if (res.ok) return stored;
+    if (res.ok) return { token: stored, config: await res.json() };
   }
-  return await mintToken();
+  return await mintSession();
 }
 
-async function mintToken() {
+async function mintSession() {
   const res = await fetch("/api/tokens", { method: "POST" });
   if (!res.ok) throw new Error(`token mint failed (${res.status})`);
-  const { token: newToken } = await res.json();
+  const { token: newToken, config: newConfig } = await res.json();
   localStorage.setItem(TOKEN_STORAGE_KEY, newToken);
-  return newToken;
-}
-
-async function fetchConfig(t) {
-  const res = await fetch(`/api/config?token=${encodeURIComponent(t)}`);
-  if (!res.ok) throw new Error(`config fetch failed (${res.status})`);
-  return await res.json();
+  return { token: newToken, config: newConfig };
 }
 
 function populateUI() {
