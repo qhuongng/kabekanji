@@ -33,14 +33,15 @@ def read_config():
 
 @config_bp.put("/config")
 def update_config():
-    """Update config for this token. Only saves known keys"""
+    """Upsert config for this token
+    Creates the row on first save if the token was minted but never saved before
+    Only known keys are stored
+    """
     token = request.args.get("token")
     if not token:
         abort(400, description="token required")
-    current = get_config(token)
-    if current is None:
-        abort(404, description="unknown token")
 
+    current = get_config(token) or dict(DEFAULTS)
     body = request.get_json(silent=True) or {}
     allowed_keys = set(DEFAULTS.keys())
     filtered = {k: v for k, v in body.items() if k in allowed_keys}

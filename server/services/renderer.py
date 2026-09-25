@@ -217,9 +217,12 @@ def render_wallpaper(kanji: dict, config: dict) -> bytes:
                 y_left = cur_y
 
         if radical_char:
-            rad_value_y = _label(d, right_col_x, row_top, "RADICAL")
-            d.text((right_col_x, rad_value_y), radical_char, font=readings_font_jp, fill=colors["text"], anchor="lt")
-            rb = d.textbbox((right_col_x, rad_value_y), radical_char, font=readings_font_jp, anchor="lt")
+            # If the left column has nothing (kokuji with no on'yomi and no sinovi),
+            # slide RADICAL over to the left column so it doesn't sit alone on the right
+            rad_x = right_col_x if (on_yomi_text or sinovi_text) else margin_x
+            rad_value_y = _label(d, rad_x, row_top, "RADICAL")
+            d.text((rad_x, rad_value_y), radical_char, font=readings_font_jp, fill=colors["text"], anchor="lt")
+            rb = d.textbbox((rad_x, rad_value_y), radical_char, font=readings_font_jp, anchor="lt")
             if radical_sv:
                 d.text((rb[2] + 24, rad_value_y), radical_sv, font=readings_font_serif, fill=colors["text"], anchor="lt")
                 rb2 = d.textbbox((rb[2] + 24, rad_value_y), radical_sv, font=readings_font_serif, anchor="lt")

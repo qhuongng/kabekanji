@@ -63,9 +63,9 @@ def token_exists(token: str) -> bool:
 
 
 def create_token() -> str:
-    """Generate a fresh unique token and seed a default config row for it"""
-    from server.config import DEFAULTS
-
+    """Generate a fresh unique token
+    The user_config row is only created on the first PUT /api/config (i.e. when the user clicks Save)
+    """
     with _connect() as db:
         while True:
             token = "".join(
@@ -75,15 +75,7 @@ def create_token() -> str:
                 "SELECT 1 FROM user_config WHERE token = ?", (token,)
             ).fetchone()
             if row is None:
-                break
-
-        db.execute(
-            "INSERT INTO user_config (token, config) VALUES (?, ?)",
-            (token, json.dumps(dict(DEFAULTS))),
-        )
-        db.commit()
-
-    return token
+                return token
 
 
 def get_config(token: str) -> dict | None:
