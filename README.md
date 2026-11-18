@@ -159,11 +159,14 @@ This file maps the 214 Kangxi radical numbers to `{char, sinovi, english, ja_rea
 
 To correct the programmatically generated sinovi mentioned above, this file is included and it contains my corrected pronunciations, so you can run `scripts/bake_multi_sinovi.py` to override `kanji.json` with the corrections if you choose to regenerate `kanji.json` and `radicals.json` for some reason. But if the input decks have been updated with new vocab or format then who knows what might happen...
 
+### `romaji.json`
+
+Static Hepburn mapping for hiragana, katakana, and digraphs (e.g. きゃ: kya (๑˃́ꇴ˂̀๑) ). This file is also loaded once by the wallpaper renderer and used when the **Show romaji** display toggle is enabled.
+
 ## Future plans
 
 Provided that I'm not too lazy...
 
 - Give users a way to delete their configuration entries from the app (right now stale tokens accumulate on the server forever)
-- Make the UI a bit more convenient on mobile
 - If Android releases a native equivalent to Shortcuts, I might add it lol
 - Maybe add a mode for plain vocab, or a mode for all those English words I looked up on my Kindle...
