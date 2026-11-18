@@ -30,6 +30,7 @@ DEFAULTS = {
     "show_handwritten": True,
     "show_sinovi": True,
     "show_vocabulary": True,
+    "show_romaji": False,
 }
 
 FONTS = {

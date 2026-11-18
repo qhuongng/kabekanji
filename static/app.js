@@ -1,5 +1,6 @@
 const TOKEN_STORAGE_KEY = "kabekanji.token";
 let token = null; // set during init()
+let tokenSaved = false; // true once the token exists in the DB (saved or loaded)
 let shortcutUrl = ""; // fetched from /api/app-info during init()
 
 // DOM refs
@@ -46,6 +47,7 @@ const toggles = {
   show_handwritten: $("#showHandwritten"),
   show_sinovi: $("#showSinovi"),
   show_vocabulary: $("#showVocabulary"),
+  show_romaji: $("#showRomaji"),
 };
 
 // Color pickers
@@ -63,6 +65,7 @@ async function init() {
   ]);
   shortcutUrl = appInfo.shortcut_url || "";
   token = session.token;
+  tokenSaved = session.saved;
   config = session.config;
   populateUI();
   updateMarginLines();
@@ -82,7 +85,7 @@ async function ensureSession() {
   const stored = localStorage.getItem(TOKEN_STORAGE_KEY);
   if (stored) {
     const res = await fetch(`/api/config?token=${encodeURIComponent(stored)}`);
-    if (res.ok) return { token: stored, config: await res.json() };
+    if (res.ok) return { token: stored, config: await res.json(), saved: true };
   }
   return await mintSession();
 }
@@ -92,7 +95,7 @@ async function mintSession() {
   if (!res.ok) throw new Error(`token mint failed (${res.status})`);
   const { token: newToken, config: newConfig } = await res.json();
   localStorage.setItem(TOKEN_STORAGE_KEY, newToken);
-  return { token: newToken, config: newConfig };
+  return { token: newToken, config: newConfig, saved: false };
 }
 
 function populateUI() {
@@ -203,6 +206,7 @@ function readConfigFromUI() {
     show_handwritten: toggles.show_handwritten.checked,
     show_sinovi: toggles.show_sinovi.checked,
     show_vocabulary: toggles.show_vocabulary.checked,
+    show_romaji: toggles.show_romaji.checked,
   };
 }
 
@@ -214,6 +218,7 @@ async function saveConfig() {
     headers: { "Content-Type": "application/json" },
     body: JSON.stringify(config),
   });
+  tokenSaved = true;
   updateMarginLines();
   refreshPreview();
   updateTokenDisplay();
@@ -226,8 +231,13 @@ async function saveConfig() {
 
 function updateTokenDisplay() {
   const base = window.location.origin;
-  $("#apiToken").textContent = token;
-  $("#apiUrl").textContent = `${base}/api/wallpaper?token=${token}`;
+  const placeholder = "Save your configuration first, or insert an existing token!";
+  $("#apiToken").textContent = tokenSaved ? token : placeholder;
+  $("#apiUrl").textContent = tokenSaved
+    ? `${base}/api/wallpaper?token=${token}`
+    : placeholder;
+  $("#copyToken").disabled = !tokenSaved;
+  $("#copyUrl").disabled = !tokenSaved;
   const installBtn = $("#installShortcut");
   const installPlaceholder = $("#installShortcutPlaceholder");
   if (installBtn && installPlaceholder) {
@@ -251,6 +261,7 @@ async function switchToken(newToken) {
     return;
   }
   token = t;
+  tokenSaved = true;
   localStorage.setItem(TOKEN_STORAGE_KEY, t);
   config = await res.json();
   populateUI();

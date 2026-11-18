@@ -12,6 +12,73 @@ if _radical_path.exists():
     _raw = json.loads(_radical_path.read_text(encoding="utf-8"))
     _RADICAL_SINOVI = {v["char"]: v["sinovi"] for v in _raw.values()}
 
+# Kana to romaji (Hepburn), loaded once
+_ROMAJI_MONO: dict[str, str] = {}
+_ROMAJI_DIGRAPHS: dict[str, str] = {}
+_romaji_path = DATA_DIR / "romaji.json"
+if _romaji_path.exists():
+    _rom = json.loads(_romaji_path.read_text(encoding="utf-8"))
+    _ROMAJI_MONO = {**_rom.get("hiragana", {}), **_rom.get("katakana", {})}
+    _ROMAJI_DIGRAPHS = dict(_rom.get("digraphs", {}))
+
+_SOKUON = {"っ", "ッ"}
+
+
+def _kana_to_romaji_units(text: str) -> list[tuple[str, str]]:
+    """Split a kana string into (unit_text, romaji) pairs so each romaji syllable
+    can be drawn above the exact kana character(s) that produce it"""
+    units: list[tuple[str, str]] = []
+    i = 0
+    n = len(text)
+    while i < n:
+        ch = text[i]
+        nxt = text[i + 1] if i + 1 < n else ""
+        if ch in _SOKUON:
+            nxt2 = text[i + 2] if i + 2 < n else ""
+            following = _ROMAJI_DIGRAPHS.get(nxt + nxt2) or _ROMAJI_MONO.get(nxt, "")
+            if following.startswith("ch"):
+                prefix = "t"
+            elif following and following[0] not in "aeiou":
+                prefix = following[0]
+            else:
+                prefix = ""
+            units.append((ch, prefix))
+            i += 1
+            continue
+        if ch == "ー":
+            last_vowel = ""
+            for _, r in reversed(units):
+                if r and r[-1] in "aeiou":
+                    last_vowel = r[-1]
+                    break
+            units.append((ch, last_vowel))
+            i += 1
+            continue
+        digraph = _ROMAJI_DIGRAPHS.get(ch + nxt) if nxt else None
+        if digraph:
+            units.append((ch + nxt, digraph))
+            i += 2
+            continue
+        mono = _ROMAJI_MONO.get(ch)
+        if mono is not None:
+            if mono == "n" and i + 1 < n:
+                look = text[i + 1]
+                if look in "aeiou" or look in ("や", "ゆ", "よ", "ヤ", "ユ", "ヨ"):
+                    units.append((ch, "n'"))
+                    i += 1
+                    continue
+            units.append((ch, mono))
+            i += 1
+            continue
+        units.append((ch, ""))
+        i += 1
+    return units
+
+
+def _kana_to_romaji(text: str) -> str:
+    """Flattened romaji string, for inline contexts like vocab entries"""
+    return "".join(r for _, r in _kana_to_romaji_units(text))
+
 
 # Color helpers
 def _hex_to_rgb(h: str) -> tuple[int, int, int]:
@@ -117,10 +184,19 @@ def render_wallpaper(kanji: dict, config: dict) -> bytes:
     kun_yomi_text = "、".join(kun_yomi)
     sinovi_text = kanji.get("sinovi", "") if config.get("show_sinovi", True) else ""
     radical_char = kanji.get("radical", "")
-    radical_sv = _RADICAL_SINOVI.get(radical_char, "") if radical_char else ""
+    radical_sv = (
+        _RADICAL_SINOVI.get(radical_char, "")
+        if radical_char and config.get("show_sinovi", True)
+        else ""
+    )
 
     # Layout metrics
     ja_line_h = real_draw.textbbox((0, 0), "あ", font=readings_font_jp, anchor="lt")[3] + 12
+    ja_char_h = real_draw.textbbox((0, 0), "あ", font=readings_font_jp, anchor="lt")[3]
+    show_romaji = config.get("show_romaji", False)
+    furi_h_jp = real_draw.textbbox((0, 0), "A", font=furi_font, anchor="lt")[3]
+    furi_ascender_offset = real_draw.textbbox((0, 0), "A", font=furi_font, anchor="la")[1]
+    furi_gap = 12
     meaning_line_h = 60
     vocab_meaning_line_h = 54
     right_col_x = margin_x + (w - 2 * margin_x) // 2
@@ -140,8 +216,37 @@ def render_wallpaper(kanji: dict, config: dict) -> bytes:
     def _measure_width(text, font):
         return real_draw.textbbox((0, 0), text, font=font, anchor="lt")[2] if text else 0
 
-    def _wrapped_lines(d, text, font, max_w):
-        return _wrap_ja_text(d if isinstance(d, ImageDraw.ImageDraw) else real_draw, text, font, max_w)
+    def _draw_readings_with_furi(d, readings, x, y_main_top, max_w):
+        """Draw a list of readings joined by 、 starting at (x, y_main_top) with wrapping.
+        If show_romaji, draws romaji (furi styling) centered above each reading; the
+        caller must leave room above y_main_top. Returns (right_x, bottom_y) of the
+        final line"""
+        if not readings:
+            return x, y_main_top
+        sep = "、"
+        line_stride = ja_line_h + (furi_h_jp + furi_gap if show_romaji else 0)
+        cur_x = x
+        cur_y = y_main_top
+        for i, reading in enumerate(readings):
+            chunk = reading + ("" if i == len(readings) - 1 else sep)
+            chunk_w = real_draw.textbbox((0, 0), chunk, font=readings_font_jp, anchor="lt")[2]
+            if cur_x > x and cur_x + chunk_w > x + max_w:
+                cur_x = x
+                cur_y += line_stride
+            if show_romaji:
+                unit_x = cur_x
+                for unit_text, romaji in _kana_to_romaji_units(reading):
+                    unit_w = real_draw.textbbox((0, 0), unit_text, font=readings_font_jp, anchor="lt")[2]
+                    if romaji:
+                        rw = real_draw.textbbox((0, 0), romaji, font=furi_font, anchor="la")[2]
+                        d.text(
+                            (unit_x + (unit_w - rw) // 2, cur_y - furi_h_jp - furi_gap - furi_ascender_offset),
+                            romaji, font=furi_font, fill=colors["muted"], anchor="la",
+                        )
+                    unit_x += unit_w
+            d.text((cur_x, cur_y), chunk, font=readings_font_jp, fill=colors["text"], anchor="lt")
+            cur_x += chunk_w
+        return cur_x, cur_y + ja_char_h
 
     def draw_hero(d, y_start):
         main_bbox = d.textbbox((0, 0), char, font=main_font, anchor="lt")
@@ -194,23 +299,24 @@ def render_wallpaper(kanji: dict, config: dict) -> bytes:
 
         if on_yomi_text or sinovi_text:
             value_y = _label(d, margin_x, row_top, "ON'YOMI")
+            furi_shift = (furi_h_jp + furi_gap) if (show_romaji and on_yomi) else 0
+            main_top = value_y + furi_shift
             inline_ok = False
             if on_yomi_text and sinovi_text:
                 joined = f" · {sinovi_text}"
                 if _measure_width(on_yomi_text, readings_font_jp) + _measure_width(joined, readings_font_serif) <= on_yomi_col_w:
-                    d.text((margin_x, value_y), on_yomi_text, font=readings_font_jp, fill=colors["text"], anchor="lt")
-                    onb = d.textbbox((margin_x, value_y), on_yomi_text, font=readings_font_jp, anchor="lt")
-                    d.text((onb[2], value_y), joined, font=readings_font_serif, fill=colors["text"], anchor="lt")
-                    svb = d.textbbox((onb[2], value_y), joined, font=readings_font_serif, anchor="lt")
-                    y_left = max(onb[3], svb[3])
+                    end_x, on_bottom = _draw_readings_with_furi(d, on_yomi, margin_x, main_top, on_yomi_col_w)
+                    d.text((end_x, main_top), joined, font=readings_font_serif, fill=colors["text"], anchor="lt")
+                    svb = d.textbbox((end_x, main_top), joined, font=readings_font_serif, anchor="lt")
+                    y_left = max(on_bottom, svb[3])
                     inline_ok = True
             if not inline_ok:
-                cur_y = value_y
-                if on_yomi_text:
-                    for line in _wrapped_lines(d, on_yomi_text, readings_font_jp, on_yomi_col_w):
-                        d.text((margin_x, cur_y), line, font=readings_font_jp, fill=colors["text"], anchor="lt")
-                        cur_y += ja_line_h
+                cur_y = main_top
+                if on_yomi:
+                    _, cur_y = _draw_readings_with_furi(d, on_yomi, margin_x, main_top, on_yomi_col_w)
                 if sinovi_text:
+                    if on_yomi:
+                        cur_y += 24
                     d.text((margin_x, cur_y), sinovi_text, font=readings_font_serif, fill=colors["text"], anchor="lt")
                     svb = d.textbbox((margin_x, cur_y), sinovi_text, font=readings_font_serif, anchor="lt")
                     cur_y = svb[3]
@@ -236,15 +342,14 @@ def render_wallpaper(kanji: dict, config: dict) -> bytes:
         if kun_yomi_text:
             y += SECTION_GAP
             value_y = _label(d, margin_x, y, "KUN'YOMI")
-            cur_y = value_y
-            for line in _wrapped_lines(d, kun_yomi_text, readings_font_jp, full_col_w):
-                d.text((margin_x, cur_y), line, font=readings_font_jp, fill=colors["text"], anchor="lt")
-                cur_y += ja_line_h
-            y = cur_y - (ja_line_h - real_draw.textbbox((0, 0), "あ", font=readings_font_jp, anchor="lt")[3])
+            furi_shift = (furi_h_jp + furi_gap) if show_romaji else 0
+            main_top = value_y + furi_shift
+            _, y = _draw_readings_with_furi(d, kun_yomi, margin_x, main_top, full_col_w)
 
         # Meaning
         if meanings:
             y += SECTION_GAP
+            y = _label(d, margin_x, y, "MEANING")
             text = "; ".join(meanings)
             lines = _wrap_text(real_draw, text, meaning_font, max_meaning_w)[:2]
             for line in lines:
@@ -290,13 +395,25 @@ def render_wallpaper(kanji: dict, config: dict) -> bytes:
 
             d.text((margin_x, y), word, font=word_font, fill=colors["text"], anchor="lt")
             word_bb = real_draw.textbbox((margin_x, y), word, font=word_font, anchor="lt")
-            entry_sinovi = entry.get("sinovi", "")
+            right_x = word_bb[2]
+            mid_y = (word_bb[1] + word_bb[3]) // 2
+            entry_sinovi = entry.get("sinovi", "") if config.get("show_sinovi", True) else ""
             if entry_sinovi:
-                mid_y = (word_bb[1] + word_bb[3]) // 2
                 d.text(
-                    (word_bb[2] + 20, mid_y), entry_sinovi,
+                    (right_x + 20, mid_y), entry_sinovi,
                     font=word_sinovi_font, fill=colors["muted"], anchor="lm",
                 )
+                sv_bb = real_draw.textbbox((right_x + 20, mid_y), entry_sinovi, font=word_sinovi_font, anchor="lm")
+                right_x = sv_bb[2]
+            if show_romaji and reading:
+                romaji = _kana_to_romaji(reading)
+                if romaji:
+                    text_out = f" · {romaji}" if entry_sinovi else romaji
+                    gap = 0 if entry_sinovi else 20
+                    d.text(
+                        (right_x + gap, mid_y), text_out,
+                        font=furi_font, fill=colors["muted"], anchor="lm",
+                    )
             y += word_h + word_meaning_gap
 
             for line in meaning_lines:
@@ -363,55 +480,6 @@ def render_preview(kanji: dict, config: dict, max_height: int = 800) -> bytes:
     preview.save(buf, format="PNG")
     buf.seek(0)
     return buf.getvalue()
-
-
-def _wrap_ja_text(
-    draw: ImageDraw.ImageDraw,
-    text: str,
-    font: ImageFont.FreeTypeFont,
-    max_width: int,
-) -> list[str]:
-    """Wrap Japanese text. Prefers breaking after 、; falls back to per-char breaks
-    for a single overlong segment"""
-    if not text:
-        return []
-
-    def width_of(s: str) -> int:
-        return draw.textbbox((0, 0), s, font=font, anchor="lt")[2]
-
-    if width_of(text) <= max_width:
-        return [text]
-
-    # Split by 、 keeping the separator glued to the segment on its left
-    if "、" in text:
-        parts = text.split("、")
-        segments = [p + "、" for p in parts[:-1]] + ([parts[-1]] if parts[-1] else [])
-    else:
-        segments = [text]
-
-    lines: list[str] = []
-    current = ""
-    for seg in segments:
-        candidate = current + seg
-        if not current or width_of(candidate) <= max_width:
-            current = candidate
-        else:
-            lines.append(current)
-            # If this segment alone is still too wide, char-split it
-            if width_of(seg) > max_width:
-                buf = ""
-                for ch in seg:
-                    if buf and width_of(buf + ch) > max_width:
-                        lines.append(buf)
-                        buf = ch
-                    else:
-                        buf += ch
-                current = buf
-            else:
-                current = seg
-    if current:
-        lines.append(current)
-    return lines
 
 
 def _wrap_text(
